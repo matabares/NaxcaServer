@@ -14,9 +14,9 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             return response
         if "version" in self.path:
             self.send_response(200)
-            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<vesrsion>1.0</version>", 'UTF-8'))
+            self.wfile.write(bytes("<vesrsion>1.1</version>", 'UTF-8'))
 
 
 
