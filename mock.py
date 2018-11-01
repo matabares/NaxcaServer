@@ -12,6 +12,12 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             wego = wegoProviderSimulation()
             response = wegoProviderSimulation(self)
             return response
+        if "version" in self.path:
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.end_headers()
+            self.wfile.write(bytes("<vesrsion>1.0</version>", 'UTF-8'))
+
 
 
     def do_POST(self):
