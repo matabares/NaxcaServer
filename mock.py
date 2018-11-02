@@ -3,6 +3,7 @@ from dingusProvider import dingusProviderSimulation
 from jumboProvider import jumboProviderSimulation
 from wegoProvider import wegoProviderSimulation
 from AviancaSimulation import AviancaSimulation
+from RtsSimulation import RtsSimulation
 
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
@@ -16,7 +17,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>1.3</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>1.4</version>", 'UTF-8'))
 
 
 
@@ -35,6 +36,11 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "aviancasimulation" in self.path:
             avianca = AviancaSimulation()
             response = avianca.AviancaResponse(self)
+            return response
+
+        if "rtssimulation" in self.path:
+            rts = RtsSimulation()
+            response = rts.RtsResponse(self)
             return response
 
 
