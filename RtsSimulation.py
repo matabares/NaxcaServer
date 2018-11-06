@@ -15,4 +15,13 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+                
+        if "GetHotelInformation" in body:
+            if "<ItemCode>BKK0001</ItemCode>" in body:
+                file = open("providersimulation/rts/HotelInfo.xml",
+                        "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
