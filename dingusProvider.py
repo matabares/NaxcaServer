@@ -31,8 +31,7 @@ class dingusProviderSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "OTA_HotelAvailRQ" in body:
-            if days == 40:
+            elif days == 40:
                 file = open("providersimulation\dingus\HotelConnector_HotelVerify_ReservationOk.xml", "r",
                             encoding='utf8')
                 data = file.read()
