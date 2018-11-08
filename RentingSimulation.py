@@ -9,7 +9,7 @@ class RentingSimulation:
         info.end_headers()
 
         if "get-matrix" in info.path:
-            file = open("providersimulation\\rentingcarz\\NEWCOMPANY.json","r", encoding='utf8')
+            file = open("providersimulation/rentingcarz/NEWCOMPANY.json","r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
