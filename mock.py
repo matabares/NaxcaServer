@@ -4,6 +4,7 @@ from jumboProvider import jumboProviderSimulation
 from wegoProvider import wegoProviderSimulation
 from AviancaSimulation import AviancaSimulation
 from RtsSimulation import RtsSimulation
+from RentingSimulation import RentingSimulation
 
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
@@ -13,11 +14,16 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             wego = wegoProviderSimulation()
             response = wegoProviderSimulation(self)
             return response
+        if "rentingsimulation" in self.path:
+            renting = RentingSimulation()
+            response = renting.RentingResponse(self)
+            return response
         if "version" in self.path:
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
             self.wfile.write(bytes("<version>1.6</version>", 'UTF-8'))
+
 
 
 
