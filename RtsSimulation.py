@@ -91,13 +91,40 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<ItemCode>BKK</ItemCode>" in body and "<LanguageCode>AR</LanguageCode>" in body:
+
+            if "<ItemCode>BKK0002</ItemCode>" in body :
+                if "<LanguageCode>EN</LanguageCode>" in body:
+                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                            "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                elif "<LanguageCode>AR</LanguageCode>" in body:
+                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                            "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                elif "<LanguageCode>BR</LanguageCode>" in body:
+                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                                "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+            if "<ItemCode>NOHOTELCODE</ItemCode>" in body :
                 file = open("providersimulation/rts/HotelInfoError.xml",
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
             if "<ItemCode></ItemCode>" in body :
                 file = open("providersimulation/rts/HotelInfoHotelCodeIsMissing.xml",
                         "r", encoding='utf8')
