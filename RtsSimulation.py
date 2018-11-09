@@ -61,8 +61,8 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2030-01-07</CheckInDate>" in body:
-                file = open("providersimulation/rts/searchError.xml",
+            elif "<CheckInDate>1492-10-12</CheckInDate>" in body:
+                file = open("providersimulation/rts/singleHotelSearch1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -91,13 +91,40 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<ItemCode>NOHOTELCODE</ItemCode>" in body and "<LanguageCode>AR</LanguageCode>" in body:
+
+            if "<ItemCode>BKK0002</ItemCode>" in body :
+                if "<LanguageCode>EN</LanguageCode>" in body:
+                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                            "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                elif "<LanguageCode>AR</LanguageCode>" in body:
+                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                            "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                elif "<LanguageCode>BR</LanguageCode>" in body:
+                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                                "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+            if "<ItemCode>NOHOTELCODE</ItemCode>" in body :
                 file = open("providersimulation/rts/HotelInfoError.xml",
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
             if "<ItemCode></ItemCode>" in body :
                 file = open("providersimulation/rts/HotelInfoHotelCodeIsMissing.xml",
                         "r", encoding='utf8')
