@@ -61,8 +61,8 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>1492-10-12</CheckInDate>" in body:
-                file = open("providersimulation/rts/singleHotelSearch1adtBKK0001.xml",
+            elif "<CheckInDate>2030-01-07</CheckInDate>" in body:
+                file = open("providersimulation/rts/searchError.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -91,7 +91,7 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<ItemCode>BKK</ItemCode>" in body and "<LanguageCode>AR</LanguageCode>" in body:
+            if "<ItemCode>NOHOTELCODE</ItemCode>" in body and "<LanguageCode>AR</LanguageCode>" in body:
                 file = open("providersimulation/rts/HotelInfoError.xml",
                         "r", encoding='utf8')
                 data = file.read()
@@ -105,4 +105,19 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+        if "GetCancelDeadlineForCustomerCount" in body:
+            if "<ItemCode>BKK0001</ItemCode>" in body and "<RoomTypeCode>TH|001:AVAU:19491:M50496:219274:215398|PREMIER ROOM|SB*1#|BKK||ZDG.CQ|USD|JHPRZGK|~None</RoomTypeCode>" in body:
+                file = open("providersimulation/rts/CancelDeadlineNonRefundable.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+        if "GetRemarkHotelInformationForCustomerCount" in body:
+            file = open("providersimulation/rts/RemarkHotelInformationRemarks.xml","r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
 
