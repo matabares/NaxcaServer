@@ -152,7 +152,7 @@ class RtsSimulation:
     def ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(self, body, responseData):
         try:
             from bs4 import BeautifulSoup
-            parsedBody = BeautifulSoup(body, 'lxml')
+            parsedBody = BeautifulSoup(body, 'xml')
             itemCode = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.HotelSearchListNetGuestCount.ItemCodeList.ItemCodeInfo.ItemCode.get_text()
             itemNo = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.HotelSearchListNetGuestCount.ItemCodeList.ItemCodeInfo.ItemNo.get_text()
             roomTypeCode = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.RoomTypeCode.get_text()
