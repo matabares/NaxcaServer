@@ -150,14 +150,20 @@ class RtsSimulation:
             return info
 
     def ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(self, body, responseData):
-        from bs4 import BeautifulSoup
-        parsedBody = BeautifulSoup(body, 'xml')
-        itemCode = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.HotelSearchListNetGuestCount.ItemCodeList.ItemCodeInfo.ItemCode.get_text()
-        itemNo = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.HotelSearchListNetGuestCount.ItemCodeList.ItemCodeInfo.ItemNo.get_text()
-        roomTypeCode = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.RoomTypeCode.get_text()
-        responseData = str.replace(responseData, "{ITEM_CODE}", itemCode)
-        responseData = str.replace(responseData, "{ITEM_NO}", itemNo)
-        responseData = str.replace(responseData, "{ROOM_TYPE_CODE}", roomTypeCode)
-        return responseData
+        try:
+            from bs4 import BeautifulSoup
+            parsedBody = BeautifulSoup(body, 'xml')
+            itemCode = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.HotelSearchListNetGuestCount.ItemCodeList.ItemCodeInfo.ItemCode.get_text()
+            itemNo = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.HotelSearchListNetGuestCount.ItemCodeList.ItemCodeInfo.ItemNo.get_text()
+            roomTypeCode = parsedBody.Body.GetRemarkHotelInformationForCustomerCount.RoomTypeCode.get_text()
+            responseData = str.replace(responseData, "{ITEM_CODE}", itemCode)
+            responseData = str.replace(responseData, "{ITEM_NO}", itemNo)
+            responseData = str.replace(responseData, "{ROOM_TYPE_CODE}", roomTypeCode)
+            return responseData
+        except Exception as e:
+            return "<error>{}</error>".format(str(e))
+
+
+
 
 
