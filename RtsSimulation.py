@@ -125,7 +125,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if "<ItemCode xmlns=""http://www.rts.co.kr/"" />" in body :
+            if "<ItemCode />" in body :
                 file = open("providersimulation/rts/HotelInfoHotelCodeIsMissing.xml",
                         "r", encoding='utf8')
                 data = file.read()
