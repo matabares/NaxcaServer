@@ -94,7 +94,7 @@ class RtsSimulation:
 
             if "<ItemCode>BKK0002</ItemCode>" in body :
                 if "<LanguageCode>EN</LanguageCode>" in body:
-                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                    file = open("providersimulation/rts/HotelInfoBkk0002EN.xml",
                             "r", encoding='utf8')
                     data = file.read()
                     file.close()
@@ -102,7 +102,7 @@ class RtsSimulation:
                     return info
 
                 elif "<LanguageCode>AR</LanguageCode>" in body:
-                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                    file = open("providersimulation/rts/HotelInfoBkk0002AR.xml",
                             "r", encoding='utf8')
                     data = file.read()
                     file.close()
@@ -110,7 +110,7 @@ class RtsSimulation:
                     return info
 
                 elif "<LanguageCode>BR</LanguageCode>" in body:
-                    file = open("providersimulation/rts/HotelInfoBkk0002.xml",
+                    file = open("providersimulation/rts/HotelInfoBkk0002BR.xml",
                                 "r", encoding='utf8')
                     data = file.read()
                     file.close()
