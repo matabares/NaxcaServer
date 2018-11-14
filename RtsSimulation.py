@@ -8,31 +8,32 @@ class RtsSimulation:
         postBody = info.rfile.read(contentLen)
         body = str(postBody, "utf-8")
         if "GetHotelSearchListForCustomerCount" in body:
-            if "<CheckInDate>2030-01-01</CheckInDate>" in body:
-                file = open("providersimulation/rts/1DayStay1Room1Adt.xml",
+
+            if "<CheckInDate>2020-01-01</CheckInDate>" in body:
+                file = open("providersimulation/rts/1DayStay1Room1Adt.xml", #busqueda 1 adulto 1 dia destino bangkok
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2019-01-01</CheckInDate>" in body:
-                file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt.xml",
+            elif "<CheckInDate>2020-01-02</CheckInDate>" in body:
+                file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt.xml", #busqueda 1 adulto 3 dias bangkok
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-01</CheckInDate>" in body:
-                file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt_2Room2Adt1Chd.xml",
+            elif "<CheckInDate>2020-01-03</CheckInDate>" in body:
+                file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt_2Room2Adt1Chd.xml", #busqueda 1 adulto un cuarto, 2 adultos un niño en segundo cuarto destino bangkok
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2030-01-01</CheckInDate>" in body:
+            elif "<CheckInDate>2020-01-04</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room2Adt_2Room2Adt.xml",
                         "r", encoding='utf8')
                 data = file.read()
@@ -40,29 +41,55 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2040-01-01</CheckInDate>" in body:
+            elif "<CheckInDate>2020-01-05</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room2Adt1Chd.xml",
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2050-01-01</CheckInDate>" in body:
+            elif "<CheckInDate>2020-01-06</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room2Adt1Inf.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2060-01-01</CheckInDate>" in body:
+
+            elif "<CheckInDate>2020-01-07</CheckInDate>" in body:  #busqueda 1 adulto destino Bogota
+                file = open("providersimulation/rts/HotelSearch_BO1_3DayStay1Room1Adt.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-01-07</CheckInDate>" in body:
                 file = open("providersimulation/rts/singleHotelSearch1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>1492-10-12</CheckInDate>" in body:
+            elif "<CheckInDate>2020-01-18</CheckInDate>" in body:
                 file = open("providersimulation/rts/singleHotelSearch1adtBKK0001.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+        if "GetCancelDeadlineForCustormerCountResponse":
+            if "<CheckInDate>2020-01-02</CheckInDate>" in body:
+                file = open("providersimulation/rts/1DayStay1Room1Adt.xml",  # busqueda 1 adulto 3 dia destino bangkok
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-01-02</CheckInDate>" in body:
+                file = open("providersimulation/rts/1DayStay1Room1Adt.xml",  # busqueda 1 adulto 3 dia destino bangkok
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
