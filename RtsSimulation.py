@@ -114,6 +114,15 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            elif "<CheckInDate>2020-02-08</CheckInDate>" in body:
+                print("Search de 2adt en 2 cuartos")
+                file = open("providersimulation/rts/hotelSearchVerify1room2adt2room2adtBKK0001.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
             elif "<CheckInDate>2020-02-10</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearchVerify_1Room2Adt2Room2Adt_nonRefundable.xml",
                             "r", encoding='utf8')
@@ -159,7 +168,7 @@ class RtsSimulation:
                 return info
 
             elif "<CheckInDate>2020-02-08</CheckInDate>" in body:
-                file = open("providersimulation/rts/emptyCancellationPolicie.xml",
+                file = open("providersimulation/rts/emptyCancellationPolicies.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
