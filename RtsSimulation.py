@@ -8,7 +8,7 @@ class RtsSimulation:
         postBody = info.rfile.read(contentLen)
         body = str(postBody, "utf-8")
         if "GetHotelSearchListForCustomerCount" in body:
-
+            print("entre a search")
             if "<CheckInDate>2020-01-01</CheckInDate>" in body:
                 file = open("providersimulation/rts/1DayStay1Room1Adt.xml", #busqueda 1 adulto 1 dia destino bangkok
                         "r", encoding='utf8')
@@ -79,17 +79,95 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "GetCancelDeadlineForCustormerCountResponse":
-            if "<CheckInDate>2020-01-02</CheckInDate>" in body:
-                file = open("providersimulation/rts/1DayStay1Room1Adt.xml",  # busqueda 1 adulto 3 dia destino bangkok
+ #SearchUsadoEnVerify identificados por usar el mes 2
+
+            elif "<CheckInDate>2020-02-01</CheckInDate>" in body:
+                file = open("providersimulation/rts/hotelSearchVerify1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-02</CheckInDate>" in body:
-                file = open("providersimulation/rts/1DayStay1Room1Adt.xml",  # busqueda 1 adulto 3 dia destino bangkok
+            elif "<CheckInDate>2020-02-02</CheckInDate>" in body:
+                file = open("providersimulation/rts/hotelSearchVerify1Room2Adt1ChdBKK0001.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-04</CheckInDate>" in body:
+                print("Search de 2adt en 2 cuartos")
+                file = open("providersimulation/rts/hotelSearchVerify1room2adt2room2adtBKK0001.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-05</CheckInDate>" in body:
+                file = open("providersimulation/rts/hotelSearchVerify1room1adt2room2adt1chd.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-10</CheckInDate>" in body:
+                file = open("providersimulation/rts/HotelSearchVerify_1Room2Adt2Room2Adt_nonRefundable.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+    #Politicas de cancelacion
+        if "GetCancelDeadlineForCustormerCountResponse":
+            if "<CheckInDate>2020-02-01</CheckInDate>" in body:
+                file = open("providersimulation/rts/cancelPolicies1Adt.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                print("2adt en 2 rooms")
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-02</CheckInDate>" in body:
+                file = open("providersimulation/rts/cancelPolicies1room2adt1chd.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-04</CheckInDate>" in body:
+                print("cancelPolicies de 2adt en 2 cuartos")
+                file = open("providersimulation/rts/cancelPolicies1room2Adt_2Room2adt.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-05</CheckInDate>" in body:
+                file = open("providersimulation/rts/cancelPolicies1room1Adt_2Room2adt1chd.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-08</CheckInDate>" in body:
+                file = open("providersimulation/rts/emptyCancellationPolicie.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            elif "<CheckInDate>2020-02-10</CheckInDate>" in body:
+                file = open("providersimulation/rts/cancelPolicies_nonRefundable_1Room2Adt2Room2Adt.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -159,16 +237,11 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-        if "GetCancelDeadlineForCustomerCount" in body:
-            if "<ItemCode>BKK0001</ItemCode>" in body and "<RoomTypeCode>TH|001:AVAU:19491:M50496:219274:215398|PREMIER ROOM|SB*1#|BKK||ZDG.CQ|USD|JHPRZGK|~None</RoomTypeCode>" in body:
-                file = open("providersimulation/rts/CancelDeadlineNonRefundable.xml",
-                            "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
+
+
 
         if "GetRemarkHotelInformationForCustomerCount" in body:
+            print("entrea policies cancel")
             file = open("providersimulation/rts/RemarkHotelInformationRemarks.xml","r", encoding='utf8')
             data = file.read()
             file.close()
