@@ -1,18 +1,8 @@
-<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance">
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap/envelope" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<soap:Body>
 		<GetRemarkHotelInformationForCustomerCountResponse xmlns="http://www.rts.co.kr/">
-			<GetRemarkHotelInformationForCustomerCountResult>
-				&lt;RemarkHotelInformation&gt;
-					&lt;ItemCode&gt;{ITEM_CODE}&lt;/ItemCode&gt;
-					&lt;ItemNo&gt;{ITEM_NO}&lt;/ItemNo&gt;
-					&lt;RoomTypeCode&gt;{ROOM_TYPE_CODE}&lt;/RoomTypeCode&gt;
-					&lt;Remarks&gt;
-						&lt;Remark1&gt;FEE ON Extra beds on demand.&lt;/Remark1&gt;
-						&lt;Remark2&gt;Check-in hour 07:00 – 17:00. Deposit on arrival . Any name
-changed, adding sharer will not be accepted once booking is confirmed.&lt;/Remark2&gt;
-					&lt;/Remarks&gt;
-				&lt;/RemarkHotelInformation&gt;
-			</GetRemarkHotelInformationForCustomerCountResult>
+			<GetRemarkHotelInformationForCustomerCountResult>&lt;RemarkHotelInformation&gt;     &lt;ItemCode&gt;{ITEM_CODE}&lt;/ItemCode&gt;     &lt;ItemNo&gt;{ITEM_NO}&lt;/ItemNo&gt;     &lt;RoomTypeCode&gt;{ROOM_TYPE_CODE}&lt;/RoomTypeCode&gt;     &lt;Remarks&gt;         &lt;Remark1&gt;&lt;![CDATA[Hotel remark 1]]&gt;&lt;/Remark1&gt;         &lt;Remark2&gt;&lt;![CDATA[Hotel remark 2]]&gt;&lt;/Remark2&gt;     &lt;/Remarks&gt;&lt;/RemarkHotelInformation&gt;</GetRemarkHotelInformationForCustomerCountResult>
 		</GetRemarkHotelInformationForCustomerCountResponse>
 	</soap:Body>
 </soap:Envelope>

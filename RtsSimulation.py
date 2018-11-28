@@ -261,7 +261,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "SystemBookingInfoNetForGuestCount" in body:
+        if "CreateSystemBookingForGuestCount" in body:
             if "<AppliedFromDate>2020-06-11</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
