@@ -61,7 +61,7 @@ class RtsSimulation:
 
  #SearchUsadoEnVerify identificados por usar el mes 2
 
-            elif "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2019-07-01</CheckInDate>" in body or "<CheckInDate>2019-07-11</CheckInDate>" in body:
+            elif "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2019-07-01</CheckInDate>" in body or "<CheckInDate>2020-06-11</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -125,7 +125,7 @@ class RtsSimulation:
 
         #Politicas de cancelacion
         if "GetCancelDeadlineForCustormerCountResponse":
-            if "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2019-07-01</CheckInDate>" in body or "<CheckInDate>2019-07-11</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2019-07-01</CheckInDate>" in body or "<CheckInDate>2020-06-11</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies1Adt.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -262,7 +262,7 @@ class RtsSimulation:
                 return info
 
         if "SystemBookingInfoNetForGuestCount" in body:
-            if "<AppliedFromDate>2019-07-01</AppliedFromDate>" in body:
+            if "<AppliedFromDate>2020-06-11</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
