@@ -266,28 +266,24 @@ class RtsSimulation:
                 file = open("providersimulation/rts/successBooking1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<AppliedFromDate>2019-07-02</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<AppliedFromDate>2019-07-04</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<AppliedFromDate>2019-07-05</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room1Adt_2Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             #errorReservation
@@ -295,28 +291,24 @@ class RtsSimulation:
                 file = open("providersimulation/rts/errorBooking1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<AppliedFromDate>2019-07-12</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/errorBooking1Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<AppliedFromDate>2019-07-14</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/errorBooking1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<AppliedFromDate>2019-07-15</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/errorBooking1Room1Adt_2Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
@@ -325,28 +317,24 @@ class RtsSimulation:
                 file = open("providersimulation/rts/successCancel1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<BookingCode>BUEF212702</BookingCode>" in body:
                 file = open("providersimulation/rts/successCancel1Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<BookingCode>BUEF212704</BookingCode>" in body:
                 file = open("providersimulation/rts/successCancel1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<BookingCode>BUEF212705</BookingCode>" in body:
                 file = open("providersimulation/rts/successCancel1Room1Adt_2Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             #Error Cancel
@@ -354,28 +342,24 @@ class RtsSimulation:
                 file = open("providersimulation/rts/errorCancel1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<BookingCode>BUEF212712</BookingCode>" in body:
                 file = open("providersimulation/rts/errorCancel1Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<BookingCode>BUEF212714</BookingCode>" in body:
                 file = open("providersimulation/rts/errorCancel1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
             if "<BookingCode>BUEF212715</BookingCode>" in body:
                 file = open("providersimulation/rts/errorCancel1Room1Adt_2Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
-                data = self.ReplaceValuesInGetRemarkHotelInformationForCustomerCountResponse(body, data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
