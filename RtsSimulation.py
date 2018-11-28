@@ -362,6 +362,13 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+        if "GetBookingVoucher" in body:
+            if "<BookingCode>BUEF212715</BookingCode>" in body:
+                file = open("providersimulation/rts/bookingVoucher1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
         if "GetRemarkHotelInformationForCustomerCount" in body:
             file = open("providersimulation/rts/RemarkHotelInformationRemarks.xml","r", encoding='utf8')
