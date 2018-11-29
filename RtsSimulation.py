@@ -315,7 +315,7 @@ class RtsSimulation:
         if "BookingCancel" in body:
             #Error Cancel
             if "<BookingCode>BUEF212724</BookingCode>" in body:
-                file = open("providersimulation/rts/errorCancel1Room1Adt.xml", "r", encoding='utf8')
+                file = open("providersimulation/rts/successCancel1Room1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
