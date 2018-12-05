@@ -5,7 +5,7 @@ from wegoProvider import wegoProviderSimulation
 from AviancaSimulation import AviancaSimulation
 from RtsSimulation import RtsSimulation
 from RentingSimulation import RentingSimulation
-
+from GimmonixSimulation import GimmonixSimulation
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
@@ -22,7 +22,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.1.1</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.1.2</version>", 'UTF-8'))
 
 
 
@@ -47,6 +47,11 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "rtssimulation" in self.path:
             rts = RtsSimulation()
             response = rts.RtsResponse(self)
+            return response
+
+        if "gimmonixsimulation" in self.path:
+            gimmonix = GimmonixSimulation()
+            response = gimmonix.GimmonixResponse(self)
             return response
 
 
