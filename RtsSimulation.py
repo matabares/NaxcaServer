@@ -268,6 +268,7 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
             if "<AppliedFromDate>2019-07-02</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room2Adt1Chd.xml", "r", encoding='utf8')
                 data = file.read()
@@ -311,34 +312,34 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "<AppliedFromDate>2019-07-16</AppliedFromDate>" in body:
+                file = open("providersimulation/rts/successBooking1Room2Adt.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
         if "BookingCancel" in body:
             #Error Cancel
             if "<BookingCode>BUEF212724</BookingCode>" in body:
-                file = open("providersimulation/rts/successCancel1Room1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
+                file = open("providersimulation/rts/successBookingCancel.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<BookingCode>BUEF212712</BookingCode>" in body:
-                file = open("providersimulation/rts/errorCancel1Room2Adt1Chd.xml", "r", encoding='utf8')
+            if "<BookingCode>BUEF212722</BookingCode>" in body:
+                file = open("providersimulation/rts/errorBookingCancel.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<BookingCode>BUEF212714</BookingCode>" in body:
-                file = open("providersimulation/rts/errorCancel1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
+            if "<BookingCode>BUEF26535</BookingCode>" in body:
+                file = open("providersimulation/rts/errorBookingCancel.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<BookingCode>BUEF212715</BookingCode>" in body:
-                file = open("providersimulation/rts/errorCancel1Room1Adt_2Room2Adt1Chd.xml", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            
+
         if "GetBookingVoucher" in body:
             file = open("providersimulation/rts/bookingVoucher1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
             data = file.read()
