@@ -8,8 +8,8 @@ class RtsSimulation:
         postBody = info.rfile.read(contentLen)
         body = str(postBody, "utf-8")
 
-
         if "GetHotelSearchListForCustomerCount" in body:
+            ...  # region Search
             print("entre a search")
             if "<CheckInDate>2020-01-01</CheckInDate>" in body :
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt.xml", #busqueda 1 adulto 1 dia destino bangkok
@@ -58,10 +58,12 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            #endregion
 
- #SearchUsadoEnVerify identificados por usar el mes 2
 
+            # region VerifySearch
             elif "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2020-07-01</CheckInDate>" in body or "<CheckInDate>2020-06-12</CheckInDate>" in body:
+
                 file = open("providersimulation/rts/hotelSearchVerify1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -122,6 +124,8 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            #endregion
+
 
         #Politicas de cancelacion
         if "GetCancelDeadlineForCustormerCountResponse":
@@ -300,7 +304,7 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<AppliedFromDate>2019-07-14</AppliedFromDate>" in body:
+            if "<AppliedFromDate>2020-07-14</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/errorBooking1Room2Adt_2Room2Adt.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
