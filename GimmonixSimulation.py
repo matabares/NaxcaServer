@@ -9,7 +9,7 @@ class GimmonixSimulation:
         body = str(postBody, "utf-8")
 
         if "HotelsServiceSearchRequest" in body:
-            if "<DetailLevel>MetaExtended</DetailLevel>" in body:
+            if "<DetailLevel>LOW</DetailLevel>" in body:
                 if "<CheckInDate>2020-01-01</CheckInDate>" in body:
                     file = open("providersimulation/gimmonix/hotelSearch_3DayStay1Room1Adt.xml","r", encoding='utf8')
                     data = file.read()
