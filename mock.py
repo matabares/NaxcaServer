@@ -24,9 +24,6 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(bytes("<version>2.1.4</version>", 'UTF-8'))
 
-
-
-
     def do_POST(self):
         if "dingussimulation" in self.path:
             dingus = dingusProviderSimulation()
