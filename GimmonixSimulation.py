@@ -40,59 +40,75 @@ class GimmonixSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "GetPackagesRequest" in body:
-            if "4116714" in body:
-                file = open("providersimulation/gimmonix/getPackages_4116714.xml", "r",
+        if "HotelsSupplierDetailsRequest" in body:
+            if "/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f" in body:
+                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "4116845"  in body:
-                file = open("providersimulation/gimmonix/getPackages_4116845.xml", "r",
+            if "/110/127631/D20181212T214843/83f0532f6c42451f98f87f51dd206d6e"  in body:
+                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "4116742" in body:
-                file = open("providersimulation/gimmonix/getPackages_4116742.xml", "r",
+            if "/110/127631/D20181212T215245/792f22a832624fbd95372744156eb9d4" in body:
+                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room2Adt1Inf.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "HotelCancellationPolicyResponse" in body:
-            if "<CheckIn>2020-01-01</CheckIn>" in body:
+            if "/110/127631/D20181212T221715/c92583fe35d34159b927ad4afe08ab2d"  in body:
+                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room2Adt_2Room2Adt.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if "/110/127631/D20181212T222007/527af9e839434fdeb78e6d5f44f80e08"  in body:
+                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room1Adt_2Room2Adt1Chd.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+        if "HotelCancellationPolicyRequest" in body:
+            if "<PackageID>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-02</CheckIn>" in body:
+            if "<PackageID>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-03</CheckIn>" in body:
+            if "<PackageID>412961b2-d731-4e7c-9840-2606e3fc9b92</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt1Inf.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-04</CheckIn>" in body:
+            if "<PackageID>8614c0d5-498e-456d-98a7-c298443ebfd4</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-05</CheckIn>" in body:
+            if "<PackageID>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt_2Room2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
@@ -101,35 +117,35 @@ class GimmonixSimulation:
                 return info
 
         if "HotelBookInfoRequest" in body:
-            if "<CheckIn>2020-01-01</CheckIn>" in body:
+            if "<PackageID>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageID>" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-02</CheckIn>" in body:
+            if "<PackageID>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageID>" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-03</CheckIn>" in body:
+            if "<PackageID>412961b2-d731-4e7c-9840-2606e3fc9b92</PackageID>" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt1Inf.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-04</CheckIn>" in body:
+            if "<PackageID>8614c0d5-498e-456d-98a7-c298443ebfd4</PackageID>" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<CheckIn>2020-01-05</CheckIn>" in body:
+            if "<PackageID>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageID>" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()

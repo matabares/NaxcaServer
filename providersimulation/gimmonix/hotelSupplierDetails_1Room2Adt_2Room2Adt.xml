@@ -1,0 +1,651 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<ID>4116714</ID>
+							<Packages>
+								<RoomsPackage>
+									<HotelId>4116714</HotelId>
+									<PackageId>8614c0d5-498e-456d-98a7-c298443ebfd4</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>555.68</FinalPrice>
+										<FinalPriceInSupplierCurrency>555.68</FinalPriceInSupplierCurrency>
+										<FinalTax>59.82</FinalTax>
+										<OriginalPrice>555.68</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>555.68</OriginalPriceInSupplierCurrency>
+										<OriginalTax>59.82</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Refundability>Nonrefundable</Refundability>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>01a196bd-9491-4db8-bd01-460cde628f9e</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>277.84</FinalPrice>
+												<FinalPriceInSupplierCurrency>277.84</FinalPriceInSupplierCurrency>
+												<FinalTax>29.91</FinalTax>
+												<OriginalPrice>277.84</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>277.84</OriginalPriceInSupplierCurrency>
+												<OriginalTax>29.91</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Superior</RoomClass>
+											<RoomClassOriginal>Standard Non Refundable Standard 2 twin Beds + Breakfast</RoomClassOriginal>
+											<RoomType>Double</RoomType>
+											<RoomTypeOriginal>Non Refundable Superior + Breakfast</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>62b018ce-7de5-472b-975f-59ee91af500b</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>216.93</FinalPrice>
+												<FinalPriceInSupplierCurrency>216.93</FinalPriceInSupplierCurrency>
+												<FinalTax>29.91</FinalTax>
+												<OriginalPrice>216.93</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>216.93</OriginalPriceInSupplierCurrency>
+												<OriginalTax>29.91</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Superior</RoomClass>
+											<RoomClassOriginal>Non Refundable Superior + Breakfast</RoomClassOriginal>
+											<RoomType>Double</RoomType>
+											<RoomTypeOriginal>Non Refundable Standard 2 twin Beds + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>555.68</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>783ba2eb-6441-4657-93ca-f3ca44fa1c16</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>433.86</FinalPrice>
+										<FinalPriceInSupplierCurrency>433.86</FinalPriceInSupplierCurrency>
+										<FinalTax>59.82</FinalTax>
+										<OriginalPrice>433.86</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>433.86</OriginalPriceInSupplierCurrency>
+										<OriginalTax>59.82</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Refundability>Nonrefundable</Refundability>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>b4dc4bac-5a0b-4761-8a39-6b11b5ba9a6c</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>216.93</FinalPrice>
+												<FinalPriceInSupplierCurrency>216.93</FinalPriceInSupplierCurrency>
+												<FinalTax>29.91</FinalTax>
+												<OriginalPrice>216.93</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>216.93</OriginalPriceInSupplierCurrency>
+												<OriginalTax>29.91</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Non Refundable Standard Queen + Breakfast</RoomClassOriginal>
+											<RoomType>Queen</RoomType>
+											<RoomTypeOriginal>Non Refundable Standard Queen + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>7dd770b8-da85-4536-bff8-a0df9c5a641f</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>216.93</FinalPrice>
+												<FinalPriceInSupplierCurrency>216.93</FinalPriceInSupplierCurrency>
+												<FinalTax>29.91</FinalTax>
+												<OriginalPrice>216.93</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>216.93</OriginalPriceInSupplierCurrency>
+												<OriginalTax>29.91</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Non Refundable Standard Queen + Breakfast</RoomClassOriginal>
+											<RoomType>Queen</RoomType>
+											<RoomTypeOriginal>Non Refundable Standard Queen + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>433.86</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>c5ddd7d4-23ed-4918-85f9-87330c390fc4</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>464.88</FinalPrice>
+										<FinalPriceInSupplierCurrency>464.88</FinalPriceInSupplierCurrency>
+										<FinalTax>64.14</FinalTax>
+										<OriginalPrice>464.88</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>464.88</OriginalPriceInSupplierCurrency>
+										<OriginalTax>64.14</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>11bce335-f72c-465b-a11e-d31332681a7e</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Twin beds</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>4bb3bce4-1a3a-4123-bf34-b16c5b479227</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Standard 2 Twin Beds + Breakfast</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Standard 2 Twin Beds + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>464.88</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>a3cffa4a-4eda-4cfb-80ad-041ab1a9084c</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>464.88</FinalPrice>
+										<FinalPriceInSupplierCurrency>464.88</FinalPriceInSupplierCurrency>
+										<FinalTax>64.14</FinalTax>
+										<OriginalPrice>464.88</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>464.88</OriginalPriceInSupplierCurrency>
+										<OriginalTax>64.14</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>11bce335-f72c-465b-a11e-d31332681a7e</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Twin beds</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>9b211cb9-e761-4566-95f0-d16ad985cb55</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Standard 2 Twin Beds + Breakfast</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Standard 2 Twin Beds + Breakfast Twn</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>464.88</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>208056e1-c0ae-4d72-a67f-e257a964f544</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>464.88</FinalPrice>
+										<FinalPriceInSupplierCurrency>464.88</FinalPriceInSupplierCurrency>
+										<FinalTax>64.14</FinalTax>
+										<OriginalPrice>464.88</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>464.88</OriginalPriceInSupplierCurrency>
+										<OriginalTax>64.14</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>9937e023-ccd8-4df4-aaaa-dab7aa317d06</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Twin beds</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>7e4a18a4-dc98-40fa-bee5-4d97ee3a2fb7</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Standard 2 Twin Beds + Breakfast</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Standard 2 Twin Beds + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>464.88</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>b772b0ea-b6de-468a-a4da-6abd7916ef17</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>464.88</FinalPrice>
+										<FinalPriceInSupplierCurrency>464.88</FinalPriceInSupplierCurrency>
+										<FinalTax>64.14</FinalTax>
+										<OriginalPrice>464.88</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>464.88</OriginalPriceInSupplierCurrency>
+										<OriginalTax>64.14</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>9937e023-ccd8-4df4-aaaa-dab7aa317d06</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Twin beds</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>ea13c468-16c1-4b99-80d2-ea984d803ced</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Standard 2 Twin Beds + Breakfast</RoomClassOriginal>
+											<RoomType>Twin beds</RoomType>
+											<RoomTypeOriginal>Standard 2 Twin Beds + Breakfast Twn</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>464.88</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>8e5644a6-0b4c-4bd9-ab23-2b8402450a21</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>464.88</FinalPrice>
+										<FinalPriceInSupplierCurrency>464.88</FinalPriceInSupplierCurrency>
+										<FinalTax>64.14</FinalTax>
+										<OriginalPrice>464.88</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>464.88</OriginalPriceInSupplierCurrency>
+										<OriginalTax>64.14</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>1e557705-ccb5-4991-87fb-dd3b8eb2da42</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Standard Queen + Breakfast</RoomClassOriginal>
+											<RoomType>Queen</RoomType>
+											<RoomTypeOriginal>Standard Queen + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>bd178a1c-0f40-4f9f-8e57-eb05ce0ee7c9</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>232.44</FinalPrice>
+												<FinalPriceInSupplierCurrency>232.44</FinalPriceInSupplierCurrency>
+												<FinalTax>32.07</FinalTax>
+												<OriginalPrice>232.44</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>232.44</OriginalPriceInSupplierCurrency>
+												<OriginalTax>32.07</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Standard</RoomClass>
+											<RoomClassOriginal>Standard Standard Queen + Breakfast</RoomClassOriginal>
+											<RoomType>Queen</RoomType>
+											<RoomTypeOriginal>Standard Queen + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>464.88</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>c6e43dbf-3ba1-4194-8a86-dac5f7d23345</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>488.1</FinalPrice>
+										<FinalPriceInSupplierCurrency>488.1</FinalPriceInSupplierCurrency>
+										<FinalTax>67.32</FinalTax>
+										<OriginalPrice>488.1</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>488.1</OriginalPriceInSupplierCurrency>
+										<OriginalTax>67.32</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Refundability>Nonrefundable</Refundability>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>eb02fb9f-eab4-4ee2-967f-5ff4dee78352</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>244.05</FinalPrice>
+												<FinalPriceInSupplierCurrency>244.05</FinalPriceInSupplierCurrency>
+												<FinalTax>33.66</FinalTax>
+												<OriginalPrice>244.05</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>244.05</OriginalPriceInSupplierCurrency>
+												<OriginalTax>33.66</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Superior</RoomClass>
+											<RoomClassOriginal>Superior Non Refundable Superior + Breakfast</RoomClassOriginal>
+											<RoomType>Double</RoomType>
+											<RoomTypeOriginal>Non Refundable Superior + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>bdf74794-4318-4432-ac05-0662762b0955</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>244.05</FinalPrice>
+												<FinalPriceInSupplierCurrency>244.05</FinalPriceInSupplierCurrency>
+												<FinalTax>33.66</FinalTax>
+												<OriginalPrice>244.05</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>244.05</OriginalPriceInSupplierCurrency>
+												<OriginalTax>33.66</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Superior</RoomClass>
+											<RoomClassOriginal>Superior Non Refundable Superior + Breakfast</RoomClassOriginal>
+											<RoomType>Double</RoomType>
+											<RoomTypeOriginal>Non Refundable Superior + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>488.1</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4116715</HotelId>
+									<PackageId>43e5a508-76a5-4f5f-a3e7-980703828259</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>522.96</FinalPrice>
+										<FinalPriceInSupplierCurrency>522.96</FinalPriceInSupplierCurrency>
+										<FinalTax>72.12</FinalTax>
+										<OriginalPrice>522.96</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>522.96</OriginalPriceInSupplierCurrency>
+										<OriginalTax>72.12</OriginalTax>
+										<SupplierCurrency>USD</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>bba7095a-eb02-43e4-8cdd-3d403e883a71</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>261.48</FinalPrice>
+												<FinalPriceInSupplierCurrency>261.48</FinalPriceInSupplierCurrency>
+												<FinalTax>36.06</FinalTax>
+												<OriginalPrice>261.48</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>261.48</OriginalPriceInSupplierCurrency>
+												<OriginalTax>36.06</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Superior</RoomClass>
+											<RoomClassOriginal>Superior Superior + Breakfast</RoomClassOriginal>
+											<RoomType>Double</RoomType>
+											<RoomTypeOriginal>Superior + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>555ad2f1-0dac-4ced-b643-3c8b1cea345d</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>261.48</FinalPrice>
+												<FinalPriceInSupplierCurrency>261.48</FinalPriceInSupplierCurrency>
+												<FinalTax>36.06</FinalTax>
+												<OriginalPrice>261.48</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>261.48</OriginalPriceInSupplierCurrency>
+												<OriginalTax>36.06</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Superior</RoomClass>
+											<RoomClassOriginal>Superior Superior + Breakfast</RoomClassOriginal>
+											<RoomType>Double</RoomType>
+											<RoomTypeOriginal>Superior + Breakfast Dbl</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>522.96</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+						</Hotel>
+					</Result>
+				</HotelsSearchResponse>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

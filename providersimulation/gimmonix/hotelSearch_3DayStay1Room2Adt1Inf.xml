@@ -1,1 +1,414 @@
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ServiceRequestResponse xmlns="http://tempuri.org/"><ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Errors xmlns=""/><HotelsSearchResponse xmlns=""><Result><Hotel><Address>Calle 25B # 69A - 50, Bogota</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/6e6cba68-fcbb-4d28-b196-35115dc8edb3.jpeg</FullSize></DefaultImage><DisplayName>GHL Hotel Capital</DisplayName><GeoLocation><Latitude>4.6583786010742187</Latitude><Longitude>-74.107742309570313</Longitude></GeoLocation><ID>4116742</ID><Packages><RoomsPackage><PackageId>412961b2-d731-4e7c-9840-2606e3fc9b92</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard 2 Twin Beds + Breakfast</a:string></Description><Id>d239569b-d88c-4b3a-b42b-3feb031f7a07</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>326.76</SimplePrice></RoomsPackage><RoomsPackage><PackageId>bbc08d6c-ec9f-4ca0-b393-9cf6e2f52b2a</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard 2 Twin Beds + Breakfast</a:string></Description><Id>795de560-b5da-45e5-acb0-af38fec759d6</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>326.76</SimplePrice></RoomsPackage></Packages><StarRating>5</StarRating></Hotel><Hotel><Address>93 11A 31, Colombia</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/2ec4dd62-7c3f-4d3f-a774-52f69f16b499.jpeg</FullSize></DefaultImage><DisplayName>Ghl 93</DisplayName><GeoLocation><Latitude>4.67449773</Latitude><Longitude>-74.04847336</Longitude></GeoLocation><ID>4116845</ID><Packages><RoomsPackage><PackageId>07b1c1b4-6a23-457b-968d-e0b054d8efc8</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Leisure Superior + Breakfast</a:string></Description><Id>a23a0229-1f02-4a3a-b90d-af9bad60413b</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Double/Twin</RoomType></Room></Rooms><SimplePrice>269.63</SimplePrice></RoomsPackage><RoomsPackage><PackageId>fd1cd226-573c-4a5e-89de-b1973e80a6b9</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior + Breakfast</a:string></Description><Id>46146ad1-e72e-45f8-908b-acbdd1de12dd</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Double/Twin</RoomType></Room></Rooms><SimplePrice>269.63</SimplePrice></RoomsPackage><RoomsPackage><PackageId>0f61b402-5136-4526-abc5-dbad54ebdef7</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Advance Purchase Superior</a:string></Description><Id>9832cfb5-1ba8-4c15-b992-ce1fe3c0e718</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Bed and Breakfast BB</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Double/Twin</RoomType></Room></Rooms><SimplePrice>808.89</SimplePrice></RoomsPackage></Packages><StarRating>4</StarRating></Hotel><Hotel><Address>Calle 66 #8 23, Bogota</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/d6b0e807-759b-4eea-bcc2-d323980f17a0.jpeg</FullSize></DefaultImage><DisplayName>Hotel Vilar America</DisplayName><GeoLocation><Latitude>4.65098</Latitude><Longitude>-74.05988</Longitude></GeoLocation><ID>4313933</ID><Packages><RoomsPackage><PackageId>c32bfa97-7ec0-4741-aed4-55ce2945ec53</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Executive + Breakfast</a:string></Description><Id>e16583a3-1b94-4eb7-8994-bb02535332d5</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Double/Twin</RoomType></Room></Rooms><SimplePrice>189.02</SimplePrice></RoomsPackage><RoomsPackage><PackageId>6105f4ab-6b38-4cc4-b38c-0de334de8966</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Executive + Breakfast</a:string></Description><Id>96435434-d271-460b-9c48-90eaec7b5fd1</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Double/Twin</RoomType></Room></Rooms><SimplePrice>189.02</SimplePrice></RoomsPackage><RoomsPackage><PackageId>b80cb7c5-de47-47e6-979f-6013fb9bdbf0</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Suite + Breakfast</a:string></Description><Id>8c09dba1-db41-4e19-b902-6deee4272da4</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>307</SimplePrice></RoomsPackage><RoomsPackage><PackageId>0f6c2e35-fd9f-471c-bcfb-7218024c9a7f</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Suite + Breakfast</a:string></Description><Id>87b7fdb9-ca21-47bc-bbfd-2bcaa83753af</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>307</SimplePrice></RoomsPackage><RoomsPackage><PackageId>6e939cb8-2c41-45f1-b0ac-4636d09d6a1c</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Family Suite + Breakfast</a:string></Description><Id>bfe347df-9099-4545-95fc-30a80703e8a5</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>421.38</SimplePrice></RoomsPackage><RoomsPackage><PackageId>19eab116-c861-4a0b-b68f-1f6739745dd1</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Family Suite + Breakfast</a:string></Description><Id>9e2cdc69-7402-43be-b791-3f5ad752e8ad</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>421.38</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel><Hotel><Address>Calle 83 No. 9-48, Bogota</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/268788b1-0457-414c-b59f-da60bed2c250.jpeg</FullSize></DefaultImage><DisplayName>GHL Hotel Bioxury</DisplayName><GeoLocation><Latitude>4.66567</Latitude><Longitude>-74.05067</Longitude></GeoLocation><ID>4475756</ID><Packages><RoomsPackage><PackageId>49ff83f3-3b70-4759-abad-baba2b1273b8</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Leisure Twin + Breakfast</a:string></Description><Id>d05a25e3-9195-456b-aaf6-74e11d06d9a7</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>621.99</SimplePrice></RoomsPackage><RoomsPackage><PackageId>e96c99c2-bbfd-4396-a4e7-b00cd5239cb3</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Twin + Breakfast</a:string></Description><Id>f1709af1-19a6-425e-ad2f-08cc9c1dec01</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>621.99</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel><Hotel><Address>Avenida Cra 40 No 24 D 23, Bogota</Address><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/6028132f-ba85-4f0b-a06b-7bb30f316f18.jpeg</FullSize></DefaultImage><DisplayName>Blu Inn Hotel</DisplayName><GeoLocation><Latitude>4.6325</Latitude><Longitude>-74.09041</Longitude></GeoLocation><ID>5946576</ID><Packages><RoomsPackage><PackageId>1a1bf6e7-178f-46f4-b6ca-2f5f34d11824</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard Double + Breakfast</a:string></Description><Id>45247970-0978-40a0-9a2f-f81edc41307a</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double</RoomType></Room></Rooms><SimplePrice>228.08</SimplePrice></RoomsPackage><RoomsPackage><PackageId>3f9fc5e4-d79f-4c2f-9d5c-c06197769eb8</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard Twin + Breakfast</a:string></Description><Id>fb48148a-5057-4642-92c9-2da1e49dd4d5</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>228.08</SimplePrice></RoomsPackage><RoomsPackage><PackageId>39cbe561-bd2a-421c-8ce2-42419ad877f7</PackageId><Rooms><Room><AdultsCount>2</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Executive Double + Breakfast</a:string></Description><Id>fa4cc6eb-5f05-49d2-8fcd-2c103156d6c6</Id><KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:int>0</a:int></KidsAges><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Double</RoomType></Room></Rooms><SimplePrice>243.24</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel></Result><SearchId>J1OERE</SearchId></HotelsSearchResponse><SessionID xmlns="">/110/127631/D20181212T215245/792f22a832624fbd95372744156eb9d4</SessionID></ServiceRequestResult></ServiceRequestResponse></s:Body></s:Envelope>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<Address>Calle 25B # 69A - 50, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/6e6cba68-fcbb-4d28-b196-35115dc8edb3.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>GHL Hotel Capital</DisplayName>
+							<GeoLocation>
+								<Latitude>4.6583786010742187</Latitude>
+								<Longitude>-74.107742309570313</Longitude>
+							</GeoLocation>
+							<ID>4116742</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>412961b2-d731-4e7c-9840-2606e3fc9b92</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard 2 Twin Beds + Breakfast</a:string>
+											</Description>
+											<Id>d239569b-d88c-4b3a-b42b-3feb031f7a07</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>326.76</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>bbc08d6c-ec9f-4ca0-b393-9cf6e2f52b2a</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard 2 Twin Beds + Breakfast</a:string>
+											</Description>
+											<Id>795de560-b5da-45e5-acb0-af38fec759d6</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>326.76</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>93 11A 31, Colombia</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/2ec4dd62-7c3f-4d3f-a774-52f69f16b499.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Ghl 93</DisplayName>
+							<GeoLocation>
+								<Latitude>4.67449773</Latitude>
+								<Longitude>-74.04847336</Longitude>
+							</GeoLocation>
+							<ID>4116845</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>07b1c1b4-6a23-457b-968d-e0b054d8efc8</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>a23a0229-1f02-4a3a-b90d-af9bad60413b</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>269.63</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>fd1cd226-573c-4a5e-89de-b1973e80a6b9</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>46146ad1-e72e-45f8-908b-acbdd1de12dd</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>269.63</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>0f61b402-5136-4526-abc5-dbad54ebdef7</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Advance Purchase Superior</a:string>
+											</Description>
+											<Id>9832cfb5-1ba8-4c15-b992-ce1fe3c0e718</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Bed and Breakfast BB</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>808.89</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>4</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Calle 66 #8 23, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/d6b0e807-759b-4eea-bcc2-d323980f17a0.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Hotel Vilar America</DisplayName>
+							<GeoLocation>
+								<Latitude>4.65098</Latitude>
+								<Longitude>-74.05988</Longitude>
+							</GeoLocation>
+							<ID>4313933</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>c32bfa97-7ec0-4741-aed4-55ce2945ec53</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>e16583a3-1b94-4eb7-8994-bb02535332d5</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>189.02</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>6105f4ab-6b38-4cc4-b38c-0de334de8966</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>96435434-d271-460b-9c48-90eaec7b5fd1</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>189.02</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>b80cb7c5-de47-47e6-979f-6013fb9bdbf0</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Suite + Breakfast</a:string>
+											</Description>
+											<Id>8c09dba1-db41-4e19-b902-6deee4272da4</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>307</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>0f6c2e35-fd9f-471c-bcfb-7218024c9a7f</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Suite + Breakfast</a:string>
+											</Description>
+											<Id>87b7fdb9-ca21-47bc-bbfd-2bcaa83753af</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>307</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>6e939cb8-2c41-45f1-b0ac-4636d09d6a1c</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Family Suite + Breakfast</a:string>
+											</Description>
+											<Id>bfe347df-9099-4545-95fc-30a80703e8a5</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>421.38</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>19eab116-c861-4a0b-b68f-1f6739745dd1</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Family Suite + Breakfast</a:string>
+											</Description>
+											<Id>9e2cdc69-7402-43be-b791-3f5ad752e8ad</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>421.38</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Calle 83 No. 9-48, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/268788b1-0457-414c-b59f-da60bed2c250.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>GHL Hotel Bioxury</DisplayName>
+							<GeoLocation>
+								<Latitude>4.66567</Latitude>
+								<Longitude>-74.05067</Longitude>
+							</GeoLocation>
+							<ID>4475756</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>49ff83f3-3b70-4759-abad-baba2b1273b8</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Twin + Breakfast</a:string>
+											</Description>
+											<Id>d05a25e3-9195-456b-aaf6-74e11d06d9a7</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>621.99</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>e96c99c2-bbfd-4396-a4e7-b00cd5239cb3</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Twin + Breakfast</a:string>
+											</Description>
+											<Id>f1709af1-19a6-425e-ad2f-08cc9c1dec01</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>621.99</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Avenida Cra 40 No 24 D 23, Bogota</Address>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/6028132f-ba85-4f0b-a06b-7bb30f316f18.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Blu Inn Hotel</DisplayName>
+							<GeoLocation>
+								<Latitude>4.6325</Latitude>
+								<Longitude>-74.09041</Longitude>
+							</GeoLocation>
+							<ID>5946576</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>1a1bf6e7-178f-46f4-b6ca-2f5f34d11824</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard Double + Breakfast</a:string>
+											</Description>
+											<Id>45247970-0978-40a0-9a2f-f81edc41307a</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>228.08</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>3f9fc5e4-d79f-4c2f-9d5c-c06197769eb8</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard Twin + Breakfast</a:string>
+											</Description>
+											<Id>fb48148a-5057-4642-92c9-2da1e49dd4d5</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>228.08</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>39cbe561-bd2a-421c-8ce2-42419ad877f7</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive Double + Breakfast</a:string>
+											</Description>
+											<Id>fa4cc6eb-5f05-49d2-8fcd-2c103156d6c6</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>0</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Double</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>243.24</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+					</Result>
+					<SearchId>J1OERE</SearchId>
+				</HotelsSearchResponse>
+				<SessionID xmlns="">/110/127631/D20181212T215245/792f22a832624fbd95372744156eb9d4</SessionID>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

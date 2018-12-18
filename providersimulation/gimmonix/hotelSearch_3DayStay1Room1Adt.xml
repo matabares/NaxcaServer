@@ -1,1 +1,1687 @@
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ServiceRequestResponse xmlns="http://tempuri.org/"><ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Errors xmlns=""/><HotelsSearchResponse xmlns=""><Result><Hotel><Address>Calle 93B 19 44, Bogota</Address><ChainCode>WV</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/cf20902f-2085-478c-afc6-84243df67982.jpeg</FullSize></DefaultImage><DisplayName>Casa Dann Carlton Hotel &amp; Spa</DisplayName><GeoLocation><Latitude>4.68041181564331</Latitude><Longitude>-74.0542678833008</Longitude></GeoLocation><ID>4116714</ID><Packages><RoomsPackage><PackageId>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Superior + Breakfast</a:string></Description><Id>f2349c77-025c-4dfd-a208-8b7359ba0317</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>277.84</SimplePrice></RoomsPackage><RoomsPackage><PackageId>1fa9160b-0d79-407c-bbe7-58d68ff86bf2</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Superior 2 Beds + Breakfast</a:string></Description><Id>b6ba6344-0c0a-4a2f-a8d1-7707b12c65f0</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Double/Twin</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>277.84</SimplePrice></RoomsPackage><RoomsPackage><PackageId>e0558590-869f-42eb-a077-95772e07e284</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior + Breakfast</a:string></Description><Id>367586a2-07cd-4995-bbe5-5aec01b0bca6</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>315.73</SimplePrice></RoomsPackage><RoomsPackage><PackageId>a25eda26-3c71-490e-adc9-a2b86cf0810e</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior 2 Beds + Breakfast</a:string></Description><Id>168c3650-352c-4a84-8202-97982f21fbb7</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Double/Twin</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>315.73</SimplePrice></RoomsPackage><RoomsPackage><PackageId>9367d2c4-fc89-496a-85c7-3b6d012990ab</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Executive + Breakfast</a:string></Description><Id>3f8cd0d5-5564-4fa4-91a9-ee29739d760f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>397.16</SimplePrice></RoomsPackage><RoomsPackage><PackageId>5469f6a4-9a4d-4365-8625-bfc359953c4f</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Junior Suite King + Breakfast</a:string></Description><Id>68494ba6-d5f8-4409-a607-1ee0bde8f449</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>431.24</SimplePrice></RoomsPackage><RoomsPackage><PackageId>3f41af19-5817-4b98-9745-b55a1ee6ae78</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Executive + Breakfast</a:string></Description><Id>1cc60f5e-3b51-45af-a946-3d58b1169143</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>451.31</SimplePrice></RoomsPackage><RoomsPackage><PackageId>ca3bf339-e5fe-49bb-8bc4-e9a0c2b61983</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable 2 Bedroom Suite + Breakfast</a:string></Description><Id>404666d3-723d-43ca-bb38-debb46ad1e0f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>482.39</SimplePrice></RoomsPackage><RoomsPackage><PackageId>daed0aae-0cac-4be6-9edb-f74e45ccad79</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Junior Suite King + Breakfast</a:string></Description><Id>e471d8bc-d851-482f-b471-3c3b78cf97ad</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>490.06</SimplePrice></RoomsPackage><RoomsPackage><PackageId>e2d2d278-b0da-4961-b9c8-445a92f65430</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Suite + Breakfast</a:string></Description><Id>747d96a6-fef1-4e65-8831-41bd52414a9f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>516.47</SimplePrice></RoomsPackage><RoomsPackage><PackageId>3555655e-fedd-47bf-bb41-aa3c9ccc2c54</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>2 Bedroom Suite + Breakfast</a:string></Description><Id>f5a42332-362d-488f-b588-2dd5d38af5b6</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>548.17</SimplePrice></RoomsPackage><RoomsPackage><PackageId>a7d40a7d-02f5-488f-88a0-56cd58f28d90</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Suite + Breakfast</a:string></Description><Id>11b68678-570e-4e14-ab07-d2383e03cf31</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>586.91</SimplePrice></RoomsPackage></Packages><StarRating>5</StarRating></Hotel><Hotel><Address>Av. 15 103 60, Bogota</Address><ChainCode>WV</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/0c92fab8-e148-4ce3-96c9-588d4aca8f48.jpeg</FullSize></DefaultImage><DisplayName>Dann Carlton Bogota</DisplayName><GeoLocation><Latitude>4.6882472038269</Latitude><Longitude>-74.0470581054688</Longitude></GeoLocation><ID>4116715</ID><Packages><RoomsPackage><PackageId>1999c5dd-f801-46c0-bd7a-6efc48d39850</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Leisure Standard + Breakfast</a:string></Description><Id>afa1adb5-c322-45d8-8721-c59a82c23018</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>199.77</SimplePrice></RoomsPackage><RoomsPackage><PackageId>19ad89cd-71eb-41e0-9b67-b7505349d1fe</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Leisure Standard Queen + Breakfast</a:string></Description><Id>02b057f2-2a5d-47bf-8365-48353be48f9f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Queen</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>208.16</SimplePrice></RoomsPackage><RoomsPackage><PackageId>7f46d567-feb7-4716-b526-a376827001e5</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Leisure Standard Twin + Breakfast</a:string></Description><Id>d726e267-8ffd-4128-90df-4f6b89b4c8aa</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Twin beds</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>208.16</SimplePrice></RoomsPackage><RoomsPackage><PackageId>dfed114e-8b99-444f-9ad5-361bdc8564c6</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard + Breakfast</a:string></Description><Id>4a1ab081-ac44-4702-8ffc-a892dfdc2ff2</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>215.13</SimplePrice></RoomsPackage><RoomsPackage><PackageId>ff9263e5-f842-4316-ba67-5e4e74a30271</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard 2 twin Beds + Breakfast</a:string></Description><Id>0826befa-91bb-43fd-95f0-7d90b4d5dd64</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>224.17</SimplePrice></RoomsPackage><RoomsPackage><PackageId>8ae7bf74-3359-46d4-baac-a75941d3e1b9</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard Queen + Breakfast</a:string></Description><Id>54869f5c-9c4d-49c0-9c72-069367eef978</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Queen</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>224.17</SimplePrice></RoomsPackage><RoomsPackage><PackageId>b2a8558a-f4b0-4924-9729-f51f216ba9f5</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard + Breakfast</a:string></Description><Id>ef8f4e45-f62c-46d5-97c6-4cbe2709a270</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>230.5</SimplePrice></RoomsPackage><RoomsPackage><PackageId>4b489b6d-6d8d-4d84-8785-d88dc2dbc23b</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Leisure Superior + Breakfast</a:string></Description><Id>55e9ced3-1483-4b3d-b45c-fe28625e448b</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>233.34</SimplePrice></RoomsPackage><RoomsPackage><PackageId>366c2288-15ec-4fb6-8955-49a3b6185621</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard 2 Twin Beds + Breakfast</a:string></Description><Id>bd5e587f-9f12-4e8a-9994-fb1a7cff19ed</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>240.19</SimplePrice></RoomsPackage><RoomsPackage><PackageId>ef05cffa-593f-466e-90c0-281948d4471f</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard Queen + Breakfast</a:string></Description><Id>9801fc9d-de04-43a1-9b04-461f90e57e1e</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Queen</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>240.19</SimplePrice></RoomsPackage><RoomsPackage><PackageId>858e881c-f36f-4644-83ca-d55a8e06667a</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Superior + Breakfast</a:string></Description><Id>6858dc51-4dc8-44a8-9526-a8969114e8e5</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>251.28</SimplePrice></RoomsPackage><RoomsPackage><PackageId>16c6a01f-ada0-4ed5-ad3c-4802163539a7</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior + Breakfast</a:string></Description><Id>e4b536e4-ecec-4e12-a52b-1fd11ef8d3c6</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>269.23</SimplePrice></RoomsPackage></Packages><StarRating>5</StarRating></Hotel><Hotel><Address>Calle 25B # 69A - 50, Bogota</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/6e6cba68-fcbb-4d28-b196-35115dc8edb3.jpeg</FullSize></DefaultImage><DisplayName>GHL Hotel Capital</DisplayName><GeoLocation><Latitude>4.6583786010742187</Latitude><Longitude>-74.107742309570313</Longitude></GeoLocation><ID>4116742</ID><Packages><RoomsPackage><PackageId>7ba4c79b-678a-40f6-bc72-d17f1f765c8f</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard + Breakfast</a:string></Description><Id>93eedee9-31e0-4020-8be3-ff5183c27aab</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>292.35</SimplePrice></RoomsPackage><RoomsPackage><PackageId>8ee2123c-3644-49ef-8103-038adf94f054</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard 2 Twin Beds + Breakfast</a:string></Description><Id>e5250e79-0ab4-4e4c-aef9-d9f84e7985d4</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>326.76</SimplePrice></RoomsPackage><RoomsPackage><PackageId>263c740e-da3f-4fb6-ad2f-68e10c7ae598</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Junior Suite + Breakfast</a:string></Description><Id>3d2f493e-7589-4598-972e-942c97797d7d</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>367.23</SimplePrice></RoomsPackage></Packages><StarRating>5</StarRating></Hotel><Hotel><Address>Carrera 15A 125 26 Bogota Cundinamarca Bogota</Address><ChainCode>SN</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/11e8eb63-cfd3-4306-a5f5-5389560db64b.jpeg</FullSize></DefaultImage><DisplayName>Sonesta Bogota</DisplayName><GeoLocation><Latitude>4.703516</Latitude><Longitude>-74.043614</Longitude></GeoLocation><ID>4116791</ID><Packages><RoomsPackage><PackageId>68c767ad-20ad-478c-8b81-f4f9cc8b6709</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>standard + breakfast</a:string></Description><Id>3087198e-6fb4-470b-8dce-93e9e53abd05</Id><RoomBasis>Bed and Breakfast BB</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>211.19</SimplePrice></RoomsPackage><RoomsPackage><PackageId>a15874b0-95b8-4603-be3c-c2b7a91ce079</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Advance Purchase Standard Double + Breakfast</a:string></Description><Id>a4cdd374-b599-44e2-8921-4821cbc91fa2</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double</RoomType></Room></Rooms><SimplePrice>313.95</SimplePrice></RoomsPackage><RoomsPackage><PackageId>750a0658-597d-41f4-a1a5-2651dd1cfd9d</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard + Breakfast</a:string></Description><Id>541619a3-fef3-47ad-b3fa-d1773bd815f2</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>313.95</SimplePrice></RoomsPackage><RoomsPackage><PackageId>0207693c-6774-4d83-8c5d-bdf76b193888</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Advance Purchase Standard Twin + Breakfast</a:string></Description><Id>85d42a1b-d5f5-487b-96ca-2ab8f6f8053e</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>340.83</SimplePrice></RoomsPackage><RoomsPackage><PackageId>146fce53-9074-42a1-9a67-379f8e44fb06</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard Twin + Breakfast</a:string></Description><Id>29fc26b6-9e11-4f7d-ac90-37d52993665d</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>340.83</SimplePrice></RoomsPackage></Packages><StarRating>5</StarRating></Hotel><Hotel><Address>93 11A 31, Colombia</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/2ec4dd62-7c3f-4d3f-a774-52f69f16b499.jpeg</FullSize></DefaultImage><DisplayName>Ghl 93</DisplayName><GeoLocation><Latitude>4.67449773</Latitude><Longitude>-74.04847336</Longitude></GeoLocation><ID>4116845</ID><Packages><RoomsPackage><PackageId>52f8c91f-ba2c-4b48-8910-749eef1b6ec1</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Leisure Superior + Breakfast</a:string></Description><Id>6ac7e68b-c429-4599-980c-491ccbce3ebf</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>269.63</SimplePrice></RoomsPackage><RoomsPackage><PackageId>2e58700e-5fa5-4815-81eb-897c522d67c6</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior + Breakfast</a:string></Description><Id>564f9229-ba17-4112-a147-6e37d14f2fa2</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>269.63</SimplePrice></RoomsPackage><RoomsPackage><PackageId>e5f21bae-1e07-443b-b0bb-ea102493ad40</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Advance Purchase Superior</a:string></Description><Id>f59e9e55-87a6-4d69-892d-9b733313c49d</Id><RoomBasis>Bed and Breakfast BB</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>539.26</SimplePrice></RoomsPackage></Packages><StarRating>4</StarRating></Hotel><Hotel><Address>Calle 112, 13A-45, Bogota</Address><ChainCode>HS</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/184d3e54-b54d-446f-9ed7-ec74ea3d36e0.jpeg</FullSize></DefaultImage><DisplayName>Faranda Bogotá Collection</DisplayName><GeoLocation><Latitude>4.69369</Latitude><Longitude>-74.0414</Longitude></GeoLocation><ID>4116852</ID><Packages><RoomsPackage><PackageId>79ac714c-2be5-4d4a-84e5-49e8aa6390dd</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Classic</a:string></Description><Id>65407a9f-86d3-4c9f-8831-c7aacf803c2a</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Classic</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>249.08</SimplePrice></RoomsPackage><RoomsPackage><PackageId>1e92c00e-07dc-4cac-b5d8-8a7ebc7af29a</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior</a:string></Description><Id>cc490211-b615-4c2a-8476-56028acdfe9b</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>285.24</SimplePrice></RoomsPackage></Packages><StarRating>4</StarRating></Hotel><Hotel><Address>Carrera 11B 97 03, Bogota</Address><ChainCode>KY</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/2ad25109-95e6-4d63-a29c-6d99a794a9fc.jpeg</FullSize></DefaultImage><DisplayName>Movich Chico 97</DisplayName><GeoLocation><Latitude>4.681556224823</Latitude><Longitude>-74.0456237792969</Longitude></GeoLocation><ID>4116877</ID><Packages><RoomsPackage><PackageId>efeaaab5-1696-4cf9-9dfb-5bfce0d312ca</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard + Breakfast</a:string></Description><Id>28c8bbcc-0fe8-4302-aa9d-39b17e33b73c</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>364.93</SimplePrice></RoomsPackage><RoomsPackage><PackageId>f911f3db-0a5e-47d4-97f8-0004cc51f475</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard + Breakfast</a:string></Description><Id>49030dd5-0b6c-4ddd-a61e-883fa317d136</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>364.93</SimplePrice></RoomsPackage></Packages><StarRating>5</StarRating></Hotel><Hotel><Address>Avenida 19 5 72, Bogota</Address><ChainCode>WV</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/a2fab78a-de05-457d-9e4f-43ec0060cc78.jpeg</FullSize></DefaultImage><DisplayName>Dann Avenida 19</DisplayName><GeoLocation><Latitude>4.60520124435425</Latitude><Longitude>-74.0706558227539</Longitude></GeoLocation><ID>4313929</ID><Packages><RoomsPackage><PackageId>b8bbee41-9bbf-497a-ad08-ddc4f82a1593</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard 2 Beds + Breakfast</a:string></Description><Id>bcad48d2-2a64-425d-b232-afba8a0e6078</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double/Twin</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>148.84</SimplePrice></RoomsPackage><RoomsPackage><PackageId>a4b6a697-6142-4b2d-b6f4-e04d8fb646fa</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard Double + Breakfast</a:string></Description><Id>be989d9f-f316-4325-be38-66171ee1fe05</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>148.84</SimplePrice></RoomsPackage><RoomsPackage><PackageId>597f3c4f-e5ca-4fb5-9079-3a68b309c799</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Superior Queen + Breakfast</a:string></Description><Id>36624b3c-e2e7-441f-8368-4b37509b794f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Queen</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>166.93</SimplePrice></RoomsPackage><RoomsPackage><PackageId>9353d774-0441-42bf-9d38-3d7d94c06458</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard 2 Beds + Breakfast</a:string></Description><Id>848327b5-0f1f-46b7-8736-f59d81cda523</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double/Twin</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>170.12</SimplePrice></RoomsPackage><RoomsPackage><PackageId>c4f8daa0-13f6-412f-8915-3f09ad784641</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard Double + Breakfast</a:string></Description><Id>6e6aab07-f01c-47a7-9f02-ad889ce0d032</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>170.12</SimplePrice></RoomsPackage><RoomsPackage><PackageId>75ea4102-f4d8-4ec4-8921-547dbadd94fe</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Junior Suite + Breakfast</a:string></Description><Id>87e67eb4-79aa-4e8e-9978-5a95d5712582</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>184.99</SimplePrice></RoomsPackage><RoomsPackage><PackageId>2141e006-825c-45a3-bdfb-3d6e66b3c1f9</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior Queen + Breakfast</a:string></Description><Id>f8386414-6945-4103-9af0-a3e3314331ef</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Queen</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>190.77</SimplePrice></RoomsPackage><RoomsPackage><PackageId>2bbef1ca-a8ff-4cfd-9ccd-ec59f4799f29</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Junior Suite + Breakfast</a:string></Description><Id>3c7b1d92-51d5-406b-84d3-3689562539e7</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>211.43</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel><Hotel><Address>Calle 66 #8 23, Bogota</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/d6b0e807-759b-4eea-bcc2-d323980f17a0.jpeg</FullSize></DefaultImage><DisplayName>Hotel Vilar America</DisplayName><GeoLocation><Latitude>4.65098</Latitude><Longitude>-74.05988</Longitude></GeoLocation><ID>4313933</ID><Packages><RoomsPackage><PackageId>8a7c2ab8-a105-42bd-96c7-38f4545caaf4</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Double + Breakfast</a:string></Description><Id>5bc34d36-167e-4fde-96ab-aaa865e54ac3</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double</RoomType></Room></Rooms><SimplePrice>156.51</SimplePrice></RoomsPackage><RoomsPackage><PackageId>b2d16530-56d5-40af-80ae-db9bc4fa3c4a</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Executive + Breakfast</a:string></Description><Id>b03f0dd4-6cbd-4ccb-b2c6-65860380dbe2</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>176.98</SimplePrice></RoomsPackage><RoomsPackage><PackageId>c733f7dc-c5e2-47a7-b418-2a54c3c25823</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Suite + Breakfast</a:string></Description><Id>255f9593-152a-40c4-873c-42313f37aa1f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>294.97</SimplePrice></RoomsPackage><RoomsPackage><PackageId>1d56a126-a544-4fa7-a7cd-a4414e1fad62</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Family Suite + Breakfast</a:string></Description><Id>565f0fc1-b267-4e0c-b009-68e83487a2e0</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Basic</RoomClass><RoomType>Suite</RoomType></Room></Rooms><SimplePrice>421.38</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel><Hotel><Address>Avenida 15 # 112-09, Bogota</Address><ChainCode>WV</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/dbb1c0a4-ba95-4f9f-bff4-8f4e907039b2.jpeg</FullSize></DefaultImage><DisplayName>Hotel Dann Norte Bogota</DisplayName><GeoLocation><Latitude>4.6949114799499512</Latitude><Longitude>-74.043708801269531</Longitude></GeoLocation><ID>4315474</ID><Packages><RoomsPackage><PackageId>d1e5a33e-5158-46d0-95f7-846274d54d6b</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Single</a:string></Description><Id>721ef626-ad80-44ed-bc3a-a2f0e41cfef3</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>138.31</SimplePrice></RoomsPackage><RoomsPackage><PackageId>6646d50f-4405-4a19-a4af-d500b4b0de90</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard </a:string></Description><Id>33bfd6bb-d15a-4600-abff-bb51485f7ff2</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>146.44</SimplePrice></RoomsPackage><RoomsPackage><PackageId>dfb74614-7478-4bfd-8daf-18dd32d64ab2</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard 2 Double Beds</a:string></Description><Id>a560feba-4930-476a-9bd3-8d9ea9b00b9d</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>2 double beds</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>146.44</SimplePrice></RoomsPackage><RoomsPackage><PackageId>fd093e5a-c3e6-43e3-a74d-431cbbdd984f</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Single + Breakfast</a:string></Description><Id>160ab1ea-5a2d-4fd2-a190-2ad05268b14a</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>153.67</SimplePrice></RoomsPackage><RoomsPackage><PackageId>0e68e159-71f6-4acc-9690-407ab8c4874a</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard + Breakfast</a:string></Description><Id>2aac91e0-d6cc-4017-8a53-f2a779c258e6</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>162.71</SimplePrice></RoomsPackage><RoomsPackage><PackageId>587849ec-77e0-4f13-bc1f-abd9240e3ca6</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Standard 2 Double Beds + Breakfast</a:string></Description><Id>d0e239a9-1e66-4c4c-aaf3-545ceead60ce</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>2 double beds</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>162.71</SimplePrice></RoomsPackage><RoomsPackage><PackageId>c80b52f8-b9c7-4a59-9130-fb8941ab7e12</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Single + Breakfast</a:string></Description><Id>aa64b8c1-7d8b-4153-aa65-105d7cd344b0</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>175.61</SimplePrice></RoomsPackage><RoomsPackage><PackageId>1e9b2bc0-ddaa-426b-b325-560e497fe18c</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard + Breakfast</a:string></Description><Id>49731011-47c5-4530-95d9-248f42ed9560</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>185.96</SimplePrice></RoomsPackage><RoomsPackage><PackageId>0c738bd3-d376-45b7-8b83-0fc089746b1f</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard 2 Beds + Breakfast</a:string></Description><Id>ebe9b14c-2584-4c8c-9932-f1c561ff8d93</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Double/Twin</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>185.96</SimplePrice></RoomsPackage><RoomsPackage><PackageId>2bbd3d52-f11f-49a9-b857-541c41ebaad9</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Superior </a:string></Description><Id>c26407da-a05b-4ed9-b17c-df0642840d82</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>203.38</SimplePrice></RoomsPackage><RoomsPackage><PackageId>139b49e3-e071-4914-b4a3-9591927d6a01</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Superior + Breakfast</a:string></Description><Id>d4f7a37d-9e9e-49a8-bda5-cb027988a26f</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>225.98</SimplePrice></RoomsPackage><RoomsPackage><PackageId>f1629191-bbd8-4fb4-9022-409ab531c0b4</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Junior Suite </a:string></Description><Id>8e34e392-01a1-467c-9cd1-3a2220dff43d</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>235.91</SimplePrice></RoomsPackage><RoomsPackage><PackageId>bf8b3fa6-581b-4d10-8abd-e2a060aaad38</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior + Breakfast</a:string></Description><Id>7a69fb97-3348-4330-bc26-d617fd5c7d7d</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>258.26</SimplePrice></RoomsPackage><RoomsPackage><PackageId>1542ead3-451d-4e34-b711-9b351d8de4f2</PackageId><Refundability>Nonrefundable</Refundability><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Non Refundable Junior Suite + Breakfast</a:string></Description><Id>18b68f11-cbef-46d9-afa5-e56fe2ed0628</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>262.13</SimplePrice></RoomsPackage><RoomsPackage><PackageId>b79779da-b63a-4996-805b-403896b4603e</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Junior Suite + Breakfast</a:string></Description><Id>b0588f36-bd63-4a9e-9d79-71d72b059cf0</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Junior</RoomClass><RoomType>Suite</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string></SpecialDeals></Room></Rooms><SimplePrice>299.58</SimplePrice></RoomsPackage></Packages><StarRating>4</StarRating></Hotel><Hotel><Address>Calle 83 No. 9-48, Bogota</Address><ChainCode>YX</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/268788b1-0457-414c-b59f-da60bed2c250.jpeg</FullSize></DefaultImage><DisplayName>GHL Hotel Bioxury</DisplayName><GeoLocation><Latitude>4.66567</Latitude><Longitude>-74.05067</Longitude></GeoLocation><ID>4475756</ID><Packages><RoomsPackage><PackageId>6dff5403-3804-40d4-881b-93b7bb8c3dd8</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Leisure Superior + Breakfast</a:string></Description><Id>57b29cfe-b977-42c7-86f6-01d52d20eb56</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Leisure</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>586.8</SimplePrice></RoomsPackage><RoomsPackage><PackageId>d96f6a9e-f326-433a-b4e6-a01ea65da83b</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior + Breakfast</a:string></Description><Id>d27a2675-48b8-40c0-8276-641d6d5a1fa0</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>586.8</SimplePrice></RoomsPackage><RoomsPackage><PackageId>efb63ba8-5d73-4b2d-b55a-38858902d195</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Superior Special + Breakfast</a:string></Description><Id>3ee0c931-de18-4d92-86bd-334b4bce6f02</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Superior</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>586.8</SimplePrice></RoomsPackage><RoomsPackage><PackageId>9f7d0169-575b-4e72-b61b-de6cb155b83c</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Deluxe + Breakfast</a:string></Description><Id>fcc4acb7-eee7-4e29-8491-e1b4f6e2d4e4</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Deluxe</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>621.99</SimplePrice></RoomsPackage><RoomsPackage><PackageId>a7fe0b42-4604-49ca-8d63-ecfcbfee43c3</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Deluxe Special + Breakfast</a:string></Description><Id>40749a21-597b-490b-bb18-aae0a0b12205</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Deluxe</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>621.99</SimplePrice></RoomsPackage><RoomsPackage><PackageId>1adae9c7-1ca3-4c7a-8be7-9a6b08112250</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Leisure Deluxe + Breakfast</a:string></Description><Id>4f3decea-7d38-467e-bcf0-55c146518950</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Deluxe</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>621.99</SimplePrice></RoomsPackage><RoomsPackage><PackageId>fe29c44c-bd9c-4610-aa4c-64f738967574</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Twin + Breakfast</a:string></Description><Id>f3927789-0e60-4420-b5d9-d9fbebe0a56b</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Twin beds</RoomType></Room></Rooms><SimplePrice>621.99</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel><Hotel><Address>Avenida Cra 40 No 24 D 23, Bogota</Address><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/6028132f-ba85-4f0b-a06b-7bb30f316f18.jpeg</FullSize></DefaultImage><DisplayName>Blu Inn Hotel</DisplayName><GeoLocation><Latitude>4.6325</Latitude><Longitude>-74.09041</Longitude></GeoLocation><ID>5946576</ID><Packages><RoomsPackage><PackageId>67581f20-fc63-4f58-ae0e-50213ff880b3</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard Single + Breakfast</a:string></Description><Id>afcc29ab-2530-4c5d-8b56-2d4ec3480321</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType></Room></Rooms><SimplePrice>198.21</SimplePrice></RoomsPackage><RoomsPackage><PackageId>7f31fa6d-8897-48e4-9e8c-4f235300dc7c</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Executive Double + Breakfast</a:string></Description><Id>1d0a3b4f-3d00-450d-834a-65eb66e2d686</Id><RoomBasis>Room only RO</RoomBasis><RoomClass>Executive</RoomClass><RoomType>Double</RoomType></Room></Rooms><SimplePrice>243.24</SimplePrice></RoomsPackage></Packages><StarRating>3</StarRating></Hotel><Hotel><Address>Avenida Carrera 60 N 22 99, Bogota</Address><ChainCode>RD</ChainCode><DefaultImage><FullSize>https://az712897.vo.msecnd.net/images/full/9e985b05-c71f-42a9-9c6c-7dbfa3de4aec.jpeg</FullSize></DefaultImage><DisplayName>Radisson ar Hotel Bogotá Airport</DisplayName><GeoLocation><Latitude>4.64149</Latitude><Longitude>-74.10477</Longitude></GeoLocation><ID>6524615</ID><Packages><RoomsPackage><PackageId>19e7e892-3335-4415-8668-7e3840fd5fbd</PackageId><Rooms><Room><AdultsCount>1</AdultsCount><Availability>Available</Availability><Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Standard + Breakfast</a:string></Description><Id>62b42189-9c8f-421f-ab02-682a03d3603a</Id><RoomBasis>Bed and Breakfast BB</RoomBasis><RoomClass>Standard</RoomClass><RoomType>Single</RoomType><SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><a:string>Exclusive Deal</a:string></SpecialDeals></Room></Rooms><SimplePrice>182.81</SimplePrice></RoomsPackage></Packages><StarRating>4</StarRating></Hotel></Result><SearchId>8N2V2P</SearchId></HotelsSearchResponse><SessionID xmlns="">/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f</SessionID></ServiceRequestResult></ServiceRequestResponse></s:Body></s:Envelope>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<Address>Calle 93B 19 44, Bogota</Address>
+							<ChainCode>WV</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/cf20902f-2085-478c-afc6-84243df67982.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Casa Dann Carlton Hotel &amp; Spa</DisplayName>
+							<GeoLocation>
+								<Latitude>4.68041181564331</Latitude>
+								<Longitude>-74.0542678833008</Longitude>
+							</GeoLocation>
+							<ID>4116714</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior + Breakfast</a:string>
+											</Description>
+											<Id>f2349c77-025c-4dfd-a208-8b7359ba0317</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>277.84</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1fa9160b-0d79-407c-bbe7-58d68ff86bf2</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior 2 Beds + Breakfast</a:string>
+											</Description>
+											<Id>b6ba6344-0c0a-4a2f-a8d1-7707b12c65f0</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>277.84</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>e0558590-869f-42eb-a077-95772e07e284</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>367586a2-07cd-4995-bbe5-5aec01b0bca6</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>315.73</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>a25eda26-3c71-490e-adc9-a2b86cf0810e</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior 2 Beds + Breakfast</a:string>
+											</Description>
+											<Id>168c3650-352c-4a84-8202-97982f21fbb7</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>315.73</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>9367d2c4-fc89-496a-85c7-3b6d012990ab</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Executive + Breakfast</a:string>
+											</Description>
+											<Id>3f8cd0d5-5564-4fa4-91a9-ee29739d760f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>397.16</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>5469f6a4-9a4d-4365-8625-bfc359953c4f</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Junior Suite King + Breakfast</a:string>
+											</Description>
+											<Id>68494ba6-d5f8-4409-a607-1ee0bde8f449</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>431.24</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>3f41af19-5817-4b98-9745-b55a1ee6ae78</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>1cc60f5e-3b51-45af-a946-3d58b1169143</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>451.31</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>ca3bf339-e5fe-49bb-8bc4-e9a0c2b61983</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable 2 Bedroom Suite + Breakfast</a:string>
+											</Description>
+											<Id>404666d3-723d-43ca-bb38-debb46ad1e0f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>482.39</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>daed0aae-0cac-4be6-9edb-f74e45ccad79</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Junior Suite King + Breakfast</a:string>
+											</Description>
+											<Id>e471d8bc-d851-482f-b471-3c3b78cf97ad</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>490.06</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>e2d2d278-b0da-4961-b9c8-445a92f65430</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Suite + Breakfast</a:string>
+											</Description>
+											<Id>747d96a6-fef1-4e65-8831-41bd52414a9f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>516.47</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>3555655e-fedd-47bf-bb41-aa3c9ccc2c54</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>2 Bedroom Suite + Breakfast</a:string>
+											</Description>
+											<Id>f5a42332-362d-488f-b588-2dd5d38af5b6</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>548.17</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>a7d40a7d-02f5-488f-88a0-56cd58f28d90</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Suite + Breakfast</a:string>
+											</Description>
+											<Id>11b68678-570e-4e14-ab07-d2383e03cf31</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>586.91</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Av. 15 103 60, Bogota</Address>
+							<ChainCode>WV</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/0c92fab8-e148-4ce3-96c9-588d4aca8f48.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Dann Carlton Bogota</DisplayName>
+							<GeoLocation>
+								<Latitude>4.6882472038269</Latitude>
+								<Longitude>-74.0470581054688</Longitude>
+							</GeoLocation>
+							<ID>4116715</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>1999c5dd-f801-46c0-bd7a-6efc48d39850</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Leisure Standard + Breakfast</a:string>
+											</Description>
+											<Id>afa1adb5-c322-45d8-8721-c59a82c23018</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>199.77</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>19ad89cd-71eb-41e0-9b67-b7505349d1fe</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Leisure Standard Queen + Breakfast</a:string>
+											</Description>
+											<Id>02b057f2-2a5d-47bf-8365-48353be48f9f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Queen</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>208.16</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>7f46d567-feb7-4716-b526-a376827001e5</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Leisure Standard Twin + Breakfast</a:string>
+											</Description>
+											<Id>d726e267-8ffd-4128-90df-4f6b89b4c8aa</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Twin beds</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>208.16</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>dfed114e-8b99-444f-9ad5-361bdc8564c6</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard + Breakfast</a:string>
+											</Description>
+											<Id>4a1ab081-ac44-4702-8ffc-a892dfdc2ff2</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>215.13</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>ff9263e5-f842-4316-ba67-5e4e74a30271</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard 2 twin Beds + Breakfast</a:string>
+											</Description>
+											<Id>0826befa-91bb-43fd-95f0-7d90b4d5dd64</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>224.17</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>8ae7bf74-3359-46d4-baac-a75941d3e1b9</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard Queen + Breakfast</a:string>
+											</Description>
+											<Id>54869f5c-9c4d-49c0-9c72-069367eef978</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Queen</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>224.17</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>b2a8558a-f4b0-4924-9729-f51f216ba9f5</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard + Breakfast</a:string>
+											</Description>
+											<Id>ef8f4e45-f62c-46d5-97c6-4cbe2709a270</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>230.5</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>4b489b6d-6d8d-4d84-8785-d88dc2dbc23b</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>55e9ced3-1483-4b3d-b45c-fe28625e448b</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 35% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>233.34</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>366c2288-15ec-4fb6-8955-49a3b6185621</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard 2 Twin Beds + Breakfast</a:string>
+											</Description>
+											<Id>bd5e587f-9f12-4e8a-9994-fb1a7cff19ed</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>240.19</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>ef05cffa-593f-466e-90c0-281948d4471f</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard Queen + Breakfast</a:string>
+											</Description>
+											<Id>9801fc9d-de04-43a1-9b04-461f90e57e1e</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Queen</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>240.19</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>858e881c-f36f-4644-83ca-d55a8e06667a</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior + Breakfast</a:string>
+											</Description>
+											<Id>6858dc51-4dc8-44a8-9526-a8969114e8e5</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>251.28</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>16c6a01f-ada0-4ed5-ad3c-4802163539a7</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>e4b536e4-ecec-4e12-a52b-1fd11ef8d3c6</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 25% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>269.23</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Calle 25B # 69A - 50, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/6e6cba68-fcbb-4d28-b196-35115dc8edb3.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>GHL Hotel Capital</DisplayName>
+							<GeoLocation>
+								<Latitude>4.6583786010742187</Latitude>
+								<Longitude>-74.107742309570313</Longitude>
+							</GeoLocation>
+							<ID>4116742</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>7ba4c79b-678a-40f6-bc72-d17f1f765c8f</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard + Breakfast</a:string>
+											</Description>
+											<Id>93eedee9-31e0-4020-8be3-ff5183c27aab</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>292.35</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>8ee2123c-3644-49ef-8103-038adf94f054</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard 2 Twin Beds + Breakfast</a:string>
+											</Description>
+											<Id>e5250e79-0ab4-4e4c-aef9-d9f84e7985d4</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>326.76</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>263c740e-da3f-4fb6-ad2f-68e10c7ae598</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Junior Suite + Breakfast</a:string>
+											</Description>
+											<Id>3d2f493e-7589-4598-972e-942c97797d7d</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>367.23</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Carrera 15A 125 26 Bogota Cundinamarca Bogota</Address>
+							<ChainCode>SN</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/11e8eb63-cfd3-4306-a5f5-5389560db64b.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Sonesta Bogota</DisplayName>
+							<GeoLocation>
+								<Latitude>4.703516</Latitude>
+								<Longitude>-74.043614</Longitude>
+							</GeoLocation>
+							<ID>4116791</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>68c767ad-20ad-478c-8b81-f4f9cc8b6709</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>standard + breakfast</a:string>
+											</Description>
+											<Id>3087198e-6fb4-470b-8dce-93e9e53abd05</Id>
+											<RoomBasis>Bed and Breakfast BB</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>211.19</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>a15874b0-95b8-4603-be3c-c2b7a91ce079</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Advance Purchase Standard Double + Breakfast</a:string>
+											</Description>
+											<Id>a4cdd374-b599-44e2-8921-4821cbc91fa2</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>313.95</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>750a0658-597d-41f4-a1a5-2651dd1cfd9d</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard + Breakfast</a:string>
+											</Description>
+											<Id>541619a3-fef3-47ad-b3fa-d1773bd815f2</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>313.95</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>0207693c-6774-4d83-8c5d-bdf76b193888</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Advance Purchase Standard Twin + Breakfast</a:string>
+											</Description>
+											<Id>85d42a1b-d5f5-487b-96ca-2ab8f6f8053e</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>340.83</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>146fce53-9074-42a1-9a67-379f8e44fb06</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard Twin + Breakfast</a:string>
+											</Description>
+											<Id>29fc26b6-9e11-4f7d-ac90-37d52993665d</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>340.83</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>93 11A 31, Colombia</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/2ec4dd62-7c3f-4d3f-a774-52f69f16b499.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Ghl 93</DisplayName>
+							<GeoLocation>
+								<Latitude>4.67449773</Latitude>
+								<Longitude>-74.04847336</Longitude>
+							</GeoLocation>
+							<ID>4116845</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>52f8c91f-ba2c-4b48-8910-749eef1b6ec1</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>6ac7e68b-c429-4599-980c-491ccbce3ebf</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>269.63</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>2e58700e-5fa5-4815-81eb-897c522d67c6</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>564f9229-ba17-4112-a147-6e37d14f2fa2</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>269.63</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>e5f21bae-1e07-443b-b0bb-ea102493ad40</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Advance Purchase Superior</a:string>
+											</Description>
+											<Id>f59e9e55-87a6-4d69-892d-9b733313c49d</Id>
+											<RoomBasis>Bed and Breakfast BB</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>539.26</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>4</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Calle 112, 13A-45, Bogota</Address>
+							<ChainCode>HS</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/184d3e54-b54d-446f-9ed7-ec74ea3d36e0.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Faranda Bogotá Collection</DisplayName>
+							<GeoLocation>
+								<Latitude>4.69369</Latitude>
+								<Longitude>-74.0414</Longitude>
+							</GeoLocation>
+							<ID>4116852</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>79ac714c-2be5-4d4a-84e5-49e8aa6390dd</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Classic</a:string>
+											</Description>
+											<Id>65407a9f-86d3-4c9f-8831-c7aacf803c2a</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Classic</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>249.08</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1e92c00e-07dc-4cac-b5d8-8a7ebc7af29a</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior</a:string>
+											</Description>
+											<Id>cc490211-b615-4c2a-8476-56028acdfe9b</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>285.24</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>4</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Carrera 11B 97 03, Bogota</Address>
+							<ChainCode>KY</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/2ad25109-95e6-4d63-a29c-6d99a794a9fc.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Movich Chico 97</DisplayName>
+							<GeoLocation>
+								<Latitude>4.681556224823</Latitude>
+								<Longitude>-74.0456237792969</Longitude>
+							</GeoLocation>
+							<ID>4116877</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>efeaaab5-1696-4cf9-9dfb-5bfce0d312ca</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard + Breakfast</a:string>
+											</Description>
+											<Id>28c8bbcc-0fe8-4302-aa9d-39b17e33b73c</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>364.93</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>f911f3db-0a5e-47d4-97f8-0004cc51f475</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard + Breakfast</a:string>
+											</Description>
+											<Id>49030dd5-0b6c-4ddd-a61e-883fa317d136</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>364.93</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Avenida 19 5 72, Bogota</Address>
+							<ChainCode>WV</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/a2fab78a-de05-457d-9e4f-43ec0060cc78.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Dann Avenida 19</DisplayName>
+							<GeoLocation>
+								<Latitude>4.60520124435425</Latitude>
+								<Longitude>-74.0706558227539</Longitude>
+							</GeoLocation>
+							<ID>4313929</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>b8bbee41-9bbf-497a-ad08-ddc4f82a1593</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard 2 Beds + Breakfast</a:string>
+											</Description>
+											<Id>bcad48d2-2a64-425d-b232-afba8a0e6078</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>148.84</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>a4b6a697-6142-4b2d-b6f4-e04d8fb646fa</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard Double + Breakfast</a:string>
+											</Description>
+											<Id>be989d9f-f316-4325-be38-66171ee1fe05</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>148.84</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>597f3c4f-e5ca-4fb5-9079-3a68b309c799</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior Queen + Breakfast</a:string>
+											</Description>
+											<Id>36624b3c-e2e7-441f-8368-4b37509b794f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Queen</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>166.93</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>9353d774-0441-42bf-9d38-3d7d94c06458</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard 2 Beds + Breakfast</a:string>
+											</Description>
+											<Id>848327b5-0f1f-46b7-8736-f59d81cda523</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>170.12</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>c4f8daa0-13f6-412f-8915-3f09ad784641</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard Double + Breakfast</a:string>
+											</Description>
+											<Id>6e6aab07-f01c-47a7-9f02-ad889ce0d032</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>170.12</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>75ea4102-f4d8-4ec4-8921-547dbadd94fe</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Junior Suite + Breakfast</a:string>
+											</Description>
+											<Id>87e67eb4-79aa-4e8e-9978-5a95d5712582</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>184.99</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>2141e006-825c-45a3-bdfb-3d6e66b3c1f9</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior Queen + Breakfast</a:string>
+											</Description>
+											<Id>f8386414-6945-4103-9af0-a3e3314331ef</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Queen</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>190.77</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>2bbef1ca-a8ff-4cfd-9ccd-ec59f4799f29</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Junior Suite + Breakfast</a:string>
+											</Description>
+											<Id>3c7b1d92-51d5-406b-84d3-3689562539e7</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>211.43</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Calle 66 #8 23, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/d6b0e807-759b-4eea-bcc2-d323980f17a0.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Hotel Vilar America</DisplayName>
+							<GeoLocation>
+								<Latitude>4.65098</Latitude>
+								<Longitude>-74.05988</Longitude>
+							</GeoLocation>
+							<ID>4313933</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>8a7c2ab8-a105-42bd-96c7-38f4545caaf4</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Double + Breakfast</a:string>
+											</Description>
+											<Id>5bc34d36-167e-4fde-96ab-aaa865e54ac3</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>156.51</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>b2d16530-56d5-40af-80ae-db9bc4fa3c4a</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>b03f0dd4-6cbd-4ccb-b2c6-65860380dbe2</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>176.98</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>c733f7dc-c5e2-47a7-b418-2a54c3c25823</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Suite + Breakfast</a:string>
+											</Description>
+											<Id>255f9593-152a-40c4-873c-42313f37aa1f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>294.97</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1d56a126-a544-4fa7-a7cd-a4414e1fad62</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Family Suite + Breakfast</a:string>
+											</Description>
+											<Id>565f0fc1-b267-4e0c-b009-68e83487a2e0</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>421.38</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Avenida 15 # 112-09, Bogota</Address>
+							<ChainCode>WV</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/dbb1c0a4-ba95-4f9f-bff4-8f4e907039b2.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Hotel Dann Norte Bogota</DisplayName>
+							<GeoLocation>
+								<Latitude>4.6949114799499512</Latitude>
+								<Longitude>-74.043708801269531</Longitude>
+							</GeoLocation>
+							<ID>4315474</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>d1e5a33e-5158-46d0-95f7-846274d54d6b</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Single</a:string>
+											</Description>
+											<Id>721ef626-ad80-44ed-bc3a-a2f0e41cfef3</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>138.31</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>6646d50f-4405-4a19-a4af-d500b4b0de90</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard </a:string>
+											</Description>
+											<Id>33bfd6bb-d15a-4600-abff-bb51485f7ff2</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>146.44</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>dfb74614-7478-4bfd-8daf-18dd32d64ab2</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard 2 Double Beds</a:string>
+											</Description>
+											<Id>a560feba-4930-476a-9bd3-8d9ea9b00b9d</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>2 double beds</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>146.44</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>fd093e5a-c3e6-43e3-a74d-431cbbdd984f</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Single + Breakfast</a:string>
+											</Description>
+											<Id>160ab1ea-5a2d-4fd2-a190-2ad05268b14a</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>153.67</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>0e68e159-71f6-4acc-9690-407ab8c4874a</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard + Breakfast</a:string>
+											</Description>
+											<Id>2aac91e0-d6cc-4017-8a53-f2a779c258e6</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>162.71</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>587849ec-77e0-4f13-bc1f-abd9240e3ca6</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Standard 2 Double Beds + Breakfast</a:string>
+											</Description>
+											<Id>d0e239a9-1e66-4c4c-aaf3-545ceead60ce</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>2 double beds</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>162.71</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>c80b52f8-b9c7-4a59-9130-fb8941ab7e12</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Single + Breakfast</a:string>
+											</Description>
+											<Id>aa64b8c1-7d8b-4153-aa65-105d7cd344b0</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>175.61</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1e9b2bc0-ddaa-426b-b325-560e497fe18c</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard + Breakfast</a:string>
+											</Description>
+											<Id>49731011-47c5-4530-95d9-248f42ed9560</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>185.96</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>0c738bd3-d376-45b7-8b83-0fc089746b1f</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard 2 Beds + Breakfast</a:string>
+											</Description>
+											<Id>ebe9b14c-2584-4c8c-9932-f1c561ff8d93</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>185.96</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>2bbd3d52-f11f-49a9-b857-541c41ebaad9</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior </a:string>
+											</Description>
+											<Id>c26407da-a05b-4ed9-b17c-df0642840d82</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>203.38</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>139b49e3-e071-4914-b4a3-9591927d6a01</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior + Breakfast</a:string>
+											</Description>
+											<Id>d4f7a37d-9e9e-49a8-bda5-cb027988a26f</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>225.98</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>f1629191-bbd8-4fb4-9022-409ab531c0b4</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Junior Suite </a:string>
+											</Description>
+											<Id>8e34e392-01a1-467c-9cd1-3a2220dff43d</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>235.91</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>bf8b3fa6-581b-4d10-8abd-e2a060aaad38</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>7a69fb97-3348-4330-bc26-d617fd5c7d7d</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>258.26</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1542ead3-451d-4e34-b711-9b351d8de4f2</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Junior Suite + Breakfast</a:string>
+											</Description>
+											<Id>18b68f11-cbef-46d9-afa5-e56fe2ed0628</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 30% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>262.13</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>b79779da-b63a-4996-805b-403896b4603e</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Junior Suite + Breakfast</a:string>
+											</Description>
+											<Id>b0588f36-bd63-4a9e-9d79-71d72b059cf0</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Junior</RoomClass>
+											<RoomType>Suite</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 20% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>299.58</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>4</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Calle 83 No. 9-48, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/268788b1-0457-414c-b59f-da60bed2c250.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>GHL Hotel Bioxury</DisplayName>
+							<GeoLocation>
+								<Latitude>4.66567</Latitude>
+								<Longitude>-74.05067</Longitude>
+							</GeoLocation>
+							<ID>4475756</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>6dff5403-3804-40d4-881b-93b7bb8c3dd8</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>57b29cfe-b977-42c7-86f6-01d52d20eb56</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>586.8</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>d96f6a9e-f326-433a-b4e6-a01ea65da83b</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>d27a2675-48b8-40c0-8276-641d6d5a1fa0</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>586.8</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>efb63ba8-5d73-4b2d-b55a-38858902d195</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior Special + Breakfast</a:string>
+											</Description>
+											<Id>3ee0c931-de18-4d92-86bd-334b4bce6f02</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>586.8</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>9f7d0169-575b-4e72-b61b-de6cb155b83c</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Deluxe + Breakfast</a:string>
+											</Description>
+											<Id>fcc4acb7-eee7-4e29-8491-e1b4f6e2d4e4</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Deluxe</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>621.99</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>a7fe0b42-4604-49ca-8d63-ecfcbfee43c3</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Deluxe Special + Breakfast</a:string>
+											</Description>
+											<Id>40749a21-597b-490b-bb18-aae0a0b12205</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Deluxe</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>621.99</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1adae9c7-1ca3-4c7a-8be7-9a6b08112250</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Deluxe + Breakfast</a:string>
+											</Description>
+											<Id>4f3decea-7d38-467e-bcf0-55c146518950</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Deluxe</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>621.99</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>fe29c44c-bd9c-4610-aa4c-64f738967574</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Twin + Breakfast</a:string>
+											</Description>
+											<Id>f3927789-0e60-4420-b5d9-d9fbebe0a56b</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Twin beds</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>621.99</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Avenida Cra 40 No 24 D 23, Bogota</Address>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/6028132f-ba85-4f0b-a06b-7bb30f316f18.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Blu Inn Hotel</DisplayName>
+							<GeoLocation>
+								<Latitude>4.6325</Latitude>
+								<Longitude>-74.09041</Longitude>
+							</GeoLocation>
+							<ID>5946576</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>67581f20-fc63-4f58-ae0e-50213ff880b3</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard Single + Breakfast</a:string>
+											</Description>
+											<Id>afcc29ab-2530-4c5d-8b56-2d4ec3480321</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>198.21</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>7f31fa6d-8897-48e4-9e8c-4f235300dc7c</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive Double + Breakfast</a:string>
+											</Description>
+											<Id>1d0a3b4f-3d00-450d-834a-65eb66e2d686</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Double</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>243.24</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+						<Hotel>
+							<Address>Avenida Carrera 60 N 22 99, Bogota</Address>
+							<ChainCode>RD</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/9e985b05-c71f-42a9-9c6c-7dbfa3de4aec.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Radisson ar Hotel Bogotá Airport</DisplayName>
+							<GeoLocation>
+								<Latitude>4.64149</Latitude>
+								<Longitude>-74.10477</Longitude>
+							</GeoLocation>
+							<ID>6524615</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>19e7e892-3335-4415-8668-7e3840fd5fbd</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Standard + Breakfast</a:string>
+											</Description>
+											<Id>62b42189-9c8f-421f-ab02-682a03d3603a</Id>
+											<RoomBasis>Bed and Breakfast BB</RoomBasis>
+											<RoomClass>Standard</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Exclusive Deal</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>182.81</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>4</StarRating>
+						</Hotel>
+					</Result>
+					<SearchId>8N2V2P</SearchId>
+				</HotelsSearchResponse>
+				<SessionID xmlns="">/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f</SessionID>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

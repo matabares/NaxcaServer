@@ -1,0 +1,150 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<ID>4116845</ID>
+							<Packages>
+								<RoomsPackage>
+									<HotelId>4116845</HotelId>
+									<PackageId>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>269.63</FinalPrice>
+										<FinalPriceInSupplierCurrency>603822.39</FinalPriceInSupplierCurrency>
+										<FinalTax>27.73</FinalTax>
+										<OriginalPrice>269.63</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>603822.39</OriginalPriceInSupplierCurrency>
+										<OriginalTax>27.73</OriginalTax>
+										<SupplierCurrency>COP</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>e69649f0-64e3-4159-8e29-57cc9cbccfd4</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>10</a:int>
+											</KidsAges>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>269.63</FinalPrice>
+												<FinalPriceInSupplierCurrency>603822.39</FinalPriceInSupplierCurrency>
+												<FinalTax>27.73</FinalTax>
+												<OriginalPrice>269.63</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>603822.39</OriginalPriceInSupplierCurrency>
+												<OriginalTax>27.73</OriginalTax>
+												<SupplierCurrency>USD</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Leisure</RoomClass>
+											<RoomClassOriginal>Leisure Superior + Breakfast</RoomClassOriginal>
+											<RoomType>Double/Twin</RoomType>
+											<RoomTypeOriginal>Executive + Breakfast</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+										</Room>
+									</Rooms>
+									<SimplePrice>269.63</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4313933</HotelId>
+									<PackageId>26e55aa9-b449-4865-bee0-e548c03574e7</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>319.04</FinalPrice>
+										<FinalPriceInSupplierCurrency>958161.27</FinalPriceInSupplierCurrency>
+										<FinalTax>44.01</FinalTax>
+										<OriginalPrice>319.04</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>958161.27</OriginalPriceInSupplierCurrency>
+										<OriginalTax>44.01</OriginalTax>
+										<SupplierCurrency>COP</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>08bcd0e2-f3a1-4793-8ca5-62b1ca4b1579</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>10</a:int>
+											</KidsAges>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>319.04</FinalPrice>
+												<FinalPriceInSupplierCurrency>958161.27</FinalPriceInSupplierCurrency>
+												<FinalTax>44.01</FinalTax>
+												<OriginalPrice>319.04</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>958161.27</OriginalPriceInSupplierCurrency>
+												<OriginalTax>44.01</OriginalTax>
+												<SupplierCurrency>COP</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Basic</RoomClass>
+											<RoomClassOriginal>Suite Suite + Breakfast</RoomClassOriginal>
+											<RoomType>Suite</RoomType>
+											<RoomTypeOriginal>Suite + Breakfast</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+										</Room>
+									</Rooms>
+									<SimplePrice>319.04</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<HotelId>4313933</HotelId>
+									<PackageId>09eaf6a6-38ca-4543-b369-7b81f6dc5d9d</PackageId>
+									<PackagePrice>
+										<Currency>USD</Currency>
+										<FinalPrice>421.38</FinalPrice>
+										<FinalPriceInSupplierCurrency>1265496.03</FinalPriceInSupplierCurrency>
+										<FinalTax>58.12</FinalTax>
+										<OriginalPrice>421.38</OriginalPrice>
+										<OriginalPriceInSupplierCurrency>1265496.03</OriginalPriceInSupplierCurrency>
+										<OriginalTax>58.12</OriginalTax>
+										<SupplierCurrency>COP</SupplierCurrency>
+									</PackagePrice>
+									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+									<Rooms>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+											<Id>19f69731-60d1-41b5-a63b-a9122cfd7973</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>10</a:int>
+											</KidsAges>
+											<Price>
+												<Currency>USD</Currency>
+												<FinalPrice>421.38</FinalPrice>
+												<FinalPriceInSupplierCurrency>1265496.03</FinalPriceInSupplierCurrency>
+												<FinalTax>58.12</FinalTax>
+												<OriginalPrice>421.38</OriginalPrice>
+												<OriginalPriceInSupplierCurrency>1265496.03</OriginalPriceInSupplierCurrency>
+												<OriginalTax>58.12</OriginalTax>
+												<SupplierCurrency>COP</SupplierCurrency>
+											</Price>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
+											<RoomClass>Basic</RoomClass>
+											<RoomClassOriginal>Suite Family Suite + Breakfast</RoomClassOriginal>
+											<RoomType>Suite</RoomType>
+											<RoomTypeOriginal>Family Suite + Breakfast</RoomTypeOriginal>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+										</Room>
+									</Rooms>
+									<SimplePrice>421.38</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+						</Hotel>
+					</Result>
+				</HotelsSearchResponse>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

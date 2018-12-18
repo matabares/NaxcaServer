@@ -1,1 +1,34 @@
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ServiceRequestResponse xmlns="http://tempuri.org/"><ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Errors xmlns=""/><HotelOrderBookResponse xmlns="" xmlns:a="http://schemas.datacontract.org/2004/07/IsuBe.Public.Enteties.Hotels"><a:HotelSegments><HotelBookSegment><BookingID>162507168</BookingID><BookingReference>163978993</BookingReference><BookingRemarks xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/><OrderId>3869407</OrderId><RoomIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"><b:string>f2349c77-025c-4dfd-a208-8b7359ba0317</b:string></RoomIds><SegmentId>3898604</SegmentId><Status>OK</Status><TotalPrice><Currency>USD</Currency><FinalPrice>277.84</FinalPrice><FinalPriceInSupplierCurrency>277.84</FinalPriceInSupplierCurrency><FinalTax>38.33</FinalTax><OriginalPrice>277.84</OriginalPrice><OriginalPriceInSupplierCurrency>277.84</OriginalPriceInSupplierCurrency><OriginalTax>38.33</OriginalTax><SupplierCurrency>USD</SupplierCurrency></TotalPrice></HotelBookSegment></a:HotelSegments></HotelOrderBookResponse></ServiceRequestResult></ServiceRequestResponse></s:Body></s:Envelope>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelOrderBookResponse xmlns="" xmlns:a="http://schemas.datacontract.org/2004/07/IsuBe.Public.Enteties.Hotels">
+					<a:HotelSegments>
+						<HotelBookSegment>
+							<BookingID>162507168</BookingID>
+							<BookingReference>163978993</BookingReference>
+							<BookingRemarks xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+							<OrderId>3869407</OrderId>
+							<RoomIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+								<b:string>f2349c77-025c-4dfd-a208-8b7359ba0317</b:string>
+							</RoomIds>
+							<SegmentId>3898604</SegmentId>
+							<Status>OK</Status>
+							<TotalPrice>
+								<Currency>USD</Currency>
+								<FinalPrice>277.84</FinalPrice>
+								<FinalPriceInSupplierCurrency>277.84</FinalPriceInSupplierCurrency>
+								<FinalTax>38.33</FinalTax>
+								<OriginalPrice>277.84</OriginalPrice>
+								<OriginalPriceInSupplierCurrency>277.84</OriginalPriceInSupplierCurrency>
+								<OriginalTax>38.33</OriginalTax>
+								<SupplierCurrency>USD</SupplierCurrency>
+							</TotalPrice>
+						</HotelBookSegment>
+					</a:HotelSegments>
+				</HotelOrderBookResponse>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>
