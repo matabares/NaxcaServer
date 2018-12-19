@@ -1,2 +1,51 @@
-<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/"><s:Body><ServiceRequestResponse xmlns="http://tempuri.org/"><ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Errors xmlns=""/><HotelCancellationPolicyResponse xmlns=""><BookingRemarks/><CancellationPolicies><CancellationPolicy><CancellationFee><Currency>USD</Currency><FinalPrice>479.02</FinalPrice><FinalPriceInSupplierCurrency>479.02</FinalPriceInSupplierCurrency><OriginalPrice>479.02</OriginalPrice><OriginalPriceInSupplierCurrency>479.02</OriginalPriceInSupplierCurrency><SupplierCurrency>USD</SupplierCurrency></CancellationFee><DateFrom>2018-12-12T00:00:00</DateFrom><DateTo>9999-12-31T00:00:00</DateTo><Description>&#xD;
-</Description></CancellationPolicy><CancellationPolicy><CancellationFee><Currency>USD</Currency><FinalPrice>555.68</FinalPrice><FinalPriceInSupplierCurrency>555.68</FinalPriceInSupplierCurrency><FinalTax>76.66</FinalTax><OriginalPrice>555.68</OriginalPrice><OriginalPriceInSupplierCurrency>555.68</OriginalPriceInSupplierCurrency><OriginalTax>76.66</OriginalTax><SupplierCurrency>USD</SupplierCurrency></CancellationFee><DateFrom>2019-05-11T00:00:00</DateFrom><DateTo>9999-12-31T00:00:00</DateTo><Description>No show</Description></CancellationPolicy></CancellationPolicies></HotelCancellationPolicyResponse><HotelPaymentPreferences xmlns=""><ApplicablePreferences xmlns:a="http://schemas.datacontract.org/2004/07/IsuBe.Public.Enteties.Payment"><a:PaymentPreference><a:AcceptedCreditCards i:nil="true"/><a:Type>Cash</a:Type></a:PaymentPreference></ApplicablePreferences></HotelPaymentPreferences></ServiceRequestResult></ServiceRequestResponse></s:Body></s:Envelope>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelCancellationPolicyResponse xmlns="">
+					<BookingRemarks/>
+					<CancellationPolicies>
+						<CancellationPolicy>
+							<CancellationFee>
+								<Currency>USD</Currency>
+								<FinalPrice>479.02</FinalPrice>
+								<FinalPriceInSupplierCurrency>479.02</FinalPriceInSupplierCurrency>
+								<OriginalPrice>479.02</OriginalPrice>
+								<OriginalPriceInSupplierCurrency>479.02</OriginalPriceInSupplierCurrency>
+								<SupplierCurrency>USD</SupplierCurrency>
+							</CancellationFee>
+							<DateFrom>2018-12-12T00:00:00</DateFrom>
+							<DateTo>9999-12-31T00:00:00</DateTo>
+							<Description>
+</Description>
+						</CancellationPolicy>
+						<CancellationPolicy>
+							<CancellationFee>
+								<Currency>USD</Currency>
+								<FinalPrice>555.68</FinalPrice>
+								<FinalPriceInSupplierCurrency>555.68</FinalPriceInSupplierCurrency>
+								<FinalTax>76.66</FinalTax>
+								<OriginalPrice>555.68</OriginalPrice>
+								<OriginalPriceInSupplierCurrency>555.68</OriginalPriceInSupplierCurrency>
+								<OriginalTax>76.66</OriginalTax>
+								<SupplierCurrency>USD</SupplierCurrency>
+							</CancellationFee>
+							<DateFrom>2019-05-11T00:00:00</DateFrom>
+							<DateTo>9999-12-31T00:00:00</DateTo>
+							<Description>No show</Description>
+						</CancellationPolicy>
+					</CancellationPolicies>
+				</HotelCancellationPolicyResponse>
+				<HotelPaymentPreferences xmlns="">
+					<ApplicablePreferences xmlns:a="http://schemas.datacontract.org/2004/07/IsuBe.Public.Enteties.Payment">
+						<a:PaymentPreference>
+							<a:AcceptedCreditCards i:nil="true"/>
+							<a:Type>Cash</a:Type>
+						</a:PaymentPreference>
+					</ApplicablePreferences>
+				</HotelPaymentPreferences>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

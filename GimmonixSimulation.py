@@ -79,7 +79,7 @@ class GimmonixSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "HotelCancellationPolicyRequest" in body:
+        if "HotelPaymentPreferencesRequest" in body:
             if "<PackageID>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
@@ -147,6 +147,29 @@ class GimmonixSimulation:
                 return info
             if "<PackageID>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageID>" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt_2Room2Adt.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+            if "<PackageID>00000000-0000-0000-0000-000000000000</PackageID>" in body:
+                file = open("providersimulation/gimmonix/errorBooking.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+        if "HotelBookCancelRequest" in body:
+            if "<SegmentId>3898604</SegmentId>" in body:
+                file = open("providersimulation/gimmonix/successBookingCancel.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+            if "<SegmentID>111111</SegmentID>" in body:
+                file = open("providersimulation/gimmonix/onErrorBookingCancel.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
