@@ -161,14 +161,14 @@ class GimmonixSimulation:
                 return info
 
         if "HotelBookCancelRequest" in body:
-            if "<SegmentId>3898604</SegmentId>" in body:
+            if "3898604" in body:
                 file = open("providersimulation/gimmonix/successBookingCancel.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<SegmentID>111111</SegmentID>" in body:
+            if "111111" in body:
                 file = open("providersimulation/gimmonix/onErrorBookingCancel.xml", "r",
                             encoding='utf8')
                 data = file.read()

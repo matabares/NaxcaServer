@@ -11,7 +11,7 @@
 							<BookingRemarks xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
 							<OrderId>3869409</OrderId>
 							<RoomIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-								<b:string>d239569b-d88c-4b3a-b42b-3feb031f7a07</b:string>
+								<b:string>d4796160-31d5-443e-be1c-9d2deaf2ec01</b:string>
 							</RoomIds>
 							<SegmentId>3898606</SegmentId>
 							<Status>OK</Status>
