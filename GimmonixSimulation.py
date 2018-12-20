@@ -87,7 +87,7 @@ class GimmonixSimulation:
                 return info
 
         if "HotelPaymentPreferencesRequest" in body:
-            if "<PackageID>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageID>" in body:
+            if "<PackageID>8a2977d8-2d65-4dfd-a69a-aa566407e52c</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
