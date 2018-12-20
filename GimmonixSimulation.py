@@ -123,8 +123,8 @@ class GimmonixSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "HotelBookInfoRequest" in body:
-            if "0f67d4ec-06b4-4946-81a2-a86c127c7817" in body:
+        if "HotelBookRequest" in body:
+            if "4116714" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
