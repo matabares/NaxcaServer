@@ -124,42 +124,42 @@ class GimmonixSimulation:
                 return info
 
         if "HotelBookInfoRequest" in body:
-            if "<PackageID>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageID>" in body:
+            if "0f67d4ec-06b4-4946-81a2-a86c127c7817" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<PackageID>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageID>" in body:
+            if "093baf26-c7fe-4f4b-bfc8-13125492bb17" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<PackageID>412961b2-d731-4e7c-9840-2606e3fc9b92</PackageID>" in body:
+            if "412961b2-d731-4e7c-9840-2606e3fc9b92" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt1Inf.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<PackageID>8614c0d5-498e-456d-98a7-c298443ebfd4</PackageID>" in body:
+            if "8614c0d5-498e-456d-98a7-c298443ebfd4" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<PackageID>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageID>" in body:
+            if "663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<PackageID>00000000-0000-0000-0000-000000000000</PackageID>" in body:
+            if "00000000-0000-0000-0000-000000000000" in body:
                 file = open("providersimulation/gimmonix/errorBooking.xml", "r",
                             encoding='utf8')
                 data = file.read()
