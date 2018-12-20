@@ -40,6 +40,13 @@ class GimmonixSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            if "<CheckIn>2020-02-01T00:00:00</CheckIn>" in body:
+                file = open("providersimulation/gimmonix/hotelSearch_Refundable_3DayStay1Room1Adt.xml","r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
         if "HotelsSupplierDetailsRequest" in body:
             if "/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f" in body:
                 file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room1Adt.xml", "r",
