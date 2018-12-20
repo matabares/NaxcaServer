@@ -21,7 +21,6 @@
 										<OriginalTax>28.68</OriginalTax>
 										<SupplierCurrency>USD</SupplierCurrency>
 									</PackagePrice>
-									<Refundability>Nonrefundable</Refundability>
 									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
 									<Rooms>
 										<Room>
