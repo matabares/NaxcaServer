@@ -17,8 +17,8 @@
 							</CancellationFee>
 							<DateFrom>2019-05-06T00:00:00</DateFrom>
 							<DateTo>9999-12-31T00:00:00</DateTo>
-							<Description>
-</Description>
+							<Description>
+							</Description>
 						</CancellationPolicy>
 						<CancellationPolicy>
 							<CancellationFee>
