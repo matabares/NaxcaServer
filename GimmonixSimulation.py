@@ -94,6 +94,15 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
+            if "<PackageID>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageID>" in body:
+                file = open("providersimulation/gimmonix/cancelPolicies_NonRefundable_3DayStay1Room1Adt.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+            #
             if "<PackageID>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt1Chd.xml", "r",
                             encoding='utf8')
