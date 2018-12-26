@@ -52,8 +52,9 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
 
 def Run(server_class=HTTPServer, handler_class=NetSuiteProviderBaseHTTPRequestHandler):
-    server_address = ('', 8000)
-    print("Server Running")
+    port = 8000
+    server_address = ('', port)
+    print("Server Running on port {}".format(port))
     httpd = server_class(server_address, handler_class)
     httpd.serve_forever()
 
