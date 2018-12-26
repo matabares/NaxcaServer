@@ -280,6 +280,31 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            if "<ItemCode>MAD0327</ItemCode>" in body:
+                if "<LanguageCode>EN</LanguageCode>" in body:
+                    file = open("providersimulation/rts/infoOnErrorEn.xml",
+                                "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                elif "<LanguageCode>AR</LanguageCode>" in body:
+                    file = open("providersimulation/rts/infoOnErrorEs.xml",
+                                "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                elif "<LanguageCode>BR</LanguageCode>" in body:
+                    file = open("providersimulation/rts/infoOnErrorBr.xml",
+                                "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
             if "<ItemCode />" in body:
                 file = open("providersimulation/rts/HotelInfoHotelCodeIsMissing.xml",
                             "r", encoding='utf8')

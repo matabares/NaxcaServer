@@ -22,7 +22,11 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
+<<<<<<< HEAD
             self.wfile.write(bytes("<version>2.1.9</version>", 'UTF-8'))
+=======
+            self.wfile.write(bytes("<version>2.2.0</version>", 'UTF-8'))
+>>>>>>> master
 
     def do_POST(self):
         if "dingussimulation" in self.path:
