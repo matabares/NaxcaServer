@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soap:Body>
+    <GetHotelInformationResponse xmlns="http://www.rts.co.kr/">
+      <GetHotelInformationResult>
+        <Return>
+          <GetHotelInformationResponse>
+            <GetHotelInformationResult>
+              <LanguageCode>EN</LanguageCode>
+              <LanguageName>
+                <![CDATA[English]]>
+              </LanguageName>
+              <HotelList>
+                <HotelInformation>
+                  <CityCode>MAD</CityCode>
+                  <CityEname>
+                    <![CDATA[Madrid]]>
+                  </CityEname>
+                  <CityName>
+                    <![CDATA[Madrid]]>
+                  </CityName>
+                  <CountryCode>ES</CountryCode>
+                  <CountryEname>
+                    <![CDATA[Spain]]>
+                  </CountryEname>
+                  <CountryName>
+                    <![CDATA[Spain]]>
+                  </CountryName>
+                  <ItemCode>MAD0327</ItemCode>
+                  <CurrencyCode>EUR</CurrencyCode>
+                  <ItemName>
+                    <![CDATA[avant torrejon hotel]]>
+                  </ItemName>
+                  <StarRating>3</StarRating>
+                  <CategoryDesc/>
+                  <TotalRoomCount>78</TotalRoomCount>
+                  <TotalFloorCount/>
+                  <PhoneNo>
+                    <![CDATA[+ 34 (0)916556464]]>
+                  </PhoneNo>
+                  <FaxNo>
+                    <![CDATA[+ 34 (0)916779744]]>
+                  </FaxNo>
+                  <Email/>
+                  <Address>
+                    <![CDATA[Avda de las Estaciones 20]]>
+                  </Address>
+                  <ZipCode>28850</ZipCode>
+                  <HomepageUrl>
+                    <![CDATA[http://www.hoteltorrejonavant.com/]]>
+                  </HomepageUrl>
+                  <RecommendYn>false</RecommendYn>
+                  <ExpertReportYn>false</ExpertReportYn>
+                  <BackpackRecommendYn>false</BackpackRecommendYn>
+                  <BusinessRecommendYn>false</BusinessRecommendYn>
+                  <HoneymoonRecommendYn>false</HoneymoonRecommendYn>
+                  <FairRecommendYn>false</FairRecommendYn>
+                  <ResortRecommendYn>false</ResortRecommendYn>
+                  <LastWriteTime>2011-04-08 오후 12:15:31</LastWriteTime>
+                  <UseYn>true</UseYn>
+                  <AdminRemarks/>
+                  <HotelChainCode>NON01</HotelChainCode>
+                  <HotelTypeCode>HOT01</HotelTypeCode>
+                  <Latitude>40.4454202397515</Latitude>
+                  <Longitude>-3.48826646804809</Longitude>
+                  <ImagesFileList/>
+                  <LocationList/>
+                  <AreaDetailList/>
+                  <HotelFacilityList>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF001</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Business Center]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF002</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Fitness Center]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF005</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Swimming pool]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF009</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Restaurant]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF013</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Laundry]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF015</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Baby sitting]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF018</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Parking]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF021</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Room service]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF028</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Bar/Lounge]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF029</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Free newspaper]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF031</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Meeting room]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF033</FacilityCode>
+                      <FacilityName/>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT20</FacilityTypeCode>
+                      <FacilityTypeName>Hotel</FacilityTypeName>
+                      <FacilityCode>HF034</FacilityCode>
+                      <FacilityName/>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT03</FacilityTypeCode>
+                      <FacilityTypeName>Room</FacilityTypeName>
+                      <FacilityCode>RF001</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Air-conditioned]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT03</FacilityTypeCode>
+                      <FacilityTypeName>Room</FacilityTypeName>
+                      <FacilityCode>RF002</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[TV]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT03</FacilityTypeCode>
+                      <FacilityTypeName>Room</FacilityTypeName>
+                      <FacilityCode>RF005</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Internet access]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT03</FacilityTypeCode>
+                      <FacilityTypeName>Room</FacilityTypeName>
+                      <FacilityCode>RF006</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Direct dial phone]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                    <HotelFacility>
+                      <FacilityTypeCode>DT03</FacilityTypeCode>
+                      <FacilityTypeName>Room</FacilityTypeName>
+                      <FacilityCode>RF007</FacilityCode>
+                      <FacilityName>
+                        <![CDATA[Hairdryer]]>
+                      </FacilityName>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                      <FirstWriter>admin</FirstWriter>
+                    </HotelFacility>
+                  </HotelFacilityList>
+                  <AdditionalReportList>
+                    <AdditionalReport>
+                      <ReportTypeCode>DT05</ReportTypeCode>
+                      <ReportTypeCodeName>Report</ReportTypeCodeName>
+                      <ReportTypeName/>
+                      <ReportTitle/>
+                      <ReportDetail>
+                        <![CDATA[Hotel Avant Torrejon is a 3-star property near Madrid Airport, IFEMA and the congress centre, making it the ideal accommodation choice for business guests. This Hotel opens in January 2010.
+
+Business guests can take advantage of the first-class service with facilities offered including restaurant, snack bar, long-term parking and complimentary shuttle to IFEMA, Madrid city centre and Barajas Airport.
+
+There are 78 guestrooms at Hotel Avant Torrejon, including double, twin, family room and triple.
+
+Hotel Avant Torrejon boasts 78 spacious rooms, ideally equipped for business guests, with facilities such as wireless and cable internet access.
+The rooms are nicely decorated with wooden furniture and warm colours]]>
+                      </ReportDetail>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                    </AdditionalReport>
+                    <AdditionalReport>
+                      <ReportTypeCode>DT06</ReportTypeCode>
+                      <ReportTypeCodeName>Report</ReportTypeCodeName>
+                      <ReportTypeName/>
+                      <ReportTitle/>
+                      <ReportDetail>
+                        <![CDATA[Located in Torrejon and just minutes away from Madrid Barajas T4 Terminal.
+
+Out east, the magnificent new Terminal 4 at Barajas Airport is the largest in the world. All terminals are accessible by metro (pink line 8), shuttle bus, taxi or the 200 or 204 buses from Avenida de América.]]>
+                      </ReportDetail>
+                      <LastWriteTime>2016-08-23 오후 3:43:18</LastWriteTime>
+                    </AdditionalReport>
+                  </AdditionalReportList>
+                  <AvailableBedList/>
+                  <HotelGroup>
+                    <ChainCode>
+                      <BasicCode>BWT01</BasicCode>
+                      <BasicName>BEST WESTERN</BasicName>
+                    </ChainCode>
+                    <ChainCode>
+                      <BasicCode>COM01</BasicCode>
+                      <BasicName>COMFORT INN</BasicName>
+                    </ChainCode>
+                    <ChainCode>
+                      <BasicCode>HIL01</BasicCode>
+                      <BasicName>HILTON</BasicName>
+                    </ChainCode>
+                    <ChainCode>
+                      <BasicCode>HOL01</BasicCode>
+                      <BasicName>HOLIDAY INN</BasicName>
+                    </ChainCode>
+                    <ChainCode>
+                      <BasicCode>IBI01</BasicCode>
+                      <BasicName>IBIS</BasicName>
+                    </ChainCode>
+                    <ChainCode>
+                      <BasicCode>INT01</BasicCode>
+                      <BasicName>INTER CONTINENTAL</BasicName>
+                    </ChainCode>
+                    <ChainCode>
+                      <BasicCode>NON01</BasicCode>
+                      <BasicName>NONE(해당없음)</BasicName>
+                    </ChainCode>
+                    <TypeCode>
+                      <BasicCode>APT01</BasicCode>
+                      <BasicName>APARTMENT</BasicName>
+                    </TypeCode>
+                    <TypeCode>
+                      <BasicCode>BTQ01</BasicCode>
+                      <BasicName>BOUTIQUE</BasicName>
+                    </TypeCode>
+                    <TypeCode>
+                      <BasicCode>HOT01</BasicCode>
+                      <BasicName>HOTEL</BasicName>
+                    </TypeCode>
+                    <TypeCode>
+                      <BasicCode>NON01</BasicCode>
+                      <BasicName>NONE(해당없음)</BasicName>
+                    </TypeCode>
+                    <TypeCode>
+                      <BasicCode>ONS01</BasicCode>
+                      <BasicName>ONSEN</BasicName>
+                    </TypeCode>
+                    <TypeCode>
+                      <BasicCode>RES01</BasicCode>
+                      <BasicName>RESIDENCE</BasicName>
+                    </TypeCode>
+                    <TypeCode>
+                      <BasicCode>VIL01</BasicCode>
+                      <BasicName>VILLA</BasicName>
+                    </TypeCode>
+                  </HotelGroup>
+                </HotelInformation>
+              </HotelList>
+            </GetHotelInformationResult>
+          </GetHotelInformationResponse>
+        </Return>
+      </GetHotelInformationResult>
+    </GetHotelInformationResponse>
+  </soap:Body>
+</soap:Envelope>

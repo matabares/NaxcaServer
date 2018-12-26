@@ -16,3 +16,4 @@ Provider|Returns|When request is|Url
 |RTS|Remark Hotel Information|HotelCode:BKK0001  RoomTypeCode:TH&#124;001:AVAU:19491:M50496:219274:215398&#124;PREMIER ROOM&#124;SB*1#&#124;BKK&#124;&#124;ZDG.CQ&#124;USD&#124;JHPRZGK&#124;~None|http://matabares.com:8000/rtssimulation/WebServiceProjects/NetWebService/WsHotelProducts.asmx
 |RTS|Cancel policies on penalty (non refundable)|HotelCode:BKK0001 RoomTypeCode:TH&#124;001:AVAU:19491:M50496:219274:215398&#124;PREMIER ROOM&#124;SB*1#&#124;BKK&#124;&#124;ZDG.CQ&#124;USD&#124;JHPRZGK&#124;~None|
 |RTS|Cancel policies on penalty (non refundable)|HotelCode:BKK0001 RoomTypeCode:TH&#124;001:AVAU:19491:M50496:219274:215398&#124;PREMIER ROOM&#124;SB*1#&#124;BKK&#124;&#124;ZDG.CQ&#124;USD&#124;JHPRZGK&#124;~None|
+|RTS|HotelInfo without amenities DT02|HotelCode:BKK0003 Language:{AR&#124;EN&#124;BR}||

@@ -239,6 +239,13 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "<ItemCode>BKK0003</ItemCode>" in body:
+                file = open("providersimulation/rts/HotelInfoNoAmmeintyDt02.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
             if "<ItemCode>BKK0002</ItemCode>" in body:
                 if "<LanguageCode>EN</LanguageCode>" in body:
