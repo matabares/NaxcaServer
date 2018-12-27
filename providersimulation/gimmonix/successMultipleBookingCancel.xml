@@ -1,0 +1,16 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelBookCancelResponse xmlns="">
+					<BookCancelID>162527225</BookCancelID>
+					<CancellationFee>0</CancellationFee>
+					<Currency>USD</Currency>
+					<Status>CX</Status>
+				</HotelBookCancelResponse>
+				<SessionID xmlns="">/110/127631/D20181226T201445/d77ea8e48aec44fb90e84cf29c426602</SessionID>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

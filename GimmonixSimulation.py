@@ -184,6 +184,13 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "3898735" in body:
+                file = open("providersimulation/gimmonix/successMultipleBookingCancel.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
             if "111111" in body:
                 file = open("providersimulation/gimmonix/onErrorBookingCancel.xml", "r",
                             encoding='utf8')
