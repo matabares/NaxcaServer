@@ -6,6 +6,7 @@ from AviancaSimulation import AviancaSimulation
 from RtsSimulation import RtsSimulation
 from RentingSimulation import RentingSimulation
 from GimmonixSimulation import GimmonixSimulation
+from VivaColombiaSimulation import VivaColombiaSimulation
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
@@ -22,8 +23,12 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.2.1</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.2.2</version>", 'UTF-8'))
     def do_POST(self):
+        if "vivacolombiasimulation" in self.path:
+            vivacolombia = VivaColombiaSimulation()
+            response = vivacolombia.VivaColombiaResponse(self)
+            return response
         if "dingussimulation" in self.path:
             dingus = dingusProviderSimulation()
             response = dingus.dingusResponse(self)
