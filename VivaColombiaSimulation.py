@@ -5,7 +5,7 @@ class VivaColombiaSimulation:
 
     def VivaColombiaResponse(self, info):
         info.send_response(200)
-        info.send_header('Content-Type', 'application/xml; charset=utf-8')
+        info.send_header('Content-Type', 'text/xml; charset=utf-8')
         info.end_headers()
         contentLen = int(info.headers['Content-Length'])
         postBody = info.rfile.read(contentLen)
