@@ -25,7 +25,7 @@
 											<AdultsCount>1</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-												<a:string>Non Refundable Superior + Breakfast</a:string>
+												<a:string> Superior + Breakfast</a:string>
 											</Description>
 											<Id>f2349c77-025c-4dfd-a208-8b7359ba0317</Id>
 											<RoomBasis>Room only RO</RoomBasis>

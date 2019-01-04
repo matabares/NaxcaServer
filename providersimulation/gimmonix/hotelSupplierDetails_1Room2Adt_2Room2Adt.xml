@@ -21,7 +21,6 @@
 										<OriginalTax>59.82</OriginalTax>
 										<SupplierCurrency>USD</SupplierCurrency>
 									</PackagePrice>
-									<Refundability>Nonrefundable</Refundability>
 									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
 									<Rooms>
 										<Room>
@@ -45,7 +44,7 @@
 											<RoomClass>Superior</RoomClass>
 											<RoomClassOriginal>Standard Non Refundable Standard 2 twin Beds + Breakfast</RoomClassOriginal>
 											<RoomType>Double</RoomType>
-											<RoomTypeOriginal>Non Refundable Superior + Breakfast</RoomTypeOriginal>
+											<RoomTypeOriginal>Superior + Breakfast</RoomTypeOriginal>
 											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
 											</SpecialDeals>
@@ -69,9 +68,9 @@
 											<RoomBasis>Room only RO</RoomBasis>
 											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
 											<RoomClass>Superior</RoomClass>
-											<RoomClassOriginal>Non Refundable Superior + Breakfast</RoomClassOriginal>
+											<RoomClassOriginal> Superior + Breakfast</RoomClassOriginal>
 											<RoomType>Double</RoomType>
-											<RoomTypeOriginal>Non Refundable Standard 2 twin Beds + Breakfast Dbl</RoomTypeOriginal>
+											<RoomTypeOriginal>Standard 2 twin Beds + Breakfast Dbl</RoomTypeOriginal>
 											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>From 5/17/2019 12:00:00 AM to 5/20/2019 12:00:00 AM: 30% discount</a:string>
 											</SpecialDeals>

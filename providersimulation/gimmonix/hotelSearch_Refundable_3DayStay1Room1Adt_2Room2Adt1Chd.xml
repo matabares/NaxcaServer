@@ -19,16 +19,26 @@
 							<ID>4116845</ID>
 							<Packages>
 								<RoomsPackage>
-									<PackageId>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageId>
-									<Refundability>Nonrefundable</Refundability>
+									<PackageId>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageId>
 									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>190dd5f1-e589-4207-894f-0b111a6ccf98</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>Leisure Superior + Breakfast</a:string>
 											</Description>
-											<Id>e69649f0-64e3-4159-8e29-57cc9cbccfd4</Id>
+											<Id>55977cd9-9ec6-4957-aff3-58f1bc51cb9d</Id>
 											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:int>10</a:int>
 											</KidsAges>
@@ -37,18 +47,29 @@
 											<RoomType>Double/Twin</RoomType>
 										</Room>
 									</Rooms>
-									<SimplePrice>269.63</SimplePrice>
+									<SimplePrice>539.26</SimplePrice>
 								</RoomsPackage>
 								<RoomsPackage>
-									<PackageId>33d10910-0fa7-42ab-8297-f06f0d0aa560</PackageId>
+									<PackageId>e2b6aeb7-071a-4141-aee3-32b966530676</PackageId>
 									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Superior + Breakfast</a:string>
+											</Description>
+											<Id>c5b612e2-8076-44ed-a547-788019273fa5</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>Superior + Breakfast</a:string>
 											</Description>
-											<Id>8c3c994e-cc7e-45a8-8d4c-69ba0dd8d367</Id>
+											<Id>171db883-c295-4e22-8aeb-cec7229ed936</Id>
 											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:int>10</a:int>
 											</KidsAges>
@@ -57,18 +78,29 @@
 											<RoomType>Double/Twin</RoomType>
 										</Room>
 									</Rooms>
-									<SimplePrice>269.63</SimplePrice>
+									<SimplePrice>539.26</SimplePrice>
 								</RoomsPackage>
 								<RoomsPackage>
-									<PackageId>286c243b-a989-4b87-8109-37e9329ba705</PackageId>
+									<PackageId>6fab6490-100f-4946-9426-8271d3384b7c</PackageId>
 									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Advance Purchase Superior</a:string>
+											</Description>
+											<Id>fefbb8f8-d0a8-4523-be1e-9cd9280e591d</Id>
+											<RoomBasis>Bed and Breakfast BB</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>Advance Purchase Superior</a:string>
 											</Description>
-											<Id>a7959f9f-7731-4068-9728-9b4137353470</Id>
+											<Id>7ea83a28-24b4-47e4-ada8-27c471b1c029</Id>
 											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:int>10</a:int>
 											</KidsAges>
@@ -77,7 +109,7 @@
 											<RoomType>Double/Twin</RoomType>
 										</Room>
 									</Rooms>
-									<SimplePrice>808.89</SimplePrice>
+									<SimplePrice>1348.15</SimplePrice>
 								</RoomsPackage>
 							</Packages>
 							<StarRating>4</StarRating>
@@ -96,15 +128,26 @@
 							<ID>4313933</ID>
 							<Packages>
 								<RoomsPackage>
-									<PackageId>5f666ef2-9eca-4c97-8bb0-59d981adb370</PackageId>
+									<PackageId>3c2cefb0-541b-4a8b-b6d3-5a1464a329df</PackageId>
 									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>072d2af4-4a31-4c6c-8f49-ec8134c1eee4</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>Executive + Breakfast</a:string>
 											</Description>
-											<Id>11e08093-bf04-458e-9637-09098651f54a</Id>
+											<Id>0b20f49e-319c-4e50-99e0-f32d6cb5b4bc</Id>
 											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:int>10</a:int>
 											</KidsAges>
@@ -113,18 +156,29 @@
 											<RoomType>Double/Twin</RoomType>
 										</Room>
 									</Rooms>
-									<SimplePrice>201.06</SimplePrice>
+									<SimplePrice>378.04</SimplePrice>
 								</RoomsPackage>
 								<RoomsPackage>
-									<PackageId>ec84fe72-727f-4170-bbd3-20be33165fb1</PackageId>
+									<PackageId>ef22edcd-095a-4bfa-8e0d-4827eb46b771</PackageId>
 									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Suite + Breakfast</a:string>
+											</Description>
+											<Id>dd838f85-ba0c-4373-8e90-24af57865eca</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>Suite + Breakfast</a:string>
 											</Description>
-											<Id>87596948-6b43-44d0-ae1d-2d4910d18488</Id>
+											<Id>6b5ebf55-f509-4b4b-b96e-77d5339173e3</Id>
 											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:int>10</a:int>
 											</KidsAges>
@@ -133,18 +187,29 @@
 											<RoomType>Suite</RoomType>
 										</Room>
 									</Rooms>
-									<SimplePrice>319.04</SimplePrice>
+									<SimplePrice>614.01</SimplePrice>
 								</RoomsPackage>
 								<RoomsPackage>
-									<PackageId>cf8a414d-72c7-4edb-b6f4-4939042b1aaf</PackageId>
+									<PackageId>060a0187-6337-4fc5-b16b-f746d3850dd2</PackageId>
 									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Family Suite + Breakfast</a:string>
+											</Description>
+											<Id>38ccc3ba-e010-43c1-8c2a-1f3040bbfc62</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Basic</RoomClass>
+											<RoomType>Suite</RoomType>
+										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:string>Family Suite + Breakfast</a:string>
 											</Description>
-											<Id>2cf83542-777d-4fe6-8b74-a3f7aa78fc4c</Id>
+											<Id>472ffaff-237e-48fa-b45e-24257c3adcda</Id>
 											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
 												<a:int>10</a:int>
 											</KidsAges>
@@ -153,50 +218,15 @@
 											<RoomType>Suite</RoomType>
 										</Room>
 									</Rooms>
-									<SimplePrice>421.38</SimplePrice>
-								</RoomsPackage>
-							</Packages>
-							<StarRating>3</StarRating>
-						</Hotel>
-						<Hotel>
-							<Address>Avenida Cra 40 No 24 D 23, Bogota</Address>
-							<DefaultImage>
-								<FullSize>https://az712897.vo.msecnd.net/images/full/6028132f-ba85-4f0b-a06b-7bb30f316f18.jpeg</FullSize>
-							</DefaultImage>
-							<DisplayName>Blu Inn Hotel</DisplayName>
-							<GeoLocation>
-								<Latitude>4.6325</Latitude>
-								<Longitude>-74.09041</Longitude>
-							</GeoLocation>
-							<ID>5946576</ID>
-							<Packages>
-								<RoomsPackage>
-									<PackageId>74b2b66c-7db8-4ff8-a525-67e82a4c4dd7</PackageId>
-									<Rooms>
-										<Room>
-											<AdultsCount>2</AdultsCount>
-											<Availability>Available</Availability>
-											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-												<a:string>Standard Triple + Breakfast</a:string>
-											</Description>
-											<Id>b71bf24f-aa42-4e79-9b7a-66b359c0b191</Id>
-											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-												<a:int>10</a:int>
-											</KidsAges>
-											<RoomBasis>Room only RO</RoomBasis>
-											<RoomClass>Standard</RoomClass>
-											<RoomType>Triple</RoomType>
-										</Room>
-									</Rooms>
-									<SimplePrice>290.63</SimplePrice>
+									<SimplePrice>842.76</SimplePrice>
 								</RoomsPackage>
 							</Packages>
 							<StarRating>3</StarRating>
 						</Hotel>
 					</Result>
-					<SearchId>UX7T29</SearchId>
+					<SearchId>AJNOCQ</SearchId>
 				</HotelsSearchResponse>
-				<SessionID xmlns="">/110/127631/D20181212T214843/83f0532f6c42451f98f87f51dd206d6e</SessionID>
+				<SessionID xmlns="">/110/127631/D20181212T222007/527af9e839434fdeb78e6d5f44f80e08</SessionID>
 			</ServiceRequestResult>
 		</ServiceRequestResponse>
 	</s:Body>

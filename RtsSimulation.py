@@ -377,6 +377,12 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "<AppliedFromDate>2019-11-05</AppliedFromDate>" in body:
+                file = open("providersimulation/rts/trelloBugBookingRS.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
         #endregion
         #region cancel
         if "BookingCancel" in body:

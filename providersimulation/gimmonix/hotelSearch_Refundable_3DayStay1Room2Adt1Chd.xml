@@ -20,7 +20,6 @@
 							<Packages>
 								<RoomsPackage>
 									<PackageId>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageId>
-									<Refundability>Nonrefundable</Refundability>
 									<Rooms>
 										<Room>
 											<AdultsCount>2</AdultsCount>
