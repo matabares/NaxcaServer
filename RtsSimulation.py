@@ -22,7 +22,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-02</CheckInDate>" in body:
+            if "<CheckInDate>2020-01-02</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room2Adt1Chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -30,7 +30,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-04</CheckInDate>" in body:
+            if "<CheckInDate>2020-01-04</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room2Adt_2Room2Adt.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -38,7 +38,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-05</CheckInDate>" in body:
+            if "<CheckInDate>2020-01-05</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt_2Room2Adt1Chd.xml",
                             # busqueda 1 adulto un cuarto, 2 adultos un niño en segundo cuarto destino bangkok
                             "r", encoding='utf8')
@@ -47,7 +47,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-06</CheckInDate>" in body:
+            if "<CheckInDate>2020-01-06</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room2Adt1Inf.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -55,7 +55,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-01-18</CheckInDate>" in body:
+            if "<CheckInDate>2020-01-18</CheckInDate>" in body:
                 file = open("providersimulation/rts/singleHotelSearch1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -72,7 +72,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-02</CheckInDate>" in body or "<CheckInDate>2020-07-02</CheckInDate>" in body or "<CheckInDate>2020-07-12</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-02</CheckInDate>" in body or "<CheckInDate>2020-07-02</CheckInDate>" in body or "<CheckInDate>2020-07-12</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1Room2Adt1ChdBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -80,7 +80,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-04</CheckInDate>" in body or "<CheckInDate>2020-07-04</CheckInDate>" in body or "<CheckInDate>2020-07-14</CheckInDate>" in body or "<CheckInDate>2020-02-10</CheckInDate>" in body or "<CheckInDate>2020-02-20</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-04</CheckInDate>" in body or "<CheckInDate>2020-07-04</CheckInDate>" in body or "<CheckInDate>2020-07-14</CheckInDate>" in body or "<CheckInDate>2020-02-10</CheckInDate>" in body or "<CheckInDate>2020-02-20</CheckInDate>" in body:
                 print("Search de 2adt en 2 cuartos")
                 file = open("providersimulation/rts/hotelSearchVerify1room2adt2room2adtBKK0001.xml",
                             "r", encoding='utf8')
@@ -89,7 +89,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-05</CheckInDate>" in body or "<CheckInDate>2020-07-05</CheckInDate>" in body or "<CheckInDate>2020-07-15</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-05</CheckInDate>" in body or "<CheckInDate>2020-07-05</CheckInDate>" in body or "<CheckInDate>2020-07-15</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1room1adt2room2adt1chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -97,28 +97,28 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-11</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-11</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2020-02-12</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-12</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1Room2Adt1ChdBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2020-02-14</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-14</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1room2adt2room2adtBKK0001.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2020-02-15</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-15</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerify1room1adt2room2adt1chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -126,14 +126,14 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-16</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-16</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchSpecificCase1room1adt2room2adt1chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2020-02-17</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-17</CheckInDate>" in body:
                 file = open("providersimulation/rts/hotelSearchVerifySpecificCase1room1adt2room2adt1chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -153,7 +153,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-02</CheckInDate>" in body or "<CheckInDate>2020-07-02</CheckInDate>" in body or "<CheckInDate>2020-07-12</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-02</CheckInDate>" in body or "<CheckInDate>2020-07-02</CheckInDate>" in body or "<CheckInDate>2020-07-12</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies1room2adt1chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -161,7 +161,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-04</CheckInDate>" in body or "<CheckInDate>2020-07-04</CheckInDate>" in body or "<CheckInDate>2020-07-14</CheckInDate>" in body or "<CheckInDate>2020-02-10</CheckInDate>" in body or "<CheckInDate>2020-02-20</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-04</CheckInDate>" in body or "<CheckInDate>2020-07-04</CheckInDate>" in body or "<CheckInDate>2020-07-14</CheckInDate>" in body or "<CheckInDate>2020-02-10</CheckInDate>" in body or "<CheckInDate>2020-02-20</CheckInDate>" in body:
                 print("cancelPolicies de 2adt en 2 cuartos")
                 file = open("providersimulation/rts/cancelPolicies1room2Adt_2Room2adt.xml",
                             "r", encoding='utf8')
@@ -170,7 +170,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-05</CheckInDate>" in body or "<CheckInDate>2020-07-05</CheckInDate>" in body or "<CheckInDate>2020-07-15</CheckInDate>" in body or "<CheckInDate>2020-02-17</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-05</CheckInDate>" in body or "<CheckInDate>2020-07-05</CheckInDate>" in body or "<CheckInDate>2020-07-15</CheckInDate>" in body or "<CheckInDate>2020-02-17</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies1room1Adt_2Room2adt1chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -178,7 +178,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-08</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-08</CheckInDate>" in body:
                 file = open("providersimulation/rts/emptyCancellationPolicies.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -186,7 +186,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-11</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-11</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies_nonRefundable_1Room1Adt.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -194,21 +194,21 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            elif "<CheckInDate>2020-02-12</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-12</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies_nonRefundable_1Room2Adt1Chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2020-02-14</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-14</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies_nonRefundable_1Room2Adt_2Room2Adt.xml",
                             "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            elif "<CheckInDate>2020-02-15</CheckInDate>" in body:
+            if "<CheckInDate>2020-02-15</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies_nonRefundable_1Room1Adt_2Room2Adt1Chd.xml",
                             "r", encoding='utf8')
                 data = file.read()
@@ -256,7 +256,7 @@ class RtsSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
 
-                elif "<LanguageCode>AR</LanguageCode>" in body:
+                if "<LanguageCode>AR</LanguageCode>" in body:
                     file = open("providersimulation/rts/HotelInfoBkk0002AR.xml",
                                 "r", encoding='utf8')
                     data = file.read()
@@ -264,7 +264,7 @@ class RtsSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
 
-                elif "<LanguageCode>BR</LanguageCode>" in body:
+                if "<LanguageCode>BR</LanguageCode>" in body:
                     file = open("providersimulation/rts/HotelInfoBkk0002BR.xml",
                                 "r", encoding='utf8')
                     data = file.read()
@@ -289,7 +289,7 @@ class RtsSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
 
-                elif "<LanguageCode>AR</LanguageCode>" in body:
+                if "<LanguageCode>AR</LanguageCode>" in body:
                     file = open("providersimulation/rts/infoOnErrorEs.xml",
                                 "r", encoding='utf8')
                     data = file.read()
@@ -297,7 +297,7 @@ class RtsSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
 
-                elif "<LanguageCode>BR</LanguageCode>" in body:
+                if "<LanguageCode>BR</LanguageCode>" in body:
                     file = open("providersimulation/rts/infoOnErrorBr.xml",
                                 "r", encoding='utf8')
                     data = file.read()
