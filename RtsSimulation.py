@@ -315,6 +315,13 @@ class RtsSimulation:
         #endregion
         #region booking
         if "CreateSystemBookingForGuestCount" in body:
+            if "<AppliedFromDate>2019-11-05</AppliedFromDate>" in body:
+                file = open("providersimulation/rts/trelloBookingRS.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
             if "<AppliedFromDate>2020-06-11</AppliedFromDate>" in body:
                 file = open("providersimulation/rts/successBooking1Room1Adt.xml", "r", encoding='utf8')
                 data = file.read()
@@ -377,12 +384,7 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<AppliedFromDate>2019-11-05</AppliedFromDate>" in body:
-                file = open("providersimulation/rts/trelloBugBookingRS.xml", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
+
         #endregion
         #region cancel
         if "BookingCancel" in body:
