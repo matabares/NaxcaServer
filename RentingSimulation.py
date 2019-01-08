@@ -14,4 +14,12 @@ class RentingSimulation:
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+
+        if "confirmation" in info.path:
+            file = open("providersimulation/rentingcarz/RESNEWEMPRESA.json","r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
             

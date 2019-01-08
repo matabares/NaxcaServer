@@ -23,7 +23,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.2.3</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.2.4</version>", 'UTF-8'))
     def do_POST(self):
         if "vivacolombiasimulation" in self.path:
             vivacolombia = VivaColombiaSimulation()
@@ -33,8 +33,10 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             dingus = dingusProviderSimulation()
             response = dingus.dingusResponse(self)
             return response
-
-
+        if "rentingsimulation" in self.path:
+            renting = RentingSimulation()
+            response = renting.RentingResponse(self)
+            return response
         if "jumbosimulation" in self.path:
             jumbo = jumboProviderSimulation()
             response = jumbo.dingusResponse(self)
