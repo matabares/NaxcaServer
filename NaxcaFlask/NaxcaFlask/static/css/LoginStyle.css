@@ -1,0 +1,9 @@
+.main-panel2 {
+    background-image: url('/static/img/fondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card-login{
+    padding-top: 10%;
+}
