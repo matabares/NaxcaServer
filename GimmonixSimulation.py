@@ -162,7 +162,7 @@ class GimmonixSimulation:
                 return info
 
         if "HotelBookRequest" in body:
-            if "4116714" in body:
+            if "/110/127631/D20181212T221715/c92583fe35d34159b927ad4afe08ab2d" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
