@@ -10,9 +10,16 @@ class RtsSimulation:
 
 
         #region hotelSearch
-        if "GetHotelSearchListForCustomerCount" in body:
+        if "HotelSearchListNetGuestCount" in body:
             # region Search
-            print("entre a search")
+            if "<CheckInDate>2019-11-05</CheckInDate>"in body:
+                file = open("providersimulation/rts/trelloSearch.xml",
+                            # busqueda 1 adulto 1 dia destino bangkok
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
             if "<CheckInDate>2020-01-01</CheckInDate>" in body:
                 file = open("providersimulation/rts/HotelSearch_3DayStay1Room1Adt.xml",
                             # busqueda 1 adulto 1 dia destino bangkok
@@ -144,6 +151,14 @@ class RtsSimulation:
         #endregion
         # region Politicas de cancelacion
         if "GetCancelDeadlineForCustormerCountResponse":
+            if "<CheckInDate>2019-11-05</CheckInDate>"in body:
+                file = open("providersimulation/rts/trelloCancelPolicies.xml",
+                            # busqueda 1 adulto 1 dia destino bangkok
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
             if "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2020-07-01</CheckInDate>" in body or "<CheckInDate>2020-06-12</CheckInDate>" in body:
                 file = open("providersimulation/rts/cancelPolicies1Adt.xml",
                             "r", encoding='utf8')
@@ -218,6 +233,13 @@ class RtsSimulation:
         #endregion
         #region info
         if "GetHotelInformation" in body:
+            if "<ItemCode>LAX0240</ItemCode>" in body:
+                file = open("providersimulation/rts/infoTrello.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
             if "<ItemCode>BKK0001</ItemCode>" in body and "<LanguageCode>AR</LanguageCode>" in body:
                 file = open("providersimulation/rts/HotelInfoEs.xml",
                             "r", encoding='utf8')
@@ -415,6 +437,7 @@ class RtsSimulation:
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+
         #endregion
         #region Hotel Remarks
         if "GetRemarkHotelInformationForCustomerCount" in body:

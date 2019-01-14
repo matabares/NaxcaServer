@@ -11,6 +11,7 @@
 								<RoomsPackage>
 									<HotelId>4116845</HotelId>
 									<PackageId>093baf26-c7fe-4f4b-bfc8-13125492bb17</PackageId>
+									<Refundability>Nonrefundable</Refundability>
 									<PackagePrice>
 										<Currency>USD</Currency>
 										<FinalPrice>269.63</FinalPrice>
