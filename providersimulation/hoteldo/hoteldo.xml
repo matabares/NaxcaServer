@@ -6136,7 +6136,7 @@
         &lt;room type="TRP" roomcode="2146106" roomname="Estándar No Reembolsable" childs="0" numberrequired="1" promotype="4"&gt;
           &lt;mealplancode&gt;EP&lt;/mealplancode&gt;
           &lt;tariff fromdate="20190201" todate="20190208"&gt;
-            &ltlt;pricecurrency&gt;USD&lt;/pricecurrency&gt;
+            &lt;pricecurrency&gt;USD&lt;/pricecurrency&gt;
             &lt;price&gt;47.26&lt;/price&gt;
           &lt;/tariff&gt;
         &lt;/room&gt;
@@ -13496,7 +13496,7 @@
           &lt;tariff fromdate="20190201" todate="20190208"&gt;
             &lt;pricecurrency&gt;USD&lt;/pricecurrency&gt;
             &lt;price&gt;274.5&lt;/price&gt;
-          &llt;/tariff&gt;
+          &lt;/tariff&gt;
         &lt;/room&gt;
         &lt;room type="TRP" roomcode="99761" roomname="Deluxe Ocean View" childs="0" numberrequired="1" promotype="4"&gt;
           &lt;mealplancode&gt;AI&lt;/mealplancode&gt;
