@@ -1,0 +1,2492 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<XMLMessageResponse xmlns="http://xml.prod.hoteldo.com/HotelDoInterface">
+			<XMLMessageResult>
+				<?xml version="1.0" encoding="ISO-8859-1"?>
+				<hotelsearch clientid="503359" searchnumber="2">
+					<paxnationality>CO</paxnationality>
+					<checkindate>20191123</checkindate>
+					<checkoutdate>20191126</checkoutdate>
+					<searchcitycode>19526</searchcitycode>
+					<hotels hotelsreturned="59">
+						<hotel hotelcode="537274" hotelname="Seranta Brisas de Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>3</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2765109" roomname="Estándar Queen" childs="0" numberrequired="1">
+									<mealplancode>EP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>47.45</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2765108" roomname="Estándar King" childs="0" numberrequired="1">
+									<mealplancode>EP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>52.85</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2765111" roomname="Superior Queen" childs="0" numberrequired="1">
+									<mealplancode>EP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>64.71</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="513948" hotelname="Seven Smiles Bed and Breakfast">
+							<citycode>19526</citycode>
+							<hotelcategory>3</hotelcategory>
+							<cancelpolicy>9</cancelpolicy>
+							<location>El Cortecito</location>
+							<roominfo>
+								<room type="SGL" roomcode="2324029" roomname="Habitación Estándar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>BB</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>56.35</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2324030" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>BB</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>67.62</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2324031" roomname="Master Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>BB</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>101.88</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349467" hotelname="Caribe Club Princess Beach Resort and Spa">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>47</cancelpolicy>
+							<location>Via General Nicanor de Obarrio</location>
+							<roominfo>
+								<room type="SGL" roomcode="100417" roomname="Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>79.26</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100416" roomname="Caribe Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>85.35</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349443" hotelname="Riu Naiboa">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>28</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100378" roomname="Estándar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>87.56</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100377" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>136.2</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="497102" hotelname="Be Live Collection Punta Cana - All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>La Altagracia</location>
+							<roominfo>
+								<room type="SGL" roomcode="2525704" roomname="Estándar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>93.59</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2525693" roomname="Deluxe" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>100.87</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2525705" roomname="Superior Deluxe" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>104.26</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2525695" roomname="Habitación Familiar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>276.42</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2525697" roomname="Family Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>296.3</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="426001" hotelname="Grand Bahia Principe Turquesa">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="287950" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>94.05</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="535490" hotelname="Coral House By Canabay Hotels">
+							<citycode>19526</citycode>
+							<hotelcategory>3</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>La Altagracia</location>
+							<roominfo>
+								<room type="SGL" roomcode="2728341" roomname="Pool View Suite One BDM 1AD" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>ZZ</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>97.61</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2728340" roomname="Pool View Suite Two BDM 2AD" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>ZZ</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>169.18</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349464" hotelname="Grand Bahia Principe Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100413" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>98.52</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349469" hotelname="Bavaro Princess All Suites Resort Spa and Casino">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Playa Bávaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="100420" roomname="Suite Bungalow" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>99.87</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349475" hotelname="Grand Bahia Principe Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100445" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>102.38</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349452" hotelname="Occidental Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>41</cancelpolicy>
+							<location>Av. España S/N</location>
+							<roominfo>
+								<room type="SGL" roomcode="100392" roomname="Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>103.72</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106828" roomname="Superior Frente al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>129.65</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100393" roomname="Royal Level Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>160.68</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349470" hotelname="Punta Cana Princess All Suites Resort and Spa">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Playa Bávaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="100423" roomname="Deluxe Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>104.55</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="536882" hotelname="Impressive Resort &amp; Spa Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>9</cancelpolicy>
+							<location>Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2765135" roomname="Vista Tropical" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>106.45</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2765134" roomname="Vista Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>116.9</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2765133" roomname="Vista Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>122.32</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349442" hotelname="Riu Bambu">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100375" roomname="Estándar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>109.94</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100374" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>158.58</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100376" roomname="Habitación Familiar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>240.74</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="509587" hotelname="Iberostar Dominicana All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2204987" roomname="Habitación Estándar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>111.83</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2204985" roomname="Junior Suite" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>132.8</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2204986" roomname="Junior Suite SPA" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>139.78</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="513372" hotelname="Presidential Suites Punta Cana - All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>13</cancelpolicy>
+							<location>El Cortecito</location>
+							<roominfo>
+								<room type="SGL" roomcode="2307554" roomname="Una Recámara" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>112.9</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2307555" roomname="Dos Recámaras" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>193.55</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="508726" hotelname="Hotel Riu Republica Solo Adultos">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="2336704" roomname="Doble Vista al Jardin" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>117.72</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2220714" roomname="Doble Vista al Patio" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>123.56</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2220715" roomname="Doble Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>147.88</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2220716" roomname="Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>243.54</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2220713" roomname="Suite Familiar de Dos Dormitorios" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>323.94</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="536883" hotelname="Impressive Premium Resort &amp; Spa Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>9</cancelpolicy>
+							<location>Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2750565" roomname="Junior Suite Premium Tropical View" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>117.9</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2750564" roomname="Junior Suite Premium Vista a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>123.6</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2750566" roomname="Junior Suite Premium Vista Tropical con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>129.6</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2750561" roomname="Junior Suite Premium Ocean Front" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>170.7</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2750563" roomname="Junior Suite Premium Vista al Mar con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>176.7</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2750562" roomname="Junior Suite Premium Frente al Mar con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>182.4</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="525635" hotelname="Four Points by Sheraton Punta Cana Village">
+							<citycode>19526</citycode>
+							<hotelcategory>3</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Cap Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="2521752" roomname="Tradicional" childs="0" numberrequired="1">
+									<mealplancode>ZZ</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>122.49</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="536317" hotelname="Grand Bahia Principe Aquamarine">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="2725714" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>126.21</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2725715" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>135.05</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="362338" hotelname="Luxury Bahia Principe Esmeralda">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="106882" roomname="Junior Suite Deluxe" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>127.04</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349459" hotelname="Grand Palladium Punta Cana Resort and Spa">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>39</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2608214" roomname="Habitación Deluxe Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>130.84</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="517503" hotelname="BlueBay Grand Punta Cana All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Cabeza de Toro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2391542" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>131.89</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391546" roomname="Penthouse" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>158.26</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391544" roomname="Suite Dos Recámaras Vista a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>381.68</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391543" roomname="Suite Tres Recámaras Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>447.48</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="363466" hotelname="Grand Palladium Palace Resort Spa and Casino">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>39</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2610937" roomname="Deluxe Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>133.63</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610942" roomname="Junior Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>147.05</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610945" roomname="Loft Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>149.29</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610936" roomname="Deluxe Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>177.81</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610940" roomname="Junior Suite 2 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>195.7</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610941" roomname="Junior Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>195.7</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610944" roomname="Loft Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>199.05</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610947" roomname="Loft Suite 2 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>199.05</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="116823" roomname="Deluxe 2 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>222.54</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610938" roomname="Deluxe Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>244.34</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610939" roomname="Junior Suite 2 Adultos 2 Niños" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>244.9</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="116825" roomname="Loft Suite 2 Adultos 2 Niños" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>248.82</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610935" roomname="Deluxe 2 Adultos 2 Niños" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>266.71</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2052164" roomname="Junior Suite 3 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>268.95</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610943" roomname="Junior Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>268.95</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610946" roomname="Loft Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>273.98</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610948" roomname="Loft Suite 3 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>273.98</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="509586" hotelname="Iberostar Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2204983" roomname="Junior Suite" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>134.19</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="356417" hotelname="Barcelo Bavaro Beach Adults Only">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>9</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="101515" roomname="Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>141.33</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1936789" roomname="Superior Sun Deck" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>155.58</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101516" roomname="Superior Ocean View" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>169.83</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="518568" hotelname="Fantasia Bahia Principe Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>9</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="2407974" roomname="Junior Suite Deluxe" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>142.76</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2675854" roomname="Junior Suite Deluxe Vista al Castillo" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>157.03</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2675853" roomname="Junior Suite Deluxe Frente al Castillo" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>164.16</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349448" hotelname="Catalonia Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location>Cabeza de Toro</location>
+							<roominfo>
+								<room type="SGL" roomcode="106816" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>145.16</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2323926" roomname="Privileged Deluxe Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>174.19</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="537864" hotelname="Ocean El Faro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Uvero Alto</location>
+							<roominfo>
+								<room type="SGL" roomcode="2780502" roomname="Junior Suite Vista al Jardín" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>146.01</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2796776" roomname="Junior Suite Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>148.75</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2796778" roomname="Privilege Junior Suite" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>164.26</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2796775" roomname="Junior Suite Vista al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>169.74</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2796777" roomname="Junior Suite Rooftop" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>174.3</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349457" hotelname="Grand Palladium Bavaro Suites Resort and Spa">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>39</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2625094" roomname="Superior Junior Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>146.32</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625084" roomname="Premium Junior Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>155.35</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625096" roomname="Romance Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>160.17</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625089" roomname="Rooftop Terrace Junior Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>171.61</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625091" roomname="Superior Junior Suite 2 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>195.1</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625093" roomname="Superior Junior Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>195.1</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625081" roomname="Premium Junior Suite 2 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>207.14</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625083" roomname="Premium Junior Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>207.14</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="115574" roomname="Romance Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>213.16</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625086" roomname="Rooftop Terrace Junior Suite 2 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>228.82</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625088" roomname="Rooftop Terrace Junior Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>228.82</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625092" roomname="Superior Junior Suite 2 Adultos 2 Niños" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>243.87</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625082" roomname="Premium Junior Suite 2 Adultos 2 Niños" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>258.92</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1791701" roomname="Superior Junior Suite 3 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>268.56</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625095" roomname="Master Junior Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>268.56</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625085" roomname="Premium Junior Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>284.82</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2239983" roomname="Premium Junior Suite 3 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>284.82</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625087" roomname="Rooftop Terrace Junior Suite 2 Adultos 2 Niños" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>286.02</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2409829" roomname="Rooftop Terrace Junior Suite 3 Adultos 1 Niño" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>314.92</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2625090" roomname="Rooftop Terrace Junior Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>314.92</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="427096" hotelname="Ocean Blue and Sand Beach Resort All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="305498" roomname="Junior Suite" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>148.06</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2114820" roomname="Junior Suite Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>150.97</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="305499" roomname="Privilege Junior Suite" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>176.13</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2114821" roomname="Privilege Suite Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>180</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2114819" roomname="Honeymoon Junior Suite" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>185.81</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="305497" roomname="Suite Lunamielera" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>199.35</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="356392" hotelname="Occidental Caribe">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="101466" roomname="Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>148.13</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101463" roomname="Superior" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>162.95</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101464" roomname="Superior Frente al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>171.83</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101465" roomname="Suite Premium Level" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>195.53</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349441" hotelname="Riu Palace Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100370" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>148.85</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100371" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>161.51</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100372" roomname="Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>210.15</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="362341" hotelname="Riu Palace Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="106911" roomname="Junior Suite Vista al Jardín" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>150.8</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106909" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>156.63</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106906" roomname="Junior Suite Vista a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>163.45</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106905" roomname="Junior Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>180.96</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106908" roomname="Junior Suite Jacuzzi Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>199.44</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106912" roomname="Suite Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>236.42</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106907" roomname="Junior Suite Jacuzzi Frente al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>285.06</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349461" hotelname="Luxury Bahia Principe Ambar Adults Only">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100404" roomname="Junior Suite Deluxe" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>152.79</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2707657" roomname="Junior Suite Deluxe Swim Up" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>190.98</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349440" hotelname="Riu Palace Macao">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>37</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="100366" roomname="Estándar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>154.69</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100369" roomname="Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>167.34</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100368" roomname="Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>215.99</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100367" roomname="Suite Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>240.31</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="512463" hotelname="TRS Turquesa Hotel - Adults Only - All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>39</cancelpolicy>
+							<location>Playas de Bavaro Higuey</location>
+							<roominfo>
+								<room type="SGL" roomcode="2629413" roomname="Junior Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>164.39</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2629415" roomname="Premiuml Junior Suite Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>172.77</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2629411" roomname="Junior Suite Swim Up Individual" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>175.57</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2629412" roomname="Junior Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>219.18</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2629414" roomname="Premium Junior Suite Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>230.37</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2629410" roomname="Junior Suite Swim Up Doble" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>233.72</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2274883" roomname="Junior Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>301.38</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2274885" roomname="Premium Junior Suite Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>317.03</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2274884" roomname="Junior Suite Swim Up Triple" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>321.51</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349473" hotelname="Now Larimar - Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>El Cortecito</location>
+							<roominfo>
+								<room type="SGL" roomcode="2755815" roomname="Deluxe Vista al Jardín King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>166.67</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2755817" roomname="Deluxe Vista al Jardín Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>166.67</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2755816" roomname="Deluxe Vista al Jardín Swim Up King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>176.34</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2755818" roomname="Deluxe Vista al Jardín Swim Up Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>176.34</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100434" roomname="Deluxe Doble Vista Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>182.8</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205905" roomname="Deluxe King Vista Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>182.8</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100433" roomname="Deluxe Doble Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>192.47</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205904" roomname="Deluxe King Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>192.47</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100432" roomname="Deluxe Doble Vista Parcial al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>200</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205907" roomname="Deluxe King Vista Parcial al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>200</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205910" roomname="Preferred Club Deluxe King Vista Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>217.2</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100437" roomname="Preferred Club Deluxe Doble Vista Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>217.2</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205909" roomname="Preferred Club Deluxe King Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>224.73</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100436" roomname="Preferred Club Deluxe Doble Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>224.73</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205908" roomname="Preferred Club King Vista Parcial al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>233.33</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100435" roomname="Preferred Club Doble Vista al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>233.33</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205902" roomname="Deluxe Family Room" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>261.29</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205906" roomname="Deluxe Family Room King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>261.29</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="362339" hotelname="Barcelo Bavaro Palace">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>36</cancelpolicy>
+							<location>Playa Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="106886" roomname="Habitación Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>172.41</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106891" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>191.56</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106893" roomname="Junior Suite Vista Mar Frontal Nivel Premium" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>273.94</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106888" roomname="Habitación Familiar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>304.25</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1794107" roomname="Suite Vista Mar Frontal Nivel Premium" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>312.25</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="499055" hotelname="Paradisus Punta Cana Resort">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location/>
+							<roominfo>
+								<room type="SGL" roomcode="2646096" roomname="Paradisus Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>178.92</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349449" hotelname="Catalonia Royal Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location>Cabeza de Toro</location>
+							<roominfo>
+								<room type="SGL" roomcode="106822" roomname="Junior Suite Superior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>187.74</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2699765" roomname="Premium Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>201.29</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106819" roomname="Privileged Deluxe Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>216.77</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2699764" roomname="Priviledge Deluxe y Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>265.16</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106820" roomname="Privileged Exclusive Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>410.03</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="537108" hotelname="Melia Punta Cana Beach - Adults Only All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Bavaro</location>
+							<roominfo>
+								<room type="SGL" roomcode="2758444" roomname="Deluxe Room" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>189.52</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2758445" roomname="Premium Room Beach Side" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>291.4</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="535491" hotelname="Lopesan Costa Bavaro Resort SPA and Casino">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Higuey</location>
+							<roominfo>
+								<room type="SGL" roomcode="2698119" roomname="Junior Suite Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>191.94</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2698118" roomname="Junior Suite Pool" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>201.53</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2698117" roomname="Junior Suite Ocean" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>211.13</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="535525" hotelname="Adults Only Club at Lopesan Costa Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Higuey</location>
+							<roominfo>
+								<room type="SGL" roomcode="2700360" roomname="Junior Suite Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>191.94</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2700359" roomname="Junior Suite Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>201.53</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2700358" roomname="Junior Suite Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>211.13</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="427771" hotelname="Excellence Punta Cana - Adults Only - All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location/>
+							<roominfo>
+								<room type="SGL" roomcode="2641258" roomname="Junior Suite Vista al Jardín o a la Montaña" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>200.32</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641246" roomname="Junior Suite Excellence Club Vista al Jardín" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>226.45</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641256" roomname="Junior Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>235.16</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641257" roomname="Junior Suite con Acceso a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>235.16</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641250" roomname="Suite Master Excellence Club" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>239.52</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641259" roomname="Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>243.87</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641249" roomname="Junior Suite Excellence Club Acceso a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>270</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641247" roomname="Junior Suite Excellence Club Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>283.06</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641248" roomname="Junior Suite Excellence Club con Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>287.42</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641252" roomname="Suite Excellence Club Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>287.42</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641244" roomname="Suite Luna de Miel Excellence Club Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>330.97</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641243" roomname="St Luna de M Excellence C. con Terraza Techo F Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>418.06</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="512346" hotelname="Majestic Colonial Punta Cana All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="2269701" roomname="Junior Suite con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>202.15</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2269699" roomname="Junior Suite Club Colonial con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>219.35</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="532649" hotelname="Royalton Bavaro Resort &amp; Spa">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Punta Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="2641478" roomname="Luxury Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>204.52</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641479" roomname="Luxury Junior Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>225.81</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2641477" roomname="Luxury Family Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>300.65</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="421228" hotelname="Ancora Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>2</cancelpolicy>
+							<location>Cap Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="284967" roomname="Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>214.97</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="284966" roomname="Deluxe Suite Una Recámara" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>268.71</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="284968" roomname="Premier Suite Dos Recámaras" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>292.84</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="512347" hotelname="Majestic Elegance Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="2269703" roomname="Junior Suite con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>219.35</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2269702" roomname="Elegance Club Junior Suite con Jacuzzi" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>247.31</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="520418" hotelname="Nickelodeon Hotels and Resorts Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>2</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location>Punta Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="2540737" roomname="Nest Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>220.27</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2413094" roomname="Pad Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>220.27</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2413092" roomname="Flat Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>231.24</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2413305" roomname="Pad Swim Up Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>246.77</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2413093" roomname="Flat Swim Up Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>257.74</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2413097" roomname="Swank Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>273.28</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="529017" hotelname="Excellence El Carmen">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>30</cancelpolicy>
+							<location>Playas de Uvero Alto</location>
+							<roominfo>
+								<room type="SGL" roomcode="2610464" roomname="Junior Suite Vista a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>221.77</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610467" roomname="Suite Vista a la Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>230.65</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610465" roomname="Junior Swim Up Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>248.39</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610468" roomname="Suite Terraza con Piscina Privada" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>248.39</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610463" roomname="Junior Suite Ocean View" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>252.82</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610459" roomname="Suite Luna de Miel" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>257.26</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610462" roomname="Junior Suite Piscina Privada" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>266.13</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610466" roomname="Suite con Piscina Privada y Jardín" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>266.13</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610469" roomname="Suite Dos Pisos con Terraza de Azotea con Piscina" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>275</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610456" roomname="Excellence Club Junior Suite Ocean View" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>288.31</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610457" roomname="Excellence Club Junior Swim Up Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>292.74</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610455" roomname="Junior Suite Piscina Privada" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>301.61</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610453" roomname="Excellence Club Suite Luna de Miel" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>306.05</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610458" roomname="Excellence Suite Dos Pisos con Terraza de Azotea" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>323.79</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610454" roomname="Excellence Club Suite Luna de Miel Dos Pisos" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>332.66</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610451" roomname="Excellence Club Beachfront Honeymoon Swim Up Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>354.84</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2610452" roomname="Excellence Club Beachfront Honeymoon Suite 2 Pisos" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>372.58</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="499057" hotelname="Paradisus Palma Real Golf and Spa Resort All Inclusive">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location/>
+							<roominfo>
+								<room type="SGL" roomcode="2646073" roomname="Paradisus Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>232.26</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="535526" hotelname="Unique Club at Lopesan Costa Bavaro">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Higuey</location>
+							<roominfo>
+								<room type="SGL" roomcode="2700363" roomname="Unique Junior Suite Vista Tropical" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>249.52</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2700362" roomname="Unique Junior Suite Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>259.11</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2700361" roomname="Unique Junior Suite Vista al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>268.71</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="514894" hotelname="Secrets Cap Cana Resort and Spa">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Playa Juanillo Cap Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="2349084" roomname="Junior Suite Vista Tropical Dobles" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>269.28</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391443" roomname="Junior Suite Vista Tropical King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>269.28</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2597617" roomname="Junior Suite Vista a la Piscina Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>283.15</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2597618" roomname="Junior Suite Vista a la Piscina King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>283.15</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391441" roomname="Junior Suite Vista Parcial al Mar King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>296.2</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349086" roomname="Junior Suite Vista Parcial al Mar Dobles" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>296.2</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391440" roomname="Junior Suite Vista al Mar King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>310.08</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349085" roomname="Junior Suite Vista al Mar Dobles" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>310.08</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391442" roomname="Junior Suite Acceso Directo a la Piscina King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>323.14</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349087" roomname="Junior Suite Acceso Directo a la Piscina Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>323.14</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349094" roomname="Junior Suite Club Preferred Vista Tropical Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>337.01</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391446" roomname="Junior Suite Club Preferred Vista Tropical King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>337.01</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349092" roomname="Junior Suite Club Preferred Vista al Mar Doble" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>363.94</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2391444" roomname="Junior Suite Club Preferred Vista al Mar King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>363.94</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2597620" roomname="Ste Búngalo Club Preferred Vista a la Piscina King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>417.8</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2597619" roomname="Master Ste Búngalo Club Preferred Vista Pis King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>589.56</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349090" roomname="Suite Bungalow Club Preferred Frente al Mar King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>623.22</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349088" roomname="Master Suite Bungalow Club Preferred Frente al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>740.52</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349095" roomname="Master Suite Club Preferred Frente al Mar King" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>841.51</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2597622" roomname="Master Ste Club Preferred Pis Privada Frente Mar K" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>942.48</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2349096" roomname="Master Ste C. Preferred Acc Dir Pisc Frente al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>1009.8</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="512345" hotelname="Majestic Mirage Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="2269647" roomname="Suite De Una Recámara Mirage Club Jacuzzi Exterior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>275.27</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2269648" roomname="Suite De Una Recámara con Jacuzzi Exterior" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>275.27</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="356269" hotelname="Hard Rock Hotel and Casino Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>41</cancelpolicy>
+							<location>Arena Gorda</location>
+							<roominfo>
+								<room type="SGL" roomcode="1804557" roomname="Caribbean Suite - Camas Matrimoniales" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>339.1</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101182" roomname="Caribbean Suite - Cama King" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>339.1</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1804559" roomname="Islander Junior Suite - Cama King" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>349.54</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1804558" roomname="Caribbean Sand Suite - Camas Matrimoniales" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>358.43</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="266974" roomname="Caribbean Sand Suite - Cama King" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>358.43</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101183" roomname="Caribbean Diamond" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>377.54</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="266975" roomname="Rock Royalty - Caribbean Sand Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>443.31</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="266973" roomname="Signature Presidential Suite - Una Recamara" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>716.18</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="101184" roomname="Signature Family Suite - Dos Recamaras" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>716.18</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1936788" roomname="Suite Presidencial 2 Recamaras Asistente Personal" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>1192.6</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349439" hotelname="Zoetry Agua Punta Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>7</cancelpolicy>
+							<location>Uvero Alto</location>
+							<roominfo>
+								<room type="SGL" roomcode="2205901" roomname="Junior Suite Romance Vista al Jardín" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>340.86</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205899" roomname="Junior Suite Vista al Jardín" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>351.61</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="770482" roomname="Junior Suite Pool View" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>375.27</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106812" roomname="Junior Suite Agua Swim Up" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>392.47</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="770483" roomname="Romantic Junior Suite Pool View" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>392.47</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100363" roomname="Romantic Junior Suite Taino Garden View" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>408.6</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2205900" roomname="Junior Suite Romántica Agua Vista al Jardín" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>425.81</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100360" roomname="Junior Suite Frente al Mar" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>579.57</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100361" roomname="Junior Suite Ocean Front Deluxe" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>631.18</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="100362" roomname="Villa Caribe Garden View" childs="0" numberrequired="1">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>1172.04</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="349466" hotelname="Sanctuary Cap Cana - All Inclusive by Playa Hotels &amp; Resorts">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>17</cancelpolicy>
+							<location>Cap Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="2755812" roomname="Luxury Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>361.28</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106874" roomname="Junior Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>366.76</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106867" roomname="Castle Junior Suite Frente al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>383.43</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106868" roomname="Castle Junior Suite" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>408.44</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2755814" roomname="Premium Luxury Junior Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>417.95</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106866" roomname="Junior Suite Frente a la Playa" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>454.28</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2755813" roomname="Premium Junior Suite Vista al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>475.12</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106869" roomname="Castle Junior Suite Swim Out" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>575.15</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106877" roomname="Villa Monarca" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>616.83</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106871" roomname="Suite con Alberca Privada para Lunamieleros" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>716.85</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="106876" roomname="Villa Monarca Frente al Mar" childs="0" numberrequired="1" promotype="4">
+									<mealplancode>AI</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>758.53</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+						<hotel hotelcode="487787" hotelname="Eden Roc at Cap Cana">
+							<citycode>19526</citycode>
+							<hotelcategory>1</hotelcategory>
+							<cancelpolicy>22</cancelpolicy>
+							<location>Cap Cana</location>
+							<roominfo>
+								<room type="SGL" roomcode="1804018" roomname="&#xD;&#xA;Lujo Piscina Suite Junior" childs="0" numberrequired="1">
+									<mealplancode>CP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>931.61</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="1804019" roomname="Suite Una Recámara Vista a la Piscina" childs="0" numberrequired="1">
+									<mealplancode>CP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>1127.74</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2493866" roomname="Suite de Una Recámara Frente al Mar" childs="0" numberrequired="1">
+									<mealplancode>CP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>1323.87</price>
+									</tariff>
+								</room>
+								<room type="SGL" roomcode="2493867" roomname="Suite de Dos Recámaras Frente al Mar" childs="0" numberrequired="1">
+									<mealplancode>CP</mealplancode>
+									<tariff fromdate="20191123" todate="20191126">
+										<pricecurrency>USD</pricecurrency>
+										<price>2108.39</price>
+									</tariff>
+								</room>
+							</roominfo>
+						</hotel>
+					</hotels>
+				</hotelsearch>
+			</XMLMessageResult>
+		</XMLMessageResponse>
+	</soap:Body>
+</soap:Envelope>
