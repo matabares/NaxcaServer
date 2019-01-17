@@ -240,6 +240,13 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "<ItemCode>" in body:
+                file = open("providersimulation/rts/infoTrello.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
             if "<ItemCode>BKK0001</ItemCode>" in body and "<LanguageCode>AR</LanguageCode>" in body:
                 file = open("providersimulation/rts/HotelInfoEs.xml",
                             "r", encoding='utf8')

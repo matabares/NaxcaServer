@@ -146,13 +146,23 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "<PackageID>8614c0d5-498e-456d-98a7-c298443ebfd4</PackageID>" in body:
+
+            if "<PackageID>c6e43dbf-3ba1-4194-8a86-dac5f7d23345</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
+            if "<PackageID>c6e43dbf-3ba1-4194-8a86-dac5f7d23345</PackageID>" in body:
+                file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt_2Room2Adt.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
             if "<PackageID>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt_2Room2Adt1Chd.xml", "r",
                             encoding='utf8')
@@ -162,7 +172,7 @@ class GimmonixSimulation:
                 return info
 
         if "HotelBookRequest" in body:
-            if "/110/127631/D20181212T221715/c92583fe35d34159b927ad4afe08ab2d" in body:
+            if "/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
@@ -176,20 +186,23 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "412961b2-d731-4e7c-9840-2606e3fc9b92" in body:
+
+            if "/110/127631/D20181212T215245/792f22a832624fbd95372744156eb9d4" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt1Inf.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "8614c0d5-498e-456d-98a7-c298443ebfd4" in body:
+            #if "8614c0d5-498e-456d-98a7-c298443ebfd4" in body:
+            if "c6e43dbf-3ba1-4194-8a86-dac5f7d23345" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
             if "663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
