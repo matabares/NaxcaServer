@@ -25,7 +25,7 @@
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-												<a:string>Non Refundable Superior + Breakfast</a:string>
+												<a:string>Superior + Breakfast</a:string>
 											</Description>
 											<Id>01a196bd-9491-4db8-bd01-460cde628f9e</Id>
 											<RoomBasis>Room only RO</RoomBasis>
@@ -39,7 +39,7 @@
 											<AdultsCount>2</AdultsCount>
 											<Availability>Available</Availability>
 											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-												<a:string>Non Refundable Superior + Breakfast</a:string>
+												<a:string>Superior + Breakfast</a:string>
 											</Description>
 											<Id>62b018ce-7de5-472b-975f-59ee91af500b</Id>
 											<RoomBasis>Room only RO</RoomBasis>
