@@ -71,7 +71,7 @@ class GimmonixSimulation:
                 return info
 
             if "<CheckIn>2020-03-04T00:00:00</CheckIn>" in body:
-                file = open("providersimulation/gimmonix/hotelSearch_Refundable_3DayStay1Room2Adt_2Room2Adt-Copy.xml","r", encoding='utf8')
+                file = open("providersimulation/gimmonix/hotelSearch_3DayStay1Room2Adt_2Room2Adt-Copy.xml","r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
