@@ -147,7 +147,7 @@ class GimmonixSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if "<PackageID>c6e43dbf-3ba1-4194-8a86-dac5f7d23345</PackageID>" in body:
+            if "<PackageID>8614c0d5-498e-456d-98a7-c298443ebfd4</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
