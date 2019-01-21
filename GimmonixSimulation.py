@@ -116,7 +116,7 @@ class GimmonixSimulation:
                 return info
 
             if "/110/127631/D20181212T221715/c92583fe35d34159b927ad4afe08ab2f"  in body:
-                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room2Adt_2Room2Adt.xml", "r",
+                file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room2Adt_2Room2Adt-Copy.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
