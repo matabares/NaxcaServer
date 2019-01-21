@@ -583,6 +583,7 @@
 										<OriginalTax>72.12</OriginalTax>
 										<SupplierCurrency>USD</SupplierCurrency>
 									</PackagePrice>
+									<Refundability>Nonrefundable</Refundability>
 									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
 									<Rooms>
 										<Room>
@@ -603,7 +604,7 @@
 											</Price>
 											<RoomBasis>Room only RO</RoomBasis>
 											<RoomBasisOriginal>Room only RO</RoomBasisOriginal>
-											<RoomClass>Superior</RoomClass>
+											<RoomClass>Standard</RoomClass>
 											<RoomClassOriginal>Superior Superior + Breakfast</RoomClassOriginal>
 											<RoomType>Double</RoomType>
 											<RoomTypeOriginal>Superior + Breakfast Dbl</RoomTypeOriginal>
