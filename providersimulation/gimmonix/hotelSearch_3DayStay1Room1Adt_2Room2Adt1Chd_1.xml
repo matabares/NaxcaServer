@@ -1,0 +1,62 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<Address>93 11A 31, Colombia</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/2ec4dd62-7c3f-4d3f-a774-52f69f16b499.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Ghl 93</DisplayName>
+							<GeoLocation>
+								<Latitude>4.67449773</Latitude>
+								<Longitude>-74.04847336</Longitude>
+							</GeoLocation>
+							<ID>4116714</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>43e5a508-76a5-4f5f-a3e7-9807038282ss</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>bba7095a-eb02-43e4-8cdd-3d403e883a66</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Leisure Superior + Breakfast</a:string>
+											</Description>
+											<Id>555ad2f1-0dac-4ced-b643-3c8b1cea34dd</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>10</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Leisure</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>539.26</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>4</StarRating>
+						</Hotel>						
+					</Result>
+					<SearchId>AJNOCQ</SearchId>
+				</HotelsSearchResponse>
+				<SessionID xmlns="">/110/127631/D20181212T221715/c92583fe35d34159b927ad4afe08abss</SessionID>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>
