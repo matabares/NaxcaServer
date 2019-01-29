@@ -89,7 +89,12 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-
+            if "<CheckIn>2020-03-01T00:00:00</CheckIn>" in body:
+                file = open("providersimulation/gimmonix/hotelSearch_AvailableRoomTest.xml","r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
         if "HotelsSupplierDetailsRequest" in body:
             if "/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f" in body:
                 file = open("providersimulation/gimmonix/hotelSupplierDetails_1Room1Adt.xml", "r",
@@ -208,6 +213,15 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
+            if "<PackageID>c6e43dbf-3ba1-4194-8a86-dac5f7d23345</PackageID>" in body:
+                file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room2Adt_2Room2Adt.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
 
             if "<PackageID>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt_2Room2Adt1Chd.xml", "r",

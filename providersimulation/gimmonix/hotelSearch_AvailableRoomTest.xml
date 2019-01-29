@@ -1,0 +1,73 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<Address>Calle 93B 19 44, Bogota</Address>
+							<ChainCode>WV</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/cf20902f-2085-478c-afc6-84243df67982.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Casa Dann Carlton Hotel &amp; Spa</DisplayName>
+							<GeoLocation>
+								<Latitude>4.68041181564331</Latitude>
+								<Longitude>-74.0542678833008</Longitude>
+							</GeoLocation>
+							<ID>4116714</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>0f67d4ec-06b4-4946-81a2-a86c127c7817</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Not Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior + Breakfast</a:string>
+											</Description>
+											<Id>f2349c77-025c-4dfd-a208-8b7359ba0317</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>277.84</SimplePrice>
+								</RoomsPackage>
+								<RoomsPackage>
+									<PackageId>1fa9160b-0d79-407c-bbe7-58d68ff86bf2</PackageId>
+									<Refundability>Nonrefundable</Refundability>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Non Refundable Superior 2 Beds + Breakfast</a:string>
+											</Description>
+											<Id>b6ba6344-0c0a-4a2f-a8d1-7707b12c65f0</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Superior</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
+										</Room>
+									</Rooms>
+									<SimplePrice>277.84</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>5</StarRating>
+						</Hotel>
+					</Result>
+					<SearchId>8N2V2P</SearchId>
+				</HotelsSearchResponse>
+				<SessionID xmlns="">/110/127631/D20181212T214444/40a3513074ee49c6af2c25b4ae77968f</SessionID>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>
