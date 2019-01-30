@@ -6,14 +6,14 @@
 				<HotelOrderBookResponse xmlns="" xmlns:a="http://schemas.datacontract.org/2004/07/IsuBe.Public.Enteties.Hotels">
 					<a:HotelSegments>
 						<HotelBookSegment>
-							<BookingID>162507177</BookingID>
-							<BookingReference>163979008</BookingReference>
+							<BookingID>162491082</BookingID>
+							<BookingReference>163962678</BookingReference>
 							<BookingRemarks xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
-							<OrderId>3869411</OrderId>
+							<OrderId>3869193</OrderId>
 							<RoomIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-								<b:string>190dd5f1-e589-4207-894f-0b111a6ccf98</b:string>
+								<b:string>36a84663-9018-492f-bde1-d517c2b40e49</b:string>
 							</RoomIds>
-							<SegmentId>3898609</SegmentId>
+							<SegmentId>3898384</SegmentId>
 							<Status>OK</Status>
 							<TotalPrice>
 								<Currency>USD</Currency>
@@ -27,14 +27,14 @@
 							</TotalPrice>
 						</HotelBookSegment>
 						<HotelBookSegment>
-							<BookingID>162507177</BookingID>
-							<BookingReference>163979009</BookingReference>
+							<BookingID>162491082</BookingID>
+							<BookingReference>163962679</BookingReference>
 							<BookingRemarks xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
-							<OrderId>3869411</OrderId>
+							<OrderId>3869193</OrderId>
 							<RoomIds xmlns:b="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
-								<b:string>55977cd9-9ec6-4957-aff3-58f1bc51cb9d</b:string>
+								<b:string>b00616c1-c94a-47b1-b4ec-ac7fddd96add</b:string>
 							</RoomIds>
-							<SegmentId>3898610</SegmentId>
+							<SegmentId>3898385</SegmentId>
 							<Status>OK</Status>
 							<TotalPrice>
 								<Currency>USD</Currency>

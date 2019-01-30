@@ -280,7 +280,7 @@ class GimmonixSimulation:
                 return info
 
             if "663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3" in body:
-                file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt_2Room2Adt.xml", "r",
+                file = open("providersimulation/gimmonix/successBooking_3DayStay1Room1Adt_2Room2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
