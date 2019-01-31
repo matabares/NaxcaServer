@@ -20,6 +20,7 @@
 							<Packages>
 								<RoomsPackage>
 									<PackageId>663d2e7d-c9eb-4c8e-b99c-23c5e0f494f3</PackageId>
+									<Refundability>Nonrefundable</Refundability>
 									<Rooms>
 										<Room>
 											<AdultsCount>1</AdultsCount>
@@ -31,6 +32,9 @@
 											<RoomBasis>Room only RO</RoomBasis>
 											<RoomClass>Leisure</RoomClass>
 											<RoomType>Single</RoomType>
+											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>From 5/11/2019 12:00:00 AM to 5/14/2019 12:00:00 AM: 34% discount</a:string>
+											</SpecialDeals>
 										</Room>
 										<Room>
 											<AdultsCount>2</AdultsCount>
