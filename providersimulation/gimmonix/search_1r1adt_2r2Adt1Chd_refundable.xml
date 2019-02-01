@@ -1,0 +1,62 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body>
+		<ServiceRequestResponse xmlns="http://tempuri.org/">
+			<ServiceRequestResult xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<Errors xmlns=""/>
+				<HotelsSearchResponse xmlns="">
+					<Result>
+						<Hotel>
+							<Address>Calle 66 #8 23, Bogota</Address>
+							<ChainCode>YX</ChainCode>
+							<DefaultImage>
+								<FullSize>https://az712897.vo.msecnd.net/images/full/d6b0e807-759b-4eea-bcc2-d323980f17a0.jpeg</FullSize>
+							</DefaultImage>
+							<DisplayName>Hotel Vilar America</DisplayName>
+							<GeoLocation>
+								<Latitude>4.65098</Latitude>
+								<Longitude>-74.05988</Longitude>
+							</GeoLocation>
+							<ID>4313933</ID>
+							<Packages>
+								<RoomsPackage>
+									<PackageId>8f325a94-66ba-4765-89d6-f56d585ce577</PackageId>
+									<Rooms>
+										<Room>
+											<AdultsCount>1</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>c3f8a640-3ef9-4880-8f27-5d1c86e94fd7</Id>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Single</RoomType>
+										</Room>
+										<Room>
+											<AdultsCount>2</AdultsCount>
+											<Availability>Available</Availability>
+											<Description xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:string>Executive + Breakfast</a:string>
+											</Description>
+											<Id>aa4478dc-17e0-4094-8195-8e1142d0f80e</Id>
+											<KidsAges xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+												<a:int>10</a:int>
+											</KidsAges>
+											<RoomBasis>Room only RO</RoomBasis>
+											<RoomClass>Executive</RoomClass>
+											<RoomType>Double/Twin</RoomType>
+										</Room>
+									</Rooms>
+									<SimplePrice>378.04</SimplePrice>
+								</RoomsPackage>
+							</Packages>
+							<StarRating>3</StarRating>
+						</Hotel>
+					</Result>
+					<SearchId>UDL03V</SearchId>
+				</HotelsSearchResponse>
+				<SessionID xmlns="">/110/127631/D20190201T214218/b03ac91508fe41eab79ad63d0e819ca3</SessionID>
+			</ServiceRequestResult>
+		</ServiceRequestResponse>
+	</s:Body>
+</s:Envelope>

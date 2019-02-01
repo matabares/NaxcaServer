@@ -89,6 +89,21 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
+            if "<CheckIn>2020-04-05T00:00:00</CheckIn>" in body:
+                file = open("providersimulation/gimmonix/search_1r1adt_2r2Adt1Chd_refundable.xml","r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if "<CheckIn>2020-05-05T00:00:00</CheckIn>" in body:
+                file = open("providersimulation/gimmonix/search_1r1adt_2r2Adt1Chd_Nonrefundable.xml","r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
             if "<CheckIn>2020-03-01T00:00:00</CheckIn>" in body:
                 file = open("providersimulation/gimmonix/hotelSearch_AvailableRoomTest.xml","r", encoding='utf8')
                 data = file.read()
@@ -149,6 +164,16 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
+            if "/110/127631/D20190201T214218/b03ac91508fe41eab79ad63d0e819ca3"  in body:
+                file = open("providersimulation/gimmonix/hotelsupplier_1r1Adt_2r2Adt1Chd.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+
 
         if "HotelPaymentPreferencesRequest" in body:
             if "<PackageID>8a2977d8-2d65-4dfd-a69a-aa566407e52c</PackageID>" in body:
@@ -241,6 +266,14 @@ class GimmonixSimulation:
 
             if "<PackageID>43e5a508-76a5-4f5f-a3e7-980703828259</PackageID>" in body:
                 file = open("providersimulation/gimmonix/cancelPolicies_3DayStay1Room1Adt_2Room2Adt1Chd.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if "<PackageID>49106ffc-4adf-4bce-ae01-5c4ae75783c0</PackageID>" in body:
+                file = open("providersimulation/gimmonix/cancelPolicies_1r1Adt_2r2Adt1Chd.xml", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()
