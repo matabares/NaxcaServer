@@ -11,7 +11,6 @@
 								<RoomsPackage>
 									<HotelId>4313933</HotelId>
 									<PackageId>49106ffc-4adf-4bce-ae01-5c4ae75783c0</PackageId>
-									<Refundability>Nonrefundable</Refundability>
 									<PackagePrice>
 										<Currency>USD</Currency>
 										<FinalPrice>378.04</FinalPrice>
@@ -22,6 +21,7 @@
 										<OriginalTax>52.14</OriginalTax>
 										<SupplierCurrency>COP</SupplierCurrency>
 									</PackagePrice>
+									<Refundability>Nonrefundable</Refundability>
 									<Remarks xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
 									<Rooms>
 										<Room>
@@ -43,7 +43,7 @@
 											<RoomBasis>Room only RO</RoomBasis>
 											<RoomBasisOriginal>Room only</RoomBasisOriginal>
 											<RoomClass>Executive</RoomClass>
-											<RoomClassOriginal>Executive Executive + Breakfast</RoomClassOriginal>
+											<RoomClassOriginal>Executive + Breakfast</RoomClassOriginal>
 											<RoomType>Single</RoomType>
 											<RoomTypeOriginal>Executive + Breakfast</RoomTypeOriginal>
 											<SpecialDeals xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
