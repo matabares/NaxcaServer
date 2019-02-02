@@ -172,6 +172,13 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "/110/127631/D20190201T214218/b03ac91508fe41eab79ad63d0e819cb4"  in body:
+                file = open("providersimulation/gimmonix/hotelsupplier_1r1Adt_2r2Adt1Chd.xml", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
 
 
