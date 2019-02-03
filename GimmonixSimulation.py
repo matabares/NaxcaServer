@@ -310,8 +310,10 @@ class GimmonixSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            #if "8614c0d5-498e-456d-98a7-c298443ebfd4" in body:
-            if "c6e43dbf-3ba1-4194-8a86-dac5f7d23345" in body:
+
+            #
+            #if "c6e43dbf-3ba1-4194-8a86-dac5f7d23345" in body:
+            if "8614c0d5-498e-456d-98a7-c298443ebfd4" in body:
                 file = open("providersimulation/gimmonix/successBooking_3DayStay1Room2Adt_2Room2Adt.xml", "r",
                             encoding='utf8')
                 data = file.read()
