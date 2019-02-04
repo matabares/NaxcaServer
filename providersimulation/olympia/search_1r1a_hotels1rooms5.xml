@@ -16,6 +16,29 @@
 					<Info HotelCityCode="35" HotelCode="1453" HotelName="BAYSWATER INN" MasterCode="1453" Rating="3*" Recommended="0"/>
 					<BestPrice Amount="107.58" Currency="USD"/>
 					<Rooms>
+						<Room Best="1" RPH="1" Status="OR"> <!-- Este room esta on request y no se debe procesar -->
+							<RoomType Code="465451" Name="Standard Single no-refundable on request"/>
+							<RoomRates>
+								<RoomRate BookingCode="18NFL+vP642+rcE0UfgnFUmt3QeQ4f1JSamwet0wJvW4NX6fcKg/s79oLYbMT2c5p2/z+3F02ZlNl0YYu6utJNxtDzfFT2gaugUTVEot6UpsC4ulD+zLtfzYfmSOjS8UdQHeToRcvY77mqvntOpws8WOgCygW6asjMdxbAWQuVd7L01GajbS1F7iT2eSQQTB" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
+											<Total Amount="53.79" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="107.58" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="107.58" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="107.58" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
 						<Room Best="1" RPH="1" Status="AV">
 							<RoomType Code="465450" Name="Standard Single no-refundable"/>
 							<RoomRates>
