@@ -1,0 +1,472 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelAvailRS Id="11,1268637329,349616" PrimaryLangID="en-GB" TimeStamp="2019-02-01T20:31:57Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Hotels HotelCount="46">
+				<DateRange End="2019-02-18" Start="2019-02-16"/>
+				<RoomCandidates>
+					<RoomCandidate RPH="1">
+						<Guests>
+							<Guest AgeCode="A" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+					<RoomCandidate RPH="2">
+						<Guests>
+							<Guest AgeCode="A" Count="2"/>
+							<Guest Age="10" AgeCode="C" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+				</RoomCandidates>
+				<Hotel>
+					<Info HotelCityCode="35" HotelCode="1453" HotelName="BAYSWATER INN" MasterCode="1453" Rating="3*" Recommended="0"/>
+					<BestPrice Amount="355.55" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="465450" Name="Standard Single no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFcuYLSvSeCYJqleypeXBjdW4NX6fcKg/s79oLYbMT2c5A6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNIprTMJHwIm6OsJY2dSVE3LtumFhjCOQ28lqEKfIWWrjs2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="68.38" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="72.93" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="141.31" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="141.31" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="141.31" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room Best="2" RPH="2" Status="AV">
+							<RoomType Code="481635" Name="Standard Triple no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFbsmJ8QjwyJUUIxMKG/UBfUtqdUtz+spB40whymeBnZbA6bUi7bgugI9ZlhrsE59hiySa3dI42NvWJAuTQx9TueT47xjh7vXBl0PKnbtWEhzSNHPSv9gxLYDgsIq9HarAq5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="104.84" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="109.40" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="214.24" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="214.24" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="214.24" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481631" Name="Standard Double no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFdNvDrm+KRVFXOuRR3W8NON/1ewoxM5g8W2zAk8jV0RJA6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNIprTMJHwIm6OsJY2dSVE3LDFu+tidEzsYCIfwI7e4hwM2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="77.49" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="82.05" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="159.54" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="159.54" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="159.54" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481633" Name="Standard Twin no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFdNvDrm+KRVFXOuRR3W8NONdvcxA4lxJN3aT7xBx7ibmA6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNIprTMJHwIm6OsJY2dSVE3LDFu+tidEzsYCIfwI7e4hwM2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="77.49" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="82.05" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="159.54" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="159.54" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="159.54" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481630" Name="Standard Double"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFVvD0P4gr4VPnil1iPVOrm82T42JXROnjI4qCc+tfbz8A6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNLFXIaX39Vh/P8Ax9Fez2CPg0ZofoZCwfdaU7gRwiJyp7ip/CQeODrIAvx9Tplt/M57L01GajbS1F7iT2eSQQTB" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="88.26" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="93.45" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="181.71" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="88.26" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="181.71" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481632" Name="Standard Twin"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFVvD0P4gr4VPnil1iPVOrm+RZguldEEwB6cL1s+UTko/A6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNLFXIaX39Vh/P8Ax9Fez2CPg0ZofoZCwfdaU7gRwiJyp7ip/CQeODrIAvx9Tplt/M57L01GajbS1F7iT2eSQQTB" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="88.26" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="93.45" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="181.71" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="88.26" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="181.71" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481635" Name="Standard Triple no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFbsmJ8QjwyJUUIxMKG/UBfVv4ek8poKe+oev2QLTgkp2A6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNIprTMJHwIm6OsJY2dSVE3Lc0Q56JNMawyDjDFZj4HcTs2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="104.84" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="109.40" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="214.24" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="214.24" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="214.24" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="16496516" Name="Superior Double - No Refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFYgILbjUqVNivLXc2mJSBUSYFLi8g9cq24BPQI/14dnoMkPiJxT/Fk1jNgnoTlbPmqUwNxftJyTgXWMuJrZaHBOT47xjh7vXBl0PKnbtWEhzSm7kvs5CkUAEQBzVx0e3JK5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="114.60" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="120.29" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="234.89" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="234.89" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="234.89" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="16496518" Name="Superior Twin - No refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFYgILbjUqVNivLXc2mJSBUQGT/0yBq9TxIE1en52LjdKMkPiJxT/Fk1jNgnoTlbPmqUwNxftJyTgXWMuJrZaHBOT47xjh7vXBl0PKnbtWEhzSm7kvs5CkUAEQBzVx0e3JK5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="114.60" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="120.29" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="234.89" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="234.89" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="234.89" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481634" Name="Standard Triple"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFWYOqdhN4sf75VVPmvQEEUoHP+cJQu5E6tWM6gdAJdhEA6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNLFXIaX39Vh/P8Ax9Fez2CPI5up4TTpKWvOiGju8I16JM2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="119.41" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="124.60" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="244.01" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="119.41" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="244.01" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="16496515" Name="Superior Double "/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFf06fLPNEHVRgg608WbxQw8QvczGRnkYBDurmo1SBHxmMkPiJxT/Fk1jNgnoTlbPmqUwNxftJyTgXWMuJrZaHBPcidNTDneA1ddT/NJumJJVGPyKN0tElc7SGSIB8PW7Tq5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="126.62" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="132.95" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="259.57" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="126.62" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="259.57" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="16496517" Name="Superior Twin"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFf06fLPNEHVRgg608WbxQw+tHerAv6K/+12IL36z6M5tMkPiJxT/Fk1jNgnoTlbPmqUwNxftJyTgXWMuJrZaHBPcidNTDneA1ddT/NJumJJVGPyKN0tElc7SGSIB8PW7Tq5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="126.62" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="132.95" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="259.57" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="126.62" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="259.57" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481637" Name="Standard Quad no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFQ9og0vaOU9M3cocA5XnH4fKL2vp0aR2aXnpGnZpWJpkA6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNIprTMJHwIm6OsJY2dSVE3Ll5tmjonCNNQplLPTUL0Am82R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="132.19" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="136.75" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="268.94" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="268.94" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="268.94" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="1" Status="AV">
+							<RoomType Code="481636" Name="Standard Quad"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFf+zFLL9JU56MVlPnZa35Df1sbStaychP8KwU9rCC2IiA6bUi7bgugI9ZlhrsE59homzm1Q9xGDAjDfhdQbxnNLFXIaX39Vh/P8Ax9Fez2CPhDh4vPfdoeLrCoosfqUoPc2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="150.56" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="155.74" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="306.30" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="150.56" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="306.30" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="2" Status="AV">
+							<RoomType Code="481634" Name="Standard Triple"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFWYOqdhN4sf75VVPmvQEEUo3LgFDHJ0SeYpZh4qH6zUcA6bUi7bgugI9ZlhrsE59hiySa3dI42NvWJAuTQx9TufcidNTDneA1ddT/NJumJJVg31VCNetvJ/Yqxy+ucKEqq5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="119.41" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="124.60" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="244.01" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="119.41" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="244.01" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="2" Status="AV">
+							<RoomType Code="481637" Name="Standard Quad no-refundable"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFQ9og0vaOU9M3cocA5XnH4clNGJ655ZpPnQiFXcbtrLCA6bUi7bgugI9ZlhrsE59hiySa3dI42NvWJAuTQx9TueT47xjh7vXBl0PKnbtWEhz3lXTYmRXz5b31laRMiTWMq5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="132.19" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="136.75" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="268.94" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="268.94" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="268.94" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room RPH="2" Status="AV">
+							<RoomType Code="481636" Name="Standard Quad"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFf+zFLL9JU56MVlPnZa35Dd0OWoaLw2ZDhW0NVXSc5F/A6bUi7bgugI9ZlhrsE59hiySa3dI42NvWJAuTQx9TufcidNTDneA1ddT/NJumJJVOB5PEvyRklEBTL0Vq41oRa5PlwcOfHgUokPY3A9DA0HixKaLOVFn7yqEsbJgSPh8" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-17">
+											<Total Amount="150.56" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-17" ExpireDate="2019-02-18">
+											<Total Amount="155.74" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="306.30" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="4"/>
+											<Charge Amount="150.56" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="306.30" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+			</Hotels>
+		</OTA_HotelAvailRS>
+	</soap-env:Body>
+</soap-env:Envelope>

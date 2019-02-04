@@ -1,0 +1,10 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_BookingInfoRS Id="11,1268637329,-1" TimeStamp="2019-01-30T17:24:02Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Errors>
+				<Error Language="en-GB" Status="NotProcessed">The booking code '88NFL+vP642+rcE0UfgnFVLOIIRfF7GZPPCz2loAccuawaiaDu6DKqDmgARoseOPSAUp+N4+pE5ezoRhr686LSFsU62t0ZScSsrJMUM+QYufDYzhGY3ZS38owx23REArQEXk5quxZzSo0gJwYY+BJi3inI+Sm4k5gpHszkHICOw=' has expired. Please, make a new availability request.</Error>
+			</Errors>
+		</OTA_BookingInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>

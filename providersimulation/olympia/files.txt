@@ -1,0 +1,192 @@
+search_1r1a_clx0.xml
+-----------
+Filter:
+Start="2030-01-01"
+
+
+HotelCode="1453"
+Rating="3*"
+HotelName="BAYSWATER INN"
+RoomType Code="465450"
+Name="Standard Single no-refundable"
+Amount="107.58"
+MealPlan="BB"
+
+
+search_1r1a_2r2a1c_clx0.xml
+-----------
+Filter:
+Start="2030-01-02"
+
+HotelCode="1501"
+Rating="3*"
+HotelName="ROYAL NATIONAL HOTEL"
+
+RoomType Code1="19166907"
+Name1="Twin Room (use Single) "
+Amount1="173.72"
+MealPlan1="BB"
+
+RoomType Code2="230526"
+Name2="Standard Triple (Twin + extrabed)  "
+Amount2="173.72"
+MealPlan2="BB"
+
+search_1r1a_2r2a1c_clx2.xml
+-----------
+Filter:
+Start="2030-01-03"
+
+search_1r1a_2r2a1c_clxnrf.xml
+-----------
+Filter:
+Start="2030-01-04"
+
+search_1r1a_2r2a1c_contracts0.xml
+-----------
+Filter:
+Start="2030-01-05"
+
+search_1r1a_2r2a1c_contracts2.xml
+-----------
+Filter:
+Start="2030-01-06"
+
+search_1r1a_2r2a1c_currEur.xml
+-----------
+Filter:
+Start="2030-01-07"
+
+search_1r1a_2r2a1c_currUsd.xml
+-----------
+Filter:
+Start="2030-01-08"
+
+search_1r1a_2r2a1c_hotels1rooms6.xml
+-----------
+Filter:
+Start="2030-01-09"
+
+search_1r1a_2r2a1c_hotels5.xml
+-----------
+Filter:
+Start="2030-01-10"
+
+search_1r1a_2r2a2c.xml
+-----------
+Filter:
+Start="2030-01-11"
+
+search_1r1a_clx2.xml
+-----------
+Filter:
+Start="2030-01-12"
+
+search_1r1a_clxnrf.xml
+-----------
+Filter:
+Start="2030-01-13"
+
+search_1r1a_contracts0.xml
+-----------
+Filter:
+Start="2030-01-14"
+
+search_1r1a_contracts2.xml
+-----------
+Filter:
+Start="2030-01-15"
+
+search_1r1a_currEur.xml
+-----------
+Filter:
+Start="2030-01-16"
+
+search_1r1a_currUsd.xml
+-----------
+Filter:
+Start="2030-01-17"
+
+search_1r1a_hotels1rooms5.xml
+-----------
+Filter:
+Start="2030-01-18"
+
+search_1r1a_hotels5.xml
+-----------
+Filter:
+Start="2030-01-19"
+
+search_1r1a_room_specialinfo.xml
+-----------
+Filter:
+Start="2030-01-20"
+
+search_1r2a1c.xml
+-----------
+Filter:
+Start="2030-01-21"
+
+search_1r2a1i.xml
+-----------
+Filter:
+Start="2030-01-22"
+
+search_1r2a_2r2a.xml
+-----------
+Filter:
+Start="2030-01-23"
+
+
+search_1r1a_2r2a1c_hotels1_clx0
+-----------
+Filter
+Start="2030-01-24"
+
+HotelCode = "207140"
+
+
+search_1r1a_2r2a1c_hotels1_clx2
+-----------
+Filter
+Start="2030-01-25"
+
+HotelCode = "207140"
+clx1 Amount="58.78"
+clx2 Amount="117.56"
+
+
+search_1r1a_2r2a1c_hotels1_contracts2_roomspecialinfo
+--------
+Filter
+Start="2030-01-26"
+
+HotelCode = "207140"
+hotel commets = 
+The hotel may charge City Taxes 1
+The hotel may charge City Taxes 2
+
+Room 1 special info = Special offers applicable in this period1
+
+Room 2 special info = Special offers applicable in this period2
+
+
+
+search_1r1a_2r2a1c_hotels1_clxnrf
+------------------
+Filter
+Start="2030-01-27"
+
+HotelCode = "207140"
+clx Amount= 211.61
+
+
+
+verify_fail.xml
+-----------
+verify_ok.xml
+-----------
+
+
+
+

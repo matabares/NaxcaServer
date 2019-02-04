@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelAvailRS Id="11,1268637329,349623" PrimaryLangID="en-GB" TimeStamp="2019-02-01T20:49:31Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Hotels HotelCount="46">
+				<DateRange End="2019-02-18" Start="2019-02-16"/>
+				<RoomCandidates>
+					<RoomCandidate RPH="1">
+						<Guests>
+							<Guest AgeCode="A" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+					<RoomCandidate RPH="2">
+						<Guests>
+							<Guest AgeCode="A" Count="2"/>
+							<Guest Age="10" AgeCode="C" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+				</RoomCandidates>
+				<Hotel>
+					<Info HotelCityCode="35" HotelCode="1501" HotelName="ROYAL NATIONAL HOTEL" MasterCode="1501" Rating="3*" Recommended="0"/>
+					<BestPrice Amount="288.64" Currency="EUR"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="19166907" Name="Twin Room (use Single) "/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFeerZcwdxSZtgpiuvgS/bMbjem5xT8AnIQkQZ22VH7mvvwgH00YFISk+BU3X4vFd2nyWeWER8zblW5gxKQk+acRNjCqCRqrKtN0fyDQH1uzJ1bzqHbjElNYq8/qzJx+mjRA50oyUPp5sPNGYJVBumrzvEKYQqvUgyjBuMRt5KBd+" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-18">
+											<Total Amount="72.16" Currency="EUR"/>
+										</Rate>
+									</Rates>
+									<Total Amount="144.32" Commission="0.00" Currency="EUR"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="2"/>
+											<Charge Amount="72.16" Currency="EUR"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="144.32" Currency="EUR"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room Best="2" RPH="2" Status="AV">
+							<RoomType Code="230526" Name="Standard Triple (Twin + extrabed)  "/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFeerZcwdxSZtgpiuvgS/bMYnFaloy15n+seJsUQokqywmUIXLqR7Nkx5Pcyj6w9H7/eF8oFMc6Vjd7cpg+c0n0dNjCqCRqrKtN0fyDQH1uzJ1bzqHbjElNYq8/qzJx+mjRA50oyUPp5sPNGYJVBumrzvEKYQqvUgyjBuMRt5KBd+" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-18">
+											<Total Amount="72.16" Currency="EUR"/>
+										</Rate>
+									</Rates>
+									<Total Amount="144.32" Commission="0.00" Currency="EUR"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="2"/>
+											<Charge Amount="72.16" Currency="EUR"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="144.32" Currency="EUR"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+			</Hotels>
+		</OTA_HotelAvailRS>
+	</soap-env:Body>
+</soap-env:Envelope>

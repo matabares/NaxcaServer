@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelAvailRS Id="11,1268637329,342632" PrimaryLangID="en-GB" TimeStamp="2019-01-29T20:52:53Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Hotels HotelCount="21">
+				<DateRange End="2019-02-15" Start="2019-02-13"/>
+				<RoomCandidates>
+					<RoomCandidate RPH="1">
+						<Guests>
+							<Guest AgeCode="A" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+					<RoomCandidate RPH="2">
+						<Guests>
+							<Guest AgeCode="A" Count="2"/>
+							<Guest Age="10" AgeCode="C" Count="1"/>
+							<Guest Age="11" AgeCode="C" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+				</RoomCandidates>
+				<Hotel>
+					<Info HotelCityCode="35" HotelCode="18161" HotelName="JURYS INN CROYDON" MasterCode="18161" Rating="3*SUP" Recommended="0"/>
+					<BestPrice Amount="334.38" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="25992" Name="Standard Room - Buffet Breakfast"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFUkhcI5P7+OGN6/VAAGx4V+awaiaDu6DKqDmgARoseOPlulVidCusG3B80yGOeL8HRjUoncNB5vr/sZzNFmdWPpcen2SWD/IQ/G/N1vWbmSg9iW2KOblO6RmxDBinC4i6i5OkcvdJlllW2Mz48poQiU=" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
+											<Total Amount="82.29" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="164.58" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="2"/>
+											<Charge Amount="82.29" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="164.58" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room Best="2" RPH="2" Status="AV">
+							<RoomType Code="25992" Name="Standard Room - Buffet Breakfast"/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFUaWi+1Y0KSY0T7AnRCyZfkDPYYC7XeqrfChoAV2rHBMlulVidCusG3B80yGOeL8HRcumFyoWtW3B0yACtXXCUsYrVvQHSSa7LEWoGD4Ex5QAebkWRN9qxhafmQqeNs6MXP93biC8JosohaqkoCXjo36zU6eGSm6/KueXgoEThnZ" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
+											<Total Amount="84.90" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="169.80" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="2"/>
+											<Charge Amount="84.90" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="169.80" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+			</Hotels>
+		</OTA_HotelAvailRS>
+	</soap-env:Body>
+</soap-env:Envelope>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelAvailRS Id="11,1268637329,351529" PrimaryLangID="en-GB" TimeStamp="2019-02-03T17:13:40Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Hotels HotelCount="1">
+				<DateRange End="2019-02-20" Start="2019-02-18"/>
+				<RoomCandidates>
+					<RoomCandidate RPH="1">
+						<Guests>
+							<Guest AgeCode="A" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+					<RoomCandidate RPH="2">
+						<Guests>
+							<Guest AgeCode="A" Count="2"/>
+							<Guest Age="10" AgeCode="C" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+				</RoomCandidates>
+				<Hotel>
+					<Info HotelCityCode="35" HotelCode="207140" HotelName="AMBASSADORS HOTEL" MasterCode="207140" Rating="3*" Recommended="0">
+						<Warnings>
+							<Msg><![CDATA[The hotel may charge City Taxes 1]]></Msg>
+							<Msg><![CDATA[The hotel may charge City Taxes 2]]></Msg>
+						</Warnings>
+					</Info>
+					<BestPrice Amount="329.17" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="8324664" Name="Standard B&amp;B ">
+								<Special><![CDATA[Special offers applicable in this period1]]></Special>
+							</RoomType>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFRXP2i+FF/dw4ZCghusxZhxxBwUD/sTZqdBCQmweqB6cOvseJqVP6P95m/VWvh27bR4mefecvXo98ip/QuI3oeTcidNTDneA1ddT/NJumJJVqKxcjU000xA/NjVchdOrdbBeOdg1lgk1JH7GyINDXCIBVufyOfIiuo3qzK2s+naC" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-18" ExpireDate="2019-02-19">
+											<Total Amount="58.78" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-19" ExpireDate="2019-02-20">
+											<Total Amount="58.78" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="117.56" Commission="0.00" Currency="USD"/>									
+								</RoomRate>
+							</RoomRates>
+						</Room>
+						<Room Best="2" RPH="2" Status="AV">
+							<RoomType Code="8324664" Name="Standard B&amp;B ">
+								<Special><![CDATA[Special offers applicable in this period2]]></Special>
+							</RoomType>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFekz96y1taRdLYK66VhLWg1xBwUD/sTZqdBCQmweqB6cNciGB+mPDG/2OIAkMLRQOzCvq+kd2WBp2pWJVjg1llIYrVvQHSSa7LEWoGD4Ex5Qk9h2cdNCBswnoXnm+oe7T8j4hvCCTIj/yZPsYbsKMr9aIvhvUJVtN+d2t6DU0ukA" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-18" ExpireDate="2019-02-19">
+											<Total Amount="104.50" Currency="USD"/>
+										</Rate>
+										<Rate EffectiveDate="2019-02-19" ExpireDate="2019-02-20">
+											<Total Amount="107.11" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="211.61" Commission="0.00" Currency="USD"/>									
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+			</Hotels>
+		</OTA_HotelAvailRS>
+	</soap-env:Body>
+</soap-env:Envelope>

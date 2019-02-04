@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelAvailRS Id="11,1268637329,342589" PrimaryLangID="en-GB" TimeStamp="2019-01-29T20:31:01Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Hotels HotelCount="45">
+				<DateRange End="2019-02-15" Start="2019-02-13"/>
+				<RoomCandidates>
+					<RoomCandidate RPH="1">
+						<Guests>
+							<Guest AgeCode="A" Count="2"/>
+							<Guest Age="10" AgeCode="C" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+				</RoomCandidates>
+				<Hotel>
+					<Info HotelCityCode="35" HotelCode="1501" HotelName="ROYAL NATIONAL HOTEL" MasterCode="1501" Rating="3*" Recommended="0"/>
+					<BestPrice Amount="150.22" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="230526" Name="Standard Triple (Twin + extrabed)  "/>
+							<RoomRates>
+								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFWT8da+qkswVTbujCnY7x1gnFaloy15n+seJsUQokqywlulVidCusG3B80yGOeL8HbIrkySp9dAieIANg3ZrKElNjCqCRqrKtN0fyDQH1uzJUxV5GUNKoPMSuFDirsJxMHk3V9VDdx73j0qBSS6ljW4gz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
+											<Total Amount="75.11" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="150.22" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="2"/>
+											<Charge Amount="75.11" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="150.22" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+			</Hotels>
+		</OTA_HotelAvailRS>
+	</soap-env:Body>
+</soap-env:Envelope>
