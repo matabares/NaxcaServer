@@ -35,10 +35,10 @@
 										</Rate>
 									</Rates>
 									<Total Amount="117.56" Commission="0.00" Currency="USD"/>
-									<CancelPenalties CancellationCostsToday="0" NonRefundable="0">
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
 										<CancelPenalty>
 											<Deadline TimeUnit="Day" Units="3"/>
-											<Charge Amount="58.78" Currency="USD"/>
+											<Charge Amount="117.56" Currency="USD"/>
 										</CancelPenalty>
 										<CancelPenalty>
 											<Deadline TimeUnit="Day" Units="0"/>
@@ -64,7 +64,7 @@
 									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
 										<CancelPenalty>
 											<Deadline TimeUnit="Day" Units="3"/>
-											<Charge Amount="104.50" Currency="USD"/>
+											<Charge Amount="211.61" Currency="USD"/>
 										</CancelPenalty>
 										<CancelPenalty>
 											<Deadline TimeUnit="Day" Units="0"/>
