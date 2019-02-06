@@ -22,6 +22,29 @@
 					<Info HotelCityCode="35" HotelCode="8384" HotelName="LONDON LODGE HOTEL" MasterCode="8384" Rating="3*SUP" Recommended="0"/>
 					<BestPrice Amount="470.24" Currency="USD"/>
 					<Rooms>
+						<Room Best="1" RPH="1" Status="OR">
+							<RoomType Code="20054790" Name="Standard room No Refundable on request"/>
+							<RoomRates>
+								<RoomRate BookingCode="18NFL+vP642+rcE0UfgnFVE2nU/RT6cLfEWW4KTsf4hcxk1Mr745fipj1EHn0K0xvwgH00YFISk+BU3X4vFd2nyWeWER8zblW5gxKQk+acQoAm7bTWyjhi80E9xqyIUUzaZGxkXtlt3dpMUayynKIMv8NPK+kEZUiYlUW0ssZbsxvVvdJSLCozLZanGlEI1q" MealPlan="RO">
+									<Rates>
+										<Rate EffectiveDate="2019-02-16" ExpireDate="2019-02-18">
+											<Total Amount="111.03" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="222.06" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="222.06" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="222.06" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>
 						<Room Best="1" RPH="1" Status="AV">
 							<RoomType Code="20054748" Name="Standard room No Refundable "/>
 							<RoomRates>
