@@ -23,7 +23,9 @@
 					<BestPrice Amount="347.44" Currency="USD"/>
 					<Rooms>
 						<Room Best="1" RPH="1" Status="AV">
-							<RoomType Code="19166907" Name="Twin Room (use Single) "/>
+							<RoomType Code="19166907" Name="Twin Room (use Single) ">
+								<Special><![CDATA[Special offers applicable in this period1]]></Special>
+							</RoomType>
 							<RoomRates>
 								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFcjBL+7oefDYFuTa1V+qiuXjem5xT8AnIQkQZ22VH7mvvwgH00YFISk+BU3X4vFd2nyWeWER8zblW5gxKQk+acRNjCqCRqrKtN0fyDQH1uzJk2dbCpOWy6S6thVJpq1BHc2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
 									<Rates>
@@ -36,7 +38,9 @@
 							</RoomRates>
 						</Room>
 						<Room Best="2" RPH="2" Status="AV">
-							<RoomType Code="230526" Name="Standard Triple (Twin + extrabed)  "/>
+							<RoomType Code="230526" Name="Standard Triple (Twin + extrabed)  ">
+								<Special><![CDATA[Special offers applicable in this period2]]></Special>
+							</RoomType>
 							<RoomRates>
 								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFcjBL+7oefDYFuTa1V+qiuUnFaloy15n+seJsUQokqywmUIXLqR7Nkx5Pcyj6w9H7/eF8oFMc6Vjd7cpg+c0n0dNjCqCRqrKtN0fyDQH1uzJk2dbCpOWy6S6thVJpq1BHc2R1rH4IMklXm+7/ZVnTKMgz5hPeV9zyo+lmZuudM3L" MealPlan="BB">
 									<Rates>
