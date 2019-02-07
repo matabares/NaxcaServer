@@ -9,7 +9,6 @@ class RtsSimulation:
         body = str(postBody, "utf-8")
 
 
-        #region hotelSearch
         if "HotelSearchListNetGuestCount" in body:
             # region Search
             if "<CheckInDate>2019-11-05</CheckInDate>"in body:
@@ -69,7 +68,7 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            # endregion
+
             if "<CheckInDate>2020-02-01</CheckInDate>" in body or "<CheckInDate>2020-07-01</CheckInDate>" in body or "<CheckInDate>2020-06-12</CheckInDate>" in body:
 
                 file = open("providersimulation/rts/hotelSearchVerify1adtBKK0001.xml",
@@ -148,8 +147,7 @@ class RtsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        #endregion
-        # region Politicas de cancelacion
+
         if "GetCancelDeadlineForCustormerCountResponse":
             if "<CheckInDate>2019-11-05</CheckInDate>"in body:
                 file = open("providersimulation/rts/trelloCancelPolicies.xml",
@@ -230,17 +228,10 @@ class RtsSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-        #endregion
+
         #region info
         if "GetHotelInformation" in body:
             if "<ItemCode>LAX0240</ItemCode>" in body:
-                file = open("providersimulation/rts/infoTrello.xml",
-                            "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "<ItemCode>" in body:
                 file = open("providersimulation/rts/infoTrello.xml",
                             "r", encoding='utf8')
                 data = file.read()
