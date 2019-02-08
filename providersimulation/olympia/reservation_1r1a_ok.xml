@@ -1,0 +1,52 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_BookingInfoRS Id="11,1268637329,360399" TimeStamp="2019-02-07T23:02:21Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<HotelResList>
+				<HotelRes CreateDateTime="2019-02-07T22:02:00" LastModifyDateTime="2019-02-07T22:02:00" NewItem="1" ResStatus="OK">
+					<Rooms>
+						<Room>
+							<RoomType Code="16676588" Name="Standard Single Continental Breakfast - No Refundable "/>
+							<RoomRate End="2019-02-24" MealPlan="BB" Start="2019-02-22">
+								<Total Amount="102.80" Commission="0.00" Currency="USD"/>
+								<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+									<CancelPenalty>
+										<Deadline TimeUnit="Day" Units="15"/>
+										<Charge Amount="102.80" Currency="USD"/>
+									</CancelPenalty>
+								</CancelPenalties>
+							</RoomRate>
+							<Guests>
+								<Guest AgeCode="A" LeadGuest="1">
+									<PersonName>
+										<NamePrefix>Mr.</NamePrefix>
+										<GivenName>TestName5b7f2</GivenName>
+										<Surname>TestSurnameName</Surname>
+									</PersonName>
+								</Guest>
+							</Guests>
+						</Room>
+					</Rooms>
+					<Info HotelCityCode="35" HotelCode="1518" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="2*" Recommended="0"/>
+					<HotelResInfo>
+						<DateRange End="2019-02-24" Start="2019-02-22"/>
+						<Total Amount="102.80" Commission="0.00" Currency="USD"/>
+						<HotelResIDs>
+							<HotelResID ID="960829" Type="Locator"/>
+							<HotelResID ID="0" Type="ProviderReference"/>
+						</HotelResIDs>
+					</HotelResInfo>
+				</HotelRes>
+			</HotelResList>
+			<ResGlobalInfo>
+				<DateRange End="2019-02-24" Start="2019-02-22"/>
+				<Total Amount="102.80" Commission="0.00" Currency="USD"/>
+				<ResIDs>
+					<ResID ID="724324" Type="Reservation"/>
+					<ResID ID="1234" Type="ClientReference"/>
+				</ResIDs>
+				<LeadGuest>TestName5b7f2 TestSurnameName</LeadGuest>
+			</ResGlobalInfo>
+		</OTA_BookingInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>

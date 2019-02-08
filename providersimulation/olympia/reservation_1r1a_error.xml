@@ -1,0 +1,10 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_BookingInfoRS Id="11,1268637329,-1" TimeStamp="2019-02-07T23:08:31Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Errors>
+				<Error Language="en-GB" Status="NotProcessed">Expected attribute: ID in element UniqueID@http://parsec.es/hotelapi/OTA2014Compact</Error>
+			</Errors>
+		</OTA_BookingInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>

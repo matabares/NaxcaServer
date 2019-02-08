@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelAvailRS Id="11,1268637329,361693" PrimaryLangID="en-GB" TimeStamp="2019-02-08T17:32:12Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Hotels HotelCount="2">
+				<DateRange End="2019-02-25" Start="2019-02-23"/>
+				<RoomCandidates>
+					<RoomCandidate RPH="1">
+						<Guests>
+							<Guest AgeCode="A" Count="1"/>
+						</Guests>
+					</RoomCandidate>
+				</RoomCandidates>
+				<Hotel>
+					<Info HotelCityCode="35" HotelCode="0001" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="3*" Recommended="0"/>
+					<BestPrice Amount="110.70" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="16676588" Name="Standard Single Continental Breakfast - No Refundable "/>
+							<RoomRates>
+								<RoomRate BookingCode="test1test1test1test1" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="{CHECKIN_DATE}" ExpireDate="{CHECKOUT_DATE}">
+											<Total Amount="55.35" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="110.70" Commission="0.00" Currency="USD"/>
+									<CancelPenalties CancellationCostsToday="1" NonRefundable="1">
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="15"/>
+											<Charge Amount="110.70" Currency="USD"/>
+										</CancelPenalty>
+										<CancelPenalty>
+											<Deadline TimeUnit="Day" Units="0"/>
+											<Charge Amount="110.70" Currency="USD"/>
+										</CancelPenalty>
+									</CancelPenalties>
+								</RoomRate>
+							</RoomRates>
+						</Room>						
+					</Rooms>
+				</Hotel>
+			</Hotels>
+		</OTA_HotelAvailRS>
+	</soap-env:Body>
+</soap-env:Envelope>

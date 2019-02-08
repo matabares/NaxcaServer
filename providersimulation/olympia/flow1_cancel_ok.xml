@@ -1,0 +1,57 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_BookingInfoRS Id="11,1268637329,361696" TimeStamp="2019-02-08T17:32:19Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<HotelResList>
+				<HotelRes CanceledItem="1" CreateDateTime="2019-02-08T16:32:00" LastModifyDateTime="2019-02-08T16:32:00" ResStatus="CA">
+					<Rooms>
+						<Room>
+							<RoomType Code="16676588" Name="Standard Single Continental Breakfast - No Refundable "/>
+							<RoomRate End="2019-02-25" MealPlan="BB" Start="2019-02-23">
+								<Total Amount="110.70" Commission="0.00" Currency="USD"/>
+							</RoomRate>
+							<Guests>
+								<Guest AgeCode="A" LeadGuest="1">
+									<PersonName>
+										<NamePrefix>Mr.</NamePrefix>
+										<GivenName>TestNamebce57</GivenName>
+										<Surname>TestSurnameName</Surname>
+									</PersonName>
+								</Guest>
+							</Guests>
+						</Room>
+					</Rooms>
+					<Info HotelCityCode="35" HotelCode="1518" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="2*" Recommended="0">
+						<Position Lat="51.5136500000" Lon="-0.1928000000"/>
+						<Image/>
+						<Address>
+							<AddressLine>49-51 LEINSTER SQUARE</AddressLine>
+							<CityName>LONDON</CityName>
+							<PostalCode>W2 4PU</PostalCode>
+							<CountryName>UNITED KINGDOM</CountryName>
+						</Address>
+						<Contacts Fax="02077928927" Phone="02072298990" Website=""/>
+						<Policy CheckInTime="" CheckOutTime=""/>
+					</Info>
+					<HotelResInfo>
+						<DateRange End="2019-02-25" Start="2019-02-23"/>
+						<Total Amount="110.70" Commission="0.00" Currency="USD"/>
+						<HotelResIDs>
+							<HotelResID ID="960833" Type="Locator"/>
+							<HotelResID ID="0" Type="ProviderReference"/>
+						</HotelResIDs>
+					</HotelResInfo>
+				</HotelRes>
+			</HotelResList>
+			<ResGlobalInfo>
+				<DateRange End="2019-02-25" Start="2019-02-23"/>
+				<Total Amount="110.70" Commission="0.00" Currency="USD"/>
+				<ResIDs>
+					<ResID ID="724326" Type="Reservation"/>
+					<ResID ID="1234" Type="ClientReference"/>
+				</ResIDs>
+				<LeadGuest>TestNamebce57 TestSurnameName</LeadGuest>
+			</ResGlobalInfo>
+		</OTA_BookingInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>
