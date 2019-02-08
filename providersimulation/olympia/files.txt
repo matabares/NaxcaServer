@@ -189,4 +189,16 @@ verify_ok.xml
 
 
 
+reservation_1r1a_ok.xml
+-----------------------
+Filter:
+BookingCode="88NFL+vP642+rcE0UfgnFUmt3QeQ4f1JSamwet0wJvW4NX6fcKg/s79oLYbMT2c5p2/z+3F02ZlNl0YYu6utJNxtDzfFT2gaugUTVEot6UpsC4ulD+zLtfzYfmSOjS8UdQHeToRcvY77mqvntOpws8WOgCygW6asjMdxbAWQuVd7L01GajbS1F7iT2eSQQTB"
+
+
+reservation_1r1a_error.xml
+--------------------------
+
+
+
+
 

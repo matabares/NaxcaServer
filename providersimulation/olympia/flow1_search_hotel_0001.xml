@@ -13,7 +13,7 @@
 					</RoomCandidate>
 				</RoomCandidates>
 				<Hotel>
-					<Info HotelCityCode="35" HotelCode="0001" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="3*" Recommended="0"/>
+					<Info HotelCityCode="35" HotelCode="1" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="3*" Recommended="0"/>
 					<BestPrice Amount="110.70" Currency="USD"/>
 					<Rooms>
 						<Room Best="1" RPH="1" Status="AV">

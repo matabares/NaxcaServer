@@ -21,7 +21,7 @@
 							</Guests>
 						</Room>
 					</Rooms>
-					<Info HotelCityCode="35" HotelCode="1518" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="2*" Recommended="0">
+					<Info HotelCityCode="35" HotelCode="1" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="2*" Recommended="0">
 						<Position Lat="51.5136500000" Lon="-0.1928000000"/>
 						<Image/>
 						<Address>
@@ -37,7 +37,7 @@
 						<DateRange End="2019-02-25" Start="2019-02-23"/>
 						<Total Amount="110.70" Commission="0.00" Currency="USD"/>
 						<HotelResIDs>
-							<HotelResID ID="960833" Type="Locator"/>
+							<HotelResID ID="100000" Type="Locator"/>
 							<HotelResID ID="0" Type="ProviderReference"/>
 						</HotelResIDs>
 					</HotelResInfo>
@@ -47,7 +47,7 @@
 				<DateRange End="2019-02-25" Start="2019-02-23"/>
 				<Total Amount="110.70" Commission="0.00" Currency="USD"/>
 				<ResIDs>
-					<ResID ID="724326" Type="Reservation"/>
+					<ResID ID="200000" Type="Reservation"/>
 					<ResID ID="1234" Type="ClientReference"/>
 				</ResIDs>
 				<LeadGuest>TestNamebce57 TestSurnameName</LeadGuest>

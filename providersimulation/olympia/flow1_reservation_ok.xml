@@ -27,7 +27,7 @@
 							</Guests>
 						</Room>
 					</Rooms>
-					<Info HotelCityCode="35" HotelCode="0001" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="2*" Recommended="0"/>
+					<Info HotelCityCode="35" HotelCode="1" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="2*" Recommended="0"/>
 					<HotelResInfo>
 						<DateRange End="{CHECKOUT_DATE}" Start="{CHECKIN_DATE}"/>
 						<Total Amount="110.70" Commission="0.00" Currency="USD"/>
