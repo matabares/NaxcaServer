@@ -21,7 +21,7 @@
 							<RoomRates>
 								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFUd8akP1Z3+aK39gJgk3Auh6nPEg2wdiHaFqRixpudQIS6O3SNvOVmwNQgMBeIx4uR8tVqwqnhE2F+sBGYxwQODvOckTMcK1QrOHCXptB86fF7/brHna4g5Tt/aX3LhDxiLupd9E/bVrDGA5mmi5YJCczIshu52QZq6DlS312QuS" MealPlan="BB">
 									<Rates>
-										<Rate EffectiveDate="{CHECKOUT_DATE}" ExpireDate="{CHECKOUT_DATE}">
+										<Rate EffectiveDate="{CHECKIN_DATE}" ExpireDate="{CHECKOUT_DATE}">
 											<Total Amount="55.35" Currency="USD"/>
 										</Rate>
 									</Rates>
