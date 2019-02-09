@@ -8,7 +8,7 @@ from RentingSimulation import RentingSimulation
 from GimmonixSimulation import GimmonixSimulation
 from VivaColombiaSimulation import VivaColombiaSimulation
 from HotelDoSimulation import HotelDoSimulation
-from OlympiaSimulation import OlympiaSimulation
+#from OlympiaSimulation import OlympiaSimulation
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
@@ -64,10 +64,10 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             response = hoteldo.HotelDoResponse(self)
             return response
 
-        if "olympiasimulation" in self.path:
-            olympia = OlympiaSimulation()
-            response = olympia.OlympiaResponse(self)
-            return response
+        #if "olympiasimulation" in self.path:
+            #olympia = OlympiaSimulation()
+            #response = olympia.OlympiaResponse(self)
+            #return response
 
 
 def Run(server_class=HTTPServer, handler_class=NetSuiteProviderBaseHTTPRequestHandler):
