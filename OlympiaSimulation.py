@@ -236,6 +236,7 @@ class OlympiaSimulation:
                 file = open("providersimulation/olympia/flow1_prebooking_ok.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
+                data = self.ReplaceDates(data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
@@ -246,6 +247,7 @@ class OlympiaSimulation:
                 file = open("providersimulation/olympia/flow1_reservation_ok.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
+                data = self.ReplaceDates(data)
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
