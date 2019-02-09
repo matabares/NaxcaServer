@@ -229,7 +229,7 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "OTA_HotelResRQ" and "Transaction=PreBooking" in body:
+        if "OTA_HotelResRQ" and 'Transaction="PreBooking"' in body:
 
             #flujo 1
             if 'BookingCode="test1test1test1test1"' in body:
@@ -239,7 +239,7 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-        if "OTA_HotelResRQ" and "Transaction=Booking" in body:
+        if "OTA_HotelResRQ" and 'Transaction="Booking"' in body:
 
             #flujo 1
             if 'BookingCode="test1test1test1test1"' in body:
