@@ -1,0 +1,8 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_BookingInfoRS Id="11,1268637335,1804" TimeStamp="2019-02-10T18:09:06Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Success>Successful operation</Success>
+		</OTA_BookingInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>
