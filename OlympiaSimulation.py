@@ -251,6 +251,14 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            if 'BookingCode="failedfailedfailed"' in body:
+                file = open("providersimulation/olympia/flow1_reservation_failed.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                data = self.ReplaceDates(data)
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
         if "OTA_HotelResRQ" and "Transaction=Cancel" in body:
 
             #flujo 1

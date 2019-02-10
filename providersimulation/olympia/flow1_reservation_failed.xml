@@ -1,0 +1,10 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_BookingInfoRS Id="11,1268637335,-1" TimeStamp="2019-02-10T16:35:04Z" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
+			<Errors>
+				<Error Language="en-GB" Status="NotProcessed">Message error</Error>
+			</Errors>
+		</OTA_BookingInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>
