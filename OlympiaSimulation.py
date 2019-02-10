@@ -273,7 +273,7 @@ class OlympiaSimulation:
                 return info
 
             if 'BookingCode="Room1Test5"' and 'BookingCode="Room2Test5"' in body:
-                file = open("providersimulation/olympia/flow5_reservation_ok.xml.xml", "r", encoding='utf8')
+                file = open("providersimulation/olympia/flow5_reservation_ok.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 data = self.ReplaceDates(data)
