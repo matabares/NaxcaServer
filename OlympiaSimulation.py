@@ -235,8 +235,8 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if 'HotelCode="0001"' in body:
-                file = open("providersimulation/olympia/flow5_search_hotel_0001.xml", "r", encoding='utf8')
+            if 'HotelCode="1"' in body:
+                file = open("providersimulation/olympia/flow5_search_hotelcode_1.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 data = self.ReplaceDates(data)
