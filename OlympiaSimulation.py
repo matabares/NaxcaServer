@@ -236,7 +236,7 @@ class OlympiaSimulation:
                 return info
 
             if 'HotelCode="1"' in body:
-                file = open("providersimulation/olympia/flow5_search_hotelcode_1.xml", "r", encoding='utf8')
+                file = open("providersimulation/olympia/flow1_search_hotelcode_1.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 data = self.ReplaceDates(data)
