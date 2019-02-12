@@ -290,14 +290,14 @@ class OlympiaSimulation:
 
         if "OTA_HotelResRQ" and "Transaction=Cancel" in body:
 
-            if 'Type="Locator" ID="100000"' in body:
+            if 'Type="Locator" ID="1"' in body:
                 file = open("providersimulation/olympia/flow1_cancel_ok.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if 'Type="Locator" ID="500000"' in body:
+            if 'Type="Locator" ID="5"' in body:
                 file = open("providersimulation/olympia/flow5_cancel_ok.xml.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
