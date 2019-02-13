@@ -1,6 +1,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 from dingusProvider import dingusProviderSimulation
 from jumboProvider import jumboProviderSimulation
+from placetoplaySimulator import placetoplaySimulation
 from wegoProvider import wegoProviderSimulation
 from AviancaSimulation import AviancaSimulation
 from RtsSimulation import RtsSimulation
@@ -67,6 +68,10 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "olympiasimulation" in self.path:
             olympia = OlympiaSimulation()
             response = olympia.OlympiaResponse(self)
+            return response
+        if "placetoplayaprobadoyrechazado" in self.path:
+            place = placetoplaySimulation()
+            response = place.p2pResponse(self)
             return response
 
 
