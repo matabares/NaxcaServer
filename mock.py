@@ -22,11 +22,6 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             renting = RentingSimulation()
             response = renting.RentingResponse(self)
             return response
-        if "placetoplayaprobadoyrechazado" in self.path:
-            self.send_response(200)
-            self.send_header('Content-Type', 'text')
-            self.end_headers()
-            self.wfile.write(bytes("1,,00,Aprobada,000000,S,1550014251,10786860,,416900,CC,AUTH_CAPTURE,CC 789876,Johana,Gomez,,Virrey,,,,,9876789,,jgomez@netactica.com,Lautaro,Silva,,,,,,,0,,,,,26bf80fb175ca761658b38a8885ea0d3,P,,COP,1,416900,CR_VS,BANCO DE PRUEBAS,01fe9bf54bed5b62867d3d7aa77bb553,2,00,000000,1550014251,1467716914,000,****1111,,,,,,,,,,,,,,,,ES,10000,1597,0,99,88,82600", 'UTF-8'))
         if "version" in self.path:
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
@@ -74,10 +69,12 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             olympia = OlympiaSimulation()
             response = olympia.OlympiaResponse(self)
             return response
+            
         if "placetoplayaprobadoyrechazado" in self.path:
-            place = placetoplaySimulation()
-            response = place.p2pResponse(self)
-            return response
+            self.send_response(200)
+            self.send_header('Content-Type', 'text')
+            self.end_headers()
+            self.wfile.write(bytes("1,,00,Aprobada,000000,S,1550014251,10786860,,416900,CC,AUTH_CAPTURE,CC 789876,Johana,Gomez,,Virrey,,,,,9876789,,jgomez@netactica.com,Lautaro,Silva,,,,,,,0,,,,,26bf80fb175ca761658b38a8885ea0d3,P,,COP,1,416900,CR_VS,BANCO DE PRUEBAS,01fe9bf54bed5b62867d3d7aa77bb553,2,00,000000,1550014251,1467716914,000,****1111,,,,,,,,,,,,,,,,ES,10000,1597,0,99,88,82600", 'UTF-8'))
 
 
 def Run(server_class=HTTPServer, handler_class=NetSuiteProviderBaseHTTPRequestHandler):
