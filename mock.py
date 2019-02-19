@@ -75,7 +75,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
         if "hotelbeds" in self.path:
             hotelBeds = HotelBedsSimulation()
-            response = hotelBeds.HotelBedsResponse()
+            response = hotelBeds.HotelBedsResponse(self)
             return response
 
         if "placetoplayaprobadoyrechazado" in self.path:
