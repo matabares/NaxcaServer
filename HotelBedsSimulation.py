@@ -9,7 +9,6 @@ class HotelBedsSimulation:
         body = str(postBody, "utf-8")
 
         if "HotelValuedAvailRQ" in body:
-            if "MDE" in body:
                 file = open("providersimulation/hotelBeds/Search 113715943-808B5D-DFROM_20190301_DTO_20190305_CTO_MDE_HotelValuedAvailRS.xml","r", encoding='utf8')
                 data = file.read()
                 file.close()
