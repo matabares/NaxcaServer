@@ -3,36 +3,7 @@
   <soap-env:Body>
     <OTA_HotelAvailRS xmlns="http://parsec.es/hotelapi/OTA2014Compact" TimeStamp="2019-02-18T17:24:26Z" Id="11,1268637336,7307">
       <Errors>
-        <Error Status="NotProcessed" Language="en-GB">java.lang.NullPointerException
-	at es.parsec.misc.CalendarUtils.getDateDiffDays(CalendarUtils.java:22)
-	at es.parsec.crsys.error.AvailabilityErrorManager.validateRequest(AvailabilityErrorManager.java:72)
-	at es.parsec.crsys.servlet.BaseCRSysServlet.processRequest(BaseCRSysServlet.java:414)
-	at es.parsec.crsys.servlet.BaseHttpClientServlet.doPost(BaseHttpClientServlet.java:79)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at es.parsec.crsys.servlet.CRSysDefaultFilter.doFilter(CRSysDefaultFilter.java:41)
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
-	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:423)
-	at org.apache.coyote.ajp.AjpAprProcessor.process(AjpAprProcessor.java:188)
-	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:620)
-	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2476)
-	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2465)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
-	at java.lang.Thread.run(Thread.java:748)
+        <Error Status="NotProcessed" Language="en-GB">Cancel error
 </Error>
       </Errors>
     </OTA_HotelAvailRS>
