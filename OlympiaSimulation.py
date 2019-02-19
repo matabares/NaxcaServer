@@ -227,6 +227,14 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            if 'CityCode="T06"' in body:
+                file = open("providersimulation/olympia/flow6_search_1r1a.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                data = self.ReplaceDates(data)
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
             if 'HotelCode="5"' in body:
                 file = open("providersimulation/olympia/flow5_search_hotelcode_5.xml", "r", encoding='utf8')
                 data = file.read()
@@ -243,10 +251,26 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            if 'HotelCode="6"' in body:
+                file = open("providersimulation/olympia/flow6_search_hotelcode_6.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                data = self.ReplaceDates(data)
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
         if "OTA_HotelResRQ" and 'Transaction="PreBooking"' in body:
 
             if 'BookingCode="test1test1test1test1"' in body:
                 file = open("providersimulation/olympia/flow1_prebooking_ok.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                data = self.ReplaceDates(data)
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if 'BookingCode="test6test6test6test6"' in body:
+                file = open("providersimulation/olympia/flow6_prebooking_ok.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 data = self.ReplaceDates(data)
@@ -280,6 +304,14 @@ class OlympiaSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
+            if 'BookingCode="test6test6test6test6"' in body:
+                file = open("providersimulation/olympia/flow6_reservation_ok.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                data = self.ReplaceDates(data)
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
             if 'BookingCode="failedfailedfailed"' in body:
                 file = open("providersimulation/olympia/reservation_failed.xml", "r", encoding='utf8')
                 data = file.read()
@@ -302,5 +334,12 @@ class OlympiaSimulation:
                 data = file.read()
                 file.close()
                 data = self.ReplaceDates(data)
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if 'ID="6"' in body:
+                file = open("providersimulation/olympia/flow6_cancel_error.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
