@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<AuditData>
+		<ProcessTime>776</ProcessTime>
+		<Timestamp>2019-02-19 17:39:33.789</Timestamp>
+		<RequestHost>10.222.30.33</RequestHost>
+		<ServerName>LIVE|2BY5ckryJ5FJdzH9tcmJOgh3|CO|01|61|35|0</ServerName>
+		<ServerId>01</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>4.30.4-20190123#89#0#A+</HydraCoreRelease>
+		<HydraEnumerationsRelease>1#c2ccb24f61f1#c36</HydraEnumerationsRelease>
+		<MerlinRelease>0|||</MerlinRelease>
+	</AuditData>
+	<ExtraInfoList/>
+	<ErrorList/>
+	<Purchase purchaseToken="91731071439" timeToExpiration="1799254">
+		<Status>SHOPPING_CART</Status>
+		<Agency>
+			<Code>176142</Code>
+			<Branch>1</Branch>
+		</Agency>
+		<Language>CAS</Language>
+		<ServiceList>
+			<Service SPUI="296#H#1" xsi:type="ServiceHotel">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>CGW- COP  PVP</Name>
+						<IncomingOffice code="296"/>
+						<CommentList>
+							<Comment type="CONTRACT">El seguro hotelero es de pago voluntario en el hotel. (13/10/2015 - 08/10/2035).. Tarifas exentas de IVA. Pasajeros colombianos o extranjeros no residentes en Colombia que ingresen por motivos distinto al de turismo deberán pagar el IVA del 19% a su llegada al hotel según leyes locales.Aparcamiento  YES (without additional debit notes). Hora de entrada 15:00 - 05:00 . Identificación a la llegada . Edad mínima de check-in  18.</Comment>
+						</CommentList>
+					</Contract>
+				</ContractList>
+				<Supplier name="CLUB TURAVIA SA DE CV" vatNumber="CTU940107CK8"/>
+				<CommentList/>
+				<DateFrom date="20190301"/>
+				<DateTo date="20190305"/>
+				<Currency code="COP">COLOMBIAN PESO</Currency>
+				<TotalAmount>231686.1</TotalAmount>
+				<SupplementList/>
+				<DiscountList>
+					<Price paxCount="1" unitCount="3">
+						<Amount>214988.250</Amount>
+						<DateTimeFrom date="20190301"/>
+						<DateTimeTo date="20190304"/>
+						<Description>DESCUENTO ESPECIAL</Description>
+					</Price>
+					<Price paxCount="1" unitCount="4">
+						<Amount>84074.930</Amount>
+						<DateTimeFrom date="20190301"/>
+						<DateTimeTo date="20190305"/>
+						<Description>Opaque Package</Description>
+					</Price>
+				</DiscountList>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>0</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>0</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_PCT">
+						<Price>
+							<Amount>0</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ServiceExtraInfoList/>
+				<ErrorList/>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Modification</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+				</ModificationPolicyList>
+				<HotelInfo>
+					<Code>169001</Code>
+					<Name>The Morgana Poblado Suites Hotel</Name>
+					<DescriptionList/>
+					<ImageList/>
+					<Category code="4EST" type="SIMPLE">4 ESTRELLAS</Category>
+					<Destination code="MDE" type="SIMPLE">
+						<Name>Medellin</Name>
+						<ZoneList>
+							<Zone code="1" type="SIMPLE">Medellin</Zone>
+						</ZoneList>
+					</Destination>
+					<FacilityList/>
+					<IssuesList/>
+				</HotelInfo>
+				<AvailableRoom>
+					<HotelOccupancy>
+						<RoomCount>1</RoomCount>
+						<Occupancy>
+							<AdultCount>1</AdultCount>
+							<ChildCount>0</ChildCount>
+							<GuestList>
+								<Customer type="AD">
+									<CustomerId>1</CustomerId>
+									<Age>30</Age>
+									<AdditionalInfo/>
+								</Customer>
+							</GuestList>
+						</Occupancy>
+					</HotelOccupancy>
+					<HotelRoom SHRUI="c66Ns5V1QqBjB6nGyvapnA==" availCount="1" status="NEW">
+						<Board code="BB-MX1" type="SIMPLE">ALOJAMIENTO Y DESAYUNO</Board>
+						<RoomType characteristic="ST" code="SGL-MX1" type="SIMPLE">INDIVIDUAL STANDARD</RoomType>
+						<Price>
+							<Amount>530749.28</Amount>
+							<PriceList/>
+							<PriceExtraInfoList/>
+						</Price>
+						<CancellationPolicy>
+							<Price>
+								<Amount>118032.773</Amount>
+								<DateTimeFrom date="20190226" time="2359"/>
+								<DateTimeTo date="20190301"/>
+							</Price>
+						</CancellationPolicy>
+						<HotelRoomExtraInfo/>
+					</HotelRoom>
+				</AvailableRoom>
+			</Service>
+		</ServiceList>
+		<SupplementList/>
+		<DiscountList/>
+		<AdditionalCostList/>
+		<Currency code="COP"/>
+		<PurchaseExtraInfoList/>
+		<TotalPrice>231686.1</TotalPrice>
+	</Purchase>
+</ServiceAddRS>
