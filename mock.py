@@ -1,4 +1,6 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
+
+from HotelBedsSimulation import HotelBedsSimulation
 from dingusProvider import dingusProviderSimulation
 from jumboProvider import jumboProviderSimulation
 from placetoplaySimulator import placetoplaySimulation
@@ -69,7 +71,12 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             olympia = OlympiaSimulation()
             response = olympia.OlympiaResponse(self)
             return response
-            
+
+        if "hotelbeds" in self.path:
+            hotelBeds = HotelBedsSimulation()
+            response = hotelBeds.HotelBedsResponse()
+            return response
+
         if "placetoplayaprobadoyrechazado" in self.path:
             self.send_response(200)
             self.send_header('Content-Type', 'text')
