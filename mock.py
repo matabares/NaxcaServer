@@ -3,7 +3,6 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 from HotelBedsSimulation import HotelBedsSimulation
 from dingusProvider import dingusProviderSimulation
 from jumboProvider import jumboProviderSimulation
-from placetoplaySimulator import placetoplaySimulation
 from wegoProvider import wegoProviderSimulation
 from AviancaSimulation import AviancaSimulation
 from RtsSimulation import RtsSimulation
