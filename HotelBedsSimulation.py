@@ -37,7 +37,7 @@ class HotelBedsSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if "ISA" in body:
+            if "MZL" in body:
                 file = open("providersimulation/hotelBeds/Cambio de políticas 113933827-F87ED6-DFROM_20190301_DTO_20190305_CTO_MDE_ServiceAddRS.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
