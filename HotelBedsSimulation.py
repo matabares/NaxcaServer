@@ -64,7 +64,7 @@ class HotelBedsSimulation:
 
             if "CTG" in body:
                 file = open(
-                    "providersimulation/CTG/Habitaciones-ServiceAddRS.xml",
+                    "providersimulation/hotelBeds/Habitaciones-ServiceAddRS.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
