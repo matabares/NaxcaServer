@@ -9,11 +9,22 @@ class HotelBedsSimulation:
         body = str(postBody, "utf-8")
 
         if "HotelValuedAvailRQ" in body:
+            if "CTG" in body:
+                file = open(
+                        "providersimulation/hotelBeds/Busqueda_HotelValuedAvailRS.xml",
+                        "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+            else:
                 file = open("providersimulation/hotelBeds/Search 113715943-808B5D-DFROM_20190301_DTO_20190305_CTO_MDE_HotelValuedAvailRS.xml","r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+
+
 
         if "ServiceAddRQ" in body:
             if "MIA" in body:
@@ -46,6 +57,15 @@ class HotelBedsSimulation:
 
             if "ADZ" in body:
                 file = open("providersimulation/hotelBeds/Cambio de descuento 113933827-F87ED6-DFROM_20190301_DTO_20190305_CTO_MDE_ServiceAddRS.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if "CTG" in body:
+                file = open(
+                    "providersimulation/CTG/Habitaciones-ServiceAddRS.xml",
+                    "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
