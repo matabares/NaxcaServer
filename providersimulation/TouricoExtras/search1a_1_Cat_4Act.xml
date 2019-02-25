@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchResults xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info culture="en-US" numOfResults="16" serverTime="2019-02-22T11:12:44.1064526-03:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/activity"/>
+	<Categories xmlns="http://schemas.tourico.com/webservices/activity">
+		<Category categoryId="585" categoryName="Sightseeing Tours">
+			<Activities>
+				<Activity activityId="1321164" bestValue="false" currency="USD" description="Demo - Glide along Miami's beautifully restored riverfront!" maxChildAge="21" minChildAge="12" name="Miami River Segway Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321164/MiamiRiverSegway001_Thumb.jpg">
+					<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7781808" location="" longitude="-80.1864811" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+					<ActivityOptions>
+						<ActivityOption name="2:00pm Tour" optionId="12925131" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+						<ActivityOption name="11:00am Tour" optionId="12925130" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+						<ActivityOption name="5:00pm Tour" optionId="12925132" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+					</ActivityOptions>
+				</Activity>
+				<Activity activityId="1321139" bestValue="false" currency="USD" description="Demo - Join us for a ride to beautiful Key Biscayne Island, a natural oasis with perfect bikeways and pristine beaches. We’ll cycle across the Venetian Islands, refresh at Bayside Marketplace, and cruise to Key Biscayne for breathtaking views." maxChildAge="1" minChildAge="1" name="Key Biscayne Island Adventure - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321139/BiscayneIslandBike001_Thumb.jpg">
+					<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7780937" location="" longitude="-80.1864118" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+					<ActivityOptions>
+						<ActivityOption name="11:00am Tour" optionId="16101430" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="52.44" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+						<ActivityOption name="2:00pm Tour" optionId="14385199" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="52.44" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+					</ActivityOptions>
+				</Activity>
+				<Activity activityId="1549689" bestValue="false" currency="USD" description="Demo - Discover the enchanting street art of Miami's Wynwood district." maxChildAge="1" minChildAge="1" name="Wynwood Graffiti Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1549689/WynwoodGraffitiTour001_Thumb.jpg">
+					<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7780402" location="" longitude="-80.1863002" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+					<ActivityOptions>
+						<ActivityOption name="Tour Ticket" optionId="19403908" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="52.44" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+					</ActivityOptions>
+				</Activity>
+				<Activity activityId="1321136" bestValue="false" currency="USD" description="Demo - Bike through glamorous South Beach (the “American Riviera”) and experience a tropical paradise! A delightful ride rich in architecture, history, and culture - the best way to see Miami Beach!" maxChildAge="21" minChildAge="1" name="Miami Beach Bicycle Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321136/MiamiBeachBicycle001_Thumb.jpg">
+					<Location address="Demo - 210 10th Street Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7805223" location="" longitude="-80.1320767" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+					<ActivityOptions>
+						<ActivityOption name="2:00pm Tour" optionId="14978831" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="35.56" childPrice="26.67" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+						<ActivityOption name="10:00am Tour" optionId="14978830" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="35.56" childPrice="26.67" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+					</ActivityOptions>
+				</Activity>
+			</Activities>
+		</Category>
+	</Categories>
+</SearchResults>

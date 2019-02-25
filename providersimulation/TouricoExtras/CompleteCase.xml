@@ -1,0 +1,169 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<SearchActivityByDestinationIdsResponse xmlns="http://tourico.com/webservices/activity">
+			<SearchActivityByDestinationIdsResult>
+				<Info culture="en-US" numOfResults="16" serverTime="2019-02-22T11:12:44.1064526-03:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/activity"/>
+				<Categories xmlns="http://schemas.tourico.com/webservices/activity">
+					<Category categoryId="585" categoryName="Sightseeing Tours">
+						<Activities>
+							<Activity activityId="1321164" bestValue="false" currency="USD" description="Demo - Glide along Miami's beautifully restored riverfront!" maxChildAge="21" minChildAge="12" name="Miami River Segway Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321164/MiamiRiverSegway001_Thumb.jpg">
+								<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7781808" location="" longitude="-80.1864811" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="2:00pm Tour" optionId="12925131" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="11:00am Tour" optionId="12925130" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="5:00pm Tour" optionId="12925132" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1321139" bestValue="false" currency="USD" description="Demo - Join us for a ride to beautiful Key Biscayne Island, a natural oasis with perfect bikeways and pristine beaches. We’ll cycle across the Venetian Islands, refresh at Bayside Marketplace, and cruise to Key Biscayne for breathtaking views." maxChildAge="1" minChildAge="1" name="Key Biscayne Island Adventure - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321139/BiscayneIslandBike001_Thumb.jpg">
+								<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7780937" location="" longitude="-80.1864118" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="11:00am Tour" optionId="16101430" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="52.44" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="2:00pm Tour" optionId="14385199" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="52.44" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1549689" bestValue="false" currency="USD" description="Demo - Discover the enchanting street art of Miami's Wynwood district." maxChildAge="1" minChildAge="1" name="Wynwood Graffiti Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1549689/WynwoodGraffitiTour001_Thumb.jpg">
+								<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7780402" location="" longitude="-80.1863002" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="Tour Ticket" optionId="19403908" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="52.44" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1321136" bestValue="false" currency="USD" description="Demo - Bike through glamorous South Beach (the “American Riviera”) and experience a tropical paradise! A delightful ride rich in architecture, history, and culture - the best way to see Miami Beach!" maxChildAge="21" minChildAge="1" name="Miami Beach Bicycle Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321136/MiamiBeachBicycle001_Thumb.jpg">
+								<Location address="Demo - 210 10th Street Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7805223" location="" longitude="-80.1320767" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="2:00pm Tour" optionId="14978831" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="35.56" childPrice="26.67" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="10:00am Tour" optionId="14978830" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="35.56" childPrice="26.67" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1321146" bestValue="false" currency="USD" description="Demo - The Segways at Sunset Tour is arguably our most popular tour!" maxChildAge="21" minChildAge="12" name="Segways at Sunset Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321146/SegwaysAtSunset001_Thumb.jpg">
+								<Location address="Demo - 210 10th Street Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7805223" location="" longitude="-80.1320767" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="Sunset Tour Ticket" optionId="12921097" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="52.44" childPrice="43.56" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1321171" bestValue="false" currency="USD" description="Demo - There’s no better way to authentically experience the vibrant Cuban heritage of Miami." maxChildAge="1" minChildAge="1" name="Taste of Little Havana Food &amp; Bike Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321171/HavanaFood&amp;Bike001_Thumb.jpg">
+								<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7781808" location="" longitude="-80.1864811" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="Tour Ticket" optionId="12935069" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="61.33" childPrice="61.33" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1321144" bestValue="false" currency="USD" description="Demo - Embark on a relaxing Segway glide through glamorous South Beach!" maxChildAge="21" minChildAge="13" name="Art Deco Segway Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321144/art8_Thumb.jpg">
+								<Location address="Demo - South Beach-210 10th Street Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7805078085601" location="" longitude="-80.1320230558197" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="2:00pm Tour" optionId="14978808" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="10:00am Tour" optionId="14978807" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1321141" bestValue="false" currency="USD" description="Demo - Join us for this dual sport adventure! We'll take a short bike ride to the peaceful edge of Biscayne Bay, where you'll hop in a kayak and paddle through the calm, warm aquamarine waters of Miami Beach. Great outdoor fun, a must-do tour!" maxChildAge="21" minChildAge="7" name="Bike and Kayak Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321141/Bike&amp;Kayak001_Thumb.jpg">
+								<Location address="Demo - South Beach-210 10th Street Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7805223" location="" longitude="-80.1320767" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="Tour Ticket" optionId="12905704" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="70.22" childPrice="70.22" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1343431" bestValue="false" currency="USD" description="Demo - Join us for the Sunrise Segway Tour, the perfect way to kick-start a day on the town." maxChildAge="21" minChildAge="12" name="Segways at Sunrise Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1343431/SegwaysAtSunRise001_Thumb.jpg">
+								<Location address="Demo - South Beach-210 10th Street Miami Florida 33139" city="Miami" countryCode="US" latitude="25.7805223" location="" longitude="-80.1320767" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="Sunrise Tour Ticket" optionId="13477804" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="52.44" childPrice="43.56" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+							<Activity activityId="1251794" bestValue="true" currency="USD" description="Demo - See the sights of Miami, including Uptown and South Beach with over 40 hop-on, hop-off stops." maxChildAge="15" minChildAge="5" name="Big Bus Tours - Hop On Hop Off Bus Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1251794/BigBusMIA-Logo001_Thumb.jpg">
+								<Location address="Demo - Miami Miami Florida " city="Miami" countryCode="US" latitude="39.3214125" location="" longitude="-93.2279822" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="Deluxe Ticket" optionId="16692378" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="57.06" childPrice="46.22" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="Premium Ticket" optionId="16692377" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="49.83" childPrice="42.61" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="Classic Ticket" optionId="16692376" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="35.39" childPrice="28.17" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+									<ActivityOption name="Night Tour Ticket" optionId="16692379" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="20.94" childPrice="13.72" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+						</Activities>
+					</Category>
+					<Category categoryId="583" categoryName="Recreational Rentals">
+						<Activities>
+							<Activity activityId="1321186" bestValue="false" currency="USD" description="Demo - Whether traveling alone or with friends, this bike tour is the perfect way to explore Miami Beach." maxChildAge="1" minChildAge="1" name="Day Comfort Bike Rental - Demo" provider="22" starsLevel="4" thumbURL="http://image1.urlforimages.com/1321186/BikeRental001_Thumb.jpg">
+								<Location address="Demo - Miami Miami Florida " city="Miami" countryCode="US" latitude="25.7616798" location="" longitude="-80.1917902" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+								<ActivityOptions>
+									<ActivityOption name="All Day Bike Rental" optionId="12968246" type="PerPerson" typeDescription="PerPerson">
+										<Availabilities>
+											<Availability adultPrice="31.11" childPrice="31.11" fromDate="2019-02-23" maxAdults="20" maxChildren="0" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+										</Availabilities>
+									</ActivityOption>
+								</ActivityOptions>
+							</Activity>
+						</Activities>
+					</Category>
+				</Categories>
+			</SearchActivityByDestinationIdsResult>
+		</SearchActivityByDestinationIdsResponse>
+	</s:Body>
+</s:Envelope>

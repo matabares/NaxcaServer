@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchResults xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Info culture="en-US" numOfResults="16" serverTime="2019-02-22T11:12:44.1064526-03:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/activity"/>
+	<Categories xmlns="http://schemas.tourico.com/webservices/activity">
+		<Category categoryId="585" categoryName="Sightseeing Tours">
+			<Activities>
+				<Activity activityId="1321164" bestValue="false" currency="USD" description="Demo - Glide along Miami's beautifully restored riverfront!" maxChildAge="21" minChildAge="12" name="Miami River Segway Tour - Demo" provider="22" starsLevel="5" thumbURL="http://image1.urlforimages.com/1321164/MiamiRiverSegway001_Thumb.jpg">
+					<Location address="Demo - 401 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7781808" location="" longitude="-80.1864811" searchingCity="Miami" searchingState="Florida" stateCode="Florida"/>
+					<ActivityOptions>
+						<ActivityOption name="2:00pm Tour" optionId="12925131" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+						<ActivityOption name="11:00am Tour" optionId="12925130" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+						<ActivityOption name="5:00pm Tour" optionId="12925132" type="PerPerson" typeDescription="PerPerson">
+							<Availabilities>
+								<Availability adultPrice="61.33" childPrice="52.44" fromDate="2019-02-23" maxAdults="20" maxChildren="20" maxUnits="0" toDate="2019-02-26" unitPrice="0"/>
+							</Availabilities>
+						</ActivityOption>
+					</ActivityOptions>
+				</Activity>
+			</Activities>
+		</Category>
+	</Categories>
+</SearchResults>

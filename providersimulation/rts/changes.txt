@@ -1,0 +1,8 @@
+Precio
+fechas y 
+tipo de pasajero
+validacion del pricetype
+tipo de pasajero
+Un solo caso precio es correcto
+fechas estan correctas
+Currency

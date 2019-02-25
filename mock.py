@@ -1,6 +1,7 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 from HotelBedsSimulation import HotelBedsSimulation
+from TouricoExtrasSimulation import TouricoExtrasSimulation
 from dingusProvider import dingusProviderSimulation
 from jumboProvider import jumboProviderSimulation
 from wegoProvider import wegoProviderSimulation
@@ -27,7 +28,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.2.25</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.2.26</version>", 'UTF-8'))
 
     def do_POST(self):
         if "vivacolombiasimulation" in self.path:
@@ -75,6 +76,10 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "hotelbeds" in self.path:
             hotelBeds = HotelBedsSimulation()
             response = hotelBeds.HotelBedsResponse(self)
+            return response
+        if "tourico" in self.path:
+            touricoExtras = TouricoExtrasSimulation()
+            response = touricoExtras.TouricoExtrasResponse(self)
             return response
 
         if "placetoplayaprobadoyrechazado" in self.path:
