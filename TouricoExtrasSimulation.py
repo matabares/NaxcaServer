@@ -38,7 +38,7 @@ class TouricoExtrasSimulation:
 
             if "2030-01-04" in body:
                 file = open(
-                        "providersimulation/TouricoExtras/search1a_1_Cat_1Act_1ActOpt_2Avail.xml",
+                        "providersimulation/TouricoExtras/search_1act_CurrencyUsd.xml",
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -47,7 +47,7 @@ class TouricoExtrasSimulation:
 
             if "2030-01-05" in body:
                 file = open(
-                        "providersimulation/TouricoExtras/search1a_2Cat.xml",
+                        "providersimulation/TouricoExtras/search_1Cat_4Act.xml",
                         "r", encoding='utf8')
                 data = file.read()
                 file.close()
