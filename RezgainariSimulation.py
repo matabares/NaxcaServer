@@ -1,3 +1,5 @@
+import datetime
+
 class RezgainariSimulation:
     def RezariResponse(self, response):
         response.send_response(200)
@@ -6,6 +8,10 @@ class RezgainariSimulation:
         contentLen = int(response.headers['Content-Length'])
         postBody = response.rfile.read(contentLen)
         body = str(postBody, "utf-8")
+        f = open("providersimulation/rezgainari/logs/"+str(datetime.datetime.now().timestamp())+".log", "w+")
+        f.writelines(body)
+        f.close()
+
 
         if "HotelARIGetRQ" in body:
             file = open("providersimulation/rezgainari/HotelARIGetRS_No_Inventory.xml",

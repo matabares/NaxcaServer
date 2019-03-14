@@ -25,11 +25,36 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             renting = RentingSimulation()
             response = renting.RentingResponse(self)
             return response
+        if "rezgainari/logs" in self.path:
+            if(str(self.path).endswith(".log") or str(self.path).endswith(".txt")):
+                self.send_response(200)
+                self.send_header('Content-Type', 'text/plain')
+                self.end_headers()
+                filename = str(self.path)[1:]
+                file = open(filename,"r", encoding='utf8')
+                data = file.read()
+                file.close()
+                self.wfile.write(bytes(str(data), 'UTF-8'))
+                return
+            self.send_response(200)
+            self.send_header('Content-Type', 'text/html')
+            self.end_headers()
+            from os import listdir
+            from os.path import isfile, join
+            onlyfiles = [f for f in listdir("providersimulation/rezgainari/logs/") if isfile(join("providersimulation/rezgainari/logs/", f))]
+            print(onlyfiles)
+            htmlResponse = ""
+            for file in onlyfiles:
+                htmlResponse = htmlResponse + '<a href="/providersimulation/rezgainari/logs/'+str(file)+'">'+str(file)+'</a><br/>';
+            htmlResponse = "<html><body>"+htmlResponse+"</body></html>"
+            self.wfile.write(bytes(str(htmlResponse), 'UTF-8'))
+
         if "version" in self.path:
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
             self.wfile.write(bytes("<version>2.2.28</version>", 'UTF-8'))
+
 
     def do_POST(self):
         if "vivacolombiasimulation" in self.path:
