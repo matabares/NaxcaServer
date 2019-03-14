@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HotelPropertyListGetRS xmlns="http://cgbridge.rategain.com/OTA/2012/05" Target="Production" Version="1.1" TransactionIdentifier="1945b601-b7cc-47b1-ad9c-bae6c77ab7d9">
+  <Success/>
+  <Hotels ChainCode="RG">
+    <Hotel HotelCode="HMWMH" Name="Westminster Hotel"/>
+    <Hotel HotelCode="HMBER" Name="Hotel Berlin"/>
+    <Hotel HotelCode="HMPARK" Name="Park Plaza Hotel"/>
+  </Hotels>
+</HotelPropertyListGetRS>

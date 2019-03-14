@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HotelARIGetRS xmlns="http://cgbridge.rategain.com/OTA/2012/05" Target="Production" Version="1.1" TransactionIdentifier="ac8ed117-126b-4630-b643-28f53653420d">
+  <Success/>
+  <HotelARIDataSet HotelCode="HBMWEI">
+    <HotelARIStatus>
+      <ProductReference InvTypeCode="STD" RatePlanCode="RR"></ProductReference>
+      <ApplicationControl Mon="true" Tue="true" Wed="true" Thu="true" Fri="true" Sat="true" Sun="true" Start="2014-08-21" End="2014-08-21"/>
+      <Status Code="842">No inventory loaded for the requested dates</Status>
+    </HotelARIStatus>
+    <HotelARIStatus>
+      <ProductReference InvTypeCode="STD" RatePlanCode="RR"></ProductReference>
+      <ApplicationControl Mon="true" Tue="true" Wed="true" Thu="true" Fri="true" Sat="true" Sun="true" Start="2014-08-22" End="2014-08-22"/>
+      <Status Code="842">No inventory loaded for the requested dates</Status>
+    </HotelARIStatus>
+    <HotelARIStatus>
+      <ProductReference InvTypeCode="STD" RatePlanCode="RR"></ProductReference>
+      <ApplicationControl Mon="true" Tue="true" Wed="true" Thu="true" Fri="true" Sat="true" Sun="true" Start="2014-08-23" End="2014-08-23"/>
+      <Status Code="842">No inventory loaded for the requested dates</Status>
+    </HotelARIStatus>
+    <HotelARIStatus>
+      <ProductReference InvTypeCode="STD" RatePlanCode="RR"></ProductReference>
+      <ApplicationControl Mon="true" Tue="true" Wed="true" Thu="true" Fri="true" Sat="true" Sun="true" Start="2014-08-24" End="2014-08-24"/>
+      <Status Code="842">No inventory loaded for the requested dates</Status>
+    </HotelARIStatus>
+    <HotelARIStatus>
+      <ProductReference InvTypeCode="STD" RatePlanCode="RR"></ProductReference>
+      <ApplicationControl Mon="true" Tue="true" Wed="true" Thu="true" Fri="true" Sat="true" Sun="true" Start="2014-08-25" End="2014-08-25"/>
+      <Status Code="842">No inventory loaded for the requested dates</Status>
+    </HotelARIStatus>
+  </HotelARIDataSet>
+</HotelARIGetRS>
