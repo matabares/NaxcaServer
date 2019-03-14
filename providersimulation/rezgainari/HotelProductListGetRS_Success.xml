@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HotelProductListGetRS xmlns="http://cgbridge.rategain.com/OTA/2012/05" Target="Production" Version="1.1" TransactionIdentifier="33af3d71-c1e4-4ef1-8954-842ef517da43">
+  <Success/>
+  <HotelProducts HotelCode="HMWMH">
+    <HotelProduct>
+      <ProductReference InvTypeCode="STD" RatePlanCode="RR"></ProductReference>
+      <RoomTypeName>Standard Room</RoomTypeName>
+      <RateTypeName>Regular Rate</RateTypeName>
+    </HotelProduct>
+    <HotelProduct>
+      <ProductReference InvTypeCode="SUP" RatePlanCode="RR"></ProductReference>
+      <RoomTypeName>Superior Room</RoomTypeName>
+      <RateTypeName>Regule Rate</RateTypeName>
+    </HotelProduct>
+    <HotelProduct>
+      <ProductReference InvTypeCode="STD" RatePlanCode="APEX60"></ProductReference>
+      <RoomTypeName>Standard Room</RoomTypeName>
+      <RateTypeName>Advance Purchase Rate</RateTypeName>
+    </HotelProduct>
+  </HotelProducts>
+</HotelProductListGetRS>

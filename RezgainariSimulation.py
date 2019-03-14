@@ -23,6 +23,15 @@ class RezgainariSimulation:
                 file.close()
                 response.wfile.write(bytes(data, 'UTF-8'))
                 return response
+        if "HotelProductListGetRS" in body:
+            if 'HotelCode="HMWMH"' in body:
+                file = open("providersimulation/rezgainari/HotelProductListGetRS_Success.xml",
+                            "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                response.wfile.write(bytes(data, 'UTF-8'))
+                return response
+
 
 
 
