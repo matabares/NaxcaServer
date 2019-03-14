@@ -16,7 +16,7 @@ class RezgainariSimulation:
             return response
 
         if "HotelPropertyListGetRQ" in body:
-            if 'ChainCode=""' in body:
+            if 'ChainCode=""' in body or 'ChainCode="1173"' in body:
                 file = open("providersimulation/rezgainari/HotelPropertyListGetRS_ChainProperty.xml",
                             "r", encoding='utf8')
                 data = file.read()
