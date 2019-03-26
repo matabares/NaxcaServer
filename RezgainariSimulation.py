@@ -8,7 +8,7 @@ class RezgainariSimulation:
         contentLen = int(response.headers['Content-Length'])
         postBody = response.rfile.read(contentLen)
         body = str(postBody, "utf-8")
-        f = open("providersimulation/rezgainari/logs/"+str(datetime.datetime.now().timestamp())+".log", "w+")
+        f = open("providersimulation/rezgainari/logs/"+str(datetime.datetime.now().strftime("%Y%m%d%H%M%S%f"))+".log", "w+")
         f.writelines(body)
         f.close()
 
