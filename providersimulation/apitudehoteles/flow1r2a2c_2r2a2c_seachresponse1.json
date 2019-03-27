@@ -1,0 +1,1116 @@
+{
+    "auditData": {
+        "processTime": "121",
+        "timestamp": "2019-03-26 16:57:18.977",
+        "requestHost": "34.242.17.225",
+        "serverId": "ip-10-185-90-161.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1b, ip_10_185_90_161]",
+        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
+        "token": "0103baf0-a213-48a4-8e91-1398faf713af",
+        "internal": "0|43F5C45CEACF4BC155361583885800|CO|10|26|274||||||||||||102||2~2~4~4|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "hotels": {
+        "hotels": [
+            {
+                "code": 765,
+                "name": "Palmanova Suites by TRH",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 29,
+                "zoneName": "Palmanova",
+                "latitude": "39.510063",
+                "longitude": "2.54139",
+                "rooms": [
+                    {
+                        "code": "APT.ST",
+                        "rates": [
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|SC||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024a164",
+                                "rateClass": "NOR",
+                                "net": "356.74",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "SC",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "178.37",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-310.16"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|SC||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024a164",
+                                "rateClass": "NOR",
+                                "net": "356.74",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "SC",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "178.37",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-310.16"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|SC||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010232177",
+                                "rateClass": "NOR",
+                                "net": "375.50",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "SC",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "187.75",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-326.52"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|SC||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010232177",
+                                "rateClass": "NOR",
+                                "net": "375.50",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "SC",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "187.75",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-326.52"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|BB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001020a1ac",
+                                "rateClass": "NOR",
+                                "net": "428.10",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "214.05",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-330.84"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|BB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001020a1ac",
+                                "rateClass": "NOR",
+                                "net": "428.10",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "214.05",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-330.84"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023e1c2",
+                                "rateClass": "NOR",
+                                "net": "450.62",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "225.31",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-348.32"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023e1c2",
+                                "rateClass": "NOR",
+                                "net": "450.62",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "225.31",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-348.32"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|HB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001022e1f3",
+                                "rateClass": "NOR",
+                                "net": "499.46",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "249.73",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-351.52"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|HB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001022e1f3",
+                                "rateClass": "NOR",
+                                "net": "499.46",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "249.73",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-351.52"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024620d",
+                                "rateClass": "NOR",
+                                "net": "525.70",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "262.85",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-370.04"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024620d",
+                                "rateClass": "NOR",
+                                "net": "525.70",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "262.85",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-370.04"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|AI||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023a252",
+                                "rateClass": "NOR",
+                                "net": "594.58",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "297.29",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-379.08"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|OP-APT-SC|AI||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023a252",
+                                "rateClass": "NOR",
+                                "net": "594.58",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "297.29",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-379.08"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010256271",
+                                "rateClass": "NOR",
+                                "net": "625.86",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "312.93",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-399.08"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|APT.ST|CG-APT-SC|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010256271",
+                                "rateClass": "NOR",
+                                "net": "625.86",
+                                "allotment": 17,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "312.93",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-399.08"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "SUI.C4",
+                        "rates": [
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|NRF-BAR-SUI-BB|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010254165",
+                                "rateClass": "NRF",
+                                "net": "357.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "357.84",
+                                        "from": "2019-03-25T23:59:00+01:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|NRF-BAR-SUI-BB|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010254165",
+                                "rateClass": "NRF",
+                                "net": "357.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "357.84",
+                                        "from": "2019-03-25T23:59:00+01:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|OP-BAR-SUI-BB|BB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010254165",
+                                "rateClass": "NOR",
+                                "net": "357.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "357.84",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|OP-BAR-SUI-BB|BB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010254165",
+                                "rateClass": "NOR",
+                                "net": "357.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "357.84",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|BAR-SUITE-BB|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023c18d",
+                                "rateClass": "NOR",
+                                "net": "397.60",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "397.60",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|BAR-SUITE-BB|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023c18d",
+                                "rateClass": "NOR",
+                                "net": "397.60",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "397.60",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|NRF-BAR-SUI-HB|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO000002600000000102541a4",
+                                "rateClass": "NRF",
+                                "net": "420.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "420.84",
+                                        "from": "2019-03-25T23:59:00+01:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|NRF-BAR-SUI-HB|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO000002600000000102541a4",
+                                "rateClass": "NRF",
+                                "net": "420.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "420.84",
+                                        "from": "2019-03-25T23:59:00+01:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|OP-BAR-SUI-HB|HB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO000002600000000102541a4",
+                                "rateClass": "NOR",
+                                "net": "420.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "420.84",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|OP-BAR-SUI-HB|HB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO000002600000000102541a4",
+                                "rateClass": "NOR",
+                                "net": "420.84",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "420.84",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|BAR-SUITES-HB|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023c1d3",
+                                "rateClass": "NOR",
+                                "net": "467.60",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "467.60",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|BAR-SUITES-HB|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001023c1d3",
+                                "rateClass": "NOR",
+                                "net": "467.60",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "467.60",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|NRF-BAR-SUI-AI|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024a1d9",
+                                "rateClass": "NRF",
+                                "net": "473.74",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "473.74",
+                                        "from": "2019-03-25T23:59:00+01:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|NRF-BAR-SUI-AI|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024a1d9",
+                                "rateClass": "NRF",
+                                "net": "473.74",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "473.74",
+                                        "from": "2019-03-25T23:59:00+01:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|OP-BAR-SUI-AI|AI||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024a1d9",
+                                "rateClass": "NOR",
+                                "net": "473.74",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "473.74",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|OP-BAR-SUI-AI|AI||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024a1d9",
+                                "rateClass": "NOR",
+                                "net": "473.74",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "473.74",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|BAR-SUITES-AI|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001022820e",
+                                "rateClass": "NOR",
+                                "net": "526.40",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "526.40",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|SUI.C4|BAR-SUITES-AI|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001022820e",
+                                "rateClass": "NOR",
+                                "net": "526.40",
+                                "allotment": 4,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "526.40",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10"
+                            }
+                        ]
+                    },
+                    {
+                        "code": "JSU.ST",
+                        "rates": [
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|OP-ROOM-FIT|BB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010228262",
+                                "rateClass": "NOR",
+                                "net": "610.40",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "305.20",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-176.92"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|OP-ROOM-FIT|BB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010228262",
+                                "rateClass": "NOR",
+                                "net": "610.40",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "305.20",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-176.92"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|CG-ROOM-FIT|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010230282",
+                                "rateClass": "NOR",
+                                "net": "642.48",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "321.24",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-186.20"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|CG-ROOM-FIT|BB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010230282",
+                                "rateClass": "NOR",
+                                "net": "642.48",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "321.24",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-186.20"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|OP-ROOM-FIT|HB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO000002600000000102402b1",
+                                "rateClass": "NOR",
+                                "net": "689.64",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "344.82",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-199.88"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|OP-ROOM-FIT|HB||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO000002600000000102402b1",
+                                "rateClass": "NOR",
+                                "net": "689.64",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "344.82",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-199.88"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|CG-ROOM-FIT|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001025c2d5",
+                                "rateClass": "NOR",
+                                "net": "725.92",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "362.96",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-210.36"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|CG-ROOM-FIT|HB||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001025c2d5",
+                                "rateClass": "NOR",
+                                "net": "725.92",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "362.96",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-210.36"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|OP-ROOM-FIT|AI||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010240320",
+                                "rateClass": "NOR",
+                                "net": "800.64",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "400.32",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-232.08"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|OP-ROOM-FIT|AI||1~2~2|10~10|P@02~~43F5C45CEACF4BC155361583885800AACO00000260000000010240320",
+                                "rateClass": "NOR",
+                                "net": "800.64",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": true,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "400.32",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-232.08"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|CG-ROOM-FIT|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024834a",
+                                "rateClass": "NOR",
+                                "net": "842.72",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "421.36",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-244.24"
+                                    }
+                                ]
+                            },
+                            {
+                                "rateKey": "20190823|20190825|W|1|765|JSU.ST|CG-ROOM-FIT|AI||1~2~2|10~10|N@02~~43F5C45CEACF4BC155361583885800AACO0000026000000001024834a",
+                                "rateClass": "NOR",
+                                "net": "842.72",
+                                "allotment": 60,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "AI",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "421.36",
+                                        "from": "2019-08-21T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,10",
+                                "offers": [
+                                    {
+                                        "code": "9001",
+                                        "name": "Child discount",
+                                        "amount": "-244.24"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "356.74",
+                "maxRate": "842.72",
+                "currency": "USD"
+            }
+        ]
+    }
+}

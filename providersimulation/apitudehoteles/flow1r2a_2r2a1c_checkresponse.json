@@ -1,0 +1,84 @@
+{
+    "auditData": {
+        "processTime": "263",
+        "timestamp": "2019-03-26 16:36:22.040",
+        "requestHost": "191.88.163.86, 176.34.239.204",
+        "serverId": "ip-10-185-88-115.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_115]",
+        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
+        "token": "161ca2d2-0409-47fd-90c3-5422d60cb359",
+        "internal": "0|02~~649079251BBD4C5155361458082700AACO00000900013000210220229,02~~649079251BBD4C5155361458082700AACO0000090001300021021214f|CO|10|90|2|||||||||||R|4|4|~2~4~1|0|13||2|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "hotel": {
+        "checkOut": "2019-08-25",
+        "checkIn": "2019-08-23",
+        "code": 737,
+        "name": "Innside Palma Bosque Hotel",
+        "categoryCode": "4EST",
+        "categoryName": "4 STARS",
+        "destinationCode": "PMI",
+        "destinationName": "Majorca",
+        "zoneCode": 10,
+        "zoneName": "Palma",
+        "latitude": "39.566667",
+        "longitude": "2.625937",
+        "rooms": [
+            {
+                "code": "ROO.ST",
+                "name": "Room STANDARD",
+                "rates": [
+                    {
+                        "rateKey": "20190823|20190825|W|1|737|ROO.ST|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210220229",
+                        "rateClass": "NOR",
+                        "rateType": "BOOKABLE",
+                        "net": "553.32",
+                        "rateComments": "Check-in hour 15:00-.Car park YES (without additional debit notes).",
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "boardName": "ROOM ONLY",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "553.32",
+                                "from": "2019-08-15T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 2,
+                        "children": 1,
+                        "childrenAges": "10"
+                    }
+                ]
+            },
+            {
+                "code": "ROO.GR",
+                "name": "Room GUEST ROOM",
+                "rates": [
+                    {
+                        "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021021214f",
+                        "rateClass": "NOR",
+                        "rateType": "BOOKABLE",
+                        "net": "335.18",
+                        "rateComments": "Check-in hour 15:00-.Car park YES (without additional debit notes).",
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "boardName": "ROOM ONLY",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "335.18",
+                                "from": "2019-08-15T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 2,
+                        "children": 0
+                    }
+                ]
+            }
+        ],
+        "totalNet": "888.50",
+        "currency": "USD",
+        "paymentDataRequired": false
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "auditData": {
+        "processTime": "3970",
+        "timestamp": "2019-03-26 16:27:21.781",
+        "requestHost": "191.88.163.86, 176.34.239.200",
+        "serverId": "ip-10-185-88-115.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+        "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_115]",
+        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
+        "token": "7afe1094-a1de-4463-b254-75d28a4bf091",
+        "internal": "0|02~~DF3D42AF34DA4C5155361403628100AACO0000120001500021025a16e,02~~DF3D42AF34DA4C5155361403628100AACO0000120001500021020615b|CO|10|120|2|||||||||||R|4|4|~2~4~0|0|15|MELHOT|2|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "booking": {
+        "reference": "1-4190173",
+        "clientReference": "495591956",
+        "creationDate": "2019-03-26",
+        "status": "CONFIRMED",
+        "modificationPolicies": {
+            "cancellation": true,
+            "modification": false
+        },
+        "creationUser": "shpk4b9p6qbxshauaar6b3gv",
+        "holder": {
+            "name": "INTEGRATIONTESTFIRSTNAME",
+            "surname": "INTEGRATIONTESTSURNAME"
+        },
+        "hotel": {
+            "checkOut": "2019-08-25",
+            "checkIn": "2019-08-23",
+            "code": 2759,
+            "name": "Innside Palma Center",
+            "categoryCode": "4EST",
+            "categoryName": "4 STARS",
+            "destinationCode": "PMI",
+            "destinationName": "Majorca",
+            "zoneCode": 10,
+            "zoneName": "Palma",
+            "latitude": "39.57737",
+            "longitude": "2.650161",
+            "rooms": [
+                {
+                    "status": "CONFIRMED",
+                    "id": 1,
+                    "code": "ROO.GR",
+                    "name": "Room GUEST ROOM",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Vilma",
+                            "surname": "Picapiedra"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pedro",
+                            "surname": "Picapiedra"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NOR",
+                            "net": "347.62",
+                            "rateComments": "Car park NO.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "RO",
+                            "boardName": "ROOM ONLY",
+                            "cancellationPolicies": [
+                                {
+                                    "amount": "347.62",
+                                    "from": "2019-08-15T23:59:00+02:00"
+                                }
+                            ],
+                            "rooms": 1,
+                            "adults": 2,
+                            "children": 0
+                        }
+                    ]
+                },
+                {
+                    "status": "CONFIRMED",
+                    "id": 2,
+                    "code": "ROO.DX",
+                    "name": "Room DELUXE",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Betty",
+                            "surname": "Marmol"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pablo",
+                            "surname": "Marmol"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NOR",
+                            "net": "367.48",
+                            "rateComments": "Car park NO.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "RO",
+                            "boardName": "ROOM ONLY",
+                            "cancellationPolicies": [
+                                {
+                                    "amount": "367.48",
+                                    "from": "2019-08-15T23:59:00+02:00"
+                                }
+                            ],
+                            "rooms": 1,
+                            "adults": 2,
+                            "children": 0
+                        }
+                    ]
+                }
+            ],
+            "totalNet": "715.10",
+            "currency": "USD",
+            "supplier": {
+                "name": "HOTELBEDS PRODUCT,S.L.U.",
+                "vatNumber": "ESB38877676"
+            }
+        },
+        "invoiceCompany": {
+            "code": "U10",
+            "company": "HOTELBEDS USA, INC",
+            "registrationNumber": "592952685"
+        },
+        "totalNet": 715.10,
+        "pendingAmount": 715.10,
+        "currency": "USD"
+    }
+}
