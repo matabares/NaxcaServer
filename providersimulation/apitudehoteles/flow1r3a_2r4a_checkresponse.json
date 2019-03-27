@@ -1,0 +1,107 @@
+{
+    "auditData": {
+        "processTime": "52",
+        "timestamp": "2019-03-26 17:08:07.628",
+        "requestHost": "191.88.163.86, 176.34.239.195",
+        "serverId": "ip-10-185-90-161.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1b, ip_10_185_90_161]",
+        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
+        "token": "daaa8210-7a92-49ff-88e7-7f7139f3a566",
+        "internal": "0|02~~14B941949EA844F155361648725500AACO000001500000000102321ca,02~~14B941949EA844F155361648725500AACO0000015000000001023a181|CO|10|15|2|||||||||||R|4|4|~2~7~0|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "hotel": {
+        "checkOut": "2019-08-25",
+        "checkIn": "2019-08-23",
+        "code": 1070,
+        "name": "Armadams",
+        "categoryCode": "4EST",
+        "categoryName": "4 STARS",
+        "destinationCode": "PMI",
+        "destinationName": "Majorca",
+        "zoneCode": 10,
+        "zoneName": "Palma",
+        "latitude": "39.568861",
+        "longitude": "2.630294",
+        "rooms": [
+            {
+                "code": "TPL.ST",
+                "name": "TRIPLE STANDARD",
+                "rates": [
+                    {
+                        "rateKey": "20190823|20190825|W|1|1070|TPL.ST|NRF-PVP-RO|RO||1~3~0||N@02~~14B941949EA844F155361648725500AACO0000015000000001023a181",
+                        "rateClass": "NRF",
+                        "rateType": "BOOKABLE",
+                        "net": "385.58",
+                        "rateComments": "NON REFUNDABLE RATEInformation for those bookings with half board: The dinner will be served in a restaurant close to the hotel.  Estimated total amount of taxes & fees for this booking:29.93 US Dollar payable on arrival.  Minimum check-in age 18.Car park YES (with additional debit notes) 8.00 EUR Per unit/night.Check-in hour 14:00-00:00.",
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "boardName": "ROOM ONLY",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "385.58",
+                                "from": "2019-03-25T23:59:00+01:00"
+                            }
+                        ],
+                        "taxes": {
+                            "taxes": [
+                                {
+                                    "included": false,
+                                    "amount": "22.45",
+                                    "currency": "USD",
+                                    "clientAmount": "22.45",
+                                    "clientCurrency": "USD"
+                                }
+                            ],
+                            "allIncluded": false
+                        },
+                        "rooms": 1,
+                        "adults": 3,
+                        "children": 0
+                    }
+                ]
+            },
+            {
+                "code": "QUA.ST",
+                "name": "QUADRUPLE STANDARD",
+                "rates": [
+                    {
+                        "rateKey": "20190823|20190825|W|1|1070|QUA.ST|NRF-PVP-RO|RO||1~4~0||N@02~~14B941949EA844F155361648725500AACO000001500000000102321ca",
+                        "rateClass": "NRF",
+                        "rateType": "BOOKABLE",
+                        "net": "458.50",
+                        "rateComments": "NON REFUNDABLE RATEInformation for those bookings with half board: The dinner will be served in a restaurant close to the hotel.  Estimated total amount of taxes & fees for this booking:29.93 US Dollar payable on arrival.  Minimum check-in age 18.Car park YES (with additional debit notes) 8.00 EUR Per unit/night.Check-in hour 14:00-00:00.",
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "boardName": "ROOM ONLY",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "458.50",
+                                "from": "2019-03-25T23:59:00+01:00"
+                            }
+                        ],
+                        "taxes": {
+                            "taxes": [
+                                {
+                                    "included": false,
+                                    "amount": "29.93",
+                                    "currency": "USD",
+                                    "clientAmount": "29.93",
+                                    "clientCurrency": "USD"
+                                }
+                            ],
+                            "allIncluded": false
+                        },
+                        "rooms": 1,
+                        "adults": 4,
+                        "children": 0
+                    }
+                ]
+            }
+        ],
+        "totalNet": "844.08",
+        "currency": "USD",
+        "paymentDataRequired": false
+    }
+}

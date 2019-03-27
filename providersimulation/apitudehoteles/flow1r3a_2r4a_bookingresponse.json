@@ -1,0 +1,179 @@
+{
+    "auditData": {
+        "processTime": "905",
+        "timestamp": "2019-03-26 17:08:08.724",
+        "requestHost": "191.88.163.86, 176.34.239.200",
+        "serverId": "ip-10-185-90-161.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+        "environment": "[awseuwest1, awseuwest1b, ip_10_185_90_161]",
+        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
+        "token": "f11fadcf-556a-4437-b587-5ef3704c5ef8",
+        "internal": "0|02~~14B941949EA844F155361648725500AACO000001500000000102321ca,02~~14B941949EA844F155361648725500AACO0000015000000001023a181|CO|10|15|2|||||||||||R|4|4|~2~7~0|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "booking": {
+        "reference": "1-4190191",
+        "clientReference": "1257026061",
+        "creationDate": "2019-03-26",
+        "status": "CONFIRMED",
+        "modificationPolicies": {
+            "cancellation": true,
+            "modification": true
+        },
+        "creationUser": "shpk4b9p6qbxshauaar6b3gv",
+        "holder": {
+            "name": "INTEGRATIONTESTFIRSTNAME",
+            "surname": "INTEGRATIONTESTSURNAME"
+        },
+        "hotel": {
+            "checkOut": "2019-08-25",
+            "checkIn": "2019-08-23",
+            "code": 1070,
+            "name": "Armadams",
+            "categoryCode": "4EST",
+            "categoryName": "4 STARS",
+            "destinationCode": "PMI",
+            "destinationName": "Majorca",
+            "zoneCode": 10,
+            "zoneName": "Palma",
+            "latitude": "39.568861",
+            "longitude": "2.630294",
+            "rooms": [
+                {
+                    "status": "CONFIRMED",
+                    "id": 1,
+                    "code": "TPL.ST",
+                    "name": "TRIPLE STANDARD",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pedro",
+                            "surname": "Picapiedra"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pablo",
+                            "surname": "Marmol"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Vilma",
+                            "surname": "Picapiedra"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NRF",
+                            "net": "384.12",
+                            "rateComments": "1x TRIPLE Estimated total amount of taxes & fees for this booking: 19.80 Euro   payable on arrival. Car park YES (with additional debit notes) 8.00 EUR Per unit/night. Check-in hour 14:00 - 00:00. Minimum check-in age 18. NON REFUNDABLE RATE\nInformation for those bookings with half board: The dinner will be served in a restaurant close to the hotel.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "RO",
+                            "boardName": "ROOM ONLY",
+                            "cancellationPolicies": [
+                                {
+                                    "amount": "384.12",
+                                    "from": "2019-03-25T23:59:00+01:00"
+                                }
+                            ],
+                            "taxes": {
+                                "taxes": [
+                                    {
+                                        "included": false,
+                                        "amount": "19.80",
+                                        "currency": "EUR",
+                                        "clientAmount": "22.49",
+                                        "clientCurrency": "USD"
+                                    }
+                                ],
+                                "allIncluded": false
+                            },
+                            "rooms": 1,
+                            "adults": 3,
+                            "children": 0
+                        }
+                    ]
+                },
+                {
+                    "status": "CONFIRMED",
+                    "id": 2,
+                    "code": "QUA.ST",
+                    "name": "QUADRUPLE STANDARD",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Gran Gazu",
+                            "surname": "Marmol"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pearl",
+                            "surname": "Slaghoople"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Joe",
+                            "surname": "Rockhead"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Se?or",
+                            "surname": "Rajuela"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NRF",
+                            "net": "456.80",
+                            "rateComments": "1x QUADRUPLE Estimated total amount of taxes & fees for this booking: 26.40 Euro   payable on arrival. Car park YES (with additional debit notes) 8.00 EUR Per unit/night. Check-in hour 14:00 - 00:00. Minimum check-in age 18. NON REFUNDABLE RATE\nInformation for those bookings with half board: The dinner will be served in a restaurant close to the hotel.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "RO",
+                            "boardName": "ROOM ONLY",
+                            "cancellationPolicies": [
+                                {
+                                    "amount": "456.80",
+                                    "from": "2019-03-25T23:59:00+01:00"
+                                }
+                            ],
+                            "taxes": {
+                                "taxes": [
+                                    {
+                                        "included": false,
+                                        "amount": "26.40",
+                                        "currency": "EUR",
+                                        "clientAmount": "29.98",
+                                        "clientCurrency": "USD"
+                                    }
+                                ],
+                                "allIncluded": false
+                            },
+                            "rooms": 1,
+                            "adults": 4,
+                            "children": 0
+                        }
+                    ]
+                }
+            ],
+            "totalNet": "840.92",
+            "currency": "USD",
+            "supplier": {
+                "name": "HOTELBEDS PRODUCT,S.L.U.",
+                "vatNumber": "ESB38877676"
+            }
+        },
+        "invoiceCompany": {
+            "code": "U10",
+            "company": "HOTELBEDS USA, INC",
+            "registrationNumber": "592952685"
+        },
+        "totalNet": 840.92,
+        "pendingAmount": 840.92,
+        "currency": "USD"
+    }
+}

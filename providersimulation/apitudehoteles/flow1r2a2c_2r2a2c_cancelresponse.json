@@ -1,0 +1,155 @@
+{
+    "auditData": {
+        "processTime": "1623",
+        "timestamp": "2019-03-26 16:57:22.697",
+        "requestHost": "191.88.163.86, 54.247.111.203",
+        "serverId": "ip-10-185-88-115.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+        "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_115]",
+        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
+        "token": "083db682-aafc-4e80-94c9-7d89fac7a6ce",
+        "internal": "null||||0|2||||||||||||4|||0|0||0|null|||"
+    },
+    "booking": {
+        "reference": "1-4190189",
+        "cancellationReference": "PGU9UVRDLS",
+        "clientReference": "499460263",
+        "creationDate": "2019-03-26",
+        "status": "CANCELLED",
+        "modificationPolicies": {
+            "cancellation": false,
+            "modification": false
+        },
+        "creationUser": "shpk4b9p6qbxshauaar6b3gv",
+        "holder": {
+            "name": "INTEGRATIONTESTFIRSTNAME",
+            "surname": "INTEGRATIONTESTSURNAME"
+        },
+        "hotel": {
+            "checkOut": "2019-08-25",
+            "checkIn": "2019-08-23",
+            "code": 765,
+            "name": "Palmanova Suites by TRH",
+            "categoryCode": "4EST",
+            "categoryName": "4 STARS",
+            "destinationCode": "PMI",
+            "destinationName": "Majorca",
+            "zoneCode": 29,
+            "zoneName": "Palmanova",
+            "latitude": "39.510063",
+            "longitude": "2.54139",
+            "rooms": [
+                {
+                    "status": "CANCELLED",
+                    "id": 1,
+                    "code": "APT.ST",
+                    "name": "APARTMENT STANDARD",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pedro",
+                            "surname": "Picapiedra"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "CH",
+                            "age": 10,
+                            "name": "Dino",
+                            "surname": "Picapiedra "
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "CH",
+                            "age": 10,
+                            "name": "Pebbles",
+                            "surname": "Picapiedra "
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Vilma",
+                            "surname": "Picapiedra"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NOR",
+                            "net": "0.00",
+                            "rateComments": "Car park NO. Only Adults. Minimum check-in age 17.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "SC",
+                            "boardName": "SELF CATERING",
+                            "rooms": 1,
+                            "adults": 2,
+                            "children": 2
+                        }
+                    ]
+                },
+                {
+                    "status": "CANCELLED",
+                    "id": 2,
+                    "code": "SUI.C4",
+                    "name": "SUITE CAPACITY 4",
+                    "paxes": [
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Pablo",
+                            "surname": "Marmol"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "CH",
+                            "age": 10,
+                            "name": "Brincos",
+                            "surname": "Marmol"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "CH",
+                            "age": 10,
+                            "name": "Bam Bam",
+                            "surname": "Marmol"
+                        },
+                        {
+                            "roomId": 1,
+                            "type": "AD",
+                            "name": "Betty",
+                            "surname": "Marmol"
+                        }
+                    ],
+                    "rates": [
+                        {
+                            "rateClass": "NRF",
+                            "net": "0.00",
+                            "rateComments": "Car park NO. Only Adults. Minimum check-in age 17.",
+                            "paymentType": "AT_WEB",
+                            "packaging": false,
+                            "boardCode": "BB",
+                            "boardName": "BED AND BREAKFAST",
+                            "rooms": 1,
+                            "adults": 2,
+                            "children": 2
+                        }
+                    ]
+                }
+            ],
+            "totalNet": "0.00",
+            "currency": "USD",
+            "supplier": {
+                "name": "HOTELBEDS SPAIN, S.L.U.",
+                "vatNumber": "ESB28916765"
+            },
+            "cancellationAmount": 0.00
+        },
+        "invoiceCompany": {
+            "code": "U10",
+            "company": "HOTELBEDS USA, INC",
+            "registrationNumber": "592952685"
+        },
+        "totalNet": 0.00,
+        "pendingAmount": 0.00,
+        "currency": "USD"
+    }
+}
