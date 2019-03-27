@@ -13,6 +13,7 @@ from VivaColombiaSimulation import VivaColombiaSimulation
 from HotelDoSimulation import HotelDoSimulation
 from OlympiaSimulation import OlympiaSimulation
 from RezgainariSimulation import RezgainariSimulation
+from ApitudeHotelesSimulation import ApitudeHotelesSimulation
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
@@ -117,6 +118,11 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "rezgainari" in self.path:
             rezgain = RezgainariSimulation()
             response = rezgain.RezariResponse(self)
+            return response
+
+        if "apitudehoteles" in self.path:
+            apitudeHoteles = ApitudeHotelesSimulation()
+            response = apitudeHoteles.ApitudeResponse(self)
             return response
 
 
