@@ -18,7 +18,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 11' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
@@ -32,7 +32,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 21' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
@@ -46,7 +46,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 31' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
@@ -61,7 +61,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 41' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
@@ -76,7 +76,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 51' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
@@ -91,7 +91,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 61' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
@@ -106,7 +106,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 71' in body:
-            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse1.json", "r", encoding='utf8')
+            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
