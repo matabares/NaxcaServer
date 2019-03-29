@@ -11,7 +11,7 @@ class ApitudeHotelesSimulation:
         body = str(postBody, "utf-8")
 
         #1r1a
-        if '"rateKey": 10' in body:
+        if '"latitude": 10' in body:
             file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -99,13 +99,13 @@ class ApitudeHotelesSimulation:
 
 
         ##1r3a_2r4a
-        elif '"rateKey": 70' in body:
+        elif '"latitude": 70' in body:
             file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
-        elif '"rateKey": 71' in body:
+        elif '"latitude": 71' in body:
             file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -122,6 +122,7 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
+        ##1r2a1c
         elif '"rateKey": "20"' in body  and '"language": null' in body:
             file = open("providersimulation/apitudehoteles/flow1r2a1c_checkresponse.json", "r", encoding='utf8')
             data = file.read()
