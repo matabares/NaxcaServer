@@ -465,7 +465,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "376.15",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -488,7 +488,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "376.15",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -608,7 +608,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "490.72",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -631,7 +631,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "490.72",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -659,7 +659,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "490.72",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -682,7 +682,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "490.72",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -710,7 +710,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "809.62",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -733,7 +733,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "809.62",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -761,7 +761,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "1586.96",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -784,7 +784,7 @@
                                 "cancellationPolicies": [
                                     {
                                         "amount": "1586.96",
-                                        "from": "2019-03-26T23:59:00+01:00"
+                                        "from": "{datecheck1}T23:59:00+01:00"
                                     }
                                 ],
                                 "rooms": 1,
