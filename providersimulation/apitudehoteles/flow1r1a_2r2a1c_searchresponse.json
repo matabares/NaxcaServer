@@ -251,7 +251,7 @@
             },
             {
                 "code": 271,
-                "name": "Hotel Palma Bellver, managed by Meliá",
+                "name": "Hotel Palma Bellver, managed by Meli\u00e1",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
                 "zoneCode": 10,
@@ -364,19 +364,6 @@
                                 "adults": 2,
                                 "children": 1,
                                 "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|HB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021022c644",
-                                "rateClass": "NOR",
-                                "net": "1604.44",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
                             }
                         ]
                     },
@@ -440,19 +427,6 @@
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.PI-VM|ID_B2B_24|HB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021024469d",
-                                "rateClass": "NOR",
-                                "net": "1693.68",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
@@ -777,19 +751,6 @@
                                 "adults": 2,
                                 "children": 1,
                                 "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|HB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210248270",
-                                "rateClass": "NOR",
-                                "net": "624.72",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
                             }
                         ]
                     },
@@ -935,19 +896,6 @@
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|FAM.ST|ID_B2B_24|HB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102582d3",
-                                "rateClass": "NOR",
-                                "net": "723.88",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
