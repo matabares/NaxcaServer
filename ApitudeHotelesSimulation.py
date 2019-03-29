@@ -1,6 +1,17 @@
-
+import datetime
 
 class ApitudeHotelesSimulation:
+
+    def GetCheckin(self):
+        return datetime.date.today() + datetime.timedelta(days=30)
+
+    def GetCheckout(self):
+        return datetime.date.today() + datetime.timedelta(days=33)
+
+    def ReplaceDates(self, data):
+        data = str.replace(data, "{datecheck1}", self.GetCheckin().strftime("%Y-%m-%d"))
+        data = str.replace(data, "{datecheck2}", self.GetCheckout().strftime("%Y-%m-%d"))
+        return data
 
     def ApitudeResponse(self, info):
         info.send_response(200)
@@ -10,17 +21,20 @@ class ApitudeHotelesSimulation:
         postBody = info.rfile.read(contentLen)
         body = str(postBody, "utf-8")
 
+
         #1r1a
         if '"latitude": 10' in body:
             file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 11' in body:
             file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
@@ -29,12 +43,14 @@ class ApitudeHotelesSimulation:
             file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 21' in body:
             file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
@@ -43,12 +59,14 @@ class ApitudeHotelesSimulation:
             file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 31' in body:
             file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
@@ -58,12 +76,14 @@ class ApitudeHotelesSimulation:
             file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 41' in body:
             file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
@@ -73,12 +93,14 @@ class ApitudeHotelesSimulation:
             file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 51' in body:
             file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
@@ -88,12 +110,14 @@ class ApitudeHotelesSimulation:
             file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 61' in body:
             file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
@@ -103,12 +127,14 @@ class ApitudeHotelesSimulation:
             file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
         elif '"latitude": 71' in body:
             file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse_Hotels_1.json", "r", encoding='utf8')
             data = file.read()
             file.close()
+            data = self.ReplaceDates(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
