@@ -16,4 +16,4 @@ Provider|Returns|When request is|Url|File
 |RTS|Cancel policies on penalty (non refundable)|HotelCode:BKK0001 RoomTypeCode:TH&#124;001:AVAU:19491:M50496:219274:215398&#124;PREMIER ROOM&#124;SB*1#&#124;BKK&#124;&#124;ZDG.CQ&#124;USD&#124;JHPRZGK&#124;~None|
 |RTS|Cancel policies on penalty (non refundable)|HotelCode:BKK0001 RoomTypeCode:TH&#124;001:AVAU:19491:M50496:219274:215398&#124;PREMIER ROOM&#124;SB*1#&#124;BKK&#124;&#124;ZDG.CQ&#124;USD&#124;JHPRZGK&#124;~None|
 |RTS|HotelInfo without amenities DT02|HotelCode:BKK0003 Language:{AR&#124;EN&#124;BR}||
-|OLYMPIA-ABREU|Retorna un Hotel con un solo room. El rate del room tiene Total Amount y MinPrice|Date: 2030-01-29 1Room 1Adult|-|providersimulation/olympia/search_1r1a_minprice.xml|
+|OLYMPIA-ABREU|Retorna hoteles con diferentes casos de MinPrice y Total amount. **Hotel 1453:** Amount="107.58" MinPrice="117.25" **Hotel 1454:** Amount="107.58" Commission="0.00" MinPrice="0" **Hotel 1455:** Amount="507.58"|Date: 2030-01-29 1Room 1Adult|-|providersimulation/olympia/search_1r1a_minprice.xml|

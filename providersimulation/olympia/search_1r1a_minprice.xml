@@ -22,10 +22,48 @@
 								<RoomRate BookingCode="88NFL+vP642+rcE0UfgnFUmt3QeQ4f1JSamwet0wJvW4NX6fcKg/s79oLYbMT2c5p2/z+3F02ZlNl0YYu6utJNxtDzfFT2gaugUTVEot6UpsC4ulD+zLtfzYfmSOjS8UdQHeToRcvY77mqvntOpws8WOgCygW6asjMdxbAWQuVd7L01GajbS1F7iT2eSQQTB" MealPlan="BB">
 									<Rates>
 										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
-											<Total Amount="53.79" MinPrice="63.25" Currency="USD"/>
+											<Total Amount="53.79" Currency="USD"/>
 										</Rate>
 									</Rates>
-									<Total Amount="107.58" Commission="0.00" Currency="USD"/>
+									<Total Amount="107.58" Commission="0.00" MinPrice="117.25" Currency="USD"/>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+				<Hotel>
+					<Info HotelCityCode="36" HotelCode="1454" HotelName="BAYSWATER INN 2" MasterCode="1454" Rating="3*" Recommended="0"/>
+					<BestPrice Amount="107.58" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="465451" Name="Standard Single no-refundable 1"/>
+							<RoomRates>
+								<RoomRate BookingCode="08NFL+vP642+rcE0UfgnFUmt3QeQ4f1JSamwet0wJvW4NX6fcKg/s79oLYbMT2c5p2/z+3F02ZlNl0YYu6utJNxtDzfFT2gaugUTVEot6UpsC4ulD+zLtfzYfmSOjS8UdQHeToRcvY77mqvntOpws8WOgCygW6asjMdxbAWQuVd7L01GajbS1F7iT2eSQQTB" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
+											<Total Amount="63.79" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="107.58" Commission="0.00" MinPrice="0" Currency="USD"/>
+								</RoomRate>
+							</RoomRates>
+						</Room>
+					</Rooms>
+				</Hotel>
+				<Hotel>
+					<Info HotelCityCode="37" HotelCode="1455" HotelName="BAYSWATER INN 3" MasterCode="1455" Rating="3*" Recommended="0"/>
+					<BestPrice Amount="107.58" Currency="USD"/>
+					<Rooms>
+						<Room Best="1" RPH="1" Status="AV">
+							<RoomType Code="465444" Name="Standard Single no-refundable 2"/>
+							<RoomRates>
+								<RoomRate BookingCode="98NFL+vP642+rcE0UfgnFUmt3QeQ4f1JSamwet0wJvW4NX6fcKg/s79oLYbMT2c5p2/z+3F02ZlNl0YYu6utJNxtDzfFT2gaugUTVEot6UpsC4ulD+zLtfzYfmSOjS8UdQHeToRcvY77mqvntOpws8WOgCygW6asjMdxbAWQuVd7L01GajbS1F7iT2eSQQTB" MealPlan="BB">
+									<Rates>
+										<Rate EffectiveDate="2019-02-13" ExpireDate="2019-02-15">
+											<Total Amount="630.79" Currency="USD"/>
+										</Rate>
+									</Rates>
+									<Total Amount="507.58" Commission="0.00" Currency="USD"/>
 								</RoomRate>
 							</RoomRates>
 						</Room>
