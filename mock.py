@@ -54,7 +54,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.2.29</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.2.30</version>", 'UTF-8'))
 
 
     def do_POST(self):
