@@ -1,0 +1,129 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap-env:Header/>
+	<soap-env:Body>
+		<OTA_HotelDescriptiveInfoRS TimeStamp="2019-03-30T01:43:41" xmlns="http://www.opentravel.org/OTA/2003/05">
+			<Success/>
+			<HotelDescriptiveContents>
+				<HotelDescriptiveContent HotelCityCode="20396" HotelCode="172333" HotelName="La Cocoteraie">
+					<HotelInfo>
+						<CategoryCodes>
+							<HotelCategory Code="4*"/>
+						</CategoryCodes>
+						<Descriptions>
+							<DescriptiveText Name="General">Guests can enjoy a pleasant stay in one of the 50 rooms. A restaurant is among the facilities. Those arriving in their own vehicles can leave them in the car park of the hotel.</DescriptiveText>
+							<DescriptiveText Name="Rooms">The accommodation features rooms with air conditioning and a bathroom. A balcony is included as standard in most rooms, offering additional space for relaxation. All rooms feature a fridge, a telephone, a TV and a safe. The accommodation units include a bathroom with a shower. Special family rooms are available for families with children.</DescriptiveText>
+							<DescriptiveText Name="Sports/Entertainment">The establishment offers attractions including sport and entertainment opportunities. The hotel features a pool. It is also possible to use the sun loungers on the sun terrace. Travellers can enjoy a range of refreshing drinks at the poolside bar. A range of options are available, including tennis and a gym. Additional services include an entertainment programme for children, offering numerous activities. Copyright GIATA 2004 - 2019. Multilingual, powered by www.giata.com for client no. 124736</DescriptiveText>
+							<DescriptiveText Name="Meals">Bed and breakfast is bookable. It is also possible to order breakfast.</DescriptiveText>
+						</Descriptions>
+						<Position Latitude="16.2527403612" Longitude="-61.2650340878" PositionAccuracyCode="10"/>
+					</HotelInfo>
+					<ContactInfos>
+						<ContactInfo>
+							<Addresses>
+								<Address>
+									<AddressLine>Avenue De L'Europe 97118 Saint-François</AddressLine>
+									<CityName>Saint-François</CityName>
+									<PostalCode>97118</PostalCode>
+									<CountryName>GUADELOUPE</CountryName>
+								</Address>
+							</Addresses>
+							<Phones>
+								<Phone PhoneNumber="+590590887981" PhoneTechType="Phone"/>
+								<Phone PhoneNumber="+590590887833" PhoneTechType="Fax"/>
+							</Phones>
+							<Emails>
+								<Email>cocoteraie@wanadoo.fr</Email>
+							</Emails>
+							<URLs>
+								<URL Type="Hotel">http://www.lacocoteraie.com/</URL>
+								<URL Index="1" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img1.png</URL>
+								<URL Index="1" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source1.jpg</URL>
+								<URL Index="1" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb1.png</URL>
+								<URL Index="2" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img2.png</URL>
+								<URL Index="2" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source2.jpg</URL>
+								<URL Index="2" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb2.png</URL>
+								<URL Index="3" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img3.png</URL>
+								<URL Index="3" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source3.jpg</URL>
+								<URL Index="3" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb3.png</URL>
+								<URL Index="4" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img4.png</URL>
+								<URL Index="4" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source4.jpg</URL>
+								<URL Index="4" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb4.png</URL>
+								<URL Index="5" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img5.png</URL>
+								<URL Index="5" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source5.jpg</URL>
+								<URL Index="5" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb5.png</URL>
+								<URL Index="6" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img6.png</URL>
+								<URL Index="6" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source6.jpg</URL>
+								<URL Index="6" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb6.png</URL>
+								<URL Index="7" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img7.png</URL>
+								<URL Index="7" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source7.jpg</URL>
+								<URL Index="7" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb7.png</URL>
+								<URL Index="8" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img8.png</URL>
+								<URL Index="8" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source8.jpg</URL>
+								<URL Index="8" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb8.png</URL>
+								<URL Index="9" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img9.png</URL>
+								<URL Index="9" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source9.jpg</URL>
+								<URL Index="9" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb9.png</URL>
+								<URL Index="10" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img10.png</URL>
+								<URL Index="10" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source10.jpg</URL>
+								<URL Index="10" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb10.png</URL>
+								<URL Index="11" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img11.png</URL>
+								<URL Index="11" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source11.jpg</URL>
+								<URL Index="11" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb11.png</URL>
+								<URL Index="12" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img12.png</URL>
+								<URL Index="12" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source12.jpg</URL>
+								<URL Index="12" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb12.png</URL>
+								<URL Index="13" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img13.png</URL>
+								<URL Index="13" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source13.jpg</URL>
+								<URL Index="13" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb13.png</URL>
+								<URL Index="14" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img14.png</URL>
+								<URL Index="14" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source14.jpg</URL>
+								<URL Index="14" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb14.png</URL>
+								<URL Index="15" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img15.png</URL>
+								<URL Index="15" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source15.jpg</URL>
+								<URL Index="15" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb15.png</URL>
+								<URL Index="16" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img16.png</URL>
+								<URL Index="16" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source16.jpg</URL>
+								<URL Index="16" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb16.png</URL>
+								<URL Index="17" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img17.png</URL>
+								<URL Index="17" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source17.jpg</URL>
+								<URL Index="17" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb17.png</URL>
+								<URL Index="18" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img18.png</URL>
+								<URL Index="18" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source18.jpg</URL>
+								<URL Index="18" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb18.png</URL>
+								<URL Index="19" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img19.png</URL>
+								<URL Index="19" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source19.jpg</URL>
+								<URL Index="19" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb19.png</URL>
+								<URL Index="20" Size="Scaled" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/img20.png</URL>
+								<URL Index="20" Size="Source" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/source20.jpg</URL>
+								<URL Index="20" Size="Thumb" Type="Image">https://content.olympiaeurope.com/static3/17/23/33/images/thumb20.png</URL>
+							</URLs>
+						</ContactInfo>
+					</ContactInfos>
+					<TPA_Extensions>
+						<HotelFacilities>
+							<HotelFacility>Car Park</HotelFacility>
+						</HotelFacilities>
+						<RoomFacilities>
+							<RoomFacility>Bathroom</RoomFacility>
+							<RoomFacility>Shower</RoomFacility>
+							<RoomFacility>Fridge</RoomFacility>
+							<RoomFacility>Air conditioning (centrally regulated)</RoomFacility>
+							<RoomFacility>Safe</RoomFacility>
+							<RoomFacility>Balcony/Terrace</RoomFacility>
+							<RoomFacility>TV</RoomFacility>
+						</RoomFacilities>
+						<Entertainments>
+							<Entertainment>Pool bar</Entertainment>
+							<Entertainment>Sun loungers</Entertainment>
+							<Entertainment>Sun terrace</Entertainment>
+							<Entertainment>Gym</Entertainment>
+							<Entertainment>Children's Entertainment</Entertainment>
+							<Entertainment>Tennis</Entertainment>
+							<Entertainment>Number of Pools</Entertainment>
+						</Entertainments>
+					</TPA_Extensions>
+				</HotelDescriptiveContent>
+			</HotelDescriptiveContents>
+		</OTA_HotelDescriptiveInfoRS>
+	</soap-env:Body>
+</soap-env:Envelope>
