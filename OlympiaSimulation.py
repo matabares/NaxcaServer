@@ -359,7 +359,7 @@ class OlympiaSimulation:
                 return info
 
         if "OTA_HotelDescriptiveInfoRQ" in body:
-            if 'HotelCode="1"' in body and 'LangRequested="EN"':
+            if 'HotelCode="1"' in body and 'LangRequested="EN"' in body:
                 file = open("providersimulation/olympia/hotelinfo_en_ok.xml", "r", encoding='utf8')
                 data = file.read()
                 file.close()
