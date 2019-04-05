@@ -3,7 +3,7 @@
 	<soap-env:Body>
 		<OTA_HotelInfoRS Id="101,93260915,1038395" TimeStamp="2019-04-05T07:55:15" xmlns="http://parsec.es/hotelapi/OTA2014Compact">
 			<Errors>
-				<Error Language="EN" Status="NotProcessed">The requested hotel does not exist.</Error>
+				<Error Language="EN" Status="NotProcessed">Response from server was null</Error>
 			</Errors>
 		</OTA_HotelInfoRS>
 	</soap-env:Body>
