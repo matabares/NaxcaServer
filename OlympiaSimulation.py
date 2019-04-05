@@ -365,3 +365,9 @@ class OlympiaSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if 'HotelCode="0"' in body and 'LangRequested="EN"' in body:
+                file = open("providersimulation/olympia/hotelinfo_en_error.xml", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
