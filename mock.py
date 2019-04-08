@@ -18,6 +18,11 @@ from ApitudeHotelesSimulation import ApitudeHotelesSimulation
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
+        if "apitudesimulation" in self.path:
+            apitude = ApitudeHotelesSimulation()
+            response = apitude.ApitudeGetResponse(self)
+            return response
+
         if "wegosimulation" in self.path:
             wego = wegoProviderSimulation()
             response = wegoProviderSimulation(self)
@@ -37,6 +42,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
                 file.close()
                 self.wfile.write(bytes(str(data), 'UTF-8'))
                 return
+
             self.send_response(200)
             self.send_header('Content-Type', 'text/html')
             self.end_headers()
@@ -54,7 +60,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.2.32</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.2.33</version>", 'UTF-8'))
 
 
     def do_POST(self):
