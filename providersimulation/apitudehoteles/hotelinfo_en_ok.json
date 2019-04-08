@@ -108,19 +108,19 @@
     "license": "HPM 653",
     "phones": [
       {
-        "phoneNumber": "+34971288210",
+        "phoneNumber": "+123",
         "phoneType": "PHONEBOOKING"
       },
       {
-        "phoneNumber": "+34971441650",
+        "phoneNumber": "+123",
         "phoneType": "PHONEHOTEL"
       },
       {
-        "phoneNumber": "971288210",
+        "phoneNumber": "+123",
         "phoneType": "PHONEMANAGEMENT"
       },
       {
-        "phoneNumber": "+34971441654",
+        "phoneNumber": "+124",
         "phoneType": "FAXNUMBER"
       }
     ],
