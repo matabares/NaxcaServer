@@ -62,6 +62,16 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.end_headers()
             self.wfile.write(bytes("<version>2.2.34</version>", 'UTF-8'))
 
+        if "mamamia" in self.path:
+            self.send_response(200)
+            self.send_header('Content-Type', 'text/html;charset=UTF-8')
+            self.end_headers()
+            file = open("providersimulation/udm/index.html", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            self.wfile.write(bytes(data, 'UTF-8'))
+
+
 
     def do_POST(self):
         if "vivacolombiasimulation" in self.path:
