@@ -18,4 +18,4 @@ Provider|Returns|When request is|Url|File
 |RTS|HotelInfo without amenities DT02|HotelCode:BKK0003 Language:{AR&#124;EN&#124;BR}||
 |OLYMPIA-ABREU|Retorna hoteles con diferentes casos de MinPrice y Total amount. **Hotel 1453:** Amount="107.58" MinPrice="117.25" **Hotel 1454:** Amount="107.58" Commission="0.00" MinPrice="0" **Hotel 1455:** Amount="507.58"|Date: 2030-01-29 1Room 1Adult|-|providersimulation/olympia/search_1r1a_minprice.xml|
 |OLYMPIA|Retorna static data de hotel en inglés|HotelCode="1" LangRequested="EN"||providersimulation/olympia/hotelinfo_en_ok.xml|
-|TOURICO|5 hotels 1 month future|<Destination>MIA</Destination>|---|providersimulation/tourico/flow1r1a_searchresponse.xml|
+|TOURICO|5 hotels 1 month future|Destination: MIA|---|providersimulation/tourico/flow1r1a_searchresponse.xml|
