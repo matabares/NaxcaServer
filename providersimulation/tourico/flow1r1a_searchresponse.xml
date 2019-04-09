@@ -174,7 +174,7 @@ Set on Belle Isle, one of the many islands dotting Biscayne Bay, this beach hote
 The hotel has convenient access to South Beach hot spots, dining, shopping, night life and beaches. Fort Lauderdale/Hollywood International Airport is some 29 km away and Miami International Airport is some 24 km from the establishment." hotelId="1232478" minAverPrice="119.42" minAverPublishPrice="119.42" name="Daddy O Hotel Miami - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1232478/100x100/1783121609.jpg">
 						<Location address="Demo - 9660 East Bay Harbor Drive Bal Harbour Florida 33154" city="Bal Harbour" countryCode="US" latitude="25.8876111012925" location="" longitude="-80.1296116969589" searchingCity="Bal Harbour" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3935294" isAvailable="true" name="Deluxe King mataresssss es un berraco" nights="2" productId="1232478;3935294;386048" roomId="8" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3935294" isAvailable="true" name="Deluxe King" nights="2" productId="1232478;3935294;386048" roomId="8" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="{START_DATE}T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
