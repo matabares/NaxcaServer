@@ -14,6 +14,7 @@ from HotelDoSimulation import HotelDoSimulation
 from OlympiaSimulation import OlympiaSimulation
 from RezgainariSimulation import RezgainariSimulation
 from ApitudeHotelesSimulation import ApitudeHotelesSimulation
+from TouricoHotelsSimulation import TouricoHotelsSimulation
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
@@ -61,15 +62,6 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
             self.wfile.write(bytes("<version>2.2.34</version>", 'UTF-8'))
-
-        if "mamamia" in self.path:
-            self.send_response(200)
-            self.send_header('Content-Type', 'text/html;charset=UTF-8')
-            self.end_headers()
-            file = open("providersimulation/udm/index.html", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            self.wfile.write(bytes(data, 'UTF-8'))
 
 
 
@@ -120,7 +112,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             hotelBeds = HotelBedsSimulation()
             response = hotelBeds.HotelBedsResponse(self)
             return response
-        if "tourico" in self.path:
+        if "touricoextrasimulation" in self.path:
             touricoExtras = TouricoExtrasSimulation()
             response = touricoExtras.TouricoExtrasResponse(self)
             return response
@@ -139,6 +131,11 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "apitudehoteles" in self.path:
             apitudeHoteles = ApitudeHotelesSimulation()
             response = apitudeHoteles.ApitudeResponse(self)
+            return response
+
+        if "touricohotelsimulation" in self.path:
+            touricoHoteles = TouricoHotelsSimulation()
+            response = touricoHoteles.TouricoResponse(self)
             return response
 
 
