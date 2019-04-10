@@ -12,8 +12,8 @@ class TouricoHotelsSimulation:
         data = str.replace(data, "{START_DATE}", self.GetCheckin().strftime("%Y-%m-%d"))
         return data
     def ReplaceDatesCancellationPolicies(self, data):
-        data = str.replace(data, "{CANCEL_CHECKIN}", self.GetCheckin().strftime("%d/%m/%Y"))
-        data = str.replace(data, "{CANCEL_CHECKOUT}", self.GetCheckout().strftime("%d/%m/%Y"))
+        data = str.replace(data, "{CANCEL_CHECKIN}", self.GetCheckin().strftime("%m/%d/%Y"))
+        data = str.replace(data, "{CANCEL_CHECKOUT}", self.GetCheckout().strftime("%m/%d/%Y"))
         return data
 
     def TouricoResponse(self, info):
