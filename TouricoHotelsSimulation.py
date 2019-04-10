@@ -11,9 +11,15 @@ class TouricoHotelsSimulation:
     def ReplaceDates(self, data):
         data = str.replace(data, "{START_DATE}", self.GetCheckin().strftime("%Y-%m-%d"))
         return data
+
     def ReplaceDatesCancellationPolicies(self, data):
         data = str.replace(data, "{CANCEL_CHECKIN}", self.GetCheckin().strftime("%m/%d/%Y"))
         data = str.replace(data, "{CANCEL_CHECKOUT}", self.GetCheckout().strftime("%m/%d/%Y"))
+        return data
+
+    def ReplaceDatesBooking(self, data):
+        data = str.replace(data, "{BOOKING_CHECKIN_DATE}", self.GetCheckin().strftime("%Y-%m-%d"))
+        data = str.replace(data, "{BOOKING_CHECKOUT_DATE}", self.GetCheckin().strftime("%Y-%m-%d"))
         return data
 
     def TouricoResponse(self, info):
@@ -46,5 +52,20 @@ class TouricoHotelsSimulation:
             data = file.read()
             file.close()
             data = self.ReplaceDatesCancellationPolicies(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'BookHotelV3' in body and '<HotelId xmlns="http://schemas.tourico.com/webservices/hotelv3">943</HotelId>' in body:
+            file = open("providersimulation/tourico/flow1r1a_bookhotelresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDatesBooking(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'CancelReservation' in body and '<nResID>164187981</nResID>' in body:
+            file = open("providersimulation/tourico/flow1r1a_cancelreservationresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info

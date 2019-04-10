@@ -1,0 +1,27 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<BookHotelV3Response xmlns="http://tourico.com/webservices/hotelv3">
+			<BookHotelV3Result>
+				<Info culture="en-US" serverTime="{BOOKING_CHECKOUT_DATE}T12:46:58.4108006-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<ResGroup currency="USD" isPackage="false" rgId="162705708" rgRemark="" totalPrice="300.96" totalPublishPrice="300.96" tranNum="166284168" xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Reservations>
+						<Reservation currency="USD" fromDate="{BOOKING_CHECKIN_DATE}T00:00:00" isPublish="false" note="" numOfAdults="1" numOfChildren="0" price="300.96" publishPrice="300.96" reservationId="164187981" status="Confirm" toDate="{BOOKING_CHECKOUT_DATE}T00:00:00" totalPublishTax="36.96" totalTax="36.96" tranNum="166284168">
+							<ProductInfo NumOfBathrooms="0" NumOfRoom="130" PropertySubType="" PropertyType="Hotel" address="Demo - 6345 Collins Avenue" bestVal="true" category="Moderate" hotelId="943" name="The Casablanca on the Ocean East Tower - Demo" numOfStars="3" roomType="Standard" roomTypeCategory="Standard" roomTypeCategoryId="17" thumb="https://tourico.leonardocontentcloud.com/imageRepo/3/0/39/379/606/exterior_G.jpg" xsi:type="HotelInfo">
+								<RoomExtraInfo NumOfBathrooms="0" bedding="1,1" hotelRoomTypeId="1797785" name="Standard" roomId="3">
+									<RoomInfo>
+										<AdultNum>1</AdultNum>
+										<ChildNum>0</ChildNum>
+									</RoomInfo>
+									<SelectedSupplements>
+										<Supplement price="36.00" publishPrice="36.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+									</SelectedSupplements>
+								</RoomExtraInfo>
+								<Passenger ageGroup="1" firstName="Max" homePhone="3102647820" lastName="Power" middleName="" mobilePhone=""/>
+							</ProductInfo>
+						</Reservation>
+					</Reservations>
+				</ResGroup>
+			</BookHotelV3Result>
+		</BookHotelV3Response>
+	</s:Body>
+</s:Envelope>
