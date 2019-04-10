@@ -145,8 +145,8 @@ Set on Belle Isle, one of the many islands dotting Biscayne Bay, this beach hote
 						<RoomTypes>
 							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957864" isAvailable="true" name="Standard" nights="2" productId="9015;1957864;126589" roomId="288483" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
 								<AvailabilityBreakdown>
-									<Availability offset="0" status="false"/>
-									<Availability offset="1" status="false"/>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
 									<Occupancy avrNightPrice="183.2" avrNightPublishPrice="183.2" bedding="1,1" isPublish="false" maxChild="0" maxGuests="2" occupId="9015;1957864;126589;3;1;0" occupPrice="366.39" occupPublishPrice="366.39" tax="44.99" taxPublish="44.99">
