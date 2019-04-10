@@ -143,7 +143,7 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 Set on Belle Isle, one of the many islands dotting Biscayne Bay, this beach hotel is connected via a bridge to South Beach, 800 m from the Lincoln Road pedestrian mall and a mile from the ocean. The attractions of South Beach are only a s" hotelId="9015" minAverPrice="183.2" minAverPublishPrice="183.2" name="The Standard &amp; Spa - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/9015/100x100/1688357032.jpg">
 						<Location address="Demo - 40 Island Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7917460509095" location="" longitude="-80.149085728836" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957864" isAvailable="false" name="Standard" nights="2" productId="9015;1957864;126589" roomId="288483" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957864" isAvailable="true" name="Standard" nights="2" productId="9015;1957864;126589" roomId="288483" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="false"/>
 									<Availability offset="1" status="false"/>
