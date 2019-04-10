@@ -180,10 +180,10 @@ The hotel has convenient access to South Beach hot spots, dining, shopping, nigh
 									<Availability offset="1" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
-									<Occupancy avrNightPrice="119.42" avrNightPublishPrice="119.42" bedding="1,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1232478;3935294;386048;3;1;0" occupPrice="238.84" occupPublishPrice="238.84" tax="27.48" taxPublish="27.48">
+									<Occupancy avrNightPrice="1190.42" avrNightPublishPrice="1190.42" bedding="1,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1232478;3935294;386048;3;1;0" occupPrice="2380.84" occupPublishPrice="2380.84" tax="270.48" taxPublish="270.48">
 										<PriceBreakdown>
-											<Price offset="0" value="119.42" valuePublish="119.42"/>
-											<Price offset="1" value="119.42" valuePublish="119.42"/>
+											<Price offset="0" value="1190.42" valuePublish="1190.42"/>
+											<Price offset="1" value="1190.42" valuePublish="1190.42"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="1">
