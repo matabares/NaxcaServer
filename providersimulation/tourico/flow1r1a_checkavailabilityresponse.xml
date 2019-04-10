@@ -1,0 +1,42 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<CheckAvailabilityAndPricesResponse xmlns="http://tourico.com/webservices/hotelv3">
+			<CheckAvailabilityAndPricesResult>
+				<Info culture="en-US" serverTime="{START_DATE}T12:44:18.7376483-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Hotel NumOfRoom="130" PropertySubType="" PropertyType="Hotel" bestValue="true" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - Location
+
+This hotel lies directly beside the sandy beach at the heart of Miami Beach and affords spectacular views out over the Atlantic and the Intracoastal Waterway. Shopping and entertainment venues are to be found in abundance in the near vici" hotelId="943" minAverPrice="150.48" minAverPublishPrice="150.48" name="The Casablanca on the Ocean East Tower - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/3/0/39/379/606/exterior_G.jpg">
+						<Location address="Demo - 6345 Collins Avenue Miami Beach Florida 33141" city="Miami Beach" countryCode="US" latitude="25.8452431875431" location="North Beach" longitude="-80.1197871023773" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="2" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="150.48" avrNightPublishPrice="150.48" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="943;1797785;128;2;1;0" occupPrice="300.96" occupPublishPrice="300.96" tax="36.96" taxPublish="36.96">
+										<PriceBreakdown>
+											<Price offset="0" value="150.48" valuePublish="150.48"/>
+											<Price offset="1" value="150.48" valuePublish="150.48"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="36.00" publishPrice="36.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+				</HotelList>
+			</CheckAvailabilityAndPricesResult>
+		</CheckAvailabilityAndPricesResponse>
+	</s:Body>
+</s:Envelope>

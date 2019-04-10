@@ -11,6 +11,10 @@ class TouricoHotelsSimulation:
     def ReplaceDates(self, data):
         data = str.replace(data, "{START_DATE}", self.GetCheckin().strftime("%Y-%m-%d"))
         return data
+    def ReplaceDatesCancellationPolicies(self, data):
+        data = str.replace(data, "{CANCEL_CHECKIN}", self.GetCheckin().strftime("%d/%m/%Y"))
+        data = str.replace(data, "{CANCEL_CHECKOUT}", self.GetCheckout().strftime("%d/%m/%Y"))
+        return data
 
     def TouricoResponse(self, info):
         info.send_response(200)
@@ -21,10 +25,26 @@ class TouricoHotelsSimulation:
         body = str(postBody, "utf-8")
 
         # 1r1a
-        if '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body:
+        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body:
             file = open("providersimulation/tourico/flow1r1a_searchresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
             data = self.ReplaceDates(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'CheckAvailabilityAndPrices' in body and '<HotelIdInfo id="943"/>' in body:
+            file = open("providersimulation/tourico/flow1r1a_checkavailabilityresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDates(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'GetCancellationPolicies' in body and '<hotelId>943</hotelId>' in body:
+            file = open("providersimulation/tourico/flow1r1a_checkavailabilityresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDatesCancellationPolicies(data)
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
