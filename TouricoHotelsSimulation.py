@@ -42,7 +42,7 @@ class TouricoHotelsSimulation:
             return info
 
         if 'GetCancellationPolicies' in body and '<hotelId>943</hotelId>' in body:
-            file = open("providersimulation/tourico/flow1r1a_checkavailabilityresponse.xml", "r", encoding='utf8')
+            file = open("providersimulation/tourico/flow1r1a_cancellationpoliciesresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
             data = self.ReplaceDatesCancellationPolicies(data)
