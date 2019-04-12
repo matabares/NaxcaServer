@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuoteHotels xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<QuoteId>45e9b497-9088-44af-b292-1cf073d27089</QuoteId>
+	<Hotels>
+		<Hotel>
+			<Id>90000078</Id>
+			<Name>725 Continental Hotel</Name>
+			<Description>&lt;b&gt;725 Continental Hotel&lt;/b&gt; cuenta con unas instalaciones de gran calidad para eventos sociales o ejecutivos. Su magnífica ubicación en el centro de &lt;b&gt;Buenos Aires&lt;/b&gt; le vuelve una opción atractiva para viajeros de negocios y turistas por igual. Aprovecha sus modernas habitaciones y disfruta sus servicios como gimnasio, masajes, sauna, Internet inalámbrico, centro de negocios y más. Además cuenta con dos bares y un restaurante con deliciosos platillos.</Description>
+			<CityId>ARbacentro</CityId>
+			<CityName>Buenos Aires-Centro</CityName>
+			<CountryId>AR</CountryId>
+			<CountryName>Argentina</CountryName>
+			<Street>Av. Pte. Roque Saéz Peña 725</Street>
+			<ZipCode>C1035AAC</ZipCode>
+			<CategoryId>S45</CategoryId>
+			<LocationId>CENT</LocationId>
+			<LocationName>Ciudad</LocationName>
+			<Image>//images.e-tsw.com/_lib/vimages/Buenos-Aires-Argentina/Hotels/725-Continental-Hotel/fachada.jpg</Image>
+			<Path>725-Continental-Hotel</Path>
+			<Currency>US</Currency>
+			<Status>AV</Status>
+			<Latitude>-34.606651306152344</Latitude>
+			<Longitude>-58.3758544921875</Longitude>
+			<AdditionalCharges/>
+			<Order>1</Order>
+			<Destination>
+				<Id>100089</Id>
+				<Name>Buenos Aires</Name>
+				<Image>
+					<Id>Buenos-Aires-Argentina_t</Id>
+					<Name>Buenos-Aires-Argentina_t</Name>
+					<Domain/>
+					<URL/>
+					<Type>jpg</Type>
+				</Image>
+				<Path>Buenos-Aires-Argentina</Path>
+			</Destination>
+			<Reviews>
+				<Review>
+					<Rating>4</Rating>
+					<Source>TripAdvisor</Source>
+					<Count>1067</Count>
+				</Review>
+			</Reviews>
+			<Services>
+				<Service>
+					<Id>WIREINTE</Id>
+					<Name>Internet Inalámbrico</Name>
+					<Description/>
+					<ExtraCharge>false</ExtraCharge>
+					<Order>1</Order>
+				</Service>
+				<Service>
+					<Id>RSERV</Id>
+					<Name>Room Service</Name>
+					<Description/>
+					<ExtraCharge>true</ExtraCharge>
+					<Order>13</Order>
+				</Service>
+				<Service>
+					<Id>MASSAGE</Id>
+					<Name>Masajes</Name>
+					<Description/>
+					<ExtraCharge>true</ExtraCharge>
+					<Order>18</Order>
+				</Service>
+			</Services>
+			<Themes>
+				<Theme>
+					<Id>CLBU</Id>
+					<Name>De Negocios</Name>
+					<Path>Turismo-Negocios</Path>
+				</Theme>
+			</Themes>
+			<InterfaceInfo InterfaceType="">
+				<Id>BESTDAY</Id>
+			</InterfaceInfo>
+			<Rooms>
+				<Room>
+					<Id>20506</Id>
+					<Name>Superior</Name>
+					<MealPlans>
+						<MealPlan>
+							<Id>ZZ</Id>
+							<Name>Sólo Habitación</Name>
+							<AgencyPublic>
+								<AgencyPublic>336.4084</AgencyPublic>
+								<GrossAgencyPublic>336.40838623046875</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>0</Id>
+								<Status>AV</Status>
+							</Available>
+							<AverageGrossNormal>163.99998474121094</AverageGrossNormal>
+							<AverageGrossTotal>80.237457275390625</AverageGrossTotal>
+							<AverageNormal>163.99998474121094</AverageNormal>
+							<AverageTotal>80.237457275390625</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>491.99993896484375</GrossNormal>
+							<GrossTotal>240.71237182617187</GrossTotal>
+							<Normal>491.99993896484375</Normal>
+							<RateKey>MjA1MDYtWlpNT0JJTEU1WlpFeHRyYW5ldA==</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>240.71237182617187</Total>
+							<MarketId>MOBILE</MarketId>
+							<Contract>5</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>163.99998474121094</GrossNormal>
+									<GrossTotal>80.237457275390625</GrossTotal>
+									<Normal>163.99998474121094</Normal>
+									<PromoId>530861290</PromoId>
+									<Total>80.237457275390625</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-05T00:00:00Z</Date>
+									<GrossNormal>163.99998474121094</GrossNormal>
+									<GrossTotal>80.237457275390625</GrossTotal>
+									<Normal>163.99998474121094</Normal>
+									<PromoId>530861290</PromoId>
+									<Total>80.237457275390625</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-06T00:00:00Z</Date>
+									<GrossNormal>163.99998474121094</GrossNormal>
+									<GrossTotal>80.237457275390625</GrossTotal>
+									<Normal>163.99998474121094</Normal>
+									<PromoId>530861290</PromoId>
+									<Total>80.237457275390625</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530861290</Id>
+									<Name>. </Name>
+									<Description>40% de descuento por habitacion!
+Aplica para estadías entre 22/Mar/2018 y 31/Dic/2019.
+</Description>
+									<Rate>0</Rate>
+									<Saving>251.287567</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>336.4084</AgencyPublic>
+										<GrossAgencyPublic>336.40838623046875</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>163.99998474121094</AverageGrossNormal>
+									<AverageGrossTotal>80.237457275390625</AverageGrossTotal>
+									<AverageNormal>163.99998474121094</AverageNormal>
+									<AverageTotal>80.237457275390625</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>240.71237182617187</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-15</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-04</DateFrom>
+											<Amount>240.71237182617187</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>491.99993896484375</GrossNormal>
+									<GrossTotal>240.71237182617187</GrossTotal>
+									<Normal>491.99993896484375</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>20506ZZ</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>240.71237182617187</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+						<MealPlan>
+							<Id>BB</Id>
+							<Name>Desayuno Incluido</Name>
+							<AgencyPublic>
+								<AgencyPublic>356.921051</AgencyPublic>
+								<GrossAgencyPublic>356.92105102539062</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>0</Id>
+								<Status>AV</Status>
+							</Available>
+							<AverageGrossNormal>174</AverageGrossNormal>
+							<AverageGrossTotal>85.129989624023438</AverageGrossTotal>
+							<AverageNormal>174</AverageNormal>
+							<AverageTotal>85.129989624023438</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>522</GrossNormal>
+							<GrossTotal>255.38996887207031</GrossTotal>
+							<Normal>522</Normal>
+							<RateKey>MjA1MDYtQkJNT0JJTEU1QkJFeHRyYW5ldA==</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>255.38996887207031</Total>
+							<MarketId>MOBILE</MarketId>
+							<Contract>5</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>174</GrossNormal>
+									<GrossTotal>85.129989624023438</GrossTotal>
+									<Normal>174</Normal>
+									<PromoId>530861289</PromoId>
+									<Total>85.129989624023438</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-05T00:00:00Z</Date>
+									<GrossNormal>174</GrossNormal>
+									<GrossTotal>85.129989624023438</GrossTotal>
+									<Normal>174</Normal>
+									<PromoId>530861289</PromoId>
+									<Total>85.129989624023438</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-06T00:00:00Z</Date>
+									<GrossNormal>174</GrossNormal>
+									<GrossTotal>85.129989624023438</GrossTotal>
+									<Normal>174</Normal>
+									<PromoId>530861289</PromoId>
+									<Total>85.129989624023438</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530861289</Id>
+									<Name>. </Name>
+									<Description>40% de descuento por habitacion!
+Aplica para estadías entre 22/Mar/2018 y 31/Dic/2019.
+</Description>
+									<Rate>0</Rate>
+									<Saving>266.610046</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>356.921051</AgencyPublic>
+										<GrossAgencyPublic>356.92105102539062</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>174</AverageGrossNormal>
+									<AverageGrossTotal>85.129989624023438</AverageGrossTotal>
+									<AverageNormal>174</AverageNormal>
+									<AverageTotal>85.129989624023438</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>255.38996887207031</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-15</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-04</DateFrom>
+											<Amount>255.38996887207031</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>522</GrossNormal>
+									<GrossTotal>255.38996887207031</GrossTotal>
+									<Normal>522</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>20506BB</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>255.38996887207031</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+					</MealPlans>
+					<CapacityAdults>2</CapacityAdults>
+					<CapacityKids>1</CapacityKids>
+					<CapacityExtras>0</CapacityExtras>
+					<CapacityTotal>2</CapacityTotal>
+					<CapacityChildAgeFrom>0</CapacityChildAgeFrom>
+					<CapacityChildAgeTo>5</CapacityChildAgeTo>
+					<CapacityJuniorAgeFrom>0</CapacityJuniorAgeFrom>
+					<CapacityJuniorAgeTo>0</CapacityJuniorAgeTo>
+					<RoomView/>
+					<Bedding>1 cama Matrimonial</Bedding>
+					<ImageURL>//images.e-tsw.com/_lib/vimages/Buenos-Aires-Argentina/Hotels/725-Continental-Hotel/Gallery/Buenos-Aires-725-Continental-Superior.jpg</ImageURL>
+				</Room>
+				<Room>
+					<Id>20507</Id>
+					<Name>Ejecutiva</Name>
+					<MealPlans>
+						<MealPlan>
+							<Id>ZZ</Id>
+							<Name>Sólo Habitación</Name>
+							<AgencyPublic>
+								<AgencyPublic>395.8405</AgencyPublic>
+								<GrossAgencyPublic>395.84051513671875</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>0</Id>
+								<Status>AV</Status>
+							</Available>
+							<AverageGrossNormal>192.97331237792969</AverageGrossNormal>
+							<AverageGrossTotal>94.4127426147461</AverageGrossTotal>
+							<AverageNormal>192.97331237792969</AverageNormal>
+							<AverageTotal>94.4127426147461</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>578.919921875</GrossNormal>
+							<GrossTotal>283.23822021484375</GrossTotal>
+							<Normal>578.919921875</Normal>
+							<RateKey>MjA1MDctWlpNT0JJTEU1WlpFeHRyYW5ldA==</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>283.23822021484375</Total>
+							<MarketId>MOBILE</MarketId>
+							<Contract>5</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>188.59996032714844</GrossNormal>
+									<GrossTotal>92.273056030273437</GrossTotal>
+									<Normal>188.59996032714844</Normal>
+									<PromoId>530861292</PromoId>
+									<Total>92.273056030273437</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-05T00:00:00Z</Date>
+									<GrossNormal>195.15998840332031</GrossNormal>
+									<GrossTotal>95.482574462890625</GrossTotal>
+									<Normal>195.15998840332031</Normal>
+									<PromoId>530861292</PromoId>
+									<Total>95.482574462890625</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-06T00:00:00Z</Date>
+									<GrossNormal>195.15998840332031</GrossNormal>
+									<GrossTotal>95.482574462890625</GrossTotal>
+									<Normal>195.15998840332031</Normal>
+									<PromoId>530861292</PromoId>
+									<Total>95.482574462890625</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530861292</Id>
+									<Name>. </Name>
+									<Description>40% de descuento por habitacion!
+Aplica para estadías entre 22/Mar/2018 y 31/Dic/2019.
+</Description>
+									<Rate>0</Rate>
+									<Saving>295.6817</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>395.8405</AgencyPublic>
+										<GrossAgencyPublic>395.84051513671875</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>192.97331237792969</AverageGrossNormal>
+									<AverageGrossTotal>94.4127426147461</AverageGrossTotal>
+									<AverageNormal>192.97331237792969</AverageNormal>
+									<AverageTotal>94.4127426147461</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>283.23822021484375</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-15</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-04</DateFrom>
+											<Amount>283.23822021484375</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>578.919921875</GrossNormal>
+									<GrossTotal>283.23822021484375</GrossTotal>
+									<Normal>578.919921875</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>20507ZZ</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>283.23822021484375</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+						<MealPlan>
+							<Id>BB</Id>
+							<Name>Desayuno Incluido</Name>
+							<AgencyPublic>
+								<AgencyPublic>427.115417</AgencyPublic>
+								<GrossAgencyPublic>427.11541748046875</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>0</Id>
+								<Status>AV</Status>
+							</Available>
+							<AverageGrossNormal>208.21995544433594</AverageGrossNormal>
+							<AverageGrossTotal>101.87223052978516</AverageGrossTotal>
+							<AverageNormal>208.21995544433594</AverageNormal>
+							<AverageTotal>101.87223052978516</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>624.65985107421875</GrossNormal>
+							<GrossTotal>305.61669921875</GrossTotal>
+							<Normal>624.65985107421875</Normal>
+							<RateKey>MjA1MDctQkJNT0JJTEU1QkJFeHRyYW5ldA==</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>305.61669921875</Total>
+							<MarketId>MOBILE</MarketId>
+							<Contract>5</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>200.0999755859375</GrossNormal>
+									<GrossTotal>97.899505615234375</GrossTotal>
+									<Normal>200.0999755859375</Normal>
+									<PromoId>530861291</PromoId>
+									<Total>97.899505615234375</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-05T00:00:00Z</Date>
+									<GrossNormal>212.27993774414062</GrossNormal>
+									<GrossTotal>103.85858917236328</GrossTotal>
+									<Normal>212.27993774414062</Normal>
+									<PromoId>530861291</PromoId>
+									<Total>103.85858917236328</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-06T00:00:00Z</Date>
+									<GrossNormal>212.27993774414062</GrossNormal>
+									<GrossTotal>103.85858917236328</GrossTotal>
+									<Normal>212.27993774414062</Normal>
+									<PromoId>530861291</PromoId>
+									<Total>103.85858917236328</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530861291</Id>
+									<Name>. </Name>
+									<Description>40% de descuento por habitacion!
+Aplica para estadías entre 22/Mar/2018 y 31/Dic/2019.
+</Description>
+									<Rate>0</Rate>
+									<Saving>319.043152</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>427.115417</AgencyPublic>
+										<GrossAgencyPublic>427.11541748046875</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>208.21995544433594</AverageGrossNormal>
+									<AverageGrossTotal>101.87223052978516</AverageGrossTotal>
+									<AverageNormal>208.21995544433594</AverageNormal>
+									<AverageTotal>101.87223052978516</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>305.61669921875</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-15</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-04</DateFrom>
+											<Amount>305.61669921875</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>624.65985107421875</GrossNormal>
+									<GrossTotal>305.61669921875</GrossTotal>
+									<Normal>624.65985107421875</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>20507BB</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>305.61669921875</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+					</MealPlans>
+					<CapacityAdults>2</CapacityAdults>
+					<CapacityKids>1</CapacityKids>
+					<CapacityExtras>0</CapacityExtras>
+					<CapacityTotal>2</CapacityTotal>
+					<CapacityChildAgeFrom>0</CapacityChildAgeFrom>
+					<CapacityChildAgeTo>5</CapacityChildAgeTo>
+					<CapacityJuniorAgeFrom>0</CapacityJuniorAgeFrom>
+					<CapacityJuniorAgeTo>0</CapacityJuniorAgeTo>
+					<RoomView/>
+					<Bedding>1 cama Matrimonial</Bedding>
+					<ImageURL>//images.e-tsw.com/_lib/vimages/Buenos-Aires-Argentina/Hotels/725-Continental-Hotel/Gallery/Buenos-Aires-725-Continental-Ejecutiva.jpg</ImageURL>
+				</Room>
+			</Rooms>
+		</Hotel>
+	</Hotels>
+	<Filters>
+		<Categories>
+			<Category>
+				<Id>S1</Id>
+				<Name>1 Estrella</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S2</Id>
+				<Name>2 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S25</Id>
+				<Name>2 ½ Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S3</Id>
+				<Name>3 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S35</Id>
+				<Name>3 ½ Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S4</Id>
+				<Name>4 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S45</Id>
+				<Name>4 ½ Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S5</Id>
+				<Name>5 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+		</Categories>
+		<Chains>
+			<Chain>
+				<Id>SEL</Id>
+				<Name>Selina</Name>
+				<Path>Selina</Path>
+			</Chain>
+			<Chain>
+				<Id>CHD</Id>
+				<Name>Cadena Design</Name>
+				<Path>Cadena-Design</Path>
+			</Chain>
+			<Chain>
+				<Id>HOW</Id>
+				<Name>Howard Johnson</Name>
+				<Path>Howard-Johnson</Path>
+			</Chain>
+			<Chain>
+				<Id>AAH</Id>
+				<Name>Alvarez Arguelles Hoteles</Name>
+				<Path>Alvarez-Arguelles-Hoteles</Path>
+			</Chain>
+			<Chain>
+				<Id>TRY</Id>
+				<Name>Tryp</Name>
+				<Path>Tryp</Path>
+			</Chain>
+			<Chain>
+				<Id>PRY</Id>
+				<Name>Park Royal</Name>
+				<Path>Park-Royal</Path>
+			</Chain>
+			<Chain>
+				<Id>IN</Id>
+			</Chain>
+			<Chain>
+				<Id>HOL</Id>
+				<Name>Holiday Inn</Name>
+				<Path>Holiday-Inn</Path>
+			</Chain>
+			<Chain>
+				<Id>MAR</Id>
+				<Name>Marriott</Name>
+				<Path>Marriott</Path>
+			</Chain>
+			<Chain>
+				<Id>HIL</Id>
+				<Name>Hilton</Name>
+				<Path>Hilton</Path>
+			</Chain>
+			<Chain>
+				<Id>CSC</Id>
+				<Name>Casa Sur Hotel Collection</Name>
+				<Path>Casa Sur Hotel Collection</Path>
+			</Chain>
+			<Chain>
+				<Id>FSE</Id>
+				<Name>Four Seasons</Name>
+				<Path>Four-Seasons</Path>
+			</Chain>
+		</Chains>
+		<Cities>
+			<City>
+				<Id>ARpalerm</Id>
+				<Name>Buenos Aires - Palermo</Name>
+				<Path>Palermo</Path>
+			</City>
+			<City>
+				<Id>ARbalvanera</Id>
+				<Name>Buenos Aires -Balvanera</Name>
+				<Path>Balvanera</Path>
+			</City>
+			<City>
+				<Id>ARbacentro</Id>
+				<Name>Buenos Aires-Centro</Name>
+				<Path>Centro</Path>
+			</City>
+			<City>
+				<Id>ARmonserrat</Id>
+				<Name>Buenos Aires - Monserrat</Name>
+				<Path>Monserrat</Path>
+			</City>
+			<City>
+				<Id>ARsntelmo</Id>
+				<Name>Buenos Aires - San Telmo</Name>
+				<Path>San-Telmo</Path>
+			</City>
+			<City>
+				<Id>ARretiro</Id>
+				<Name>Buenos Aires - Retiro</Name>
+				<Path>Retiro</Path>
+			</City>
+			<City>
+				<Id>ARvdevoto</Id>
+				<Name>Buenos Aires - Villa Devoto</Name>
+				<Path>Villa-Devoto</Path>
+			</City>
+			<City>
+				<Id>ARabasto</Id>
+				<Name>Buenos Aires - Abasto</Name>
+				<Path>Abasto</Path>
+			</City>
+			<City>
+				<Id>ARbelgrano</Id>
+				<Name>Buenos Aires -Belgrano</Name>
+				<Path>Belgrano</Path>
+			</City>
+			<City>
+				<Id>ARcongreso</Id>
+				<Name>Buenos Aires - Congreso</Name>
+				<Path>Congreso</Path>
+			</City>
+			<City>
+				<Id>ARvurquiza</Id>
+				<Name>Buenos Aires - Villa Urquiza</Name>
+				<Path>Villa-Urquiza</Path>
+			</City>
+			<City>
+				<Id>ARaeroparque</Id>
+				<Name>Buenos Aires -Zona Aeroparque</Name>
+				<Path>Zona-Aeroparque</Path>
+			</City>
+			<City>
+				<Id>ARrecolet</Id>
+				<Name>Buenos Aires - Recoleta</Name>
+				<Path>Recoleta</Path>
+			</City>
+			<City>
+				<Id>ARbarrionorte</Id>
+				<Name>Buenos Aires -Barrio Norte</Name>
+				<Path>Barrio-Norte</Path>
+			</City>
+			<City>
+				<Id>ARMICRO</Id>
+				<Name>Buenos Aires-Microcentro</Name>
+				<Path/>
+			</City>
+			<City>
+				<Id>ARptomader</Id>
+				<Name>Buenos Aires - Puerto Madero</Name>
+				<Path>Puerto-Madero</Path>
+			</City>
+			<City>
+				<Id>Arevita</Id>
+				<Name>Buenos Aires - Evita</Name>
+				<Path>evita</Path>
+			</City>
+		</Cities>
+		<Destinations>
+			<Destination>
+				<Id>100089</Id>
+				<Name>Buenos Aires</Name>
+				<Image>
+					<Id>Buenos-Aires-Argentina_t</Id>
+					<Name>Buenos-Aires-Argentina_t</Name>
+					<Domain/>
+					<Path/>
+					<URL/>
+					<Type>jpg</Type>
+				</Image>
+				<Path>Buenos-Aires-Argentina</Path>
+			</Destination>
+			<Destination>
+				<Id>900308</Id>
+				<Name>Ezeiza</Name>
+				<Image>
+					<Id>Ezeiza-Argentina_t</Id>
+					<Name>Ezeiza-Argentina_t</Name>
+					<Domain/>
+					<Path/>
+					<URL/>
+					<Type>jpg</Type>
+				</Image>
+				<Path>Ezeiza-Argentina</Path>
+			</Destination>
+		</Destinations>
+		<Locations>
+			<Location>
+				<Id>CENT</Id>
+				<Name>Ciudad</Name>
+				<Description>*&lt;b&gt;Selina Palermo Soho&lt;/b&gt;, situado a 31 km del Aeropuerto internacional Ezeiza.&lt;br&gt;
+*A 1.5 km del Jardín Botánico Carlos Thays.&lt;br&gt;
+*A 1.5 km de Plaza Güemes.&lt;br&gt;
+*A 1.5 km de la Embajada de Estados Unidos de América.&lt;br&gt;
+*A 2 km del Parque Las Heras.&lt;br&gt;
+*A 2.5 km del Planetario Galileo Galilei.&lt;br&gt;
+*A 3 km del Museo de Arte Popular José Hernández.&lt;br&gt;
+*A 3.5 km del Museo de Arte Latinoamericano.&lt;br&gt;
+*A 6 km del Aeroparque Jorge Newberry.&lt;br&gt;
+*A 10 km de centro de &lt;b&gt;Buenos Aires&lt;/b&gt;.&lt;br&gt;</Description>
+			</Location>
+		</Locations>
+		<MealPlans>
+			<Meal>
+				<Id>EP</Id>
+				<Name>Sólo Habitación</Name>
+			</Meal>
+			<Meal>
+				<Id>BI</Id>
+				<Name>Desayuno Incluido</Name>
+			</Meal>
+			<Meal>
+				<Id>ZZ</Id>
+				<Name>Sólo Habitación</Name>
+			</Meal>
+			<Meal>
+				<Id>BB</Id>
+				<Name>Desayuno Incluido</Name>
+			</Meal>
+			<Meal>
+				<Id>DB</Id>
+				<Name>Desayuno Buffet Incluido</Name>
+			</Meal>
+			<Meal>
+				<Id>CP</Id>
+				<Name>Desayuno Continental Incluido</Name>
+			</Meal>
+		</MealPlans>
+		<Prices>
+			<From>13.3333311</From>
+			<To>332.1739</To>
+		</Prices>
+		<Reviews>
+			<From>2</From>
+			<To>5</To>
+			<Source>TripAdvisor</Source>
+		</Reviews>
+		<Services>
+			<Service>
+				<Id>WIREINTE</Id>
+				<Name>Internet Inalámbrico</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>1</Order>
+			</Service>
+			<Service>
+				<Id>TRANSPOR</Id>
+				<Name>Transportación Disponible</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>6</Order>
+			</Service>
+			<Service>
+				<Id>PETFRIEN</Id>
+				<Name>Acepta Mascotas</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>11</Order>
+			</Service>
+			<Service>
+				<Id>RSERV</Id>
+				<Name>Room Service</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>13</Order>
+			</Service>
+			<Service>
+				<Id>CONCIER</Id>
+				<Name>Concierge</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>14</Order>
+			</Service>
+			<Service>
+				<Id>SPECFEAT</Id>
+				<Name>Servicios Especiales</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>15</Order>
+			</Service>
+			<Service>
+				<Id>SAFEDEP</Id>
+				<Name>Caja de Seguridad</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>17</Order>
+			</Service>
+			<Service>
+				<Id>MASSAGE</Id>
+				<Name>Masajes</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>18</Order>
+			</Service>
+			<Service>
+				<Id>BABYSITT</Id>
+				<Name>Niñera</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>19</Order>
+			</Service>
+			<Service>
+				<Id>ATM</Id>
+				<Name>Cajero Automático</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>22</Order>
+			</Service>
+			<Service>
+				<Id>CASACAMB</Id>
+				<Name>Cambio de Divisas</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>25</Order>
+			</Service>
+			<Service>
+				<Id>INTERNET</Id>
+				<Name>Internet</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>29</Order>
+			</Service>
+			<Service>
+				<Id>LAUNDRY</Id>
+				<Name>Lavandería</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>30</Order>
+			</Service>
+			<Service>
+				<Id>ICEMACH</Id>
+				<Name>Máquina de Hielos</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>31</Order>
+			</Service>
+			<Service>
+				<Id>DRYCLEAN</Id>
+				<Name>Tintorería</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>33</Order>
+			</Service>
+			<Service>
+				<Id>LUGGAGE</Id>
+				<Name>Almacenamiento de equipaje</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>72</Order>
+			</Service>
+			<Service>
+				<Id>RECEP</Id>
+				<Name>Recepción-Horarios</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>9999</Order>
+			</Service>
+		</Services>
+		<Themes>
+			<Theme>
+				<Id>CLHO</Id>
+				<Name>Hostal</Name>
+				<Path/>
+			</Theme>
+			<Theme>
+				<Id>CLBU</Id>
+				<Name>De Negocios</Name>
+				<Path>Turismo-Negocios</Path>
+			</Theme>
+			<Theme>
+				<Id>CLVC</Id>
+				<Name>Villas, Condominios y Apart</Name>
+				<Path>Vacaciones-Villas-Condos</Path>
+			</Theme>
+			<Theme>
+				<Id>CLBO</Id>
+				<Name>Boutique</Name>
+				<Path>Vacaciones-Boutique</Path>
+			</Theme>
+			<Theme>
+				<Id>CLSP</Id>
+				<Name>Spa</Name>
+				<Path>Vacaciones-Spa</Path>
+			</Theme>
+			<Theme>
+				<Id>CLGO</Id>
+				<Name>Golf</Name>
+				<Path>Vacaciones-Golf</Path>
+			</Theme>
+			<Theme>
+				<Id>CLAO</Id>
+				<Name>Sólo Adultos</Name>
+				<Path>Vacaciones-Solo-Adultos</Path>
+			</Theme>
+			<Theme>
+				<Id>CLFA</Id>
+				<Name>Familiares</Name>
+				<Path>Vacaciones-Familiares</Path>
+			</Theme>
+			<Theme>
+				<Id>CLLU</Id>
+				<Name>De Lujo</Name>
+				<Path>Vacaciones-Lujo</Path>
+			</Theme>
+			<Theme>
+				<Id>CLBC</Id>
+				<Name>Búngalos,Cabañas y Ecológicos</Name>
+				<Path>Vacaciones-Bungalos-Cabanas</Path>
+			</Theme>
+			<Theme>
+				<Id>CLRO</Id>
+				<Name>Romance</Name>
+				<Path>Vacaciones-Romanticas</Path>
+			</Theme>
+		</Themes>
+	</Filters>
+</QuoteHotels>
