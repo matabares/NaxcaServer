@@ -21,8 +21,8 @@
 						<ContactInfo>
 							<Addresses>
 								<Address>
-									<AddressLine>Avenue De L'Europe 97118 Saint-François</AddressLine>
-									<CityName>Saint-François</CityName>
+									<AddressLine>Address</AddressLine>
+									<CityName>Cityname</CityName>
 									<PostalCode>97118</PostalCode>
 									<CountryName>GUADELOUPE</CountryName>
 								</Address>
