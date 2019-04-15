@@ -69,3 +69,43 @@ class TouricoHotelsSimulation:
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+
+        # 1r2a2c
+        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body:
+            file = open("providersimulation/tourico/flow1r2a2c_searchresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDates(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'CheckAvailabilityAndPrices' in body and '<HotelIdInfo id="1492470"/>' in body:
+            file = open("providersimulation/tourico/flow1r2a2c_checkavailabilityresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDates(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'GetCancellationPolicies' in body and '<hotelId>1492470</hotelId>' in body:
+            file = open("providersimulation/tourico/flow1r2a2c_cancellationpoliciesresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDatesCancellationPolicies(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'BookHotelV3' in body and '<HotelId xmlns="http://schemas.tourico.com/webservices/hotelv3">1492470</HotelId>' in body:
+            file = open("providersimulation/tourico/flow1r2a2c_bookhotelresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDatesBooking(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'CancelReservation' in body and '<nResID>164195126</nResID>' in body:
+            file = open("providersimulation/tourico/flow1r2a2c_cancelreservationresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
