@@ -1,4 +1,5 @@
 import datetime
+from bs4 import BeautifulSoup
 
 class TouricoHotelsSimulation:
 
@@ -29,6 +30,8 @@ class TouricoHotelsSimulation:
         contentLen = int(info.headers['Content-Length'])
         postBody = info.rfile.read(contentLen)
         body = str(postBody, "utf-8")
+        bodyXml = BeautifulSoup(body, 'xml')
+        requestFilter = bodyXml.Envelope.Body.SearchHotels.request
 
         # 1r1a
         if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body and '<AdultNum>1</AdultNum>' in body:
@@ -71,7 +74,7 @@ class TouricoHotelsSimulation:
             return info
 
         # 1r2a2c
-        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body and '<AdultNum>2</AdultNum><ChildNum>2</ChildNum>' in body:
+        if 'SearchHotels' in body and  requestFilter.Destination.text is 'MIA' and requestFilter.RoomsInformation.RoomInfo.AdultNum.text == "2" and requestFilter.RoomsInformation.RoomInfo.ChildNum is not None and requestFilter.RoomsInformation.RoomInfo.ChildNum.text is "2":
             file = open("providersimulation/tourico/flow1r2a2c_searchresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
