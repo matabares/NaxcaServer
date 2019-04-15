@@ -31,7 +31,7 @@ class TouricoHotelsSimulation:
         body = str(postBody, "utf-8")
 
         # 1r1a
-        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body:
+        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body and '<AdultNum>1</AdultNum>' in body:
             file = open("providersimulation/tourico/flow1r1a_searchresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -71,7 +71,7 @@ class TouricoHotelsSimulation:
             return info
 
         # 1r2a2c
-        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body:
+        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body and '<AdultNum>2</AdultNum><ChildNum>2</ChildNum>' in body:
             file = open("providersimulation/tourico/flow1r2a2c_searchresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()

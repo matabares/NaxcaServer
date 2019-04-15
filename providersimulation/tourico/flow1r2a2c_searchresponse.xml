@@ -2,107 +2,14 @@
 	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		<SearchHotelsResponse xmlns="http://tourico.com/webservices/hotelv3">
 			<SearchHotelsResult>
-				<Info culture="en-US" serverTime="{START_DATE}T22:06:14.7413315-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<Info culture="en-US" serverTime="2019-04-14T22:06:14.7413315-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
 				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
-					<Hotel NumOfRoom="200" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="288" brandName="Holiday Inn" category="Moderate" currency="USD" desc="Demo - Location
-
-This hotel is located in the heart of Miami in the direct vicinity of the world famous shopping arcade, Bayside Marketplace. South Beach, Miami Harbour and the American Airlines Arena are all within a short walk of the hotel. Restaurants," hotelId="1935" minAverPrice="129.27" minAverPublishPrice="129.27" name="Holiday Inn Port of Miami-Downtown - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1935/100x100/2095801056.jpg">
-						<Location address="Demo - 340 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7778686776507" location="Downtown Area" longitude="-80.1888185423279" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
-						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3933096" isAvailable="true" name="Standard" nights="3" productId="1935;3933096;385127" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
-								<AvailabilityBreakdown>
-									<Availability offset="0" status="true"/>
-									<Availability offset="1" status="true"/>
-									<Availability offset="2" status="true"/>
-								</AvailabilityBreakdown>
-								<Occupancies>
-									<Occupancy avrNightPrice="129.27" avrNightPublishPrice="129.27" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1935;3933096;385127;2;2;2;1" occupPrice="387.82" occupPublishPrice="387.82" tax="44.61" taxPublish="44.61">
-										<PriceBreakdown>
-											<Price offset="0" value="149.16" valuePublish="149.16"/>
-											<Price offset="1" value="128.41" valuePublish="128.41"/>
-											<Price offset="2" value="110.25" valuePublish="110.25"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="1">
-												<AdultNum>2</AdultNum>
-												<ChildNum>2</ChildNum>
-												<ChildAges>
-													<ChildAge age="10"/>
-													<ChildAge age="10"/>
-												</ChildAges>
-											</Room>
-										</Rooms>
-										<SelctedSupplements/>
-										<BoardBases/>
-									</Occupancy>
-									<Occupancy avrNightPrice="129.27" avrNightPublishPrice="129.27" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1935;3933096;385127;2;2;2;2" occupPrice="387.82" occupPublishPrice="387.82" tax="44.61" taxPublish="44.61">
-										<PriceBreakdown>
-											<Price offset="0" value="149.16" valuePublish="149.16"/>
-											<Price offset="1" value="128.41" valuePublish="128.41"/>
-											<Price offset="2" value="110.25" valuePublish="110.25"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="1">
-												<AdultNum>2</AdultNum>
-												<ChildNum>2</ChildNum>
-												<ChildAges>
-													<ChildAge age="10"/>
-													<ChildAge age="10"/>
-												</ChildAges>
-											</Room>
-										</Rooms>
-										<SelctedSupplements/>
-										<BoardBases/>
-									</Occupancy>
-								</Occupancies>
-							</RoomType>
-						</RoomTypes>
-					</Hotel>
-					<Hotel NumOfRoom="87" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Superior First Class" currency="USD" desc="Demo - Decorated with 1940s photos, our rooms feature vintage-inspired furnishings, wood accents and marble bathrooms; some have curved windows or balconies. Modern touches include 55-inch flat-screen TVs and iPod docks. WiFi is available.
-
-
-
-The rooftop " hotelId="1316296" minAverPrice="252.99" minAverPublishPrice="252.99" name="Gale South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/1316296/100x100/1206571713.jpg">
-						<Location address="Demo - 1690 Collins Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7921307174819" location="South Beach" longitude="-80.1302392969589" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
-						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13033800" isAvailable="true" name="Signature 2 Beds" nights="3" productId="1316296;13033800;9983706" roomId="4970338" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
-								<AvailabilityBreakdown>
-									<Availability offset="0" status="true"/>
-									<Availability offset="1" status="true"/>
-									<Availability offset="2" status="true"/>
-								</AvailabilityBreakdown>
-								<Occupancies>
-									<Occupancy avrNightPrice="252.99" avrNightPublishPrice="252.99" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1316296;13033800;9983706;1;2;2" occupPrice="758.96" occupPublishPrice="758.96" tax="93.21" taxPublish="93.21">
-										<PriceBreakdown>
-											<Price offset="0" value="287.88" valuePublish="287.88"/>
-											<Price offset="1" value="235.54" valuePublish="235.54"/>
-											<Price offset="2" value="235.54" valuePublish="235.54"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="1">
-												<AdultNum>2</AdultNum>
-												<ChildNum>2</ChildNum>
-												<ChildAges>
-													<ChildAge age="10"/>
-													<ChildAge age="10"/>
-												</ChildAges>
-											</Room>
-										</Rooms>
-										<SelctedSupplements>
-											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
-										</SelctedSupplements>
-										<BoardBases/>
-									</Occupancy>
-								</Occupancies>
-							</RoomType>
-						</RoomTypes>
-					</Hotel>
 					<Hotel NumOfRoom="200" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="0" brandName="" category="Superior First Class" currency="USD" desc="Demo - Location
 
 The resort is an oceanfront landmark located in South Beach and the Miami Beach Art Deco District. It is located 2 blocks from the Miami Beach Convention Center." hotelId="2155" minAverPrice="248.62" minAverPublishPrice="248.62" name="Shelborne South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/2155/100x100/249066232.jpg">
 						<Location address="Demo - 1801 Collins Avenue  Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.794196795756" location="South Beach" longitude="-80.129045455785" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257724" isAvailable="true" name="City View Double" nights="3" productId="2155;13257724;13243353" roomId="236407" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257724" isAvailable="true" name="City View Double" nights="3" productId="2155;13257724;13243353" roomId="236407" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -132,7 +39,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -169,7 +76,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 This hotel lies directly beside the sandy beach at the heart of Miami Beach and affords spectacular views out over the Atlantic and the Intracoastal Waterway. Shopping and entertainment venues are to be found in abundance in the near vici" hotelId="943" minAverPrice="103.37" minAverPublishPrice="103.37" name="The Casablanca on the Ocean East Tower - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/3/0/39/379/606/exterior_G.jpg">
 						<Location address="Demo - 6345 Collins Avenue Miami Beach Florida 33141" city="Miami Beach" countryCode="US" latitude="25.8452431875431" location="North Beach" longitude="-80.1197871023773" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="3" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="3" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -204,7 +111,7 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 					<Hotel NumOfRoom="140" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="230" brandName="Residence Inn by Marriott" category="Moderate" currency="USD" desc="Demo - The polished studios come with full kitchens and balconies, plus free WiFi, desks and flat-screen TVs. The 1- and 2-bedroom suites add separate living areas with pull-out sofas. Our extended-stay hotel with an art deco vibe is 2.5 miles from the Vi" hotelId="1263768" minAverPrice="228.28" minAverPublishPrice="228.28" name="Residence Inn Coconut Grove  - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/655/611/_DSC4879_G.jpg">
 						<Location address="Demo - 2835 Tigertail Avenue  Coconut Grove Florida 33133" city="Coconut Grove" countryCode="US" latitude="25.7305924" location="" longitude="-80.239045" searchingCity="Coconut Grove" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987766" isAvailable="true" name="1 Bedroom" nights="3" productId="1263768;11987766;4217047" roomId="511" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987766" isAvailable="true" name="1 Bedroom" nights="3" productId="1263768;11987766;4217047" roomId="511" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -232,7 +139,7 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987767" isAvailable="true" name="2 Bedroom" nights="3" productId="1263768;11987767;4217047" roomId="966" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987767" isAvailable="true" name="2 Bedroom" nights="3" productId="1263768;11987767;4217047" roomId="966" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -261,7 +168,96 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 								</Occupancies>
 							</RoomType>
 						</RoomTypes>
-					</Hotel>		
+					</Hotel>
+					<Hotel NumOfRoom="334" PropertySubType="" PropertyType="Hotel" bestValue="true" brandId="194" brandName="Doubletree by Hilton" category="Moderate" currency="USD" desc="Demo - Location
+
+This hotel is conveniently located only 5 km away from Miami International Airport and just 16 km away from downtown Miami. The hotel is in the Blue Lagoon business district and South Beach is approximately 24 km away." hotelId="1217043" minAverPrice="99.44" minAverPublishPrice="99.44" name="DoubleTree by Hilton Miami Airport - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/71/295/506/Exterior_full_building-_Entrance_SE_View_G.jpg">
+						<Location address="Demo - 711 NW 72nd Avenue Miami Florida 33126" city="Miami" countryCode="US" latitude="25.7784125080919" location="Miami International Airport Area" longitude="-80.3108593521843" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1977439" isAvailable="false" name="Standard" nights="3" productId="1217043;1977439;205428" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="false"/>
+									<Availability offset="1" status="false"/>
+									<Availability offset="2" status="false"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="99.44" avrNightPublishPrice="99.44" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1217043;1977439;205428;2;2;2" occupPrice="298.32" occupPublishPrice="298.32" tax="34.32" taxPublish="34.32">
+										<PriceBreakdown>
+											<Price offset="0" value="103.76" valuePublish="103.76"/>
+											<Price offset="1" value="97.28" valuePublish="97.28"/>
+											<Price offset="2" value="97.28" valuePublish="97.28"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>2</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="127" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="363" brandName="Hampton Hotels" category="Moderate" currency="USD" desc="Demo - With its prime location and impeccable service, it is no wonder this hotel is the ideal place to stay when visiting Miami 
+
+" hotelId="1492470" minAverPrice="117.86" minAverPublishPrice="117.86" name="Hampton Inn Miami Airport East - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1492470/100x100/801266018.JPG">
+						<Location address="Demo - 3449 Northwest 42 Avenue Miami Florida 33142" city="Miami" countryCode="US" latitude="25.8057162" location="" longitude="-80.2631878" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="16476528" isAvailable="true" name="Standard Double" nights="3" productId="1492470;16476528;13187453" roomId="932" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="117.86" avrNightPublishPrice="117.86" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;1" occupPrice="353.58" occupPublishPrice="353.58" tax="40.68" taxPublish="40.68">
+										<PriceBreakdown>
+											<Price offset="0" value="117.86" valuePublish="117.86"/>
+											<Price offset="1" value="117.86" valuePublish="117.86"/>
+											<Price offset="2" value="117.86" valuePublish="117.86"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>2</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+									<Occupancy avrNightPrice="119.1" avrNightPublishPrice="119.1" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;2" occupPrice="357.3" occupPublishPrice="357.3" tax="41.1" taxPublish="41.1">
+										<PriceBreakdown>
+											<Price offset="0" value="119.1" valuePublish="119.1"/>
+											<Price offset="1" value="119.1" valuePublish="119.1"/>
+											<Price offset="2" value="119.1" valuePublish="119.1"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>2</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>					
 				</HotelList>
 			</SearchHotelsResult>
 		</SearchHotelsResponse>
