@@ -1,0 +1,29 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<BookHotelV3Response xmlns="http://tourico.com/webservices/hotelv3">
+			<BookHotelV3Result>
+				<Info culture="en-US" serverTime="{BOOKING_CHECKOUT_DATE}T22:09:15.6025601-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<ResGroup currency="USD" isPackage="false" rgId="162712859" rgRemark="" totalPrice="353.58" totalPublishPrice="353.58" tranNum="166291321" xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Reservations>
+						<Reservation currency="USD" fromDate="{BOOKING_CHECKIN_DATE}T00:00:00" isPublish="false" note="" numOfAdults="2" numOfChildren="2" price="353.58" publishPrice="353.58" reservationId="164195126" status="Confirm" toDate="{BOOKING_CHECKOUT_DATE}T00:00:00" totalPublishTax="40.68" totalTax="40.68" tranNum="166291321">
+							<ProductInfo NumOfBathrooms="0" NumOfRoom="127" PropertySubType="" PropertyType="Hotel" address="Demo - 3449 Northwest 42 Avenue" bestVal="false" category="Moderate" hotelId="1492470" name="Hampton Inn Miami Airport East - Demo" numOfStars="3" roomType="Standard Double" roomTypeCategory="Standard" roomTypeCategoryId="17" thumb="http://image1.urlforimages.com/Images/1492470/100x100/801266018.JPG" xsi:type="HotelInfo">
+								<RoomExtraInfo NumOfBathrooms="0" bedding="4,1" hotelRoomTypeId="16476528" name="Standard Double" roomId="932">
+									<RoomInfo>
+										<AdultNum>2</AdultNum>
+										<ChildNum>2</ChildNum>
+										<ChildAges>
+											<ChildAge age="10"/>
+											<ChildAge age="10"/>
+										</ChildAges>
+									</RoomInfo>
+									<SelectedSupplements/>
+								</RoomExtraInfo>
+								<Passenger ageGroup="1" firstName="Max" homePhone="3102647820" lastName="Power" middleName="" mobilePhone=""/>
+							</ProductInfo>
+						</Reservation>
+					</Reservations>
+				</ResGroup>
+			</BookHotelV3Result>
+		</BookHotelV3Response>
+	</s:Body>
+</s:Envelope>

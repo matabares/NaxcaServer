@@ -1,0 +1,65 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<CheckAvailabilityAndPricesResponse xmlns="http://tourico.com/webservices/hotelv3">
+			<CheckAvailabilityAndPricesResult>
+				<Info culture="en-US" serverTime="{START_DATE}T22:06:44.9448431-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Hotel NumOfRoom="127" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="363" brandName="Hampton Hotels" category="Moderate" currency="USD" desc="Demo - With its prime location and impeccable service, it is no wonder this hotel is the ideal place to stay when visiting Miami 
+
+" hotelId="1492470" minAverPrice="117.86" minAverPublishPrice="117.86" name="Hampton Inn Miami Airport East - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1492470/100x100/801266018.JPG">
+						<Location address="Demo - 3449 Northwest 42 Avenue Miami Florida 33142" city="Miami" countryCode="US" latitude="25.8057162" location="" longitude="-80.2631878" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="16476528" isAvailable="true" name="Standard Double" nights="3" productId="1492470;16476528;13187453" roomId="932" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="117.86" avrNightPublishPrice="117.86" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;1" occupPrice="353.58" occupPublishPrice="353.58" tax="40.68" taxPublish="40.68">
+										<PriceBreakdown>
+											<Price offset="0" value="117.86" valuePublish="117.86"/>
+											<Price offset="1" value="117.86" valuePublish="117.86"/>
+											<Price offset="2" value="117.86" valuePublish="117.86"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>2</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+									<Occupancy avrNightPrice="119.1" avrNightPublishPrice="119.1" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;2" occupPrice="357.3" occupPublishPrice="357.3" tax="41.1" taxPublish="41.1">
+										<PriceBreakdown>
+											<Price offset="0" value="119.1" valuePublish="119.1"/>
+											<Price offset="1" value="119.1" valuePublish="119.1"/>
+											<Price offset="2" value="119.1" valuePublish="119.1"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>2</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+				</HotelList>
+			</CheckAvailabilityAndPricesResult>
+		</CheckAvailabilityAndPricesResponse>
+	</s:Body>
+</s:Envelope>
