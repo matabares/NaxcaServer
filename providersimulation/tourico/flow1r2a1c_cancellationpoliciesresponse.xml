@@ -1,8 +1,8 @@
 <s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
 	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		<GetCancellationPoliciesResponse xmlns="http://tourico.com/webservices/">
-			<HotelPolicy hotelId="943" xmlns="http://tourico.com/webservices/TWS_ClxPolicies.xsd">
-				<RoomTypePolicy CheckIn="6/1/2019" CheckOut="6/4/2019" hotelRoomTypeId="1797785">
+			<HotelPolicy hotelId="1263768" xmlns="http://tourico.com/webservices/TWS_ClxPolicies.xsd">
+				<RoomTypePolicy CheckIn="7/4/2019" CheckOut="7/7/2019" hotelRoomTypeId="11987766">
 					<CancelPolicy>
 						<CancelPenalty>
 							<Deadline OffsetDropTime="BeforeArrival" OffsetTimeUnit="Hour" OffsetUnitMultiplier="72"/>
@@ -10,7 +10,7 @@
 						</CancelPenalty>
 						<CancelPenalty>
 							<Deadline OffsetDropTime="BeforeArrival" OffsetTimeUnit="Hour" OffsetUnitMultiplier="0"/>
-							<AmountPercent BasisType="Nights" NmbrOfNights="1"/>
+							<AmountPercent BasisType="FullStay" Percent="100"/>
 						</CancelPenalty>
 					</CancelPolicy>
 				</RoomTypePolicy>

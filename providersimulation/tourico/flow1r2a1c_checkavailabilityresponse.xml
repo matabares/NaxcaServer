@@ -1,0 +1,70 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<CheckAvailabilityAndPricesResponse xmlns="http://tourico.com/webservices/hotelv3">
+			<CheckAvailabilityAndPricesResult>
+				<Info culture="en-US" serverTime="2019-04-12T18:20:24.3086271-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Hotel NumOfRoom="140" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="230" brandName="Residence Inn by Marriott" category="Moderate" currency="USD" desc="Demo - The polished studios come with full kitchens and balconies, plus free WiFi, desks and flat-screen TVs. The 1- and 2-bedroom suites add separate living areas with pull-out sofas. Our extended-stay hotel with an art deco vibe is 2.5 miles from the Vi" hotelId="1263768" minAverPrice="214.02" minAverPublishPrice="214.02" name="Residence Inn Coconut Grove  - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/655/611/_DSC4879_G.jpg">
+						<Location address="Demo - 2835 Tigertail Avenue  Coconut Grove Florida 33133" city="Coconut Grove" countryCode="US" latitude="25.7305924" location="" longitude="-80.239045" searchingCity="Coconut Grove" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987766" isAvailable="true" name="1 Bedroom" nights="3" productId="1263768;11987766;4217047" roomId="511" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="214.02" avrNightPublishPrice="214.02" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1263768;11987766;4217047;2;2;1;1" occupPrice="342.06" occupPublishPrice="342.06" tax="73.86" taxPublish="73.86">
+										<PriceBreakdown>
+											<Price offset="0" value="214.02" valuePublish="214.02"/>
+											<Price offset="1" value="214.02" valuePublish="214.02"/>
+											<Price offset="2" value="214.02" valuePublish="214.02"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987767" isAvailable="true" name="2 Bedroom" nights="3" productId="1263768;11987767;4217047" roomId="966" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="268.49" avrNightPublishPrice="268.49" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1263768;11987767;4217047;2;2;1;1" occupPrice="405.47" occupPublishPrice="405.47" tax="92.67" taxPublish="92.67">
+										<PriceBreakdown>
+											<Price offset="0" value="268.49" valuePublish="268.49"/>
+											<Price offset="1" value="268.49" valuePublish="268.49"/>
+											<Price offset="2" value="268.49" valuePublish="268.49"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+				</HotelList>
+			</CheckAvailabilityAndPricesResult>
+		</CheckAvailabilityAndPricesResponse>
+	</s:Body>
+</s:Envelope>

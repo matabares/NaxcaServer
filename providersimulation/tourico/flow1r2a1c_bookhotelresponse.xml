@@ -1,0 +1,28 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<BookHotelV3Response xmlns="http://tourico.com/webservices/hotelv3">
+			<BookHotelV3Result>
+				<Info culture="en-US" serverTime="2019-04-12T18:28:17.6103778-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<ResGroup currency="USD" isPackage="false" rgId="162710739" rgRemark="" totalPrice="342.06" totalPublishPrice="342.06" tranNum="166289199" xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Reservations>
+						<Reservation currency="USD" fromDate="2019-04-12T00:00:00" isPublish="false" note="" numOfAdults="2" numOfChildren="1" price="342.06" publishPrice="342.06" reservationId="164193008" status="Confirm" toDate="2019-04-12T00:00:00" totalPublishTax="73.86" totalTax="73.86" tranNum="166289199">
+							<ProductInfo NumOfBathrooms="0" NumOfRoom="140" PropertySubType="" PropertyType="Hotel" address="Demo - 2835 Tigertail Avenue " bestVal="false" category="Moderate" hotelId="1263768" name="Residence Inn Coconut Grove  - Demo" numOfStars="3" roomType="1 Bedroom" roomTypeCategory="Standard" roomTypeCategoryId="17" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/655/611/_DSC4879_G.jpg" xsi:type="HotelInfo">
+								<RoomExtraInfo NumOfBathrooms="0" bedding="3,1" hotelRoomTypeId="11987766" name="1 Bedroom" roomId="511">
+									<RoomInfo>
+										<AdultNum>2</AdultNum>
+										<ChildNum>1</ChildNum>
+										<ChildAges>
+											<ChildAge age="10"/>
+										</ChildAges>
+									</RoomInfo>
+									<SelectedSupplements/>
+								</RoomExtraInfo>
+								<Passenger ageGroup="1" firstName="Max" homePhone="3102647820" lastName="Power" middleName="" mobilePhone=""/>
+							</ProductInfo>
+						</Reservation>
+					</Reservations>
+				</ResGroup>
+			</BookHotelV3Result>
+		</BookHotelV3Response>
+	</s:Body>
+</s:Envelope>

@@ -181,7 +181,7 @@ This hotel is conveniently located only 5 km away from Miami International Airpo
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
-									<Occupancy avrNightPrice="99.44" avrNightPublishPrice="99.44" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1217043;1977439;205428;2;2;2" occupPrice="298.32" occupPublishPrice="298.32" tax="34.32" taxPublish="34.32">
+									<Occupancy avrNightPrice="99.44" avrNightPublishPrice="99.44" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1217043;1977439;205428;2;2;2" occupPrice="398.32" occupPublishPrice="398.32" tax="34.32" taxPublish="34.32">
 										<PriceBreakdown>
 											<Price offset="0" value="103.76" valuePublish="103.76"/>
 											<Price offset="1" value="97.28" valuePublish="97.28"/>

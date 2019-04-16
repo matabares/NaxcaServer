@@ -2,14 +2,14 @@
 	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		<SearchHotelsResponse xmlns="http://tourico.com/webservices/hotelv3">
 			<SearchHotelsResult>
-				<Info culture="en-US" serverTime="{START_DATE}T12:39:36.5483063-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<Info culture="en-US" serverTime="2019-04-12T12:39:36.5483063-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
 				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
 					<Hotel NumOfRoom="200" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="0" brandName="" category="Superior First Class" currency="USD" desc="Demo - Location
 
 The resort is an oceanfront landmark located in South Beach and the Miami Beach Art Deco District. It is located 2 blocks from the Miami Beach Convention Center." hotelId="2155" minAverPrice="196.28" minAverPublishPrice="196.28" name="Shelborne South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/2155/100x100/249066232.jpg">
 						<Location address="Demo - 1801 Collins Avenue  Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.794196795756" location="South Beach" longitude="-80.129045455785" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257726" isAvailable="true" name="City View" nights="2" productId="2155;13257726;13243353" roomId="36" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257726" isAvailable="true" name="City View" nights="2" productId="2155;13257726;13243353" roomId="36" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -33,7 +33,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257724" isAvailable="true" name="City View Double" nights="2" productId="2155;13257724;13243353" roomId="236407" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257724" isAvailable="true" name="City View Double" nights="2" productId="2155;13257724;13243353" roomId="236407" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -57,7 +57,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="744" isAvailable="true" name="Partial Ocean View" nights="2" productId="2155;744;13243353" roomId="33" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="744" isAvailable="true" name="Partial Ocean View" nights="2" productId="2155;744;13243353" roomId="33" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -81,7 +81,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="2" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="2" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -112,7 +112,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 This hotel lies directly beside the sandy beach at the heart of Miami Beach and affords spectacular views out over the Atlantic and the Intracoastal Waterway. Shopping and entertainment venues are to be found in abundance in the near vici" hotelId="943" minAverPrice="150.48" minAverPublishPrice="150.48" name="The Casablanca on the Ocean East Tower - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/3/0/39/379/606/exterior_G.jpg">
 						<Location address="Demo - 6345 Collins Avenue Miami Beach Florida 33141" city="Miami Beach" countryCode="US" latitude="25.8452431875431" location="North Beach" longitude="-80.1197871023773" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="2" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="2" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -143,7 +143,7 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 Set on Belle Isle, one of the many islands dotting Biscayne Bay, this beach hotel is connected via a bridge to South Beach, 800 m from the Lincoln Road pedestrian mall and a mile from the ocean. The attractions of South Beach are only a s" hotelId="9015" minAverPrice="183.2" minAverPublishPrice="183.2" name="The Standard &amp; Spa - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/9015/100x100/1688357032.jpg">
 						<Location address="Demo - 40 Island Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7917460509095" location="" longitude="-80.149085728836" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957864" isAvailable="true" name="Standard" nights="2" productId="9015;1957864;126589" roomId="288483" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957864" isAvailable="true" name="Standard" nights="2" productId="9015;1957864;126589" roomId="288483" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -174,7 +174,7 @@ Set on Belle Isle, one of the many islands dotting Biscayne Bay, this beach hote
 The hotel has convenient access to South Beach hot spots, dining, shopping, night life and beaches. Fort Lauderdale/Hollywood International Airport is some 29 km away and Miami International Airport is some 24 km from the establishment." hotelId="1232478" minAverPrice="119.42" minAverPublishPrice="119.42" name="Daddy O Hotel Miami - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1232478/100x100/1783121609.jpg">
 						<Location address="Demo - 9660 East Bay Harbor Drive Bal Harbour Florida 33154" city="Bal Harbour" countryCode="US" latitude="25.8876111012925" location="" longitude="-80.1296116969589" searchingCity="Bal Harbour" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3935294" isAvailable="true" name="Deluxe King" nights="2" productId="1232478;3935294;386048" roomId="8" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3935294" isAvailable="true" name="Deluxe King" nights="2" productId="1232478;3935294;386048" roomId="8" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -207,7 +207,7 @@ The hotel has convenient access to South Beach hot spots, dining, shopping, nigh
 Located in the heart of South Beach on Collins Avenue just one block from the beach and the famed Ocean Drive, this historic hotel is a central landmark close to all Miami has to offer such as Washington and Lincoln Streets, shopping on C" hotelId="1450692" minAverPrice="210.68" minAverPublishPrice="210.68" name="Blue Moon Hotel, Autograph Collection - Demo" provider="localTgsProvider" starsLevel="4" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/857/563/miabm_phototour42_G.jpg">
 						<Location address="Demo - 944 Collins Avenue Miami Beach  33139" city="Miami Beach" countryCode="US" latitude="25.780085" location="" longitude="-80.132118" searchingCity="Miami Beach" searchingState="Florida" stateCode=""/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021452" isAvailable="true" name="Standard" nights="2" productId="1452068;15021452;13035242" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021452" isAvailable="true" name="Standard" nights="2" productId="1452068;15021452;13035242" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
@@ -231,7 +231,7 @@ Located in the heart of South Beach on Collins Avenue just one block from the be
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021453" isAvailable="true" name="Deluxe" nights="2" productId="1452068;15021453;13035242" roomId="21" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="{START_DATE}T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021453" isAvailable="true" name="Deluxe" nights="2" productId="1452068;15021453;13035242" roomId="21" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="2019-04-12T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>

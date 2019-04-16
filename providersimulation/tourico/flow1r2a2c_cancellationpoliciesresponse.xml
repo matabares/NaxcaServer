@@ -2,7 +2,7 @@
 	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 		<GetCancellationPoliciesResponse xmlns="http://tourico.com/webservices/">
 			<HotelPolicy hotelId="1492470" xmlns="http://tourico.com/webservices/TWS_ClxPolicies.xsd">
-				<RoomTypePolicy CheckIn="{CANCEL_CHECKIN}" CheckOut="{CANCEL_CHECKOUT}" hotelRoomTypeId="16476528">
+				<RoomTypePolicy CheckIn="6/1/2019" CheckOut="6/4/2019" hotelRoomTypeId="16476528">
 					<CancelPolicy>
 						<CancelPenalty>
 							<Deadline OffsetDropTime="BeforeArrival" OffsetTimeUnit="Hour" OffsetUnitMultiplier="72"/>
