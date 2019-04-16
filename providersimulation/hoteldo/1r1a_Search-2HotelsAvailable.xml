@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="utf-8"?>
+<QuoteHotels xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<QuoteId>42dd13e5-1396-44d1-b385-2372b65db1ad</QuoteId>
+	<Hotels>
+		<Hotel>
+			<Id>10163565</Id>
+			<Name>Holiday Inn Miami Beach Oceanfront</Name>
+			<Description>&lt;b&gt;Holiday Inn Miami Beach Oceanfront&lt;/b&gt; tiene una excelente ubicación a corta distancia de la playa y con fácil acceso a populares atracciones, restaurantes y centros comerciales. La vistosa arquitectura del hotel presenta una fachada al estilo de la década de 1950, mientras el diseño de interiores es de tipo contemporáneo. La propiedad tienen todo lo que necesitas para una placentera estancia en la zona de &lt;b&gt;Miami&lt;/b&gt;, incluyendo una piscina al aire libre, jacuzzi, bar, gimnasio y restaurante. ¡Una excelente opción para tu próxima estancia!</Description>
+			<CityId>FLMiami Beach</CityId>
+			<CityName>Miami Beach</CityName>
+			<CountryId>US</CountryId>
+			<CountryName>Estados Unidos</CountryName>
+			<Street>4333 Collins Avenue</Street>
+			<ZipCode>33140</ZipCode>
+			<CategoryId>S4</CategoryId>
+			<LocationId>CENT</LocationId>
+			<LocationName>Ciudad</LocationName>
+			<Image>//images.e-tsw.com/_lib/vimages/Miami-area-Florida/Hotels/Holiday-Inn-Miami-Beach/fachada.jpg</Image>
+			<Path>Holiday-Inn-Miami-Beach</Path>
+			<Currency>US</Currency>
+			<Status>AV</Status>
+			<Latitude>25.815031051635742</Latitude>
+			<Longitude>-80.1222915649414</Longitude>
+			<AdditionalCharges/>
+			<Order>1</Order>
+			<Chain>
+				<Id>HOL</Id>
+				<Name>Holiday Inn</Name>
+				<Path>Holiday-Inn</Path>
+			</Chain>
+			<Destination>
+				<Id>16278</Id>
+				<Name>Miami</Name>
+				<Image>
+					<Id>Miami-area-Florida_t</Id>
+					<Name>Miami-area-Florida_t</Name>
+					<Domain/>
+					<URL/>
+					<Type>jpg</Type>
+				</Image>
+				<Path>Miami-area-Florida</Path>
+			</Destination>
+			<Reviews>
+				<Review>
+					<Rating>3.5</Rating>
+					<Source>TripAdvisor</Source>
+					<Count>2212</Count>
+				</Review>
+			</Reviews>
+			<Services>
+				<Service>
+					<Id>WIREINTE</Id>
+					<Name>Internet Inalámbrico</Name>
+					<Description/>
+					<ExtraCharge>false</ExtraCharge>
+					<Order>1</Order>
+				</Service>
+				<Service>
+					<Id>CONCIER</Id>
+					<Name>Concierge</Name>
+					<Description/>
+					<ExtraCharge>false</ExtraCharge>
+					<Order>14</Order>
+				</Service>
+				<Service>
+					<Id>SPECFEAT</Id>
+					<Name>Servicios Especiales</Name>
+					<Description/>
+					<ExtraCharge>true</ExtraCharge>
+					<Order>15</Order>
+				</Service>
+				<Service>
+					<Id>SAFEDEP</Id>
+					<Name>Caja de Seguridad</Name>
+					<Description/>
+					<ExtraCharge>false</ExtraCharge>
+					<Order>17</Order>
+				</Service>
+				<Service>
+					<Id>ATM</Id>
+					<Name>Cajero Automático</Name>
+					<Description/>
+					<ExtraCharge>true</ExtraCharge>
+					<Order>22</Order>
+				</Service>
+				<Service>
+					<Id>INTERNET</Id>
+					<Name>Internet</Name>
+					<Description/>
+					<ExtraCharge>false</ExtraCharge>
+					<Order>29</Order>
+				</Service>
+				<Service>
+					<Id>LAUNDRY</Id>
+					<Name>Lavandería</Name>
+					<Description/>
+					<ExtraCharge>true</ExtraCharge>
+					<Order>30</Order>
+				</Service>
+				<Service>
+					<Id>ICEMACH</Id>
+					<Name>Máquina de Hielos</Name>
+					<Description/>
+					<ExtraCharge>false</ExtraCharge>
+					<Order>31</Order>
+				</Service>
+				<Service>
+					<Id>DRYCLEAN</Id>
+					<Name>Tintorería</Name>
+					<Description/>
+					<ExtraCharge>true</ExtraCharge>
+					<Order>33</Order>
+				</Service>
+			</Services>
+			<Themes>
+				<Theme>
+					<Id>CLBU</Id>
+					<Name>De Negocios</Name>
+					<Path>Turismo-Negocios</Path>
+				</Theme>
+				<Theme>
+					<Id>CLBE</Id>
+					<Name>Playa</Name>
+					<Path>Vacaciones-Playa</Path>
+				</Theme>
+			</Themes>
+			<InterfaceInfo InterfaceType="">
+				<Id>BESTDAY</Id>
+			</InterfaceInfo>
+			<Rooms>
+				<Room>
+					<Id>STD</Id>
+					<Name>Estándar</Name>
+					<MealPlans>
+						<MealPlan>
+							<Id>EP</Id>
+							<Name>Sólo Habitación</Name>
+							<AgencyPublic>
+								<AgencyPublic>653.7899</AgencyPublic>
+								<GrossAgencyPublic>583.9725341796875</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>0</Id>
+								<Status>AV</Status>
+							</Available>
+							<AverageGrossNormal>159.24563598632812</AverageGrossNormal>
+							<AverageGrossTotal>124.67390441894531</AverageGrossTotal>
+							<AverageNormal>176.69998168945312</AverageNormal>
+							<AverageTotal>142.12825012207031</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>636.9825439453125</GrossNormal>
+							<GrossTotal>498.69561767578125</GrossTotal>
+							<Normal>706.7999267578125</Normal>
+							<RateKey>U1RELUVQTUFZT1JJU1QyRVBBdXRvbWF0aWNNYWls</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>568.51300048828125</Total>
+							<MarketId>MAYORIST</MarketId>
+							<Contract>2</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-01T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507890</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-02T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507890</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-03T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507890</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>172.15744018554687</GrossNormal>
+									<GrossTotal>134.7825927734375</GrossTotal>
+									<Normal>191.02700805664062</Normal>
+									<PromoId>0</PromoId>
+									<Total>153.65216064453125</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530507890</Id>
+									<Name>. </Name>
+									<Description>10% de descuento por noche en base doble!
+												Aplica para estadías entre 1/Abr/2019 y 30/Nov/2019.
+												Valido para reservaciones antes del 1/Dic/2019
+									</Description>
+									<Rate>0</Rate>
+									<Saving>138.286926</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>653.7899</AgencyPublic>
+										<GrossAgencyPublic>583.9725341796875</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>159.24563598632812</AverageGrossNormal>
+									<AverageGrossTotal>124.67390441894531</AverageGrossTotal>
+									<AverageNormal>176.69998168945312</AverageNormal>
+									<AverageTotal>142.12825012207031</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>568.51300048828125</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-12</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-01</DateFrom>
+											<Amount>568.51300048828125</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>636.9825439453125</GrossNormal>
+									<GrossTotal>498.69561767578125</GrossTotal>
+									<Normal>706.7999267578125</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>STDEP</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>568.51300048828125</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+					</MealPlans>
+					<CapacityAdults>2</CapacityAdults>
+					<CapacityKids>2</CapacityKids>
+					<CapacityExtras>2</CapacityExtras>
+					<CapacityTotal>4</CapacityTotal>
+					<CapacityChildAgeFrom>0</CapacityChildAgeFrom>
+					<CapacityChildAgeTo>17</CapacityChildAgeTo>
+					<CapacityJuniorAgeFrom>0</CapacityJuniorAgeFrom>
+					<CapacityJuniorAgeTo>0</CapacityJuniorAgeTo>
+					<RoomView/>
+					<Bedding>1 cama King o 2 camas Matrimonial</Bedding>
+					<ImageURL/>
+				</Room>
+				<Room>
+					<Id>KNG</Id>
+					<Name>Una Cama King No Fumadores</Name>
+					<MealPlans>
+						<MealPlan>
+							<Id>EP</Id>
+							<Name>Sólo Habitación</Name>
+							<AgencyPublic>
+								<AgencyPublic>653.7899</AgencyPublic>
+								<GrossAgencyPublic>583.9725341796875</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>1</Id>
+								<Status>NA</Status>
+							</Available>
+							<AverageGrossNormal>159.24563598632812</AverageGrossNormal>
+							<AverageGrossTotal>124.67390441894531</AverageGrossTotal>
+							<AverageNormal>176.69998168945312</AverageNormal>
+							<AverageTotal>142.12825012207031</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>636.9825439453125</GrossNormal>
+							<GrossTotal>498.69561767578125</GrossTotal>
+							<Normal>706.7999267578125</Normal>
+							<RateKey>S05HLUVQTUFZT1JJU1QyRVBBdXRvbWF0aWNNYWls</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>568.51300048828125</Total>
+							<MarketId>MAYORIST</MarketId>
+							<Contract>2</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>NA</Available>
+									<Date>2019-07-01T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507892</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-02T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507892</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-03T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507892</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>172.15744018554687</GrossNormal>
+									<GrossTotal>134.7825927734375</GrossTotal>
+									<Normal>191.02700805664062</Normal>
+									<PromoId>0</PromoId>
+									<Total>153.65216064453125</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530507892</Id>
+									<Name>. </Name>
+									<Description>10% de descuento por noche en base doble!
+Aplica para estadías entre 1/Abr/2019 y 30/Nov/2019.
+Valido para reservaciones antes del 1/Dic/2019</Description>
+									<Rate>0</Rate>
+									<Saving>138.286926</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>653.7899</AgencyPublic>
+										<GrossAgencyPublic>583.9725341796875</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>159.24563598632812</AverageGrossNormal>
+									<AverageGrossTotal>124.67390441894531</AverageGrossTotal>
+									<AverageNormal>176.69998168945312</AverageNormal>
+									<AverageTotal>142.12825012207031</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>568.51300048828125</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-12</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-01</DateFrom>
+											<Amount>568.51300048828125</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>636.9825439453125</GrossNormal>
+									<GrossTotal>498.69561767578125</GrossTotal>
+									<Normal>706.7999267578125</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>KNGEP</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>568.51300048828125</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+					</MealPlans>
+					<CapacityAdults>2</CapacityAdults>
+					<CapacityKids>2</CapacityKids>
+					<CapacityExtras>0</CapacityExtras>
+					<CapacityTotal>3</CapacityTotal>
+					<CapacityChildAgeFrom>0</CapacityChildAgeFrom>
+					<CapacityChildAgeTo>16</CapacityChildAgeTo>
+					<CapacityJuniorAgeFrom>0</CapacityJuniorAgeFrom>
+					<CapacityJuniorAgeTo>0</CapacityJuniorAgeTo>
+					<RoomView/>
+					<Bedding>1 cama King</Bedding>
+					<ImageURL>//images.e-tsw.com/_lib/vimages/Miami-area-Florida/Hotels/Holiday-Inn-Miami-Beach/Gallery/Holiday-Inn-Miami-Beach-Miami-1-King-Leisure-Non.jpg</ImageURL>
+				</Room>
+				<Room>
+					<Id>2DN</Id>
+					<Name>Dos Camas Matrimoniales No Fumadores</Name>
+					<MealPlans>
+						<MealPlan>
+							<Id>EP</Id>
+							<Name>Sólo Habitación</Name>
+							<AgencyPublic>
+								<AgencyPublic>653.7899</AgencyPublic>
+								<GrossAgencyPublic>583.9725341796875</GrossAgencyPublic>
+							</AgencyPublic>
+							<Available>
+								<Id>0</Id>
+								<Status>AV</Status>
+							</Available>
+							<AverageGrossNormal>159.24563598632812</AverageGrossNormal>
+							<AverageGrossTotal>124.67390441894531</AverageGrossTotal>
+							<AverageNormal>176.69998168945312</AverageNormal>
+							<AverageTotal>142.12825012207031</AverageTotal>
+							<DutyAmount>0</DutyAmount>
+							<GrossNormal>636.9825439453125</GrossNormal>
+							<GrossTotal>498.69561767578125</GrossTotal>
+							<Normal>706.7999267578125</Normal>
+							<RateKey>MkROLUVQTUFZT1JJU1QyRVBBdXRvbWF0aWNNYWls</RateKey>
+							<RoomsCount>0</RoomsCount>
+							<Total>568.51300048828125</Total>
+							<MarketId>MAYORIST</MarketId>
+							<Contract>2</Contract>
+							<Currency>US</Currency>
+							<NightsDetail>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-01T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507891</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-02T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507891</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-03T00:00:00Z</Date>
+									<GrossNormal>154.94171142578125</GrossNormal>
+									<GrossTotal>121.30433654785156</GrossTotal>
+									<Normal>171.92431640625</Normal>
+									<PromoId>530507891</PromoId>
+									<Total>138.28694152832031</Total>
+								</NightlyRate>
+								<NightlyRate>
+									<Available>AV</Available>
+									<Date>2019-07-04T00:00:00Z</Date>
+									<GrossNormal>172.15744018554687</GrossNormal>
+									<GrossTotal>134.7825927734375</GrossTotal>
+									<Normal>191.02700805664062</Normal>
+									<PromoId>0</PromoId>
+									<Total>153.65216064453125</Total>
+								</NightlyRate>
+							</NightsDetail>
+							<Promotions>
+								<Promotion>
+									<Id>530507891</Id>
+									<Name>. </Name>
+									<Description>10% de descuento por noche en base doble!
+Aplica para estadías entre 1/Abr/2019 y 30/Nov/2019.
+Valido para reservaciones antes del 1/Dic/2019</Description>
+									<Rate>0</Rate>
+									<Saving>138.286926</Saving>
+									<PromotionTypeId>OF_PO|</PromotionTypeId>
+								</Promotion>
+							</Promotions>
+							<RateDetails>
+								<RateDetail>
+									<Id>A1C0-</Id>
+									<AgencyPublic>
+										<AgencyPublic>653.7899</AgencyPublic>
+										<GrossAgencyPublic>583.9725341796875</GrossAgencyPublic>
+									</AgencyPublic>
+									<Available>
+										<Id>0</Id>
+										<Status>AV</Status>
+									</Available>
+									<AverageGrossNormal>159.24563598632812</AverageGrossNormal>
+									<AverageGrossTotal>124.67390441894531</AverageGrossTotal>
+									<AverageNormal>176.69998168945312</AverageNormal>
+									<AverageTotal>142.12825012207031</AverageTotal>
+									<CancellationPolicy>
+										<Id>9</Id>
+										<Description>No admite cambios ni cancelación parcial o total una vez efectuada la reserva y en caso de No Show o salida anticipada se cobrará el total de la reservación.</Description>
+										<Amount>568.51300048828125</Amount>
+										<DaysToApplyCancellation>9999</DaysToApplyCancellation>
+										<PaymentLimitDay>1992-02-12</PaymentLimitDay>
+										<NightsPenalty>100</NightsPenalty>
+										<NoShow>
+											<DateFrom>2019-07-01</DateFrom>
+											<Amount>568.51300048828125</Amount>
+										</NoShow>
+										<IsNonRefundable>false</IsNonRefundable>
+										<IdPolicyInterface>0</IdPolicyInterface>
+									</CancellationPolicy>
+									<DutyAmount>0</DutyAmount>
+									<GrossNormal>636.9825439453125</GrossNormal>
+									<GrossTotal>498.69561767578125</GrossTotal>
+									<Normal>706.7999267578125</Normal>
+									<PaxCount>A1C0-</PaxCount>
+									<RateKey>2DNEP</RateKey>
+									<RoomsCount>1</RoomsCount>
+									<Total>568.51300048828125</Total>
+								</RateDetail>
+							</RateDetails>
+						</MealPlan>
+					</MealPlans>
+					<CapacityAdults>2</CapacityAdults>
+					<CapacityKids>2</CapacityKids>
+					<CapacityExtras>2</CapacityExtras>
+					<CapacityTotal>4</CapacityTotal>
+					<CapacityChildAgeFrom>0</CapacityChildAgeFrom>
+					<CapacityChildAgeTo>16</CapacityChildAgeTo>
+					<CapacityJuniorAgeFrom>0</CapacityJuniorAgeFrom>
+					<CapacityJuniorAgeTo>0</CapacityJuniorAgeTo>
+					<RoomView/>
+					<Bedding>2 camas Matrimoniales</Bedding>
+					<ImageURL>//images.e-tsw.com/_lib/vimages/Miami-area-Florida/Hotels/Holiday-Inn-Miami-Beach/Gallery/Holiday-Inn-Miami-Beach-Two-Double-Beds.jpg</ImageURL>
+				</Room>
+			</Rooms>
+		</Hotel>
+	</Hotels>
+	<Filters>
+		<Categories>
+			<Category>
+				<Id>S2</Id>
+				<Name>2 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S25</Id>
+				<Name>2 ½ Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S3</Id>
+				<Name>3 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S35</Id>
+				<Name>3 ½ Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S4</Id>
+				<Name>4 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S45</Id>
+				<Name>4 ½ Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+			<Category>
+				<Id>S5</Id>
+				<Name>5 Estrellas</Name>
+				<Activity>0</Activity>
+			</Category>
+		</Categories>
+		<Chains>
+			<Chain>
+				<Id>MAR</Id>
+				<Name>Marriott</Name>
+				<Path>Marriott</Path>
+			</Chain>
+			<Chain>
+				<Id>BEW</Id>
+				<Name>Best Western</Name>
+				<Path>Best-Western</Path>
+			</Chain>
+			<Chain>
+				<Id>HOL</Id>
+				<Name>Holiday Inn</Name>
+				<Path>Holiday-Inn</Path>
+			</Chain>
+			<Chain>
+				<Id>HIL</Id>
+				<Name>Hilton</Name>
+				<Path>Hilton</Path>
+			</Chain>
+			<Chain>
+				<Id>RIU</Id>
+				<Name>Riu</Name>
+				<Path>Riu</Path>
+			</Chain>
+			<Chain>
+				<Id>MR</Id>
+			</Chain>
+			<Chain>
+				<Id>WI</Id>
+			</Chain>
+		</Chains>
+		<Cities>
+			<City>
+				<Id>FLMiami</Id>
+				<Name>Miami</Name>
+				<Path>Miami</Path>
+			</City>
+			<City>
+				<Id>FLMiami Beach</Id>
+				<Name>Miami Beach</Name>
+				<Path>miami-beach</Path>
+			</City>
+			<City>
+				<Id>FLDOMIA</Id>
+				<Name>Miami-Centro</Name>
+				<Path/>
+			</City>
+			<City>
+				<Id>FLSunny Isles Beach</Id>
+				<Name>Sunny Isles Beach</Name>
+				<Path>Sunny-Isles-Beach</Path>
+			</City>
+			<City>
+				<Id>FLAMI</Id>
+				<Name>Miami-Aeropuerto Internacional</Name>
+				<Path/>
+			</City>
+			<City>
+				<Id>FLDoral</Id>
+				<Name>Doral</Name>
+				<Path>doral</Path>
+			</City>
+			<City>
+				<Id>FLBay Harbor Islands</Id>
+				<Name>Bay Harbor Islands</Name>
+				<Path>bay-harbor-islands</Path>
+			</City>
+			<City>
+				<Id>FLHollywood Beach</Id>
+				<Name>Hollywood Beach</Name>
+				<Path>Hollywood-Beach</Path>
+			</City>
+			<City>
+				<Id>FLHollywood</Id>
+				<Name>Hollywood</Name>
+				<Path>Hollywood</Path>
+			</City>
+		</Cities>
+		<Destinations>
+			<Destination>
+				<Id>13477</Id>
+				<Name>Fort Lauderdale area</Name>
+				<Image>
+					<Id>Fort-Lauderdale-area-Florida_t</Id>
+					<Name>Fort-Lauderdale-area-Florida_t</Name>
+					<Domain/>
+					<Path/>
+					<URL/>
+					<Type>jpg</Type>
+				</Image>
+				<Path>Fort-Lauderdale-area-Florida</Path>
+			</Destination>
+			<Destination>
+				<Id>16278</Id>
+				<Name>Miami</Name>
+				<Image>
+					<Id>Miami-area-Florida_t</Id>
+					<Name>Miami-area-Florida_t</Name>
+					<Domain/>
+					<Path/>
+					<URL/>
+					<Type>jpg</Type>
+				</Image>
+				<Path>Miami-area-Florida</Path>
+			</Destination>
+		</Destinations>
+		<Locations>
+			<Location>
+				<Id>CENT</Id>
+				<Name>Ciudad</Name>
+				<Description>*Disfruta de una ubicación privilegiada cruzando la calle de Miami Beach y a 5 minutos al norte del excitante South Beach.&lt;br&gt;*Rodedo de una variedad de restaurantes, playas y lugares de interés.&lt;br&gt;*A poca distancia de North Bay Village, Normady Island y el campo de golf La Gorce.</Description>
+			</Location>
+			<Location>
+				<Id>PLAY</Id>
+				<Name>Playa</Name>
+				<Description>*&lt;b&gt;Riu Plaza Miami Beach&lt;/b&gt; está a 19 km del Aeropuerto Internacional de Miami.&lt;br&gt;
+
+*Justo frente al malecón.&lt;br&gt;
+
+*En el distrito Art Deco del área South Beach.&lt;br&gt;
+
+*Sobre la famosa Collins Avenue.&lt;br&gt;
+
+*A 1.5 km del museo Bass Museum of Art.&lt;br&gt;
+
+*A 1.5 km del Centro de Convenciones Miami Beach.&lt;br&gt;
+
+*A 1.5 km del centro comercial Lincoln Road Mall.&lt;br&gt;
+
+*A 3 km del club de golf Miami Beach Golf Club.&lt;br&gt;
+
+*A 13 km del puerto de Miami.&lt;br&gt;
+
+*A 15 km del centro de la ciudad de &lt;b&gt;Miami&lt;/b&gt;.&lt;br&gt;</Description>
+			</Location>
+		</Locations>
+		<MealPlans>
+			<Meal>
+				<Id>EP</Id>
+				<Name>Sólo Habitación</Name>
+			</Meal>
+			<Meal>
+				<Id>ZZ</Id>
+				<Name>Sólo Habitación</Name>
+			</Meal>
+			<Meal>
+				<Id>BB</Id>
+				<Name>Desayuno Incluido</Name>
+			</Meal>
+		</MealPlans>
+		<Prices>
+			<From>79.56017</From>
+			<To>1709.99976</To>
+		</Prices>
+		<Reviews>
+			<From>2</From>
+			<To>4.5</To>
+			<Source>TripAdvisor</Source>
+		</Reviews>
+		<Services>
+			<Service>
+				<Id>WIREINTE</Id>
+				<Name>Internet Inalámbrico</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>1</Order>
+			</Service>
+			<Service>
+				<Id>TRANSPOR</Id>
+				<Name>Transportación Disponible</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>6</Order>
+			</Service>
+			<Service>
+				<Id>KIDS</Id>
+				<Name>Club de Niños</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>8</Order>
+			</Service>
+			<Service>
+				<Id>PETFRIEN</Id>
+				<Name>Acepta Mascotas</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>11</Order>
+			</Service>
+			<Service>
+				<Id>RSERV</Id>
+				<Name>Room Service</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>13</Order>
+			</Service>
+			<Service>
+				<Id>CONCIER</Id>
+				<Name>Concierge</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>14</Order>
+			</Service>
+			<Service>
+				<Id>SPECFEAT</Id>
+				<Name>Servicios Especiales</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>15</Order>
+			</Service>
+			<Service>
+				<Id>SAFEDEP</Id>
+				<Name>Caja de Seguridad</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>17</Order>
+			</Service>
+			<Service>
+				<Id>MASSAGE</Id>
+				<Name>Masajes</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>18</Order>
+			</Service>
+			<Service>
+				<Id>BABYSITT</Id>
+				<Name>Niñera</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>19</Order>
+			</Service>
+			<Service>
+				<Id>ATM</Id>
+				<Name>Cajero Automático</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>22</Order>
+			</Service>
+			<Service>
+				<Id>CASACAMB</Id>
+				<Name>Cambio de Divisas</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>25</Order>
+			</Service>
+			<Service>
+				<Id>INTERNET</Id>
+				<Name>Internet</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>29</Order>
+			</Service>
+			<Service>
+				<Id>LAUNDRY</Id>
+				<Name>Lavandería</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>30</Order>
+			</Service>
+			<Service>
+				<Id>ICEMACH</Id>
+				<Name>Máquina de Hielos</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>31</Order>
+			</Service>
+			<Service>
+				<Id>DRYCLEAN</Id>
+				<Name>Tintorería</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>33</Order>
+			</Service>
+			<Service>
+				<Id>LUGGAGE</Id>
+				<Name>Almacenamiento de equipaje</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>72</Order>
+			</Service>
+			<Service>
+				<Id>EXPCHECI</Id>
+				<Name>Check-in express</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>72</Order>
+			</Service>
+			<Service>
+				<Id>EXPCHECO</Id>
+				<Name>Check-Out express</Name>
+				<Description/>
+				<ExtraCharge>true</ExtraCharge>
+				<Order>72</Order>
+			</Service>
+			<Service>
+				<Id>RECEP</Id>
+				<Name>Recepción-Horarios</Name>
+				<Description/>
+				<ExtraCharge>false</ExtraCharge>
+				<Order>9999</Order>
+			</Service>
+		</Services>
+		<Themes>
+			<Theme>
+				<Id>CLHO</Id>
+				<Name>Hostal</Name>
+				<Path/>
+			</Theme>
+			<Theme>
+				<Id>CLBU</Id>
+				<Name>De Negocios</Name>
+				<Path>Turismo-Negocios</Path>
+			</Theme>
+			<Theme>
+				<Id>CLBE</Id>
+				<Name>Playa</Name>
+				<Path>Vacaciones-Playa</Path>
+			</Theme>
+			<Theme>
+				<Id>CLFA</Id>
+				<Name>Familiares</Name>
+				<Path>Vacaciones-Familiares</Path>
+			</Theme>
+			<Theme>
+				<Id>CLRE</Id>
+				<Name>Resorts</Name>
+				<Path>Vacaciones-Resorts</Path>
+			</Theme>
+			<Theme>
+				<Id>CLSP</Id>
+				<Name>Spa</Name>
+				<Path>Vacaciones-Spa</Path>
+			</Theme>
+			<Theme>
+				<Id>CLVC</Id>
+				<Name>Villas, Condominios y Apart</Name>
+				<Path>Vacaciones-Villas-Condos</Path>
+			</Theme>
+			<Theme>
+				<Id>CLBO</Id>
+				<Name>Boutique</Name>
+				<Path>Vacaciones-Boutique</Path>
+			</Theme>
+			<Theme>
+				<Id>CLLU</Id>
+				<Name>De Lujo</Name>
+				<Path>Vacaciones-Lujo</Path>
+			</Theme>
+			<Theme>
+				<Id>CLAO</Id>
+				<Name>Sólo Adultos</Name>
+				<Path>Vacaciones-Solo-Adultos</Path>
+			</Theme>
+			<Theme>
+				<Id>CLGO</Id>
+				<Name>Golf</Name>
+				<Path>Vacaciones-Golf</Path>
+			</Theme>
+			<Theme>
+				<Id>CLRO</Id>
+				<Name>Romance</Name>
+				<Path>Vacaciones-Romanticas</Path>
+			</Theme>
+		</Themes>
+	</Filters>
+</QuoteHotels>

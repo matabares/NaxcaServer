@@ -57,6 +57,11 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             htmlResponse = "<html><body>"+htmlResponse+"</body></html>"
             self.wfile.write(bytes(str(htmlResponse), 'UTF-8'))
 
+        if "hoteldosimulation" in self.path:
+            hoteldo = HotelDoSimulation()
+            response = hoteldo.HotelDoResponse(self)
+            return response
+
         if "version" in self.path:
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
