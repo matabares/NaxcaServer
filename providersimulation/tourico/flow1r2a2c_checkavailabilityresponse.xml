@@ -16,7 +16,7 @@
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
-									<Occupancy avrNightPrice="117.86" avrNightPublishPrice="117.86" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;1" occupPrice="353.58" occupPublishPrice="353.58" tax="40.68" taxPublish="40.68">
+									<Occupancy avrNightPrice="117.86" avrNightPublishPrice="117.86" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;1" occupPrice="300.58" occupPublishPrice="300.58" tax="40.68" taxPublish="40.68">
 										<PriceBreakdown>
 											<Price offset="0" value="117.86" valuePublish="117.86"/>
 											<Price offset="1" value="117.86" valuePublish="117.86"/>

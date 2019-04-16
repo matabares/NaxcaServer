@@ -174,11 +174,11 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 This hotel is conveniently located only 5 km away from Miami International Airport and just 16 km away from downtown Miami. The hotel is in the Blue Lagoon business district and South Beach is approximately 24 km away." hotelId="1217043" minAverPrice="99.44" minAverPublishPrice="99.44" name="DoubleTree by Hilton Miami Airport - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/71/295/506/Exterior_full_building-_Entrance_SE_View_G.jpg">
 						<Location address="Demo - 711 NW 72nd Avenue Miami Florida 33126" city="Miami" countryCode="US" latitude="25.7784125080919" location="Miami International Airport Area" longitude="-80.3108593521843" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1977439" isAvailable="false" name="Standard" nights="3" productId="1217043;1977439;205428" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1977439" isAvailable="true" name="Standard" nights="3" productId="1217043;1977439;205428" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
-									<Availability offset="0" status="false"/>
-									<Availability offset="1" status="false"/>
-									<Availability offset="2" status="false"/>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
 									<Occupancy avrNightPrice="99.44" avrNightPublishPrice="99.44" bedding="4,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1217043;1977439;205428;2;2;2" occupPrice="298.32" occupPublishPrice="298.32" tax="34.32" taxPublish="34.32">
@@ -216,7 +216,7 @@ This hotel is conveniently located only 5 km away from Miami International Airpo
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
-									<Occupancy avrNightPrice="117.86" avrNightPublishPrice="117.86" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;1" occupPrice="353.58" occupPublishPrice="353.58" tax="40.68" taxPublish="40.68">
+									<Occupancy avrNightPrice="117.86" avrNightPublishPrice="117.86" bedding="4,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1492470;16476528;13187453;2;2;2;1" occupPrice="300.58" occupPublishPrice="300.58" tax="40.68" taxPublish="40.68">
 										<PriceBreakdown>
 											<Price offset="0" value="117.86" valuePublish="117.86"/>
 											<Price offset="1" value="117.86" valuePublish="117.86"/>

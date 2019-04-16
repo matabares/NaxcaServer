@@ -44,7 +44,7 @@ class TouricoHotelsSimulation:
             return info
 
         if 'CheckAvailabilityAndPrices' in body \
-                and bodyXml.Envelope.Body.CheckAvailabilityAndPricesResponse.request.HotelIdsInfo.HotelIdInfo.text == '943':
+                and bodyXml.Envelope.Body.CheckAvailabilityAndPrices.request.HotelIdsInfo.HotelIdInfo.attrs['id'] == '943':
             file = open("providersimulation/tourico/flow1r1a_checkavailabilityresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -92,7 +92,7 @@ class TouricoHotelsSimulation:
             return info
 
         if 'CheckAvailabilityAndPrices' in body \
-                and bodyXml.Envelope.Body.CheckAvailabilityAndPricesResponse.request.HotelIdsInfo.HotelIdInfo.text == '1492470':
+                and bodyXml.Envelope.Body.CheckAvailabilityAndPrices.request.HotelIdsInfo.HotelIdInfo.attrs['id'] == '1492470':
             file = open("providersimulation/tourico/flow1r2a2c_checkavailabilityresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
