@@ -33,7 +33,9 @@ class TouricoHotelsSimulation:
         bodyXml = BeautifulSoup(body, 'xml')
 
         # 1r1a
-        if 'SearchHotels' in body and '<Destination xmlns="http://schemas.tourico.com/webservices/hotelv3">MIA</Destination>' in body:
+        if 'SearchHotels' in body \
+                and bodyXml.Envelope.Body.SearchHotels.request.Destination.text == 'MIA' \
+                and bodyXml.Envelope.Body.SearchHotels.request.RoomsInformation.RoomInfo.AdultNum.text == "1":
             file = open("providersimulation/tourico/flow1r1a_searchresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -41,7 +43,8 @@ class TouricoHotelsSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
-        if 'CheckAvailabilityAndPrices' in body and '<HotelIdInfo id="943"/>' in body:
+        if 'CheckAvailabilityAndPrices' in body \
+                and bodyXml.Envelope.Body.CheckAvailabilityAndPricesResponse.request.HotelIdsInfo.HotelIdInfo.text == '943':
             file = open("providersimulation/tourico/flow1r1a_checkavailabilityresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -49,7 +52,8 @@ class TouricoHotelsSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
-        if 'GetCancellationPolicies' in body and '<hotelId>943</hotelId>' in body:
+        if 'GetCancellationPolicies' in body \
+                and bodyXml.Envelope.Body.GetCancellationPolicies.hotelId.text == '943':
             file = open("providersimulation/tourico/flow1r1a_cancellationpoliciesresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -57,7 +61,8 @@ class TouricoHotelsSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
-        if 'BookHotelV3' in body and '<HotelId xmlns="http://schemas.tourico.com/webservices/hotelv3">943</HotelId>' in body:
+        if 'BookHotelV3' in body \
+                and bodyXml.Envelope.Body.BookHotelV3.request.HotelId.text == '943':
             file = open("providersimulation/tourico/flow1r1a_bookhotelresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -65,8 +70,57 @@ class TouricoHotelsSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
-        if 'CancelReservation' in body and '<nResID>164187981</nResID>' in body:
+        if 'CancelReservation' in body \
+                and bodyXml.Envelope.Body.CancelReservation.nResID.text == '164187981':
             file = open("providersimulation/tourico/flow1r1a_cancelreservationresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        # 1r2a2c
+        if 'SearchHotels' in body \
+                and bodyXml.Envelope.Body.SearchHotels.request.Destination.text == 'MIA' \
+                and bodyXml.Envelope.Body.SearchHotels.request.RoomsInformation.RoomInfo.AdultNum.text == "2" \
+                and bodyXml.Envelope.Body.SearchHotels.request.RoomsInformation.RoomInfo.ChildNum is not None \
+                and bodyXml.Envelope.Body.SearchHotels.request.RoomsInformation.RoomInfo.ChildNum.text == "2":
+            file = open("providersimulation/tourico/flow1r2a2c_searchresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDates(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'CheckAvailabilityAndPrices' in body \
+                and bodyXml.Envelope.Body.CheckAvailabilityAndPricesResponse.request.HotelIdsInfo.HotelIdInfo.text == '1492470':
+            file = open("providersimulation/tourico/flow1r2a2c_checkavailabilityresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDates(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'GetCancellationPolicies' in body \
+                and bodyXml.Envelope.Body.GetCancellationPolicies.hotelId.text == '1492470':
+            file = open("providersimulation/tourico/flow1r2a2c_cancellationpoliciesresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDatesCancellationPolicies(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'BookHotelV3' in body \
+                and bodyXml.Envelope.Body.BookHotelV3.request.HotelId.text == '1492470':
+            file = open("providersimulation/tourico/flow1r2a2c_bookhotelresponse.xml", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            data = self.ReplaceDatesBooking(data)
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+        if 'CancelReservation' in body \
+                and bodyXml.Envelope.Body.CancelReservation.nResID.text == '164195126':
+            file = open("providersimulation/tourico/flow1r2a2c_cancelreservationresponse.xml", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
