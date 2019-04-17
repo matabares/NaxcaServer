@@ -1,0 +1,20 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<GetCancellationPoliciesResponse xmlns="http://tourico.com/webservices/">
+			<HotelPolicy hotelId="1450692" xmlns="http://tourico.com/webservices/TWS_ClxPolicies.xsd">
+				<RoomTypePolicy CheckIn="7/1/2019" CheckOut="7/4/2019" hotelRoomTypeId="15021452">
+					<CancelPolicy>
+						<CancelPenalty>
+							<Deadline OffsetDropTime="BeforeArrival" OffsetTimeUnit="Hour" OffsetUnitMultiplier="72"/>
+							<AmountPercent BasisType="Nights" NmbrOfNights="1"/>
+						</CancelPenalty>
+						<CancelPenalty>
+							<Deadline OffsetDropTime="BeforeArrival" OffsetTimeUnit="Hour" OffsetUnitMultiplier="0"/>
+							<AmountPercent BasisType="Nights" NmbrOfNights="1"/>
+						</CancelPenalty>
+					</CancelPolicy>
+				</RoomTypePolicy>
+			</HotelPolicy>
+		</GetCancellationPoliciesResponse>
+	</s:Body>
+</s:Envelope>

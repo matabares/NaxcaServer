@@ -1,0 +1,78 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<CheckAvailabilityAndPricesResponse xmlns="http://tourico.com/webservices/hotelv3">
+			<CheckAvailabilityAndPricesResult>
+				<Info culture="en-US" serverTime="2019-04-14T10:51:16.5429935-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Hotel NumOfRoom="1" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="1021" brandName="Autograph Collection" category="Superior First Class" currency="USD" desc="Demo - Location
+
+Located in the heart of South Beach on Collins Avenue just one block from the beach and the famed Ocean Drive, this historic hotel is a central landmark close to all Miami has to offer such as Washington and Lincoln Streets, shopping on C" hotelId="1450692" minAverPrice="184.5" minAverPublishPrice="184.5" name="Blue Moon Hotel, Autograph Collection - Demo" provider="localTgsProvider" starsLevel="4" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/857/563/miabm_phototour42_G.jpg">
+						<Location address="Demo - 944 Collins Avenue Miami Beach  33139" city="Miami Beach" countryCode="US" latitude="25.780085" location="" longitude="-80.132118" searchingCity="Miami Beach" searchingState="Florida" stateCode=""/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021452" isAvailable="true" name="Standard" nights="3" productId="1452068;15021452;13035242" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="184.5" avrNightPublishPrice="184.5" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1452068;15021452;13035242;3;2;0" occupPrice="553.5" occupPublishPrice="553.5" tax="67.98" taxPublish="67.98">
+										<PriceBreakdown>
+											<Price offset="0" value="184.5" valuePublish="184.5"/>
+											<Price offset="1" value="184.5" valuePublish="184.5"/>
+											<Price offset="2" value="184.5" valuePublish="184.5"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021453" isAvailable="true" name="Deluxe" nights="3" productId="1452068;15021453;13035242" roomId="21" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="249.93" avrNightPublishPrice="249.93" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1452068;15021453;13035242;3;2;0" occupPrice="749.79" occupPublishPrice="749.79" tax="92.07" taxPublish="92.07">
+										<PriceBreakdown>
+											<Price offset="0" value="249.93" valuePublish="249.93"/>
+											<Price offset="1" value="249.93" valuePublish="249.93"/>
+											<Price offset="2" value="249.93" valuePublish="249.93"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+				</HotelList>
+			</CheckAvailabilityAndPricesResult>
+		</CheckAvailabilityAndPricesResponse>
+	</s:Body>
+</s:Envelope>

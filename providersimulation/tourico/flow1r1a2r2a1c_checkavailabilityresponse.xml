@@ -1,0 +1,112 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<CheckAvailabilityAndPricesResponse xmlns="http://tourico.com/webservices/hotelv3">
+			<CheckAvailabilityAndPricesResult>
+				<Info culture="en-US" serverTime="2019-04-13T12:10:39.658747-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Hotel NumOfRoom="200" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="0" brandName="" category="Superior First Class" currency="USD" desc="Demo - Location
+
+The resort is an oceanfront landmark located in South Beach and the Miami Beach Art Deco District. It is located 2 blocks from the Miami Beach Convention Center." hotelId="2155" minAverPrice="248.62" minAverPublishPrice="248.62" name="Shelborne South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/2155/100x100/249066232.jpg">
+						<Location address="Demo - 1801 Collins Avenue  Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.794196795756" location="South Beach" longitude="-80.129045455785" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257724" isAvailable="true" name="City View Double" nights="3" productId="2155;13257724;13243353" roomId="236407" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="248.62" avrNightPublishPrice="248.62" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257724;13243353;2;1;0" occupPrice="745.87" occupPublishPrice="745.87" tax="91.61" taxPublish="91.61">
+										<PriceBreakdown>
+											<Price offset="0" value="274.79" valuePublish="274.79"/>
+											<Price offset="1" value="235.54" valuePublish="235.54"/>
+											<Price offset="2" value="235.54" valuePublish="235.54"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+												<ChildAges/>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+									<Occupancy avrNightPrice="248.62" avrNightPublishPrice="248.62" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257724;13243353;2;2;1;1" occupPrice="745.87" occupPublishPrice="745.87" tax="91.61" taxPublish="91.61">
+										<PriceBreakdown>
+											<Price offset="0" value="274.79" valuePublish="274.79"/>
+											<Price offset="1" value="235.54" valuePublish="235.54"/>
+											<Price offset="2" value="235.54" valuePublish="235.54"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;1;0" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
+										<PriceBreakdown>
+											<Price offset="0" value="314.05" valuePublish="314.05"/>
+											<Price offset="1" value="274.79" valuePublish="274.79"/>
+											<Price offset="2" value="274.79" valuePublish="274.79"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+												<ChildAges/>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;2;1;1" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
+										<PriceBreakdown>
+											<Price offset="0" value="314.05" valuePublish="314.05"/>
+											<Price offset="1" value="274.79" valuePublish="274.79"/>
+											<Price offset="2" value="274.79" valuePublish="274.79"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+				</HotelList>
+			</CheckAvailabilityAndPricesResult>
+		</CheckAvailabilityAndPricesResponse>
+	</s:Body>
+</s:Envelope>

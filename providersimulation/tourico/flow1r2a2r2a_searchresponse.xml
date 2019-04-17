@@ -1,0 +1,528 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<SearchHotelsResponse xmlns="http://tourico.com/webservices/hotelv3">
+			<SearchHotelsResult>
+				<Info culture="en-US" serverTime="2019-04-14T10:50:56.9021569-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<HotelList xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Hotel NumOfRoom="200" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="0" brandName="" category="Superior First Class" currency="USD" desc="Demo - Location
+
+The resort is an oceanfront landmark located in South Beach and the Miami Beach Art Deco District. It is located 2 blocks from the Miami Beach Convention Center." hotelId="2155" minAverPrice="196.28" minAverPublishPrice="196.28" name="Shelborne South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/2155/100x100/249066232.jpg">
+						<Location address="Demo - 1801 Collins Avenue  Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.794196795756" location="South Beach" longitude="-80.129045455785" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257726" isAvailable="true" name="City View" nights="3" productId="2155;13257726;13243353" roomId="36" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="196.28" avrNightPublishPrice="196.28" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="2155;13257726;13243353;2;2;0;1" occupPrice="588.84" occupPublishPrice="588.84" tax="72.3" taxPublish="72.3">
+										<PriceBreakdown>
+											<Price offset="0" value="196.28" valuePublish="196.28"/>
+											<Price offset="1" value="196.28" valuePublish="196.28"/>
+											<Price offset="2" value="196.28" valuePublish="196.28"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257724" isAvailable="true" name="City View Double" nights="3" productId="2155;13257724;13243353" roomId="236407" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="235.54" avrNightPublishPrice="235.54" bedding="2,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257724;13243353;2;2;0;1" occupPrice="706.62" occupPublishPrice="706.62" tax="86.79" taxPublish="86.79">
+										<PriceBreakdown>
+											<Price offset="0" value="235.54" valuePublish="235.54"/>
+											<Price offset="1" value="235.54" valuePublish="235.54"/>
+											<Price offset="2" value="235.54" valuePublish="235.54"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="744" isAvailable="true" name="Partial Ocean View" nights="3" productId="2155;744;13243353" roomId="33" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="235.54" avrNightPublishPrice="235.54" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="2155;744;13243353;2;2;0;1" occupPrice="706.62" occupPublishPrice="706.62" tax="86.79" taxPublish="86.79">
+										<PriceBreakdown>
+											<Price offset="0" value="235.54" valuePublish="235.54"/>
+											<Price offset="1" value="235.54" valuePublish="235.54"/>
+											<Price offset="2" value="235.54" valuePublish="235.54"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="274.79" avrNightPublishPrice="274.79" bedding="2,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;2;0;1" occupPrice="824.37" occupPublishPrice="824.37" tax="101.25" taxPublish="101.25">
+										<PriceBreakdown>
+											<Price offset="0" value="274.79" valuePublish="274.79"/>
+											<Price offset="1" value="274.79" valuePublish="274.79"/>
+											<Price offset="2" value="274.79" valuePublish="274.79"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="130" PropertySubType="" PropertyType="Hotel" bestValue="true" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - Location
+
+This hotel lies directly beside the sandy beach at the heart of Miami Beach and affords spectacular views out over the Atlantic and the Intracoastal Waterway. Shopping and entertainment venues are to be found in abundance in the near vici" hotelId="943" minAverPrice="119.07" minAverPublishPrice="119.07" name="The Casablanca on the Ocean East Tower - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/3/0/39/379/606/exterior_G.jpg">
+						<Location address="Demo - 6345 Collins Avenue Miami Beach Florida 33141" city="Miami Beach" countryCode="US" latitude="25.8452431875431" location="North Beach" longitude="-80.1197871023773" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="3" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="119.07" avrNightPublishPrice="119.07" bedding="2,1" isPublish="false" maxChild="2" maxGuests="4" occupId="943;1797785;128;2;2;0;1" occupPrice="1357.22" occupPublishPrice="1357.22" tax="43.86" taxPublish="43.86">
+										<PriceBreakdown>
+											<Price offset="0" value="103.37" valuePublish="103.37"/>
+											<Price offset="1" value="103.37" valuePublish="103.37"/>
+											<Price offset="2" value="150.48" valuePublish="150.48"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="54.00" publishPrice="54.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+									<Occupancy avrNightPrice="119.07" avrNightPublishPrice="119.07" bedding="2,2" isPublish="false" maxChild="2" maxGuests="4" occupId="943;1797785;128;2;2;0;2" occupPrice="1357.22" occupPublishPrice="1357.22" tax="43.86" taxPublish="43.86">
+										<PriceBreakdown>
+											<Price offset="0" value="103.37" valuePublish="103.37"/>
+											<Price offset="1" value="103.37" valuePublish="103.37"/>
+											<Price offset="2" value="150.48" valuePublish="150.48"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="54.00" publishPrice="54.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="335" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="0" brandName="" category="Superior First Class" currency="USD" desc="Demo - Location
+
+Located directly on Biscayne Bay on the newly fashionable West Avenue and minutes away from the centre of South Beach, the hotel is within walking distance of nightlife, restaurants and shopping venues. Also close by is the Lincoln Road M" hotelId="1212512" minAverPrice="228.99" minAverPublishPrice="228.99" name="Mondrian South Beach Hotel - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/1212512/100x100/11874771.JPG">
+						<Location address="Demo - 1100 West Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7818732317129" location="South Beach" longitude="-80.1427544653416" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957849" isAvailable="true" name="Studio" nights="3" productId="1212512;1957849;126575" roomId="62" roomTypeCategory="Studio" roomTypeCategoryId="18" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="228.99" avrNightPublishPrice="228.99" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1212512;1957849;126575;3;2;0" occupPrice="686.97" occupPublishPrice="686.97" tax="84.36" taxPublish="84.36">
+										<PriceBreakdown>
+											<Price offset="0" value="228.99" valuePublish="228.99"/>
+											<Price offset="1" value="228.99" valuePublish="228.99"/>
+											<Price offset="2" value="228.99" valuePublish="228.99"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957850" isAvailable="true" name="Bay View Studio" nights="3" productId="1212512;1957850;126575" roomId="203380" roomTypeCategory="Studio" roomTypeCategoryId="18" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="268.25" avrNightPublishPrice="268.25" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1212512;1957850;126575;3;2;0" occupPrice="804.75" occupPublishPrice="804.75" tax="98.82" taxPublish="98.82">
+										<PriceBreakdown>
+											<Price offset="0" value="268.25" valuePublish="268.25"/>
+											<Price offset="1" value="268.25" valuePublish="268.25"/>
+											<Price offset="2" value="268.25" valuePublish="268.25"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="72" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Superior First Class" currency="USD" desc="Demo - " hotelId="1465577" minAverPrice="168.8" minAverPublishPrice="168.8" name="The Hotel of South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/1465577/100x100/801266018.JPG">
+						<Location address="Demo - 801 Collins Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7782961" location="South Beach" longitude="-80.1319115" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15326164" isAvailable="true" name="Standard" nights="3" productId="1465577;15326164;13217121" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="168.8" avrNightPublishPrice="168.8" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1465577;15326164;13217121;3;2;0" occupPrice="1506.4" occupPublishPrice="1506.4" tax="62.19" taxPublish="62.19">
+										<PriceBreakdown>
+											<Price offset="0" value="168.8" valuePublish="168.8"/>
+											<Price offset="1" value="168.8" valuePublish="168.8"/>
+											<Price offset="2" value="168.8" valuePublish="168.8"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="140" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="230" brandName="Residence Inn by Marriott" category="Moderate" currency="USD" desc="Demo - The polished studios come with full kitchens and balconies, plus free WiFi, desks and flat-screen TVs. The 1- and 2-bedroom suites add separate living areas with pull-out sofas. Our extended-stay hotel with an art deco vibe is 2.5 miles from the Vi" hotelId="1263768" minAverPrice="188.07" minAverPublishPrice="188.07" name="Residence Inn Coconut Grove  - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/655/611/_DSC4879_G.jpg">
+						<Location address="Demo - 2835 Tigertail Avenue  Coconut Grove Florida 33133" city="Coconut Grove" countryCode="US" latitude="25.7305924" location="" longitude="-80.239045" searchingCity="Coconut Grove" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987765" isAvailable="true" name="Studio" nights="3" productId="1263768;11987765;4217047" roomId="62" roomTypeCategory="Studio" roomTypeCategoryId="18" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="188.07" avrNightPublishPrice="188.07" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1263768;11987765;4217047;2;2;0;1" occupPrice="564.21" occupPublishPrice="564.21" tax="64.92" taxPublish="64.92">
+										<PriceBreakdown>
+											<Price offset="0" value="188.07" valuePublish="188.07"/>
+											<Price offset="1" value="188.07" valuePublish="188.07"/>
+											<Price offset="2" value="188.07" valuePublish="188.07"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987766" isAvailable="true" name="1 Bedroom" nights="3" productId="1263768;11987766;4217047" roomId="511" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="214.02" avrNightPublishPrice="214.02" bedding="2,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1263768;11987766;4217047;2;2;0;1" occupPrice="642.06" occupPublishPrice="642.06" tax="73.86" taxPublish="73.86">
+										<PriceBreakdown>
+											<Price offset="0" value="214.02" valuePublish="214.02"/>
+											<Price offset="1" value="214.02" valuePublish="214.02"/>
+											<Price offset="2" value="214.02" valuePublish="214.02"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="11987767" isAvailable="true" name="2 Bedroom" nights="3" productId="1263768;11987767;4217047" roomId="966" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="268.49" avrNightPublishPrice="268.49" bedding="2,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1263768;11987767;4217047;2;2;0;1" occupPrice="805.47" occupPublishPrice="805.47" tax="92.67" taxPublish="92.67">
+										<PriceBreakdown>
+											<Price offset="0" value="268.49" valuePublish="268.49"/>
+											<Price offset="1" value="268.49" valuePublish="268.49"/>
+											<Price offset="2" value="268.49" valuePublish="268.49"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements/>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="100" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Superior First Class" currency="USD" desc="Demo - Location
+
+Set on Belle Isle, one of the many islands dotting Biscayne Bay, this beach hotel is connected via a bridge to South Beach, 800 m from the Lincoln Road pedestrian mall and a mile from the ocean. The attractions of South Beach are only a s" hotelId="9015" minAverPrice="170.11" minAverPublishPrice="170.11" name="The Standard &amp; Spa - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/9015/100x100/1688357032.jpg">
+						<Location address="Demo - 40 Island Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7917460509095" location="" longitude="-80.149085728836" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1957864" isAvailable="true" name="Standard" nights="3" productId="9015;1957864;126589" roomId="288483" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="170.11" avrNightPublishPrice="170.11" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="9015;1957864;126589;3;2;0" occupPrice="1510.33" occupPublishPrice="1510.33" tax="62.67" taxPublish="62.67">
+										<PriceBreakdown>
+											<Price offset="0" value="170.11" valuePublish="170.11"/>
+											<Price offset="1" value="170.11" valuePublish="170.11"/>
+											<Price offset="2" value="170.11" valuePublish="170.11"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="74.97" publishPrice="74.97" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="46" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - Location
+
+The hotel has convenient access to South Beach hot spots, dining, shopping, night life and beaches. Fort Lauderdale/Hollywood International Airport is some 29 km away and Miami International Airport is some 24 km from the establishment." hotelId="1232478" minAverPrice="119.42" minAverPublishPrice="119.42" name="Daddy O Hotel Miami - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1232478/100x100/1783121609.jpg">
+						<Location address="Demo - 9660 East Bay Harbor Drive Bal Harbour Florida 33154" city="Bal Harbour" countryCode="US" latitude="25.8876111012925" location="" longitude="-80.1296116969589" searchingCity="Bal Harbour" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3935294" isAvailable="true" name="Deluxe King" nights="3" productId="1232478;3935294;386048" roomId="8" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="119.42" avrNightPublishPrice="119.42" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1232478;3935294;386048;3;2;0" occupPrice="1358.26" occupPublishPrice="1358.26" tax="41.22" taxPublish="41.22">
+										<PriceBreakdown>
+											<Price offset="0" value="119.42" valuePublish="119.42"/>
+											<Price offset="1" value="119.42" valuePublish="119.42"/>
+											<Price offset="2" value="119.42" valuePublish="119.42"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="0.00" publishPrice="0.00" suppChargeType="Included" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="4" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="1" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="1021" brandName="Autograph Collection" category="Superior First Class" currency="USD" desc="Demo - Location
+
+Located in the heart of South Beach on Collins Avenue just one block from the beach and the famed Ocean Drive, this historic hotel is a central landmark close to all Miami has to offer such as Washington and Lincoln Streets, shopping on C" hotelId="1450692" minAverPrice="184.5" minAverPublishPrice="184.5" name="Blue Moon Hotel, Autograph Collection - Demo" provider="localTgsProvider" starsLevel="4" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/857/563/miabm_phototour42_G.jpg">
+						<Location address="Demo - 944 Collins Avenue Miami Beach  33139" city="Miami Beach" countryCode="US" latitude="25.780085" location="" longitude="-80.132118" searchingCity="Miami Beach" searchingState="Florida" stateCode=""/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021452" isAvailable="true" name="Standard" nights="3" productId="1452068;15021452;13035242" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="184.5" avrNightPublishPrice="184.5" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1452068;15021452;13035242;3;2;0" occupPrice="553.5" occupPublishPrice="553.5" tax="67.98" taxPublish="67.98">
+										<PriceBreakdown>
+											<Price offset="0" value="184.5" valuePublish="184.5"/>
+											<Price offset="1" value="184.5" valuePublish="184.5"/>
+											<Price offset="2" value="184.5" valuePublish="184.5"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15021453" isAvailable="true" name="Deluxe" nights="3" productId="1452068;15021453;13035242" roomId="21" roomTypeCategory="Deluxe" roomTypeCategoryId="9" startDate="2019-07-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="249.93" avrNightPublishPrice="249.93" bedding="2,1" isPublish="false" maxChild="0" maxGuests="2" occupId="1452068;15021453;13035242;3;2;0" occupPrice="749.79" occupPublishPrice="749.79" tax="92.07" taxPublish="92.07">
+										<PriceBreakdown>
+											<Price offset="0" value="249.93" valuePublish="249.93"/>
+											<Price offset="1" value="249.93" valuePublish="249.93"/>
+											<Price offset="2" value="249.93" valuePublish="249.93"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>0</ChildNum>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+				</HotelList>
+			</SearchHotelsResult>
+		</SearchHotelsResponse>
+	</s:Body>
+</s:Envelope>

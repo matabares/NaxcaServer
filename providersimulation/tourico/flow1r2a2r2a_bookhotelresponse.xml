@@ -1,0 +1,27 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<BookHotelV3Response xmlns="http://tourico.com/webservices/hotelv3">
+			<BookHotelV3Result>
+				<Info culture="en-US" serverTime="2019-04-14T11:32:57.217516-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<ResGroup currency="USD" isPackage="false" rgId="162712851" rgRemark="" totalPrice="553.5" totalPublishPrice="553.5" tranNum="166291312" xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Reservations>
+						<Reservation currency="USD" fromDate="2019-07-01T00:00:00" isPublish="false" note="" numOfAdults="2" numOfChildren="0" price="553.5" publishPrice="553.5" reservationId="164195117" status="Confirm" toDate="2019-07-04T00:00:00" totalPublishTax="67.98" totalTax="67.98" tranNum="166291312">
+							<ProductInfo NumOfBathrooms="0" NumOfRoom="1" PropertySubType="" PropertyType="Hotel" address="Demo - 944 Collins Avenue" bestVal="false" category="Superior First Class" hotelId="1450692" name="Blue Moon Hotel, Autograph Collection - Demo" numOfStars="4" roomType="Standard" roomTypeCategory="Standard" roomTypeCategoryId="17" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/857/563/miabm_phototour42_G.jpg" xsi:type="HotelInfo">
+								<RoomExtraInfo NumOfBathrooms="0" bedding="2,1" hotelRoomTypeId="15021452" name="Standard" roomId="3">
+									<RoomInfo>
+										<AdultNum>2</AdultNum>
+										<ChildNum>0</ChildNum>
+									</RoomInfo>
+									<SelectedSupplements>
+										<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+									</SelectedSupplements>
+								</RoomExtraInfo>
+								<Passenger ageGroup="1" firstName="Max" homePhone="3102647820" lastName="Power" middleName="" mobilePhone=""/>
+							</ProductInfo>
+						</Reservation>
+					</Reservations>
+				</ResGroup>
+			</BookHotelV3Result>
+		</BookHotelV3Response>
+	</s:Body>
+</s:Envelope>

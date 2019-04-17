@@ -1,0 +1,30 @@
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+	<s:Body xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<BookHotelV3Response xmlns="http://tourico.com/webservices/hotelv3">
+			<BookHotelV3Result>
+				<Info culture="en-US" serverTime="2019-04-13T12:20:37.9598733-04:00" version="7.123" xmlns="http://schemas.tourico.com/webservices/hotelv3"/>
+				<ResGroup currency="USD" isPackage="false" rgId="162711848" rgRemark="" totalPrice="745.87" totalPublishPrice="745.87" tranNum="166290309" xmlns="http://schemas.tourico.com/webservices/hotelv3">
+					<Reservations>
+						<Reservation currency="USD" fromDate="2019-06-01T00:00:00" isPublish="false" note="" numOfAdults="2" numOfChildren="1" price="745.87" publishPrice="745.87" reservationId="164194117" status="Confirm" toDate="2019-06-04T00:00:00" totalPublishTax="91.61" totalTax="91.61" tranNum="166290309">
+							<ProductInfo NumOfBathrooms="0" NumOfRoom="200" PropertySubType="" PropertyType="Hotel" address="Demo - 1801 Collins Avenue " bestVal="false" category="Superior First Class" hotelId="2155" name="Shelborne South Beach - Demo" numOfStars="4" roomType="City View Double" roomTypeCategory="Standard" roomTypeCategoryId="17" thumb="http://image1.urlforimages.com/Images/2155/100x100/249066232.jpg" xsi:type="HotelInfo">
+								<RoomExtraInfo NumOfBathrooms="0" bedding="3,1" hotelRoomTypeId="13257724" name="City View Double" roomId="236407">
+									<RoomInfo>
+										<AdultNum>2</AdultNum>
+										<ChildNum>1</ChildNum>
+										<ChildAges>
+											<ChildAge age="10"/>
+										</ChildAges>
+									</RoomInfo>
+									<SelectedSupplements>
+										<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+									</SelectedSupplements>
+								</RoomExtraInfo>
+								<Passenger ageGroup="1" firstName="Max" homePhone="3102647820" lastName="Power" middleName="" mobilePhone=""/>
+							</ProductInfo>
+						</Reservation>
+					</Reservations>
+				</ResGroup>
+			</BookHotelV3Result>
+		</BookHotelV3Response>
+	</s:Body>
+</s:Envelope>
