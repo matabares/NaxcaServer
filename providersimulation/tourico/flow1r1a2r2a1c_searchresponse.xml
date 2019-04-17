@@ -104,108 +104,7 @@ The resort is an oceanfront landmark located in South Beach and the Miami Beach 
 								</Occupancies>
 							</RoomType>
 						</RoomTypes>
-					</Hotel>
-					<Hotel NumOfRoom="130" PropertySubType="" PropertyType="Hotel" bestValue="true" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - Location
-
-This hotel lies directly beside the sandy beach at the heart of Miami Beach and affords spectacular views out over the Atlantic and the Intracoastal Waterway. Shopping and entertainment venues are to be found in abundance in the near vici" hotelId="943" minAverPrice="103.37" minAverPublishPrice="103.37" name="The Casablanca on the Ocean East Tower - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/3/0/39/379/606/exterior_G.jpg">
-						<Location address="Demo - 6345 Collins Avenue Miami Beach Florida 33141" city="Miami Beach" countryCode="US" latitude="25.8452431875431" location="North Beach" longitude="-80.1197871023773" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
-						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="1797785" isAvailable="true" name="Standard" nights="3" productId="943;1797785;128" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
-								<AvailabilityBreakdown>
-									<Availability offset="0" status="true"/>
-									<Availability offset="1" status="true"/>
-									<Availability offset="2" status="true"/>
-								</AvailabilityBreakdown>
-								<Occupancies>
-									<Occupancy avrNightPrice="103.37" avrNightPublishPrice="103.37" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="943;1797785;128;2;1;0" occupPrice="1310.11" occupPublishPrice="1310.11" tax="38.07" taxPublish="38.07">
-										<PriceBreakdown>
-											<Price offset="0" value="103.37" valuePublish="103.37"/>
-											<Price offset="1" value="103.37" valuePublish="103.37"/>
-											<Price offset="2" value="103.37" valuePublish="103.37"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="1">
-												<AdultNum>1</AdultNum>
-												<ChildNum>0</ChildNum>
-												<ChildAges/>
-											</Room>
-										</Rooms>
-										<SelctedSupplements>
-											<Supplement price="54.00" publishPrice="54.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
-										</SelctedSupplements>
-										<BoardBases/>
-									</Occupancy>
-									<Occupancy avrNightPrice="103.37" avrNightPublishPrice="103.37" bedding="3,2" isPublish="false" maxChild="2" maxGuests="4" occupId="943;1797785;128;2;2;1" occupPrice="1310.11" occupPublishPrice="1310.11" tax="38.07" taxPublish="38.07">
-										<PriceBreakdown>
-											<Price offset="0" value="103.37" valuePublish="103.37"/>
-											<Price offset="1" value="103.37" valuePublish="103.37"/>
-											<Price offset="2" value="103.37" valuePublish="103.37"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="2">
-												<AdultNum>2</AdultNum>
-												<ChildNum>1</ChildNum>
-												<ChildAges>
-													<ChildAge age="10"/>
-												</ChildAges>
-											</Room>
-										</Rooms>
-										<SelctedSupplements>
-											<Supplement price="54.00" publishPrice="54.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
-										</SelctedSupplements>
-										<BoardBases/>
-									</Occupancy>
-								</Occupancies>
-							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
-								<AvailabilityBreakdown>
-									<Availability offset="0" status="true"/>
-									<Availability offset="1" status="true"/>
-									<Availability offset="2" status="true"/>
-								</AvailabilityBreakdown>
-								<Occupancies>
-									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;1;0" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
-										<PriceBreakdown>
-											<Price offset="0" value="314.05" valuePublish="314.05"/>
-											<Price offset="1" value="274.79" valuePublish="274.79"/>
-											<Price offset="2" value="274.79" valuePublish="274.79"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="1">
-												<AdultNum>1</AdultNum>
-												<ChildNum>0</ChildNum>
-												<ChildAges/>
-											</Room>
-										</Rooms>
-										<SelctedSupplements>
-											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
-										</SelctedSupplements>
-										<BoardBases/>
-									</Occupancy>
-									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;2;1;1" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
-										<PriceBreakdown>
-											<Price offset="0" value="314.05" valuePublish="314.05"/>
-											<Price offset="1" value="274.79" valuePublish="274.79"/>
-											<Price offset="2" value="274.79" valuePublish="274.79"/>
-										</PriceBreakdown>
-										<Rooms>
-											<Room seqNum="2">
-												<AdultNum>2</AdultNum>
-												<ChildNum>1</ChildNum>
-												<ChildAges>
-													<ChildAge age="10"/>
-												</ChildAges>
-											</Room>
-										</Rooms>
-										<SelctedSupplements>
-											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
-										</SelctedSupplements>
-										<BoardBases/>
-									</Occupancy>
-								</Occupancies>
-							</RoomType>
-						</RoomTypes>
-					</Hotel>
+					</Hotel>					
 					<Hotel NumOfRoom="140" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="230" brandName="Residence Inn by Marriott" category="Moderate" currency="USD" desc="Demo - The polished studios come with full kitchens and balconies, plus free WiFi, desks and flat-screen TVs. The 1- and 2-bedroom suites add separate living areas with pull-out sofas. Our extended-stay hotel with an art deco vibe is 2.5 miles from the Vi" hotelId="1263768" minAverPrice="228.28" minAverPublishPrice="228.28" name="Residence Inn Coconut Grove  - Demo" provider="localTgsProvider" starsLevel="3" thumb="https://tourico.leonardocontentcloud.com/imageRepo/2/0/65/655/611/_DSC4879_G.jpg">
 						<Location address="Demo - 2835 Tigertail Avenue  Coconut Grove Florida 33133" city="Coconut Grove" countryCode="US" latitude="25.7305924" location="" longitude="-80.239045" searchingCity="Coconut Grove" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
@@ -297,23 +196,24 @@ This hotel lies directly beside the sandy beach at the heart of Miami Beach and 
 							</RoomType>
 						</RoomTypes>
 					</Hotel>
-					<Hotel NumOfRoom="200" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="288" brandName="Holiday Inn" category="Moderate" currency="USD" desc="Demo - Location
+					<Hotel NumOfRoom="115" PropertySubType="" PropertyType="Hotel" bestValue="true" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - A great place to launch your fabulous vacation, the Design Suites at Castle Beach provides guests with the ultimate experience 
 
-This hotel is located in the heart of Miami in the direct vicinity of the world famous shopping arcade, Bayside Marketplace. South Beach, Miami Harbour and the American Airlines Arena are all within a short walk of the hotel. Restaurants," hotelId="1935" minAverPrice="129.27" minAverPublishPrice="129.27" name="Holiday Inn Port of Miami-Downtown - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1935/100x100/2095801056.jpg">
-						<Location address="Demo - 340 Biscayne Boulevard Miami Florida 33132" city="Miami" countryCode="US" latitude="25.7778686776507" location="Downtown Area" longitude="-80.1888185423279" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
+" hotelId="1244993" minAverPrice="103.13" minAverPublishPrice="103.13" name="Design Suites Miami Beach - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/1244993/100x100/1050583706.JPG">
+						<Location address="Demo - 5445 Collins Ave Miami Beach Florida 33140" city="Miami Beach" countryCode="US" latitude="25.8340294038372" location="North Beach" longitude="-80.1202027202377" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="3933096" isAvailable="true" name="Standard" nights="3" productId="1935;3933096;385127" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="12506464" isAvailable="true" name="Bay View Special" nights="3" productId="1244993;12506464;8243426" roomId="4924340" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
+								<Discount from="2019-06-01T00:00:00" name="Special Deal" to="2019-06-04T00:00:00" type="Percent" value="10" xsi:type="ProgressivePromotion"/>
 								<Occupancies>
-									<Occupancy avrNightPrice="129.27" avrNightPublishPrice="129.27" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1935;3933096;385127;2;1;0" occupPrice="1387.82" occupPublishPrice="1387.82" tax="44.61" taxPublish="44.61">
+									<Occupancy avrNightPrice="103.13" avrNightPublishPrice="103.13" bedding="1,1" isPublish="false" maxChild="1" maxGuests="4" occupId="1244993;12506464;8243426;2;1;0" occupPrice="1309.38" occupPublishPrice="1309.38" tax="38" taxPublish="38">
 										<PriceBreakdown>
-											<Price offset="0" value="149.16" valuePublish="149.16"/>
-											<Price offset="1" value="128.41" valuePublish="128.41"/>
-											<Price offset="2" value="110.25" valuePublish="110.25"/>
+											<Price offset="0" value="108.28" valuePublish="108.28"/>
+											<Price offset="1" value="100.55" valuePublish="100.55"/>
+											<Price offset="2" value="100.55" valuePublish="100.55"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="1">
@@ -322,14 +222,16 @@ This hotel is located in the heart of Miami in the direct vicinity of the world 
 												<ChildAges/>
 											</Room>
 										</Rooms>
-										<SelctedSupplements/>
+										<SelctedSupplements>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
 										<BoardBases/>
 									</Occupancy>
-									<Occupancy avrNightPrice="129.27" avrNightPublishPrice="129.27" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1935;3933096;385127;2;2;1;1" occupPrice="1387.82" occupPublishPrice="1387.82" tax="44.61" taxPublish="44.61">
+									<Occupancy avrNightPrice="103.13" avrNightPublishPrice="103.13" bedding="3,1" isPublish="false" maxChild="1" maxGuests="4" occupId="1244993;12506464;8243426;2;2;1;1" occupPrice="1309.38" occupPublishPrice="1309.38" tax="38" taxPublish="38">
 										<PriceBreakdown>
-											<Price offset="0" value="149.16" valuePublish="149.16"/>
-											<Price offset="1" value="128.41" valuePublish="128.41"/>
-											<Price offset="2" value="110.25" valuePublish="110.25"/>
+											<Price offset="0" value="108.28" valuePublish="108.28"/>
+											<Price offset="1" value="100.55" valuePublish="100.55"/>
+											<Price offset="2" value="100.55" valuePublish="100.55"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="2">
@@ -340,14 +242,16 @@ This hotel is located in the heart of Miami in the direct vicinity of the world 
 												</ChildAges>
 											</Room>
 										</Rooms>
-										<SelctedSupplements/>
+										<SelctedSupplements>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
 										<BoardBases/>
 									</Occupancy>
-									<Occupancy avrNightPrice="129.27" avrNightPublishPrice="129.27" bedding="3,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1935;3933096;385127;2;2;1;2" occupPrice="1387.82" occupPublishPrice="1387.82" tax="44.61" taxPublish="44.61">
+									<Occupancy avrNightPrice="103.13" avrNightPublishPrice="103.13" bedding="3,2" isPublish="false" maxChild="1" maxGuests="4" occupId="1244993;12506464;8243426;2;2;1;2" occupPrice="1309.38" occupPublishPrice="1309.38" tax="38" taxPublish="38">
 										<PriceBreakdown>
-											<Price offset="0" value="149.16" valuePublish="149.16"/>
-											<Price offset="1" value="128.41" valuePublish="128.41"/>
-											<Price offset="2" value="110.25" valuePublish="110.25"/>
+											<Price offset="0" value="108.28" valuePublish="108.28"/>
+											<Price offset="1" value="100.55" valuePublish="100.55"/>
+											<Price offset="2" value="100.55" valuePublish="100.55"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="2">
@@ -358,23 +262,26 @@ This hotel is located in the heart of Miami in the direct vicinity of the world 
 												</ChildAges>
 											</Room>
 										</Rooms>
-										<SelctedSupplements/>
+										<SelctedSupplements>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
 										<BoardBases/>
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="12506465" isAvailable="true" name="Ocean View Special" nights="3" productId="1244993;12506465;8243426" roomId="143130" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
+								<Discount from="2019-06-01T00:00:00" name="Special Deal" to="2019-06-04T00:00:00" type="Percent" value="10" xsi:type="ProgressivePromotion"/>
 								<Occupancies>
-									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;1;0" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
+									<Occupancy avrNightPrice="109.58" avrNightPublishPrice="109.58" bedding="1,1" isPublish="false" maxChild="1" maxGuests="4" occupId="1244993;12506465;8243426;2;1;0" occupPrice="1328.73" occupPublishPrice="1328.73" tax="40.37" taxPublish="40.37">
 										<PriceBreakdown>
-											<Price offset="0" value="314.05" valuePublish="314.05"/>
-											<Price offset="1" value="274.79" valuePublish="274.79"/>
-											<Price offset="2" value="274.79" valuePublish="274.79"/>
+											<Price offset="0" value="114.73" valuePublish="114.73"/>
+											<Price offset="1" value="107" valuePublish="107"/>
+											<Price offset="2" value="107" valuePublish="107"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="1">
@@ -384,15 +291,15 @@ This hotel is located in the heart of Miami in the direct vicinity of the world 
 											</Room>
 										</Rooms>
 										<SelctedSupplements>
-											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
 										</SelctedSupplements>
 										<BoardBases/>
 									</Occupancy>
-									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;2;1;1" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
+									<Occupancy avrNightPrice="109.58" avrNightPublishPrice="109.58" bedding="3,1" isPublish="false" maxChild="1" maxGuests="4" occupId="1244993;12506465;8243426;2;2;1;1" occupPrice="1328.73" occupPublishPrice="1328.73" tax="40.37" taxPublish="40.37">
 										<PriceBreakdown>
-											<Price offset="0" value="314.05" valuePublish="314.05"/>
-											<Price offset="1" value="274.79" valuePublish="274.79"/>
-											<Price offset="2" value="274.79" valuePublish="274.79"/>
+											<Price offset="0" value="114.73" valuePublish="114.73"/>
+											<Price offset="1" value="107" valuePublish="107"/>
+											<Price offset="2" value="107" valuePublish="107"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="2">
@@ -404,7 +311,27 @@ This hotel is located in the heart of Miami in the direct vicinity of the world 
 											</Room>
 										</Rooms>
 										<SelctedSupplements>
-											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases/>
+									</Occupancy>
+									<Occupancy avrNightPrice="109.58" avrNightPublishPrice="109.58" bedding="3,2" isPublish="false" maxChild="1" maxGuests="4" occupId="1244993;12506465;8243426;2;2;1;2" occupPrice="1328.73" occupPublishPrice="1328.73" tax="40.37" taxPublish="40.37">
+										<PriceBreakdown>
+											<Price offset="0" value="114.73" valuePublish="114.73"/>
+											<Price offset="1" value="107" valuePublish="107"/>
+											<Price offset="2" value="107" valuePublish="107"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
 										</SelctedSupplements>
 										<BoardBases/>
 									</Occupancy>
@@ -412,25 +339,23 @@ This hotel is located in the heart of Miami in the direct vicinity of the world 
 							</RoomType>
 						</RoomTypes>
 					</Hotel>
-					<Hotel NumOfRoom="87" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Superior First Class" currency="USD" desc="Demo - Decorated with 1940s photos, our rooms feature vintage-inspired furnishings, wood accents and marble bathrooms; some have curved windows or balconies. Modern touches include 55-inch flat-screen TVs and iPod docks. WiFi is available.
+					<Hotel NumOfRoom="312" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - Location
 
-
-
-The rooftop " hotelId="1316296" minAverPrice="252.99" minAverPublishPrice="252.99" name="Gale South Beach - Demo" provider="localTgsProvider" starsLevel="4" thumb="http://image1.urlforimages.com/Images/1316296/100x100/1206571713.jpg">
-						<Location address="Demo - 1690 Collins Avenue Miami Beach Florida 33139" city="Miami Beach" countryCode="US" latitude="25.7921307174819" location="South Beach" longitude="-80.1302392969589" searchingCity="Miami Beach" searchingState="Florida" stateCode="FL"/>
+This family-friendly hotel enjoys a great location directly beside Miami's northern beach, Sunny Isles Beach. Here, guests will find a private angling pier and a man-made reef. Miami's southern beaches are only around 10 minutes' drive an" hotelId="948" minAverPrice="129.71" minAverPublishPrice="129.71" name="Newport Beachside Hotel &amp; Resort - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/948/100x100/537053424.jpg">
+						<Location address="Demo - 16701 Collins Avenue Miami Florida 33160" city="Miami" countryCode="US" latitude="25.9302236558671" location="Sunny Isles" longitude="-80.1215682361763" searchingCity="Miami" searchingState="Florida" stateCode="FL"/>
 						<RoomTypes>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13033800" isAvailable="true" name="Signature 2 Beds" nights="3" productId="1316296;13033800;9983706" roomId="4970338" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="2778729" isAvailable="true" name="1 Bedroom Suite City View" nights="3" productId="948;2778729;232268" roomId="387" roomTypeCategory="Suite" roomTypeCategoryId="19" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
-									<Occupancy avrNightPrice="252.99" avrNightPublishPrice="252.99" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="1316296;13033800;9983706;1;1;0" occupPrice="758.96" occupPublishPrice="758.96" tax="93.21" taxPublish="93.21">
+									<Occupancy avrNightPrice="129.71" avrNightPublishPrice="129.71" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="948;2778729;232268;3;1;0" occupPrice="1389.13" occupPublishPrice="1389.13" tax="44.76" taxPublish="44.76">
 										<PriceBreakdown>
-											<Price offset="0" value="287.88" valuePublish="287.88"/>
-											<Price offset="1" value="235.54" valuePublish="235.54"/>
-											<Price offset="2" value="235.54" valuePublish="235.54"/>
+											<Price offset="0" value="129.71" valuePublish="129.71"/>
+											<Price offset="1" value="129.71" valuePublish="129.71"/>
+											<Price offset="2" value="129.71" valuePublish="129.71"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="1">
@@ -442,13 +367,15 @@ The rooftop " hotelId="1316296" minAverPrice="252.99" minAverPublishPrice="252.9
 										<SelctedSupplements>
 											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
 										</SelctedSupplements>
-										<BoardBases/>
+										<BoardBases>
+											<Boardbase bbId="4" bbName="Breakfast Buffet" bbPrice="58.37" bbPublishPrice="58.37"/>
+										</BoardBases>
 									</Occupancy>
-									<Occupancy avrNightPrice="252.99" avrNightPublishPrice="252.99" bedding="3,2" isPublish="false" maxChild="2" maxGuests="4" occupId="1316296;13033800;9983706;1;2;1" occupPrice="758.96" occupPublishPrice="758.96" tax="93.21" taxPublish="93.21">
+									<Occupancy avrNightPrice="129.71" avrNightPublishPrice="129.71" bedding="3,2" isPublish="false" maxChild="2" maxGuests="4" occupId="948;2778729;232268;3;2;1" occupPrice="1389.13" occupPublishPrice="1389.13" tax="44.76" taxPublish="44.76">
 										<PriceBreakdown>
-											<Price offset="0" value="287.88" valuePublish="287.88"/>
-											<Price offset="1" value="235.54" valuePublish="235.54"/>
-											<Price offset="2" value="235.54" valuePublish="235.54"/>
+											<Price offset="0" value="129.71" valuePublish="129.71"/>
+											<Price offset="1" value="129.71" valuePublish="129.71"/>
+											<Price offset="2" value="129.71" valuePublish="129.71"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="2">
@@ -462,22 +389,24 @@ The rooftop " hotelId="1316296" minAverPrice="252.99" minAverPublishPrice="252.9
 										<SelctedSupplements>
 											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
 										</SelctedSupplements>
-										<BoardBases/>
+										<BoardBases>
+											<Boardbase bbId="4" bbName="Breakfast Buffet" bbPrice="116.74" bbPublishPrice="116.74"/>
+										</BoardBases>
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
-							<RoomType NumOfBathrooms="0" hotelRoomTypeId="13257725" isAvailable="true" name="Partial Ocean View Double" nights="3" productId="2155;13257725;13243353" roomId="25399" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="16175197" isAvailable="true" name="2 Bedroom Suite City View" nights="3" productId="948;16175197;232268" roomId="690" roomTypeCategory="Suite" roomTypeCategoryId="19" startDate="2019-06-01T00:00:00">
 								<AvailabilityBreakdown>
 									<Availability offset="0" status="true"/>
 									<Availability offset="1" status="true"/>
 									<Availability offset="2" status="true"/>
 								</AvailabilityBreakdown>
 								<Occupancies>
-									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;1;0" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
+									<Occupancy avrNightPrice="219.2" avrNightPublishPrice="219.2" bedding="1,1" isPublish="false" maxChild="2" maxGuests="4" occupId="948;16175197;232268;3;1;0" occupPrice="1657.6" occupPublishPrice="1657.6" tax="75.66" taxPublish="75.66">
 										<PriceBreakdown>
-											<Price offset="0" value="314.05" valuePublish="314.05"/>
-											<Price offset="1" value="274.79" valuePublish="274.79"/>
-											<Price offset="2" value="274.79" valuePublish="274.79"/>
+											<Price offset="0" value="219.2" valuePublish="219.2"/>
+											<Price offset="1" value="219.2" valuePublish="219.2"/>
+											<Price offset="2" value="219.2" valuePublish="219.2"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="1">
@@ -487,15 +416,17 @@ The rooftop " hotelId="1316296" minAverPrice="252.99" minAverPublishPrice="252.9
 											</Room>
 										</Rooms>
 										<SelctedSupplements>
-											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
 										</SelctedSupplements>
-										<BoardBases/>
+										<BoardBases>
+											<Boardbase bbId="4" bbName="Breakfast Buffet" bbPrice="58.37" bbPublishPrice="58.37"/>
+										</BoardBases>
 									</Occupancy>
-									<Occupancy avrNightPrice="287.88" avrNightPublishPrice="287.88" bedding="3,1" isPublish="false" maxChild="2" maxGuests="4" occupId="2155;13257725;13243353;2;2;1;1" occupPrice="863.63" occupPublishPrice="863.63" tax="106.07" taxPublish="106.07">
+									<Occupancy avrNightPrice="219.2" avrNightPublishPrice="219.2" bedding="3,2" isPublish="false" maxChild="2" maxGuests="4" occupId="948;16175197;232268;3;2;1" occupPrice="1657.6" occupPublishPrice="1657.6" tax="75.66" taxPublish="75.66">
 										<PriceBreakdown>
-											<Price offset="0" value="314.05" valuePublish="314.05"/>
-											<Price offset="1" value="274.79" valuePublish="274.79"/>
-											<Price offset="2" value="274.79" valuePublish="274.79"/>
+											<Price offset="0" value="219.2" valuePublish="219.2"/>
+											<Price offset="1" value="219.2" valuePublish="219.2"/>
+											<Price offset="2" value="219.2" valuePublish="219.2"/>
 										</PriceBreakdown>
 										<Rooms>
 											<Room seqNum="2">
@@ -507,9 +438,230 @@ The rooftop " hotelId="1316296" minAverPrice="252.99" minAverPublishPrice="252.9
 											</Room>
 										</Rooms>
 										<SelctedSupplements>
-											<Supplement price="96.00" publishPrice="96.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="75.00" publishPrice="75.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
 										</SelctedSupplements>
-										<BoardBases/>
+										<BoardBases>
+											<Boardbase bbId="4" bbName="Breakfast Buffet" bbPrice="116.74" bbPublishPrice="116.74"/>
+										</BoardBases>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+						</RoomTypes>
+					</Hotel>
+					<Hotel NumOfRoom="220" PropertySubType="" PropertyType="Hotel" bestValue="false" brandId="424" brandName="Independent Managed Hotels" category="Moderate" currency="USD" desc="Demo - Location
+
+The hotel lies opposite the beach and the exclusive shopping centre &quot;Bal Harbour Shops&quot;. It is around 15 minutes' drive to the Art-Déco quarter. Restaurants and entertainment venues can all be easily reached on foot, and Miami airport is " hotelId="952" minAverPrice="197.49" minAverPublishPrice="197.49" name="Sea View Bal Harbour Hotel - Demo" provider="localTgsProvider" starsLevel="3" thumb="http://image1.urlforimages.com/Images/952/100x100/1857557204.jpg">
+						<Location address="Demo - 9909 Collins Avenue Bal Harbour Florida 33154" city="Bal Harbour" countryCode="US" latitude="25.8909990911004" location="" longitude="-80.1229676441803" searchingCity="Bal Harbour" searchingState="Florida" stateCode="FL"/>
+						<RoomTypes>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="12208798" isAvailable="true" name="Standard" nights="3" productId="952;12208798;4774681" roomId="3" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="197.49" avrNightPublishPrice="197.49" bedding="1,1" isPublish="false" maxChild="1" maxGuests="3" occupId="952;12208798;4774681;3;1;0" occupPrice="1592.47" occupPublishPrice="1592.47" tax="58.71" taxPublish="58.71">
+										<PriceBreakdown>
+											<Price offset="0" value="197.49" valuePublish="197.49"/>
+											<Price offset="1" value="197.49" valuePublish="197.49"/>
+											<Price offset="2" value="197.49" valuePublish="197.49"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+												<ChildAges/>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+									<Occupancy avrNightPrice="197.49" avrNightPublishPrice="197.49" bedding="3,2" isPublish="false" maxChild="1" maxGuests="3" occupId="952;12208798;4774681;3;2;1" occupPrice="1592.47" occupPublishPrice="1592.47" tax="58.71" taxPublish="58.71">
+										<PriceBreakdown>
+											<Price offset="0" value="197.49" valuePublish="197.49"/>
+											<Price offset="1" value="197.49" valuePublish="197.49"/>
+											<Price offset="2" value="197.49" valuePublish="197.49"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15444687" isAvailable="true" name="Bay View Balcony" nights="3" productId="952;15444687;4774681" roomId="5287073" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="235.71" avrNightPublishPrice="235.71" bedding="1,1" isPublish="false" maxChild="1" maxGuests="3" occupId="952;15444687;4774681;3;1;0" occupPrice="1707.13" occupPublishPrice="1707.13" tax="70.08" taxPublish="70.08">
+										<PriceBreakdown>
+											<Price offset="0" value="235.71" valuePublish="235.71"/>
+											<Price offset="1" value="235.71" valuePublish="235.71"/>
+											<Price offset="2" value="235.71" valuePublish="235.71"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+												<ChildAges/>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+									<Occupancy avrNightPrice="235.71" avrNightPublishPrice="235.71" bedding="3,2" isPublish="false" maxChild="1" maxGuests="3" occupId="952;15444687;4774681;3;2;1" occupPrice="1707.13" occupPublishPrice="1707.13" tax="70.08" taxPublish="70.08">
+										<PriceBreakdown>
+											<Price offset="0" value="235.71" valuePublish="235.71"/>
+											<Price offset="1" value="235.71" valuePublish="235.71"/>
+											<Price offset="2" value="235.71" valuePublish="235.71"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15444688" isAvailable="true" name="Partial Ocean View Balcony" nights="3" productId="952;15444688;4774681" roomId="5287075" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="324.9" avrNightPublishPrice="324.9" bedding="1,1" isPublish="false" maxChild="1" maxGuests="3" occupId="952;15444688;4774681;3;1;0" occupPrice="974.7" occupPublishPrice="974.7" tax="96.6" taxPublish="96.6">
+										<PriceBreakdown>
+											<Price offset="0" value="324.9" valuePublish="324.9"/>
+											<Price offset="1" value="324.9" valuePublish="324.9"/>
+											<Price offset="2" value="324.9" valuePublish="324.9"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+												<ChildAges/>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+									<Occupancy avrNightPrice="324.9" avrNightPublishPrice="324.9" bedding="3,2" isPublish="false" maxChild="1" maxGuests="3" occupId="952;15444688;4774681;3;2;1" occupPrice="974.7" occupPublishPrice="974.7" tax="96.6" taxPublish="96.6">
+										<PriceBreakdown>
+											<Price offset="0" value="324.9" valuePublish="324.9"/>
+											<Price offset="1" value="324.9" valuePublish="324.9"/>
+											<Price offset="2" value="324.9" valuePublish="324.9"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+								</Occupancies>
+							</RoomType>
+							<RoomType NumOfBathrooms="0" hotelRoomTypeId="15444689" isAvailable="true" name="Ocean Front Balcony" nights="3" productId="952;15444689;4774681" roomId="93690" roomTypeCategory="Standard" roomTypeCategoryId="17" startDate="2019-06-01T00:00:00">
+								<AvailabilityBreakdown>
+									<Availability offset="0" status="true"/>
+									<Availability offset="1" status="true"/>
+									<Availability offset="2" status="true"/>
+								</AvailabilityBreakdown>
+								<Occupancies>
+									<Occupancy avrNightPrice="363.12" avrNightPublishPrice="363.12" bedding="1,1" isPublish="false" maxChild="1" maxGuests="3" occupId="952;15444689;4774681;3;1;0" occupPrice="1089.36" occupPublishPrice="1089.36" tax="107.94" taxPublish="107.94">
+										<PriceBreakdown>
+											<Price offset="0" value="363.12" valuePublish="363.12"/>
+											<Price offset="1" value="363.12" valuePublish="363.12"/>
+											<Price offset="2" value="363.12" valuePublish="363.12"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="1">
+												<AdultNum>1</AdultNum>
+												<ChildNum>0</ChildNum>
+												<ChildAges/>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
+									</Occupancy>
+									<Occupancy avrNightPrice="363.12" avrNightPublishPrice="363.12" bedding="3,2" isPublish="false" maxChild="1" maxGuests="3" occupId="952;15444689;4774681;3;2;1" occupPrice="1089.36" occupPublishPrice="1089.36" tax="107.94" taxPublish="107.94">
+										<PriceBreakdown>
+											<Price offset="0" value="363.12" valuePublish="363.12"/>
+											<Price offset="1" value="363.12" valuePublish="363.12"/>
+											<Price offset="2" value="363.12" valuePublish="363.12"/>
+										</PriceBreakdown>
+										<Rooms>
+											<Room seqNum="2">
+												<AdultNum>2</AdultNum>
+												<ChildNum>1</ChildNum>
+												<ChildAges>
+													<ChildAge age="10"/>
+												</ChildAges>
+											</Room>
+										</Rooms>
+										<SelctedSupplements>
+											<Supplement price="60.00" publishPrice="60.00" suppChargeType="AtProperty" suppId="5" suppIsMandatory="true" suppName="Resort Fee" supptType="8" xsi:type="PerRoomSupplement"/>
+											<Supplement price="59.97" publishPrice="59.97" suppChargeType="AtProperty" suppId="1204751" suppIsMandatory="true" suppName="Parking" supptType="8" xsi:type="PerRoomSupplement"/>
+										</SelctedSupplements>
+										<BoardBases>
+											<Boardbase bbId="1" bbName="Continental Breakfast" bbPrice="0" bbPublishPrice="0"/>
+										</BoardBases>
 									</Occupancy>
 								</Occupancies>
 							</RoomType>
