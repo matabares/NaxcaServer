@@ -1,0 +1,52 @@
+{
+  "auditData": {
+    "processTime": "236",
+    "timestamp": "2019-04-20 23:20:39.501",
+    "requestHost": "186.31.2.167, 176.34.239.197",
+    "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "09049e5f-99c8-425e-acf9-fc4999cea197",
+    "internal": "0|02~~D93C72AF67314D3155579523648100AACO0000202013300041024177|CO|10|202|1|||||||||||R|1|2|~1~1~0|0|133||4|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "hotel":{
+                "code": 70,
+                "name": "Puig de Ros d Alt",
+                "categoryCode": "AG",
+                "destinationCode": "PMI",
+                "zoneCode": 58,
+                "zoneName": "Llucmajor",
+                "latitude": "39.451536",
+                "longitude": "2.790353",
+                "rooms": [
+                    {
+                        "code": "JSU.ST-1",
+                        "rates": [
+                            {
+                                "rateKey": "rk70",
+                              "rateType": "BOOKABLE",
+            "rateComments": "Car park YES (without additional debit notes).",
+                                "rateClass": "NRF",
+                                "net": "70",
+                                "allotment": 1,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "366.20",
+                                        "from": "2019-04-19T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "230.56",
+                "maxRate": "444.12",
+                "currency": "USD"
+            }
+}

@@ -1,4 +1,9 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
+import json
+from xmljson import badgerfish as bf
+from xml.etree.ElementTree import fromstring
+from json2html import json2html
+import os
 
 from HotelBedsSimulation import HotelBedsSimulation
 from TouricoExtrasSimulation import TouricoExtrasSimulation
@@ -19,7 +24,47 @@ from TouricoHotelsSimulation import TouricoHotelsSimulation
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
-        if "apitudesimulation" in self.path:
+        if "providersimulation" in self.path:
+            if (str(self.path).endswith(".json") or str(self.path).endswith(".xml")):
+                self.send_response(200)
+                self.send_header('Content-Type', 'text/html')
+                self.end_headers()
+                filename = str(self.path)[1:]
+                file = open(filename, "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                if(str(self.path).endswith(".json")):
+                    data = json2html.convert(json=json.loads(data), table_attributes="class=\"table table-condensed table-bordered table-hover\"")
+                if (str(self.path).endswith(".xml")):
+                    data = json.dumps(bf.data(fromstring(data)))
+                    data = json2html.convert(json=json.loads(data), table_attributes="class=\"table table-condensed table-bordered table-hover\"")
+
+                data = '<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></head><body>' + data + "</body></html>"
+                self.wfile.write(bytes(str(data), 'UTF-8'))
+                return
+
+            self.send_response(200)
+            self.send_header('Content-Type', 'text/html')
+            self.end_headers()
+
+            rootDir = 'providersimulation/'
+            htmlResponse = ''
+            for subdir, dirs, files in os.walk(rootDir):
+                for file in files:
+                    fileLink = '<a href="/'+subdir +'/'+ file + '">' + file + '</a><br/>'
+                    htmlResponse = htmlResponse + '<tr> <td scope="row">'+subdir.split('/')[1]+'</td> <td>'+fileLink+'</td> </tr>'
+
+
+            htmlResponse = '<table class="table table-bordered"> <thead> <tr> <th scope="col">Provider</th> <th scope="col">File</th> </tr> </thead> <tbody> ' + htmlResponse + '</tbody> </table>'
+            htmlResponse = '<html><head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></head><body>' + htmlResponse + "</body></html>"
+            self.wfile.write(bytes(str(htmlResponse), 'UTF-8'))
+
+            #self.wfile.write(bytes("<version>2.2.39</version>", 'UTF-8'))
+
+
+
+
+        if "apitudehotelessimulation" in self.path:
             apitude = ApitudeHotelesSimulation()
             response = apitude.ApitudeGetResponse(self)
             return response
@@ -66,7 +111,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.2.39</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.2.42</version>", 'UTF-8'))
 
 
 
@@ -133,9 +178,9 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             response = rezgain.RezariResponse(self)
             return response
 
-        if "apitudehoteles" in self.path:
+        if "apitudehotelessimulation" in self.path:
             apitudeHoteles = ApitudeHotelesSimulation()
-            response = apitudeHoteles.ApitudeResponse(self)
+            response = apitudeHoteles.ApitudePostResponse(self)
             return response
 
         if "touricohotelsimulation" in self.path:

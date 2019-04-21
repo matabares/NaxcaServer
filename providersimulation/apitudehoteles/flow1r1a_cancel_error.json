@@ -1,0 +1,16 @@
+{
+  "auditData": {
+    "processTime": "0",
+    "timestamp": "2019-04-21 15:56:11.224",
+    "requestHost": "190.25.109.187, 176.34.239.195",
+    "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "41b55ed6-b7a2-4040-a0b2-1d8089475ecd",
+    "internal": "0||||0|0||||||||||||0||||0||0|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "error": {
+    "code": "INVALID_DATA-41b55ed6-b7a2-4040-a0b2-1d8089475ecd",
+    "message": "Invalid data. Error at property bookingId: "
+  }
+}

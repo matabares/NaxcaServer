@@ -1,17 +1,20 @@
 import datetime
+import json
 
 class ApitudeHotelesSimulation:
 
-    def GetCheckin(self):
-        return datetime.date.today() + datetime.timedelta(days=30)
+    def ReplaceCancelationPoliciesDates(self, data, checkIn):
+        jsonBody = json.loads(data)
+        for hotel in jsonBody['hotels']['hotels']:
+            for room in hotel['rooms']:
+                for rate in room['rates']:
+                    if 'cancellationPolicies' in rate:
+                        offset = 0
+                        for clx in rate['cancellationPolicies']:
+                            offset = offset + 2
+                            clx['from'] = f"{(checkIn - datetime.timedelta(days=offset)).strftime('%Y-%m-%d')}T23:59:00+02:00"
+        return json.dumps(jsonBody)
 
-    def GetCheckout(self):
-        return datetime.date.today() + datetime.timedelta(days=33)
-
-    def ReplaceDates(self, data):
-        data = str.replace(data, "{datecheck1}", self.GetCheckin().strftime("%Y-%m-%d"))
-        data = str.replace(data, "{datecheck2}", self.GetCheckout().strftime("%Y-%m-%d"))
-        return data
 
 
     def ApitudeGetResponse(self, info):
@@ -33,288 +36,48 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
-    def ApitudeResponse(self, info):
+    def ApitudePostResponse(self, info):
         info.send_response(200)
         info.send_header('Content-Type', 'application/json;charset=UTF-8')
         info.end_headers()
         contentLen = int(info.headers['Content-Length'])
         postBody = info.rfile.read(contentLen)
         body = str(postBody, "utf-8")
+        jsonBody = json.loads(body)
+        today = datetime.datetime.now()
+
+        if "hotels" in info.path:
+            checkIn = jsonBody['stay']['checkIn']
+            checkOut = jsonBody['stay']['checkOut']
+            occupanciesCount = len(jsonBody['occupancies'])
+            latitude = jsonBody['geolocation']['latitude']
+            longitude = jsonBody['geolocation']['longitude']
+            radius = jsonBody['geolocation']['radius']
+            occupanciesCount = len(jsonBody['occupancies'])
+            if occupanciesCount == 1:
+                adultCount = jsonBody['occupancies'][0]['adults']
+                childCount = jsonBody['occupancies'][0].get('children', 0)
+                #1r1a
+                if adultCount == 1 and childCount == 0:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    data = self.ReplaceCancelationPoliciesDates(data, checkIn)
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                #1r2a1c
+                if adultCount == 2 and childCount ==1:
+                    file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    data = self.ReplaceCancelationPoliciesDates(data, checkIn)
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+        if 'checkrates' in info.path:
+            rateKey = jsonBody['rooms'][0]['rateKey']
+            if rateKey == "":
+                pass
 
 
 
-
-        #1r1a
-        if '"latitude": 10' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 11' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-            ##1r2a1c
-        elif '"latitude": 20' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 21' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-        ##1r2a2c
-        elif '"latitude": 30' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 31' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-        ##1r2a_2r2a
-        elif '"latitude": 40' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 41' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-        ##1r1a_2r2a1c
-        elif '"latitude": 50' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 51' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-        ##1r2a2c_2r2a2c
-        elif '"latitude": 60' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 61' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-        ##1r3a_2r4a
-        elif '"latitude": 70' in body:
-            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        elif '"latitude": 71' in body:
-            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse_Hotels_1.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            data = self.ReplaceDates(data)
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-#check
-        # 1r1a
-        if '"rateKey": "10"' in body and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_checkresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-        ##1r2a1c
-        elif '"rateKey": "20"' in body  and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a1c_checkresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-        ##1r2a2c
-        elif '"rateKey": "30"' in body  and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_checkresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r2a_2r2a
-        elif '"rateKey": "40"' in body  and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_checkresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r1a_2r2a1c
-        elif '"rateKey": "50"' in body  and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_checkresponse.json", "r",
-                        encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r2a2c_2r2a2c
-        elif '"rateKey": "60"' in body  and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_checkresponse.json", "r",
-                        encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r3a_2r4a
-        elif '"rateKey": "70"' in body  and '"language": null' in body:
-            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_checkresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-#booking
-        # 1r1a
-        if '"rateKey": "10"' in body :
-            file = open("providersimulation/apitudehoteles/flow1r1a_bookingresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-        ##1r2a1c
-        elif '"rateKey": "20"' in body  :
-            file = open("providersimulation/apitudehoteles/flow1r2a1c_bookingresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-        ##1r2a2c
-        elif '"rateKey": "30"' in body  :
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_bookingresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r2a_2r2a
-        elif '"rateKey": "40"' in body  :
-            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_bookingresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r1a_2r2a1c
-        elif '"rateKey": "50"' in body  :
-            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_bookingresponse.json", "r",
-                        encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r2a2c_2r2a2c
-        elif '"rateKey": "60"' in body  :
-            file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_bookingresponse.json", "r",
-                        encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-
-
-        ##1r3a_2r4a
-        elif '"rateKey": "70"' in body  :
-            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_bookingresponse.json", "r", encoding='utf8')
-            data = file.read()
-            file.close()
-            info.wfile.write(bytes(data, 'UTF-8'))
-            return info
-
-#cancel
-
-# 1r1a
-# file = open("providersimulation/apitudehoteles/flow1r1a_cancelresponse.json", "r", encoding='utf8')
-
-##1r2a1c
-#file = open("providersimulation/apitudehoteles/flow1r2a1c_aancelresponse.json", "r", encoding='utf8')
-
-##1r2a2c
-#file = open("providersimulation/apitudehoteles/flow1r2a2c_cancelresponse.json", "r", encoding='utf8')
-
-##1r2a_2r2a
-#file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_cancelresponse.json", "r", encoding='utf8')
-
-##1r1a_2r2a1c
-#file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_cancelresponse.json", "r",encoding='utf8')
-
-##1r2a2c_2r2a2c
-#file = open("providersimulation/apitudehoteles/flow1r2a2c_2r2a2c_cancelresponse.json", "r",encoding='utf8')
-
-##1r3a_2r4a
-#file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_cancelresponse.json", "r", encoding='utf8')

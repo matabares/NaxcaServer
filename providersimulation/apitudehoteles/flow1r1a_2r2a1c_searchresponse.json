@@ -26,217 +26,24 @@
                         "rates": [
                             {
                                 "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021021214f",
-                                "rateClass": "NOR",
-                                "net": "335.18",
+                                "rateClass": "NRF",
+                                "net": "10",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
                                 "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210248182",
-                                "rateClass": "NOR",
-                                "net": "386.72",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
+                                "adults": 1,
                                 "children": 0
                             },
                             {
                                 "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021024218a",
-                                "rateClass": "NOR",
-                                "net": "394.66",
+                                "rateClass": "NRF",
+                                "net": "11",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102021d8",
-                                "rateClass": "NOR",
-                                "net": "472.02",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "ROO.PI",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.PI|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021024218a",
-                                "rateClass": "NOR",
-                                "net": "394.66",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.PI|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102181be",
-                                "rateClass": "NOR",
-                                "net": "446.24",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "ROO.CV-PI",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.CV-PI|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021024218a",
-                                "rateClass": "NOR",
-                                "net": "394.66",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.CV-PI|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102181be",
-                                "rateClass": "NOR",
-                                "net": "446.24",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "ROO.ST",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.ST|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102521ed",
-                                "rateClass": "NOR",
-                                "net": "493.82",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.ST|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210226221",
-                                "rateClass": "NOR",
-                                "net": "545.38",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.ST|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210220229",
-                                "rateClass": "NOR",
-                                "net": "553.32",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.ST|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210242276",
-                                "rateClass": "NOR",
-                                "net": "630.66",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "SUI.ST",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|SUI.ST|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210242201",
-                                "rateClass": "NOR",
-                                "net": "513.66",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|SUI.ST|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210216235",
-                                "rateClass": "NOR",
-                                "net": "565.22",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|SUI.ST|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021020e23d",
-                                "rateClass": "NOR",
-                                "net": "573.14",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|737|SUI.ST|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021023428a",
-                                "rateClass": "NOR",
-                                "net": "650.52",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
@@ -251,7 +58,7 @@
             },
             {
                 "code": 271,
-                "name": "Hotel Palma Bellver, managed by Meli\u00e1",
+                "name": "Hotel Palma Bellver, managed by Meliá",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
                 "zoneCode": 10,
@@ -265,37 +72,23 @@
                             {
                                 "rateKey": "20190823|20190825|W|1|271|ROO.CV|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021020615b",
                                 "rateClass": "NOR",
-                                "net": "347.06",
+                                "net": "20",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "358.97",
+                                        "from": "2019-09-05T23:59:00+02:00"
+                                    },
+                                    {
+                                        "amount": "717.94",
+                                        "from": "2019-09-05T23:59:00+02:00"
+                                    }
+                                ],
                                 "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|ROO.CV|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210248182",
-                                "rateClass": "NOR",
-                                "net": "386.72",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|ROO.CV|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102061d2",
-                                "rateClass": "NOR",
-                                "net": "466.06",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
+                                "adults": 1,
                                 "children": 0
                             }
                         ]
@@ -304,169 +97,34 @@
                         "code": "DBL.WV",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210250178",
-                                "rateClass": "NOR",
-                                "net": "376.80",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102301a0",
-                                "rateClass": "NOR",
-                                "net": "416.48",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102501ef",
-                                "rateClass": "NOR",
-                                "net": "495.80",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
                                 "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102604a3",
                                 "rateClass": "NOR",
-                                "net": "1187.96",
+                                "net": "21",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "358.97",
+                                        "from": "2019-09-05T23:59:00+02:00"
+                                    },
+                                    {
+                                        "amount": "717.94",
+                                        "from": "2019-09-05T23:59:00+02:00"
+                                    }
+                                ],
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
                                 "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021024e52e",
-                                "rateClass": "NOR",
-                                "net": "1326.78",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "DBL.PI-VM",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.PI-VM|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102281aa",
-                                "rateClass": "NOR",
-                                "net": "426.40",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.PI-VM|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102061d2",
-                                "rateClass": "NOR",
-                                "net": "466.06",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.PI-VM|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210226221",
-                                "rateClass": "NOR",
-                                "net": "545.38",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.PI-VM|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102164fd",
-                                "rateClass": "NOR",
-                                "net": "1277.22",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.PI-VM|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210204588",
-                                "rateClass": "NOR",
-                                "net": "1416.04",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "JSU.ST",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|JSU.ST|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021023820d",
-                                "rateClass": "NOR",
-                                "net": "525.56",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|271|JSU.ST|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a25c",
-                                "rateClass": "NOR",
-                                "net": "604.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
                             }
                         ]
                     }
                 ],
                 "minRate": "347.06",
                 "maxRate": "1693.68",
-                "currency": "USD"
+                "currency": "EUR"
             },
             {
                 "code": 2759,
@@ -479,78 +137,39 @@
                 "longitude": "2.650161",
                 "rooms": [
                     {
-                        "code": "ROO.GR",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.GR|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021020615b",
-                                "rateClass": "NOR",
-                                "net": "347.06",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.GR|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021023c192",
-                                "rateClass": "NOR",
-                                "net": "402.60",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
                         "code": "ROO.DX",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.DX|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a16e",
-                                "rateClass": "NOR",
-                                "net": "366.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
                                 "rateKey": "20190823|20190825|W|1|2759|ROO.DX|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021022a1a6",
+                                "promotions": [
+                                    {"code": "073"}
+                                ],
+                                "rateCommentsId": "1|92088|3",
                                 "rateClass": "NOR",
-                                "net": "422.42",
+                                "net": "30",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "BB",
                                 "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.DX|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102181be",
-                                "rateClass": "NOR",
-                                "net": "446.24",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
+                                "adults": 1,
+                                "children": 0,
+                                "offers": [
+                                    {
+                                        "code": "9005",
+                                        "name": "Exclusive discount",
+                                        "amount": "-10.28"
+                                    }
+                                ]
                             },
                             {
                                 "rateKey": "20190823|20190825|W|1|2759|ROO.DX|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210230215",
+                                "promotions": [
+                                    {"code": "073"}
+                                ],
+                                "rateCommentsId": "1|92088|3",
                                 "rateClass": "NOR",
-                                "net": "533.48",
+                                "net": "31",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
@@ -558,117 +177,14 @@
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "STU.ST",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|STU.ST|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a16e",
-                                "rateClass": "NOR",
-                                "net": "366.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|STU.ST|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021022a1a6",
-                                "rateClass": "NOR",
-                                "net": "422.42",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|STU.ST|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102181be",
-                                "rateClass": "NOR",
-                                "net": "446.24",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|STU.ST|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210230215",
-                                "rateClass": "NOR",
-                                "net": "533.48",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
-                        "code": "ROO.PI",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.PI|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210250178",
-                                "rateClass": "NOR",
-                                "net": "376.80",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.PI|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102221b0",
-                                "rateClass": "NOR",
-                                "net": "432.34",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.PI|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021020e1c8",
-                                "rateClass": "NOR",
-                                "net": "456.14",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.PI|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021022821f",
-                                "rateClass": "NOR",
-                                "net": "543.40",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
+                                "childrenAges": "10",
+                                "offers": [
+                                    {
+                                        "code": "9005",
+                                        "name": "Exclusive discount",
+                                        "amount": "-10.28"
+                                    }
+                                ]
                             }
                         ]
                     }
@@ -691,62 +207,13 @@
                         "code": "DBL.CV",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a16e",
-                                "rateClass": "NOR",
-                                "net": "366.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
                                 "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102281aa",
                                 "rateClass": "NOR",
-                                "net": "426.40",
+                                "net": "40",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102281aa",
-                                "rateClass": "NOR",
-                                "net": "426.40",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102481f9",
-                                "rateClass": "NOR",
-                                "net": "505.72",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210240203",
-                                "rateClass": "NOR",
-                                "net": "515.64",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
@@ -760,146 +227,14 @@
                             {
                                 "rateKey": "20190823|20190825|W|1|471|DBL.PI|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021024018c",
                                 "rateClass": "NOR",
-                                "net": "396.64",
+                                "net": "41",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
                                 "rooms": 1,
-                                "adults": 2,
+                                "adults": 1,
                                 "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.PI|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021020e1c8",
-                                "rateClass": "NOR",
-                                "net": "456.14",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.PI|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021022e217",
-                                "rateClass": "NOR",
-                                "net": "535.46",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "DBL.PI-VM",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.PI-VM|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102281aa",
-                                "rateClass": "NOR",
-                                "net": "426.40",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.PI-VM|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a1e5",
-                                "rateClass": "NOR",
-                                "net": "485.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.PI-VM|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210216235",
-                                "rateClass": "NOR",
-                                "net": "565.22",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "FAM.ST",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|FAM.ST|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102061d2",
-                                "rateClass": "NOR",
-                                "net": "466.06",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|FAM.ST|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021023820d",
-                                "rateClass": "NOR",
-                                "net": "525.56",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|FAM.ST|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021023820d",
-                                "rateClass": "NOR",
-                                "net": "525.56",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|FAM.ST|ID_B2B_24|HB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a25c",
-                                "rateClass": "NOR",
-                                "net": "604.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "HB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|471|FAM.ST|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210250266",
-                                "rateClass": "NOR",
-                                "net": "614.80",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
                             }
                         ]
                     }
@@ -909,109 +244,34 @@
                 "currency": "USD"
             },
             {
-                "code": 583746,
-                "name": "Melia Palma Bay",
-                "categoryCode": "H4_5",
+                "code": 163209,
+                "name": "Melia South Beach",
+                "categoryCode": "4EST",
                 "destinationCode": "PMI",
-                "zoneCode": 10,
-                "zoneName": "Palma",
-                "latitude": "39.5633727",
-                "longitude": "2.66566940000007",
+                "zoneCode": 30,
+                "zoneName": "Magaluf",
+                "latitude": "39.504561",
+                "longitude": "2.532025",
                 "rooms": [
                     {
-                        "code": "DBL.DX",
+                        "code": "SUI.VM",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|583746|DBL.DX|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210252176",
+                                "rateKey": "20190917|20190919|W|1|163209|SUI.VM|ID_B2B_24|BB|CLG|1~2~0||N@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021020c2b6",
                                 "rateClass": "NOR",
-                                "net": "374.82",
+                                "net": "50",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
-                                "boardCode": "RO",
+                                "boardCode": "BB",
                                 "rooms": 1,
-                                "adults": 2,
+                                "adults": 1,
                                 "children": 0
                             },
                             {
-                                "rateKey": "20190823|20190825|W|1|583746|DBL.DX|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102201b2",
+                                "rateKey": "20190917|20190919|W|1|163209|SUI.VM|ID_B2B_24|BB|CLG|1~2~1|10|N@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021020e2b6",
                                 "rateClass": "NOR",
-                                "net": "434.32",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "DBL.DX-VM",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|583746|DBL.DX-VM|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO000009000130002102281aa",
-                                "rateClass": "NOR",
-                                "net": "426.40",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|583746|DBL.DX-VM|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021025a1e5",
-                                "rateClass": "NOR",
-                                "net": "485.90",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "DBL.WV",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|583746|DBL.WV|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210230215",
-                                "rateClass": "NOR",
-                                "net": "533.48",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "JSU.ST",
-                        "rates": [
-                            {
-                                "rateKey": "20190823|20190825|W|1|583746|JSU.ST|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO00000900013000210251266",
-                                "rateClass": "NOR",
-                                "net": "614.81",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "20190823|20190825|W|1|583746|JSU.ST|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210219eab",
-                                "rateClass": "NOR",
-                                "net": "3755.25",
+                                "net": "51",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
@@ -1024,8 +284,316 @@
                         ]
                     }
                 ],
-                "minRate": "374.82",
-                "maxRate": "3755.25",
+                "minRate": "694.12",
+                "maxRate": "1437.88",
+                "currency": "USD"
+            },
+            {
+                "code": 231077,
+                "name": "Marriott's Club Son Antem",
+                "categoryCode": "5EST",
+                "destinationCode": "PMI",
+                "zoneCode": 58,
+                "zoneName": "Llucmajor",
+                "latitude": "39.473844",
+                "longitude": "2.829889",
+                "rooms": [
+                    {
+                        "code": "TWH.B2",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|231077|TWH.B2|ID_B2B_26|RO|DYWA|1~2~0||N@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021021c309",
+                                "rateClass": "NRF",
+                                "net": "60",
+                                "allotment": 9,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "777.28",
+                                        "from": "2019-04-19T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            },
+                            {
+                                "rateKey": "20190917|20190919|W|1|231077|TWH.B2|ID_B2B_26|RO|DYWA|1~2~1|10|N@02~~F7F5229BE94C4CF155578424015200AACO00001100012000210252313",
+                                "rateClass": "NRF",
+                                "net": "61",
+                                "allotment": 9,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "787.82",
+                                        "from": "2019-04-19T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10",
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "777.28",
+                "maxRate": "900.00",
+                "currency": "USD"
+            },
+            {
+                "code": 4488,
+                "name": "The St. Regis Mardavall Resort",
+                "categoryCode": "5EST",
+                "destinationCode": "PMI",
+                "zoneCode": 51,
+                "zoneName": "Portals Nous",
+                "latitude": "39.528740867972374",
+                "longitude": "2.5511163845658302",
+                "rooms": [
+                    {
+                        "code": "JSU.VM",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|4488|JSU.VM|ID_B2B_26|BB|DRBP|1~2~0||N@02~~F7F5229BE94C4CF155578424015200AACO000011000120002102446cd",
+                                "rateClass": "NOR",
+                                "net": "70",
+                                "allotment": 9,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            },
+                            {
+                                "rateKey": "20190917|20190919|W|1|4488|JSU.VM|ID_B2B_26|BB|DRBP|1~2~1|10|N@02~~F7F5229BE94C4CF155578424015200AACO000011000120002102366d8",
+                                "rateClass": "NOR",
+                                "net": "71",
+                                "allotment": 9,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "1464.76",
+                "maxRate": "1752.54",
+                "currency": "USD"
+            },
+            {
+                "code": 300,
+                "name": "TRH Jardin del Mar",
+                "categoryCode": "3EST",
+                "destinationCode": "PMI",
+                "zoneCode": 31,
+                "zoneName": "Santa Ponsa",
+                "latitude": "39.519998",
+                "longitude": "2.4721",
+                "rooms": [
+                    {
+                        "code": "APT.ST",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|300|APT.ST|OP BAR|SC||1~2~0||P@02~~F7F5229BE94C4CF155578424015200AACO00001100012000210224c3",
+                                "rateClass": "NOR",
+                                "net": "80",
+                                "allotment": 1,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "SC",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "97.68",
+                                        "from": "2019-09-15T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "offers": [
+                                    {
+                                        "code": "9005",
+                                        "name": "Exclusive discount",
+                                        "amount": "-10.28"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "APT.VM",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|300|APT.VM|OP BAR|SC||1~2~1|10|P@02~~F7F5229BE94C4CF155578424015200AACO00001100012000210218d5",
+                                "rateClass": "NOR",
+                                "net": "81",
+                                "allotment": 5,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "SC",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "106.62",
+                                        "from": "2019-09-15T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10",
+                                "offers": [
+                                    {
+                                        "code": "9005",
+                                        "name": "Exclusive discount",
+                                        "amount": "-11.24"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "195.36",
+                "maxRate": "314.12",
+                "currency": "USD"
+            },
+            {
+                "code": 765,
+                "name": "Palmanova Suites by TRH",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 29,
+                "zoneName": "Palmanova",
+                "latitude": "39.510063",
+                "longitude": "2.54139",
+                "rooms": [
+                    {
+                        "code": "SUI.C2",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|765|SUI.C2|OP-BAR-SUI-BB|BB||1~2~0||P@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021024a94",
+                                "rateClass": "NOR",
+                                "net": "90",
+                                "allotment": 3,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "148.74",
+                                        "from": "2019-09-15T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "SUI.C2-1",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|765|SUI.C2-1|OP-BAR-SUI-BB|BB||1~2~1|10|P@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021022ca5",
+                                "rateClass": "NOR",
+                                "net": "91",
+                                "allotment": 6,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "165.44",
+                                        "from": "2019-09-15T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "148.74",
+                "maxRate": "463.12",
+                "currency": "USD"
+            },
+            {
+                "code": 4659,
+                "name": "HM Ayron Park",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 20,
+                "zoneName": "Playa de Palma",
+                "latitude": "39.51017",
+                "longitude": "2.751191",
+                "rooms": [
+                    {
+                        "code": "DBT.ST",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|4659|DBT.ST|CG-OPACO HB|HB||1~2~0||P@02~~F7F5229BE94C4CF155578424015200AACO000011000120002102321a8",
+                                "rateClass": "NOR",
+                                "net": "100",
+                                "allotment": 100,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "424.50",
+                                        "from": "2019-09-14T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBT.C2",
+                        "rates": [
+                            {
+                                "rateKey": "20190917|20190919|W|1|4659|DBT.C2|CG-OPACO HB|HB||1~2~1|10|P@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021023e212",
+                                "rateClass": "NOR",
+                                "net": "101",
+                                "allotment": 100,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "HB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "530.62",
+                                        "from": "2019-09-14T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "358.34",
+                "maxRate": "530.62",
                 "currency": "USD"
             }
         ]
