@@ -126,8 +126,8 @@
                                 "offers": [
                                     {
                                         "code": "9005",
-                                        "name": "Exclusive discount",
-                                        "amount": "-10.28"
+                                        "name": "Oferta simulada",
+                                        "amount": "-1.2"
                                     }
                                 ]
                             }
