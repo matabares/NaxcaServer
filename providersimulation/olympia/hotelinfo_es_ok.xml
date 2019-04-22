@@ -11,47 +11,10 @@
                             <HotelCategory Code="5*"/>
                         </CategoryCodes>
                         <Descriptions>
-                            <DescriptiveText Name="General">El hotel fue construido en el año 2002.
-                                El alojamiento ofrece a los huéspedes un total de 115 habitaciones.
-                                En el establecimiento climatizado los huéspedes son recibidos en el
-                                vestíbulo con servicio de recepción las 24 horas y servicio de
-                                registro y salida las 24 horas. Es posible acceder a las plantas
-                                cómodamente en ascensor o bien por las escaleras. Las instalaciones
-                                incluyen una caja fuerte. La conexión Wi-Fi en las zonas públicas
-                                permite a los viajeros mantenerse en contacto con el mundo exterior.
-                                En cuanto a opciones gastronómicas, el hotel cuenta con un
-                                restaurante, un comedor, una sala de desayunos, una cafetería y un
-                                bar. Además, hay un jardín. Los huéspedes que lleguen en coche
-                                pueden dejarlo en un garaje o en el aparcamiento. También hay
-                                servicio de habitaciones y una lavandería.</DescriptiveText>
-                            <DescriptiveText Name="Habitaciones">Se ofrecen habitaciones con aire
-                                acondicionado, calefacción central y un cuarto de baño. En la
-                                mayoría de las habitaciones es posible disfrutar de las vistas desde
-                                un balcón. En las habitaciones, con suelo enmoquetado, hay cama
-                                doble o cama king size. Se pueden solicitar camas supletorias.
-                                Además, hay una caja fuerte y un minibar. Asimismo, hay disponibles
-                                una nevera, una mini nevera y una cafetera/tetera. Hay un set de
-                                plancha para mayor comodidad de los huéspedes. Pequeños extras se
-                                encargan de proporcionar una estancia agradable, como conexión a
-                                Internet, teléfono, televisor, radio, equipo de música y Wi-Fi.
-                                Algunas habitaciones son aptas para personas en sillas de ruedas.
-                                Los cuartos de baño están provistos de una ducha y una bañera. Para
-                                el uso diario hay un secador de pelo y albornoces a disposición.
-                                También es posible reservar cuartos de baño accesibles. El
-                                alojamiento ofrece habitaciónes familiares y habitaciones de no
-                                fumadores.</DescriptiveText>
-                            <DescriptiveText Name="Deporte y ocio">El establecimiento dispone de una
-                                piscina y una piscina al aire libre. La terraza para tomar el sol,
-                                las tumbonas y las sombrillas son perfectas para unas vacaciones
-                                relajadas. La bañera de hidromasaje en la zona de baño promete una
-                                relajación total. En el bar de piscina se ofrecen bebidas
-                                refrescantes. Las actividades de ocio ofrecidas proporcionan
-                                variedad; estas incluyen un gimnasio, un spa, una sauna, masajes y
-                                un solárium. El programa de entretenimiento incluye música en vivo y
-                                un club infantil. Copyright GIATA 2004 - 2019. Multilingual, powered
-                                by www.giata.com for client no. 124736</DescriptiveText>
-                            <DescriptiveText Name="Comidas">Es posible elegir
-                                desayuno.</DescriptiveText>
+                            <DescriptiveText Name="General">Descripción General</DescriptiveText>
+                            <DescriptiveText Name="Habitaciones">Descripción de habitación</DescriptiveText>
+                            <DescriptiveText Name="Deporte y ocio">Descripción de deporte</DescriptiveText>
+                            <DescriptiveText Name="Comidas">Descripción de comida</DescriptiveText>
                             <DescriptiveText Name="Tarjetas de crédito">En el hotel se aceptan las
                                 siguientes tarjetas de crédito: American Express, Visa, Diners Club
                                 y MasterCard.</DescriptiveText>
