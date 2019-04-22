@@ -13,7 +13,12 @@
 					</RoomCandidate>
 				</RoomCandidates>
 				<Hotel>
-					<Info HotelCityCode="35" HotelCode="1" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="3*" Recommended="0"/>
+					<Info HotelCityCode="35" HotelCode="1" HotelName="WEDGEWOOD HOTEL" MasterCode="1518" Rating="3*" Recommended="0">
+						<Warnings>
+							<Msg><![CDATA[The hotel may charge City Taxes 1.]]></Msg>
+							<Msg><![CDATA[The hotel may charge City Taxes 2.]]></Msg>
+						</Warnings>
+					</Info>
 					<BestPrice Amount="110.70" Currency="USD"/>
 					<Rooms>
 						<Room Best="1" RPH="1" Status="AV">
