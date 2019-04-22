@@ -1,0 +1,232 @@
+<soap-env:Envelope xmlns:soap-env="http://schemas.xmlsoap.org/soap/envelope/">
+    <soap-env:Header/>
+    <soap-env:Body>
+        <OTA_HotelDescriptiveInfoRS xmlns="http://www.opentravel.org/OTA/2003/05"
+            TimeStamp="2019-03-28T09:27:59">
+            <Success/>
+            <HotelDescriptiveContents>
+                <HotelDescriptiveContent HotelCityCode="20396" HotelCode="172333" HotelName="La Cocoteraie">
+                    <HotelInfo>
+                        <CategoryCodes>
+                            <HotelCategory Code="5*"/>
+                        </CategoryCodes>
+                        <Descriptions>
+                            <DescriptiveText Name="General">El hotel fue construido en el año 2002.
+                                El alojamiento ofrece a los huéspedes un total de 115 habitaciones.
+                                En el establecimiento climatizado los huéspedes son recibidos en el
+                                vestíbulo con servicio de recepción las 24 horas y servicio de
+                                registro y salida las 24 horas. Es posible acceder a las plantas
+                                cómodamente en ascensor o bien por las escaleras. Las instalaciones
+                                incluyen una caja fuerte. La conexión Wi-Fi en las zonas públicas
+                                permite a los viajeros mantenerse en contacto con el mundo exterior.
+                                En cuanto a opciones gastronómicas, el hotel cuenta con un
+                                restaurante, un comedor, una sala de desayunos, una cafetería y un
+                                bar. Además, hay un jardín. Los huéspedes que lleguen en coche
+                                pueden dejarlo en un garaje o en el aparcamiento. También hay
+                                servicio de habitaciones y una lavandería.</DescriptiveText>
+                            <DescriptiveText Name="Habitaciones">Se ofrecen habitaciones con aire
+                                acondicionado, calefacción central y un cuarto de baño. En la
+                                mayoría de las habitaciones es posible disfrutar de las vistas desde
+                                un balcón. En las habitaciones, con suelo enmoquetado, hay cama
+                                doble o cama king size. Se pueden solicitar camas supletorias.
+                                Además, hay una caja fuerte y un minibar. Asimismo, hay disponibles
+                                una nevera, una mini nevera y una cafetera/tetera. Hay un set de
+                                plancha para mayor comodidad de los huéspedes. Pequeños extras se
+                                encargan de proporcionar una estancia agradable, como conexión a
+                                Internet, teléfono, televisor, radio, equipo de música y Wi-Fi.
+                                Algunas habitaciones son aptas para personas en sillas de ruedas.
+                                Los cuartos de baño están provistos de una ducha y una bañera. Para
+                                el uso diario hay un secador de pelo y albornoces a disposición.
+                                También es posible reservar cuartos de baño accesibles. El
+                                alojamiento ofrece habitaciónes familiares y habitaciones de no
+                                fumadores.</DescriptiveText>
+                            <DescriptiveText Name="Deporte y ocio">El establecimiento dispone de una
+                                piscina y una piscina al aire libre. La terraza para tomar el sol,
+                                las tumbonas y las sombrillas son perfectas para unas vacaciones
+                                relajadas. La bañera de hidromasaje en la zona de baño promete una
+                                relajación total. En el bar de piscina se ofrecen bebidas
+                                refrescantes. Las actividades de ocio ofrecidas proporcionan
+                                variedad; estas incluyen un gimnasio, un spa, una sauna, masajes y
+                                un solárium. El programa de entretenimiento incluye música en vivo y
+                                un club infantil. Copyright GIATA 2004 - 2019. Multilingual, powered
+                                by www.giata.com for client no. 124736</DescriptiveText>
+                            <DescriptiveText Name="Comidas">Es posible elegir
+                                desayuno.</DescriptiveText>
+                            <DescriptiveText Name="Tarjetas de crédito">En el hotel se aceptan las
+                                siguientes tarjetas de crédito: American Express, Visa, Diners Club
+                                y MasterCard.</DescriptiveText>
+                        </Descriptions>
+                        <Position Latitude="25.7301080000" Longitude="-80.2378830000"
+                            PositionAccuracyCode="10"/>
+                    </HotelInfo>
+                    <ContactInfos>
+                        <ContactInfo>
+                            <Addresses>
+                                <Address>
+                                    <AddressLine>3300 SOUTHWEST TWENTY-SEVENTH AVENUE</AddressLine>
+                                    <CityName>MIAMI, FL</CityName>
+                                    <PostalCode>33133</PostalCode>
+                                    <CountryName>UNITED STATES</CountryName>
+                                </Address>
+                            </Addresses>
+                            <Phones>
+                                <Phone PhoneTechType="Phone" PhoneNumber="+13056444680"/>
+                                <Phone PhoneTechType="Fax" PhoneNumber="+13056444681"/>
+                            </Phones>
+                            <URLs>
+                                <URL Type="Hotel"
+                                    >http://www.ritzcarlton.com/en/Properties/CoconutGrove/Default.htm</URL>
+                                <URL Type="Image" Index="1" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img1.png</URL>
+                                <URL Type="Image" Index="1" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source1.jpg</URL>
+                                <URL Type="Image" Index="1" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb1.png</URL>
+                                <URL Type="Image" Index="2" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img2.png</URL>
+                                <URL Type="Image" Index="2" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source2.jpg</URL>
+                                <URL Type="Image" Index="2" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb2.png</URL>
+                                <URL Type="Image" Index="3" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img3.png</URL>
+                                <URL Type="Image" Index="3" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source3.jpg</URL>
+                                <URL Type="Image" Index="3" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb3.png</URL>
+                                <URL Type="Image" Index="4" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img4.png</URL>
+                                <URL Type="Image" Index="4" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source4.jpg</URL>
+                                <URL Type="Image" Index="4" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb4.png</URL>
+                                <URL Type="Image" Index="5" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img5.png</URL>
+                                <URL Type="Image" Index="5" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source5.jpg</URL>
+                                <URL Type="Image" Index="5" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb5.png</URL>
+                                <URL Type="Image" Index="6" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img6.png</URL>
+                                <URL Type="Image" Index="6" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source6.jpg</URL>
+                                <URL Type="Image" Index="6" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb6.png</URL>
+                                <URL Type="Image" Index="7" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img7.png</URL>
+                                <URL Type="Image" Index="7" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source7.jpg</URL>
+                                <URL Type="Image" Index="7" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb7.png</URL>
+                                <URL Type="Image" Index="8" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img8.png</URL>
+                                <URL Type="Image" Index="8" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source8.jpg</URL>
+                                <URL Type="Image" Index="8" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb8.png</URL>
+                                <URL Type="Image" Index="9" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img9.png</URL>
+                                <URL Type="Image" Index="9" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source9.jpg</URL>
+                                <URL Type="Image" Index="9" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb9.png</URL>
+                                <URL Type="Image" Index="10" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img10.png</URL>
+                                <URL Type="Image" Index="10" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source10.jpg</URL>
+                                <URL Type="Image" Index="10" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb10.png</URL>
+                                <URL Type="Image" Index="11" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img11.png</URL>
+                                <URL Type="Image" Index="11" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source11.jpg</URL>
+                                <URL Type="Image" Index="11" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb11.png</URL>
+                                <URL Type="Image" Index="12" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img12.png</URL>
+                                <URL Type="Image" Index="12" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source12.jpg</URL>
+                                <URL Type="Image" Index="12" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb12.png</URL>
+                                <URL Type="Image" Index="13" Size="Scaled"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/img13.png</URL>
+                                <URL Type="Image" Index="13" Size="Source"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/source13.jpg</URL>
+                                <URL Type="Image" Index="13" Size="Thumb"
+                                    >https://content.olympiaeurope.com/static3/07/16/68/images/thumb13.png</URL>
+                            </URLs>
+                        </ContactInfo>
+                    </ContactInfos>
+                    <TPA_Extensions>
+                        <PaymentMethods>
+                            <PaymentMethod>American Express</PaymentMethod>
+                            <PaymentMethod>Visa</PaymentMethod>
+                            <PaymentMethod>MasterCard</PaymentMethod>
+                            <PaymentMethod>Diners Club</PaymentMethod>
+                        </PaymentMethods>
+                        <HotelFacilities>
+                            <HotelFacility>Aire acondicionado</HotelFacility>
+                            <HotelFacility>Servicio de recepción 24 horas</HotelFacility>
+                            <HotelFacility>Servicio de registro 24 horas</HotelFacility>
+                            <HotelFacility>Internet disponible</HotelFacility>
+                            <HotelFacility>Conexión WLAN a Internet</HotelFacility>
+                            <HotelFacility>Servicio de habitaciones</HotelFacility>
+                            <HotelFacility>Servicio de lavandería</HotelFacility>
+                            <HotelFacility>Aparcamiento</HotelFacility>
+                            <HotelFacility>Garaje</HotelFacility>
+                            <HotelFacility>Club infantil</HotelFacility>
+                        </HotelFacilities>
+                        <RoomFacilities>
+                            <RoomFacility>Cuarto de baño</RoomFacility>
+                            <RoomFacility>Ducha</RoomFacility>
+                            <RoomFacility>Bañera</RoomFacility>
+                            <RoomFacility>Secador de pelo</RoomFacility>
+                            <RoomFacility>Teléfono de línea directa</RoomFacility>
+                            <RoomFacility>Televisión vía satélite/por cable</RoomFacility>
+                            <RoomFacility>Radio</RoomFacility>
+                            <RoomFacility>Equipo de música</RoomFacility>
+                            <RoomFacility>Conexión a Internet</RoomFacility>
+                            <RoomFacility>Minibar</RoomFacility>
+                            <RoomFacility>Nevera</RoomFacility>
+                            <RoomFacility>Cama extra grande</RoomFacility>
+                            <RoomFacility>Moqueta</RoomFacility>
+                            <RoomFacility>Aire acondicionado (central)</RoomFacility>
+                            <RoomFacility>Calefacción central</RoomFacility>
+                            <RoomFacility>Caja fuerte</RoomFacility>
+                            <RoomFacility>Salón</RoomFacility>
+                            <RoomFacility>Balcón/Terraza</RoomFacility>
+                            <RoomFacility>Televisión</RoomFacility>
+                            <RoomFacility>Cama doble</RoomFacility>
+                            <RoomFacility>Cafetera/tetera</RoomFacility>
+                            <RoomFacility>Adaptado para sillas de ruedas</RoomFacility>
+                        </RoomFacilities>
+                        <Entertainments>
+                            <Entertainment>Piscina/-s al aire libre</Entertainment>
+                            <Entertainment>Piscina/-s de agua dulce</Entertainment>
+                            <Entertainment>Bar en la piscina</Entertainment>
+                            <Entertainment>Tumbonas</Entertainment>
+                            <Entertainment>Sombrillas</Entertainment>
+                            <Entertainment>Bañera de hidromasaje</Entertainment>
+                            <Entertainment>Sauna</Entertainment>
+                            <Entertainment>Terraza para tomar el sol</Entertainment>
+                            <Entertainment>Masajes</Entertainment>
+                            <Entertainment>Gimnasio</Entertainment>
+                            <Entertainment>Número de piscinas</Entertainment>
+                            <Entertainment>Solárium</Entertainment>
+                        </Entertainments>
+                        <PointsOfInterest>
+                            <PointOfInterest Distance="3000" Unit="m">Playa</PointOfInterest>
+                            <PointOfInterest Distance="500" Unit="m">Tiendas y
+                                comercios</PointOfInterest>
+                            <PointOfInterest Distance="500" Unit="m">Restaurantes</PointOfInterest>
+                            <PointOfInterest Distance="500" Unit="m">Bares</PointOfInterest>
+                            <PointOfInterest Distance="500" Unit="m">Discotecas</PointOfInterest>
+                            <PointOfInterest Distance="3500" Unit="m">Campo de
+                                golf</PointOfInterest>
+                        </PointsOfInterest>
+                    </TPA_Extensions>
+                </HotelDescriptiveContent>
+            </HotelDescriptiveContents>
+        </OTA_HotelDescriptiveInfoRS>
+    </soap-env:Body>
+</soap-env:Envelope>
