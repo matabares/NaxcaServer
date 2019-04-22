@@ -12,7 +12,7 @@
     "hotels": {
         "hotels": [
             {
-                "code": 737,
+                "code": 10,
                 "name": "Innside Palma Bosque Hotel",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -25,7 +25,7 @@
                         "code": "ROO.GR",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021021214f",
+                                "rateKey": "rk10",
                                 "rateClass": "NRF",
                                 "net": "10",
                                 "allotment": 8,
@@ -37,7 +37,7 @@
                                 "children": 0
                             },
                             {
-                                "rateKey": "20190823|20190825|W|1|737|ROO.GR|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO0000090001300021024218a",
+                                "rateKey": "rk11",
                                 "rateClass": "NRF",
                                 "net": "11",
                                 "allotment": 8,
@@ -57,7 +57,7 @@
                 "currency": "USD"
             },
             {
-                "code": 271,
+                "code": 20,
                 "name": "Hotel Palma Bellver, managed by Meliá",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -70,7 +70,7 @@
                         "code": "ROO.CV",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|271|ROO.CV|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021020615b",
+                                "rateKey": "rk20",
                                 "rateClass": "NOR",
                                 "net": "20",
                                 "allotment": 8,
@@ -97,7 +97,7 @@
                         "code": "DBL.WV",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|271|DBL.WV|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102604a3",
+                                "rateKey": "rk21",
                                 "rateClass": "NOR",
                                 "net": "21",
                                 "allotment": 8,
@@ -127,7 +127,7 @@
                 "currency": "EUR"
             },
             {
-                "code": 2759,
+                "code": 30,
                 "name": "Innside Palma Center",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -140,7 +140,7 @@
                         "code": "ROO.DX",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.DX|ID_B2B_24|BB|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021022a1a6",
+                                "rateKey": "rk30",
                                 "promotions": [
                                     {"code": "073"}
                                 ],
@@ -163,7 +163,7 @@
                                 ]
                             },
                             {
-                                "rateKey": "20190823|20190825|W|1|2759|ROO.DX|ID_B2B_24|BB|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO00000900013000210230215",
+                                "rateKey": "rk31",
                                 "promotions": [
                                     {"code": "073"}
                                 ],
@@ -194,7 +194,7 @@
                 "currency": "USD"
             },
             {
-                "code": 471,
+                "code": 40,
                 "name": "Melia Palma Marina ( Former Melia Palas Atenea )",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -207,7 +207,7 @@
                         "code": "DBL.CV",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.CV|ID_B2B_24|RO|CLGI|1~2~1|10|N@02~~649079251BBD4C5155361458082700AACO000009000130002102281aa",
+                                "rateKey": "rk40",
                                 "rateClass": "NOR",
                                 "net": "40",
                                 "allotment": 8,
@@ -225,7 +225,7 @@
                         "code": "DBL.PI",
                         "rates": [
                             {
-                                "rateKey": "20190823|20190825|W|1|471|DBL.PI|ID_B2B_24|RO|CLGI|1~2~0||N@02~~649079251BBD4C5155361458082700AACO0000090001300021024018c",
+                                "rateKey": "rk41",
                                 "rateClass": "NOR",
                                 "net": "41",
                                 "allotment": 8,
@@ -244,7 +244,7 @@
                 "currency": "USD"
             },
             {
-                "code": 163209,
+                "code": 50,
                 "name": "Melia South Beach",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -257,7 +257,7 @@
                         "code": "SUI.VM",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|163209|SUI.VM|ID_B2B_24|BB|CLG|1~2~0||N@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021020c2b6",
+                                "rateKey": "rk50",
                                 "rateClass": "NOR",
                                 "net": "50",
                                 "allotment": 8,
@@ -269,7 +269,7 @@
                                 "children": 0
                             },
                             {
-                                "rateKey": "20190917|20190919|W|1|163209|SUI.VM|ID_B2B_24|BB|CLG|1~2~1|10|N@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021020e2b6",
+                                "rateKey": "rk51",
                                 "rateClass": "NOR",
                                 "net": "51",
                                 "allotment": 8,
@@ -289,7 +289,7 @@
                 "currency": "USD"
             },
             {
-                "code": 231077,
+                "code": 60,
                 "name": "Marriott's Club Son Antem",
                 "categoryCode": "5EST",
                 "destinationCode": "PMI",
@@ -302,7 +302,7 @@
                         "code": "TWH.B2",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|231077|TWH.B2|ID_B2B_26|RO|DYWA|1~2~0||N@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021021c309",
+                                "rateKey": "rk60",
                                 "rateClass": "NRF",
                                 "net": "60",
                                 "allotment": 9,
@@ -323,7 +323,7 @@
                                 ]
                             },
                             {
-                                "rateKey": "20190917|20190919|W|1|231077|TWH.B2|ID_B2B_26|RO|DYWA|1~2~1|10|N@02~~F7F5229BE94C4CF155578424015200AACO00001100012000210252313",
+                                "rateKey": "rk61",
                                 "rateClass": "NRF",
                                 "net": "61",
                                 "allotment": 9,
@@ -352,7 +352,7 @@
                 "currency": "USD"
             },
             {
-                "code": 4488,
+                "code": 70,
                 "name": "The St. Regis Mardavall Resort",
                 "categoryCode": "5EST",
                 "destinationCode": "PMI",
@@ -365,7 +365,7 @@
                         "code": "JSU.VM",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|4488|JSU.VM|ID_B2B_26|BB|DRBP|1~2~0||N@02~~F7F5229BE94C4CF155578424015200AACO000011000120002102446cd",
+                                "rateKey": "rk70",
                                 "rateClass": "NOR",
                                 "net": "70",
                                 "allotment": 9,
@@ -377,7 +377,7 @@
                                 "children": 0
                             },
                             {
-                                "rateKey": "20190917|20190919|W|1|4488|JSU.VM|ID_B2B_26|BB|DRBP|1~2~1|10|N@02~~F7F5229BE94C4CF155578424015200AACO000011000120002102366d8",
+                                "rateKey": "rk71",
                                 "rateClass": "NOR",
                                 "net": "71",
                                 "allotment": 9,
@@ -397,7 +397,7 @@
                 "currency": "USD"
             },
             {
-                "code": 300,
+                "code": 80,
                 "name": "TRH Jardin del Mar",
                 "categoryCode": "3EST",
                 "destinationCode": "PMI",
@@ -410,7 +410,7 @@
                         "code": "APT.ST",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|300|APT.ST|OP BAR|SC||1~2~0||P@02~~F7F5229BE94C4CF155578424015200AACO00001100012000210224c3",
+                                "rateKey": "rk80",
                                 "rateClass": "NOR",
                                 "net": "80",
                                 "allotment": 1,
@@ -440,7 +440,7 @@
                         "code": "APT.VM",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|300|APT.VM|OP BAR|SC||1~2~1|10|P@02~~F7F5229BE94C4CF155578424015200AACO00001100012000210218d5",
+                                "rateKey": "rk81",
                                 "rateClass": "NOR",
                                 "net": "81",
                                 "allotment": 5,
@@ -473,7 +473,7 @@
                 "currency": "USD"
             },
             {
-                "code": 765,
+                "code": 90,
                 "name": "Palmanova Suites by TRH",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -486,7 +486,7 @@
                         "code": "SUI.C2",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|765|SUI.C2|OP-BAR-SUI-BB|BB||1~2~0||P@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021024a94",
+                                "rateKey": "rk90",
                                 "rateClass": "NOR",
                                 "net": "90",
                                 "allotment": 3,
@@ -509,7 +509,7 @@
                         "code": "SUI.C2-1",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|765|SUI.C2-1|OP-BAR-SUI-BB|BB||1~2~1|10|P@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021022ca5",
+                                "rateKey": "rk91",
                                 "rateClass": "NOR",
                                 "net": "91",
                                 "allotment": 6,
@@ -535,7 +535,7 @@
                 "currency": "USD"
             },
             {
-                "code": 4659,
+                "code": 100,
                 "name": "HM Ayron Park",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -548,7 +548,7 @@
                         "code": "DBT.ST",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|4659|DBT.ST|CG-OPACO HB|HB||1~2~0||P@02~~F7F5229BE94C4CF155578424015200AACO000011000120002102321a8",
+                                "rateKey": "rk100",
                                 "rateClass": "NOR",
                                 "net": "100",
                                 "allotment": 100,
@@ -571,7 +571,7 @@
                         "code": "DBT.C2",
                         "rates": [
                             {
-                                "rateKey": "20190917|20190919|W|1|4659|DBT.C2|CG-OPACO HB|HB||1~2~1|10|P@02~~F7F5229BE94C4CF155578424015200AACO0000110001200021023e212",
+                                "rateKey": "rk101",
                                 "rateClass": "NOR",
                                 "net": "101",
                                 "allotment": 100,

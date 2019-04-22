@@ -12,7 +12,8 @@ class ApitudeHotelesSimulation:
                         offset = 0
                         for clx in rate['cancellationPolicies']:
                             offset = offset + 2
-                            clx['from'] = f"{(checkIn - datetime.timedelta(days=offset)).strftime('%Y-%m-%d')}T23:59:00+02:00"
+                            clxDate = checkIn - datetime.timedelta(days=offset)
+                            clx['from'] = clxDate.strftime('%Y-%m-%d')+"T23:59:00+02:00"
         return json.dumps(jsonBody)
 
 
@@ -47,8 +48,8 @@ class ApitudeHotelesSimulation:
         today = datetime.datetime.now()
 
         if "hotels" in info.path:
-            checkIn = jsonBody['stay']['checkIn']
-            checkOut = jsonBody['stay']['checkOut']
+            checkIn = datetime.datetime.strptime(jsonBody['stay']['checkIn'], "%Y-%m-%d")
+            checkOut = datetime.datetime.strptime(jsonBody['stay']['checkOut'], "%Y-%m-%d")
             occupanciesCount = len(jsonBody['occupancies'])
             latitude = jsonBody['geolocation']['latitude']
             longitude = jsonBody['geolocation']['longitude']
@@ -73,6 +74,20 @@ class ApitudeHotelesSimulation:
                     data = self.ReplaceCancelationPoliciesDates(data, checkIn)
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
+            if occupanciesCount == 2:
+                adultCountRoom1 = jsonBody['occupancies'][0]['adults']
+                childCountRoom1 = jsonBody['occupancies'][0].get('children', 0)
+                adultCountRoom2 = jsonBody['occupancies'][1]['adults']
+                childCountRoom2 = jsonBody['occupancies'][1].get('children', 0)
+                if adultCountRoom1 == 1 and childCountRoom1 == 0 and adultCountRoom2 == 2 and childCountRoom2 == 1:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    data = self.ReplaceCancelationPoliciesDates(data, checkIn)
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
 
         if 'checkrates' in info.path:
             rateKey = jsonBody['rooms'][0]['rateKey']
