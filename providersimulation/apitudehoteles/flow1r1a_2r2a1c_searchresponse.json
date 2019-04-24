@@ -157,7 +157,7 @@
                                 "offers": [
                                     {
                                         "code": "9005",
-                                        "name": "Exclusive discount",
+                                        "name": "Exclusive discount Room1",
                                         "amount": "-10.28"
                                     }
                                 ]
@@ -181,7 +181,7 @@
                                 "offers": [
                                     {
                                         "code": "9005",
-                                        "name": "Exclusive discount",
+                                        "name": "Exclusive discount Room2",
                                         "amount": "-10.28"
                                     }
                                 ]
@@ -274,6 +274,19 @@
                                 "net": "51",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            },
+                            {
+                                "rateKey": "rk52",
+                                "rateClass": "NOR",
+                                "net": "52",
+                                "allotment": 8,
+                                "paymentType": "AT_HOTEL",
                                 "packaging": false,
                                 "boardCode": "BB",
                                 "rooms": 1,
