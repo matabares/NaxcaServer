@@ -1,0 +1,16 @@
+{
+  "auditData": {
+    "processTime": "140",
+    "timestamp": "2019-05-07 23:26:35.049",
+    "requestHost": "181.128.84.131, 54.247.111.219",
+    "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+    "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "ad93b455-8f0d-4b75-9a98-aa3dc623b9d7",
+    "internal": "0|02~~F359035B7CDA4E1155726439218100AACO0000144003700041024177|CO|10|144|0|||||||||||R|0|2|~1~1~0||37||4|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "error": {
+    "code": "INVALID_DATA-ad93b455-8f0d-4b75-9a98-aa3dc623b9d7",
+    "message": "Invalid data. If the rateType is RECHECK please perform a checkRates operation for this key: \n20191004|20191006|W|1|1481|DBT.BL|ID_B2B_59|RO|NRF|1~1~0||N@02~~F359035B7CDA4E1155726439218100AACO0000144003700041024177"
+  }
+}

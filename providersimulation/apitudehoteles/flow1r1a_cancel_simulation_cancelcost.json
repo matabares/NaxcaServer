@@ -1,0 +1,88 @@
+{
+  "auditData": {
+    "processTime": "2852",
+    "timestamp": "2019-04-20 23:20:47.070",
+    "requestHost": "186.31.2.167, 54.247.111.252",
+    "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+    "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "3d7c80c0-b119-47d2-b4d9-c65be7fa3379",
+    "internal": "null||||0|1||||||||||||1|||0|0||0|null|||"
+  },
+  "booking": {
+    "reference": "1-4200606",
+    "cancellationReference": "XI8IGLLRCF",
+    "clientReference": "1596982485",
+    "creationDate": "2019-04-20",
+    "status": "CANCELLED",
+    "modificationPolicies": {
+      "cancellation": false,
+      "modification": false
+    },
+    "creationUser": "shpk4b9p6qbxshauaar6b3gv",
+    "holder": {
+      "name": "INTEGRATIONTESTFIRSTNAME",
+      "surname": "INTEGRATIONTESTSURNAME"
+    },
+    "hotel": {
+      "checkOut": "2019-09-19",
+      "checkIn": "2019-09-17",
+      "code": 76,
+      "name": "Bendinat",
+      "categoryCode": "4EST",
+      "categoryName": "4 STARS",
+      "destinationCode": "PMI",
+      "destinationName": "Majorca",
+      "zoneCode": 25,
+      "zoneName": "Bendinat",
+      "latitude": "39.53239",
+      "longitude": "2.580258",
+      "rooms": [
+        {
+          "status": "CANCELLED",
+          "id": 1,
+          "code": "SUI.ST",
+          "name": "SUITE STANDARD",
+          "supplierReference": "TS1555795241567",
+          "paxes": [
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Pedro",
+              "surname": "Picapiedra"
+            }
+          ],
+          "rates": [
+            {
+              "rateClass": "NOR",
+              "net": "0.00",
+              "rateComments": "Car park YES (without additional debit notes).",
+              "paymentType": "AT_WEB",
+              "packaging": false,
+              "boardCode": "RO",
+              "boardName": "ROOM ONLY",
+              "rooms": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        }
+      ],
+      "totalNet": "0.00",
+      "currency": "USD",
+      "supplier": {
+        "name": "HOTELBEDS SPAIN, S.L.U.",
+        "vatNumber": "ESB28916765"
+      },
+      "cancellationAmount": 100.00
+    },
+    "invoiceCompany": {
+      "code": "U10",
+      "company": "HOTELBEDS USA, INC",
+      "registrationNumber": "592952685"
+    },
+    "totalNet": 0.00,
+    "pendingAmount": 0.00,
+    "currency": "USD"
+  }
+}

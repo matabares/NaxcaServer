@@ -1,0 +1,55 @@
+{
+  "auditData": {
+    "processTime": "236",
+    "timestamp": "2019-04-20 23:20:39.501",
+    "requestHost": "186.31.2.167, 176.34.239.197",
+    "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "09049e5f-99c8-425e-acf9-fc4999cea197",
+    "internal": "0|02~~D93C72AF67314D3155579523648100AACO0000202013300041024177|CO|10|202|1|||||||||||R|1|2|~1~1~0|0|133||4|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "hotel":{
+                "code": 100,
+                "name": "Maritim Hotel Galatzó",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 32,
+                "zoneName": "Peguera",
+                "latitude": "39.528639",
+                "longitude": "2.473351",
+                "rooms": [
+                    {
+                        "code": "DUS.ST",
+                        "rates": [
+                            {
+                                "rateKey": "rk100",
+                                "rateType": "BOOKABLE",
+                                "rateComments": "Car park YES (without additional debit notes).",
+                                "rateClass": "NRF",
+                                "net": "100",
+                                "allotment": 3,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "330.16",
+                                        "from": "2019-04-19T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "330.16",
+                "maxRate": "455.89",
+                "currency": "USD"
+            }
+}
