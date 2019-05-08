@@ -25,7 +25,7 @@
                         "code": "SUI.ST",
                         "rates": [
                             {
-                                "rateKey": "rk10",
+                                "rateKey": "1r1a_rk10",
                                 "rateClass": "NOR",
                                 "net": "10",
                                 "allotment": 3,
@@ -57,7 +57,7 @@
                         "code": "DBL.ST",
                         "rates": [
                             {
-                                "rateKey": "rk20",
+                                "rateKey": "1r1a_rk20",
                                 "rateClass": "NOR",
                                 "net": "20",
                                 "allotment": 3,
@@ -99,7 +99,7 @@
                         "code": "DBT.BL",
                         "rates": [
                             {
-                                "rateKey": "rk30",
+                                "rateKey": "1r1a_rk30",
                                 "rateCommentsId": "1|92088|3",
                                 "rateClass": "NRF",
                                 "net": "30",
@@ -152,7 +152,7 @@
                         "code": "DBT.VM",
                         "rates": [
                             {
-                                "rateKey": "rk40",
+                                "rateKey": "1r1a_rk40",
                                 "rateClass": "NOR",
                                 "net": "40",
                                 "allotment": 3,
@@ -179,7 +179,7 @@
                         "code": "DUS.ST",
                         "rates": [
                             {
-                                "rateKey": "rk41",
+                                "rateKey": "1r1a_rk41",
                                 "rateClass": "NOR",
                                 "net": "41",
                                 "allotment": 3,
@@ -196,7 +196,7 @@
                         "code": "DUS.SU",
                         "rates": [
                             {
-                                "rateKey": "rk42",
+                                "rateKey": "1r1a_rk42",
                                 "rateClass": "NRF",
                                 "net": "42",
                                 "allotment": 3,
@@ -238,7 +238,7 @@
                         "code": "STU.ST",
                         "rates": [
                             {
-                                "rateKey": "rk50",
+                                "rateKey": "1r1a_rk50",
                                 "rateClass": "NOR",
                                 "net": "120.29",
                                 "allotment": 3,
@@ -265,7 +265,7 @@
                         "code": "DBT.ST",
                         "rates": [
                             {
-                                "rateKey": "rk51",
+                                "rateKey": "1r1a_rk51",
                                 "rateClass": "NOR",
                                 "net": "240.58",
                                 "allotment": 3,
@@ -307,7 +307,7 @@
                         "code": "TWN.ST",
                         "rates": [
                             {
-                                "rateKey": "rk60",
+                                "rateKey": "1r1a_rk60",
                                 "rateClass": "NOR",
                                 "net": "60",
                                 "allotment": 3,
@@ -349,7 +349,7 @@
                         "code": "JSU.ST-1",
                         "rates": [
                             {
-                                "rateKey": "rk70",
+                                "rateKey": "1r1a_rk70",
                                 "rateClass": "NRF",
                                 "net": "70",
                                 "allotment": 1,
@@ -387,7 +387,7 @@
                         "code": "DUS.C1",
                         "rates": [
                             {
-                                "rateKey": "rk80",
+                                "rateKey": "1r1a_rk80",
                                 "rateClass": "NOR",
                                 "net": "80",
                                 "allotment": 10,
@@ -425,7 +425,7 @@
                         "code": "SGL.PR",
                         "rates": [
                             {
-                                "rateKey": "rk90",
+                                "rateKey": "1r1a_rk90",
                                 "rateClass": "NRF",
                                 "net": "90",
                                 "allotment": 2,
@@ -467,7 +467,7 @@
                         "code": "DUS.ST",
                         "rates": [
                             {
-                                "rateKey": "rk100",
+                                "rateKey": "1r1a_rk100",
                                 "rateClass": "NRF",
                                 "net": "100",
                                 "allotment": 3,

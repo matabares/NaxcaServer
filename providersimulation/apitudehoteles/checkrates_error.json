@@ -1,0 +1,15 @@
+{
+  "auditData": {
+    "timestamp": "2019-05-07 23:37:00.706",
+    "requestHost": "181.128.84.131, 54.247.111.196",
+    "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "c839b821-5dd1-4b68-8351-5fe5bd5fe034",
+    "internal": "0||||0|0||||||||||||0||||0||0|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "error": {
+    "code": "INVALID_REQUEST-c839b821-5dd1-4b68-8351-5fe5bd5fe034",
+    "message": "The request is not compliant with the specified version of the API. Error at property rooms->rateKey: Index: 1, Size: 1"
+  }
+}
