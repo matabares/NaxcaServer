@@ -24,6 +24,23 @@ from TouricoHotelsSimulation import TouricoHotelsSimulation
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
     def do_GET(self):
+        if "providersimulationraw" in self.path:
+            if (str(self.path).endswith(".json") or str(self.path).endswith(".xml")):
+                self.send_response(200)
+                if(str(self.path).endswith(".json")):
+                    self.send_header('Content-Type', 'application/json')
+                if (str(self.path).endswith(".xml")):
+                    self.send_header('Content-Type', 'text/xml, application/xml')
+                self.end_headers()
+                path = self.path
+                path = path.replace('providersimulationraw','providersimulation')
+                filename = str(path)[1:]
+                file = open(filename, "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                self.wfile.write(bytes(str(data), 'UTF-8'))
+                return
+
         if "providersimulation" in self.path:
             if (str(self.path).endswith(".json") or str(self.path).endswith(".xml")):
                 self.send_response(200)
@@ -48,11 +65,14 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.end_headers()
 
             rootDir = 'providersimulation/'
+            rootRawDir = 'providersimulationraw/'
             htmlResponse = ''
             for subdir, dirs, files in os.walk(rootDir):
                 for file in files:
                     fileLink = '<a href="/'+subdir +'/'+ file + '">' + file + '</a><br/>'
-                    htmlResponse = htmlResponse + '<tr> <td scope="row">'+subdir.split('/')[1]+'</td> <td>'+fileLink+'</td> </tr>'
+                    fileLinkRaw = '<a href="/'+ subdir +'/'+ file + '">[raw]</a><br/>'
+                    fileLinkRaw = fileLinkRaw.replace(rootDir,rootRawDir)
+                    htmlResponse = htmlResponse + '<tr> <td scope="row">'+subdir.split('/')[1]+'</td> <td>'+fileLink+ ' '+ fileLinkRaw +'</td> </tr>'
 
 
             htmlResponse = '<table class="table table-bordered"> <thead> <tr> <th scope="col">Provider</th> <th scope="col">File</th> </tr> </thead> <tbody> ' + htmlResponse + '</tbody> </table>'
@@ -60,6 +80,10 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.wfile.write(bytes(str(htmlResponse), 'UTF-8'))
 
             #self.wfile.write(bytes("<version>2.2.39</version>", 'UTF-8'))
+
+
+
+
 
 
 
