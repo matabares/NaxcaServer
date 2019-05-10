@@ -75,6 +75,16 @@ class ApitudeHotelesSimulation:
                     data = self.ReplaceCancelationPoliciesDates(data, checkIn)
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
+
+                # 1r2a2c
+                if adultCount == 2 and childCount == 2:
+                    file = open("providersimulation/apitudehoteles/flow1r2a2c_searchresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    data = self.ReplaceCancelationPoliciesDates(data, checkIn)
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
             if occupanciesCount == 2:
                 adultCountRoom1 = jsonBody['occupancies'][0]['adults']
                 childCountRoom1 = jsonBody['occupancies'][0].get('children', 0)
@@ -167,6 +177,13 @@ class ApitudeHotelesSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "1r2a2c_rk10" in rateKey:
+                file = open("providersimulation/apitudehoteles/flow1r2a2c_checkratesresponse.json", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
         if 'booking' in info.path:
             rateKey = jsonBody['rooms'][0]['rateKey']
@@ -218,9 +235,15 @@ class ApitudeHotelesSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-
             if "1r2a1c_rk10" in rateKey:
                 file = open("providersimulation/apitudehoteles/flow1r2a1c_bookingresponse.json", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+            if "1r2a2c_rk10" in rateKey:
+                file = open("providersimulation/apitudehoteles/flow1r2a2c_bookingresponse.json", "r",
                             encoding='utf8')
                 data = file.read()
                 file.close()

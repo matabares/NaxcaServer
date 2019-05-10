@@ -1,0 +1,52 @@
+{
+    "auditData": {
+        "processTime": "691",
+        "timestamp": "2019-05-11 00:07:58.069",
+        "requestHost": "181.128.84.131, 176.34.239.192",
+        "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+        "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+        "token": "4a874a53-c1fc-452f-a04c-3001207b08a4",
+        "internal": "0|37F004AA90B348D155752607737900|CO|10|76|2265||||||||||||2278||1~1~2~2|0|31||4|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "hotels": {
+        "hotels": [
+            {
+                "code": 1548,
+                "name": "Riutort ",
+                "categoryCode": "3EST",
+                "destinationCode": "PMI",
+                "zoneCode": 75,
+                "zoneName": "S'Arenal",
+                "latitude": "39.507883",
+                "longitude": "2.753729",
+                "rooms": [
+                    {
+                        "code": "DBL.BL",
+                        "rates": [
+                            {
+                                "rateKey": "1r2a2c_rk10",
+                                "rateClass": "NRF",
+                                "net": "10",
+                                "allotment": 3,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 2,
+                                "childrenAges": "10,3"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "120.60",
+                "maxRate": "844.25",
+                "currency": "USD"
+            }
+        ],
+        "checkIn": "2019-10-07",
+        "total": 76,
+        "checkOut": "2019-10-09"
+    }
+}
