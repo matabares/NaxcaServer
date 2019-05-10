@@ -160,6 +160,13 @@ class ApitudeHotelesSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "1r2a1c_rk10" in rateKey:
+                file = open("providersimulation/apitudehoteles/flow1r2a1c_checkratesresponse.json", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
         if 'booking' in info.path:
             rateKey = jsonBody['rooms'][0]['rateKey']
@@ -207,6 +214,14 @@ class ApitudeHotelesSimulation:
                 return info
             if "1r1a_rk100" in rateKey:
                 file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
+
+            if "1r2a1c_rk10" in rateKey:
+                file = open("providersimulation/apitudehoteles/flow1r2a1c_bookingresponse.json", "r",
+                            encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
