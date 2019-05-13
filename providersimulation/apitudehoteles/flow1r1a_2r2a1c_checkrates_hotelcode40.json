@@ -1,0 +1,161 @@
+{
+    "auditData": {
+        "processTime": "1522",
+        "timestamp": "2019-05-13 17:53:37.241",
+        "requestHost": "181.128.84.131, 54.247.111.196",
+        "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+        "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+        "token": "ce83f49d-1b2f-4dfc-a47e-2a424edb7f27",
+        "internal": "0|02~~CCF4973A584F40D155776281377800AACO00000950015000210208e4,02~~CCF4973A584F40D155776281377800AACO0000095001500021025c80|CO|10|95|2|||||||||||R|4|4|~2~3~1|0|15||2|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "hotel": {
+        "checkOut": "2019-10-12",
+        "checkIn": "2019-10-10",
+        "code": 40,
+        "name": "Innside Palma Bosque Hotel",
+        "categoryCode": "4EST",
+        "destinationCode": "PMI",
+        "zoneCode": 10,
+        "zoneName": "Palma",
+        "latitude": "39.566667",
+        "longitude": "2.625937",
+        "rooms": [
+            {
+                "code": "SGL.ST",
+                "rates": [
+                    {
+                        "rateKey": "1r1a_2r2a1c_rk40",
+                        "rateClass": "NRF",
+                        "net": "40",
+                        "allotment": 8,
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "278.65",
+                                "from": "2019-05-12T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 1,
+                        "children": 0,
+                        "promotions": [
+                            {"code": "073"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "DBL.DX",
+                "rates": [
+                    {
+                        "rateKey": "1r1a_2r2a1c_rk41",
+                        "rateClass": "NRF",
+                        "net": "41",
+                        "allotment": 8,
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "296.50",
+                                "from": "2019-05-12T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 2,
+                        "children": 1,
+                        "childrenAges": "10",
+                        "promotions": [
+                            {"code": "073"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "ROO.GR",
+                "rates": [
+                    {
+                        "rateKey": "1r1a_2r2a1c_rk42",
+                        "rateClass": "NRF",
+                        "net": "42",
+                        "allotment": 8,
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "278.65",
+                                "from": "2019-05-12T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 1,
+                        "children": 0,
+                        "promotions": [
+                            {"code": "073"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "ROO.DX",
+                "rates": [
+                    {
+                        "rateKey": "1r1a_2r2a1c_rk43",
+                        "rateClass": "NRF",
+                        "net": "43",
+                        "allotment": 8,
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "296.50",
+                                "from": "2019-05-12T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 2,
+                        "children": 1,
+                        "childrenAges": "10",
+                        "promotions": [
+                            {"code": "073"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "code": "SUI.C1",
+                "rates": [
+                    {
+                        "rateKey": "1r1a_2r2a1c_rk44",
+                        "rateClass": "NRF",
+                        "net": "44",
+                        "allotment": 8,
+                        "paymentType": "AT_WEB",
+                        "packaging": false,
+                        "boardCode": "RO",
+                        "cancellationPolicies": [
+                            {
+                                "amount": "278.65",
+                                "from": "2019-05-12T23:59:00+02:00"
+                            }
+                        ],
+                        "rooms": 1,
+                        "adults": 1,
+                        "children": 0,
+                        "promotions": [
+                            {"code": "073"}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "totalNet": "357.00",
+        "currency": "USD",
+        "paymentDataRequired": false
+    }
+}
