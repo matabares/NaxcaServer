@@ -113,157 +113,167 @@ class ApitudeHotelesSimulation:
 
 
         if 'checkrates' in info.path:
-            rateKey = jsonBody['rooms'][0]['rateKey']
-            if "1r1a_rk10" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode10.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk20" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode20.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk30" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode30.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk40" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode40.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk50" in rateKey:
-                file = open("providersimulation/apitudehoteles/checkrates_error.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk60" in rateKey:
-                file = open("providersimulation/apitudehoteles/checkrates_error.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk70" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode70.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk80" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode80.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk90" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode90.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk100" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode100.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r2a1c_rk10" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r2a1c_checkratesresponse.json", "r",
-                            encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r2a2c_rk10" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r2a2c_checkratesresponse.json", "r",
-                            encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r2a_2r2a_rk10" in rateKey and "1r2a_2r2a_rk11" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_checkratesresponse.json", "r",
-                            encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
+            roomsCount = len(jsonBody['rooms'])
+            if roomsCount == 1:
+                rateKey = jsonBody['rooms'][0]['rateKey']
+                if "1r1a_rk10" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode10.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk20" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode20.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk30" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode30.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk40" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode40.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk50" in rateKey:
+                    file = open("providersimulation/apitudehoteles/checkrates_error.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk60" in rateKey:
+                    file = open("providersimulation/apitudehoteles/checkrates_error.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk70" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode70.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk80" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode80.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk90" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode90.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk100" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_checkrates_hotelcode100.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r2a1c_rk10" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r2a1c_checkratesresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r2a2c_rk10" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r2a2c_checkratesresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+            if roomsCount == 2:
+                rateKeyRoom1 = jsonBody['rooms'][0]['rateKey']
+                rateKeyRoom2 = jsonBody['rooms'][1]['rateKey']
+                if "1r2a_2r2a_rk10" in rateKeyRoom1 and "1r2a_2r2a_rk11" in rateKeyRoom2:
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_checkratesresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
 
         if 'booking' in info.path:
-            rateKey = jsonBody['rooms'][0]['rateKey']
-            if "1r1a_rk10" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk20" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk30" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk40" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk70" in rateKey:
-                file = open("providersimulation/apitudehoteles/booking_error.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk80" in rateKey:
-                file = open("providersimulation/apitudehoteles/booking_error.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk90" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r1a_rk100" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r2a1c_rk10" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r2a1c_bookingresponse.json", "r",
-                            encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r2a2c_rk10" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r2a2c_bookingresponse.json", "r",
-                            encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
-            if "1r2a_2r2a_rk10" in rateKey and "1r2a_2r2a_rk11" in rateKey:
-                file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_bookingresponse.json", "r",
-                            encoding='utf8')
-                data = file.read()
-                file.close()
-                info.wfile.write(bytes(data, 'UTF-8'))
-                return info
+            roomsCount = len(jsonBody['rooms'])
+            if roomsCount == 1:
+                rateKey = jsonBody['rooms'][0]['rateKey']
+                if "1r1a_rk10" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk20" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk30" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk40" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk70" in rateKey:
+                    file = open("providersimulation/apitudehoteles/booking_error.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk80" in rateKey:
+                    file = open("providersimulation/apitudehoteles/booking_error.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk90" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r1a_rk100" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r2a1c_rk10" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r2a1c_bookingresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r2a2c_rk10" in rateKey:
+                    file = open("providersimulation/apitudehoteles/flow1r2a2c_bookingresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+            if roomsCount == 2:
+                rateKeyRoom1 = jsonBody['rooms'][0]['rateKey']
+                rateKeyRoom2 = jsonBody['rooms'][1]['rateKey']
+                if "1r2a_2r2a_rk10" in rateKeyRoom1 and "1r2a_2r2a_rk11" in rateKeyRoom2:
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_bookingresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
