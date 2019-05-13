@@ -1,0 +1,16 @@
+{
+  "auditData": {
+    "processTime": "4414",
+    "timestamp": "2019-05-13 17:53:42.322",
+    "requestHost": "181.128.84.131, 176.34.239.203",
+    "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+    "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "4ad79901-806a-4ca4-8ff6-3d14304f404d",
+    "internal": "0|02~~CCF4973A584F40D155776281377800AACO00000950015000210208e4,02~~CCF4973A584F40D155776281377800AACO0000095001500021025c80|CO|10|95|2|||||||||||R|4|4|~2~3~1|0|15|MELVAC|2|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "error": {
+    "code": "INVALID_DATA-e1a4ec3f-166a-42bf-847f-ef7f9019e987",
+    "message": "Invalid data. Error at property rooms: An adult name must be reported for each room."
+  }
+}

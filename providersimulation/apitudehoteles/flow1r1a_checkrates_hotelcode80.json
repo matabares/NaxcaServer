@@ -23,7 +23,7 @@
                         "code": "DUS.C1",
                         "rates": [
                             {
-                                "rateKey": "rk80",
+                                "rateKey": "1r1a_rk80",
                               "rateType": "BOOKABLE",
             "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NOR",

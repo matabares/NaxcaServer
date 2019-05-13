@@ -23,7 +23,7 @@
                         "code": "DUS.ST",
                         "rates": [
                             {
-                                "rateKey": "rk100",
+                                "rateKey": "1r1a_rk100",
                                 "rateType": "BOOKABLE",
                                 "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NRF",

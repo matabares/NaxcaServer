@@ -23,7 +23,7 @@
                         "code": "DBL.ST",
                         "rates": [
                             {
-                                "rateKey": "rk20",
+                                "rateKey": "1r1a_rk20",
                               "rateType": "BOOKABLE",
             "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NOR",
