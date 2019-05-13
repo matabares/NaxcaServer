@@ -355,49 +355,49 @@ class ApitudeHotelesSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk20" in rateKeyRoom1 and "1r1a_2r2a1c_rk21" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk30" in rateKeyRoom1 and "1r1a_2r2a1c_rk31" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk40" in rateKeyRoom1 and "1r1a_2r2a1c_rk41" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk70" in rateKeyRoom1 and "1r1a_2r2a1c_rk71" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_error.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_error.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk80" in rateKeyRoom1 and "1r1a_2r2a1c_rk81" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_error.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_error.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk90" in rateKeyRoom1 and "1r1a_2r2a1c_rk91" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk100" in rateKeyRoom1 and "1r1a_2r2a1c_rk101" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
