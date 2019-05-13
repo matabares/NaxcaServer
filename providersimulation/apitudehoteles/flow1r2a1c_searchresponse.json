@@ -27,7 +27,7 @@
                             {
                                 "rateKey": "1r2a1c_rk10",
                                 "rateClass": "NRF",
-                                "net": "120.60",
+                                "net": "10",
                                 "allotment": 3,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,

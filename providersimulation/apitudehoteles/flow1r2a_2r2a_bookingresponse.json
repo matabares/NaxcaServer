@@ -1,0 +1,229 @@
+{
+  "auditData": {
+    "processTime": "1866",
+    "timestamp": "2019-05-13 00:39:53.423",
+    "requestHost": "181.128.84.131, 54.247.111.219",
+    "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "6e831406-de11-4355-804d-adac6daffba6",
+    "internal": "0|02~~F720CF7BA1714DD155770078834500AACO0000164000000001024072,02~~F720CF7BA1714DD155770078834500AACO000016400000000102347c|CO|10|164|2|||||||||||R|4|4|~2~4~0|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "booking": {
+    "reference": "1-4226330",
+    "clientReference": "475988074",
+    "creationDate": "2019-05-13",
+    "status": "CONFIRMED",
+    "modificationPolicies": {
+      "cancellation": true,
+      "modification": true
+    },
+    "creationUser": "shpk4b9p6qbxshauaar6b3gv",
+    "holder": {
+      "name": "INTEGRATIONTESTFIRSTNAME",
+      "surname": "INTEGRATIONTESTSURNAME"
+    },
+    "hotel": {
+      "checkOut": "2019-10-11",
+      "checkIn": "2019-10-09",
+      "code": 4489,
+      "name": "Amazonas",
+      "categoryCode": "3EST",
+      "categoryName": "3 STARS",
+      "destinationCode": "PMI",
+      "destinationName": "Majorca",
+      "zoneCode": 75,
+      "zoneName": "S'Arenal",
+      "latitude": "39.4994",
+      "longitude": "2.75195",
+      "rooms": [
+        {
+          "status": "CONFIRMED",
+          "id": 1,
+          "code": "DBT.ST",
+          "name": "Double or Twin STANDARD",
+          "paxes": [
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Vilma",
+              "surname": "Picapiedra"
+            },
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Pedro",
+              "surname": "Picapiedra"
+            }
+          ],
+          "rates": [
+            {
+              "rateClass": "NRF",
+              "net": "114.12",
+              "rateComments": "1x Double or Twin Estimated total amount of taxes & fees for this booking: 8.80 Euro   payable on arrival. Car park NO. Check-in hour 14:00 - . Deposit on arrival. Identification card at arrival. NON REFUNDABLE RATES. 100% CANCELLATION FEES. ANY AMEDMENTS OR CANCELLATIONS ALLOWED.",
+              "paymentType": "AT_WEB",
+              "packaging": false,
+              "boardCode": "BB",
+              "boardName": "BED AND BREAKFAST",
+              "cancellationPolicies": [
+                {
+                  "amount": "114.12",
+                  "from": "2019-05-12T23:59:00+02:00"
+                }
+              ],
+              "taxes": {
+                "taxes": [
+                  {
+                    "included": false,
+                    "amount": "8.80",
+                    "currency": "EUR",
+                    "clientAmount": "9.99",
+                    "clientCurrency": "USD"
+                  }
+                ],
+                "allIncluded": false
+              },
+              "rateBreakDown": {
+                "rateDiscounts": [
+                  {
+                    "code": "NRF",
+                    "name": "UNKNOWN",
+                    "amount": "-24.46"
+                  },
+                  {
+                    "code": "SR",
+                    "name": "UNKNOWN",
+                    "amount": "-11.28"
+                  }
+                ],
+                "rateSupplements": [
+                  {
+                    "code": "NRF",
+                    "name": "UNKNOWN",
+                    "from": "2019-10-09",
+                    "to": "2019-10-11",
+                    "amount": "1.12",
+                    "nights": 2,
+                    "paxNumber": 1
+                  },
+                  {
+                    "code": "SUP",
+                    "name": "UNKNOWN",
+                    "from": "2019-10-09",
+                    "to": "2019-10-11",
+                    "amount": "28.12",
+                    "nights": 2,
+                    "paxNumber": 2
+                  }
+                ]
+              },
+              "rooms": 1,
+              "adults": 2,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "status": "CONFIRMED",
+          "id": 2,
+          "code": "DBT.VM",
+          "name": "Double or Twin SEA VIEW",
+          "paxes": [
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Betty",
+              "surname": "Marmol"
+            },
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Pablo",
+              "surname": "Marmol"
+            }
+          ],
+          "rates": [
+            {
+              "rateClass": "NRF",
+              "net": "123.96",
+              "rateComments": "1x Double or Twin Estimated total amount of taxes & fees for this booking: 8.80 Euro   payable on arrival. Car park NO. Check-in hour 14:00 - . Deposit on arrival. Identification card at arrival. NON REFUNDABLE RATES. 100% CANCELLATION FEES. ANY AMEDMENTS OR CANCELLATIONS ALLOWED.",
+              "paymentType": "AT_WEB",
+              "packaging": false,
+              "boardCode": "BB",
+              "boardName": "BED AND BREAKFAST",
+              "cancellationPolicies": [
+                {
+                  "amount": "123.96",
+                  "from": "2019-05-12T23:59:00+02:00"
+                }
+              ],
+              "taxes": {
+                "taxes": [
+                  {
+                    "included": false,
+                    "amount": "8.80",
+                    "currency": "EUR",
+                    "clientAmount": "9.99",
+                    "clientCurrency": "USD"
+                  }
+                ],
+                "allIncluded": false
+              },
+              "rateBreakDown": {
+                "rateDiscounts": [
+                  {
+                    "code": "NRF",
+                    "name": "UNKNOWN",
+                    "amount": "-24.46"
+                  },
+                  {
+                    "code": "SR",
+                    "name": "UNKNOWN",
+                    "amount": "-11.28"
+                  }
+                ],
+                "rateSupplements": [
+                  {
+                    "code": "NRF",
+                    "name": "UNKNOWN",
+                    "from": "2019-10-09",
+                    "to": "2019-10-11",
+                    "amount": "1.12",
+                    "nights": 2,
+                    "paxNumber": 1
+                  },
+                  {
+                    "code": "SUP",
+                    "name": "UNKNOWN",
+                    "from": "2019-10-09",
+                    "to": "2019-10-11",
+                    "amount": "28.12",
+                    "nights": 2,
+                    "paxNumber": 2
+                  }
+                ]
+              },
+              "rooms": 1,
+              "adults": 2,
+              "children": 0
+            }
+          ]
+        }
+      ],
+      "totalNet": "238.08",
+      "currency": "USD",
+      "supplier": {
+        "name": "HOTELBEDS PRODUCT,S.L.U.",
+        "vatNumber": "ESB38877676"
+      }
+    },
+    "invoiceCompany": {
+      "code": "U10",
+      "company": "HOTELBEDS USA, INC",
+      "registrationNumber": "592952685"
+    },
+    "totalNet": 238.08,
+    "pendingAmount": 238.08,
+    "currency": "USD"
+  }
+}

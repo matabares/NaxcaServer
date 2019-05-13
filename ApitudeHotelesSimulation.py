@@ -90,6 +90,8 @@ class ApitudeHotelesSimulation:
                 childCountRoom1 = jsonBody['occupancies'][0].get('children', 0)
                 adultCountRoom2 = jsonBody['occupancies'][1]['adults']
                 childCountRoom2 = jsonBody['occupancies'][1].get('children', 0)
+
+                #1r1a_2r2a1c
                 if adultCountRoom1 == 1 and childCountRoom1 == 0 and adultCountRoom2 == 2 and childCountRoom2 == 1:
                     file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_searchresponse.json", "r",
                                 encoding='utf8')
@@ -98,6 +100,8 @@ class ApitudeHotelesSimulation:
                     data = self.ReplaceCancelationPoliciesDates(data, checkIn)
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
+
+                #1r2a_2r2a
                 if adultCountRoom1 == 2 and childCountRoom1 == 0 and adultCountRoom2 == 2 and childCountRoom2 == 0:
                     file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse.json", "r",
                                 encoding='utf8')
@@ -184,6 +188,13 @@ class ApitudeHotelesSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            if "1r2a_2r2a_rk10" in rateKey and "1r2a_2r2a_rk11" in rateKey:
+                file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_checkratesresponse.json", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
 
         if 'booking' in info.path:
             rateKey = jsonBody['rooms'][0]['rateKey']
@@ -249,8 +260,10 @@ class ApitudeHotelesSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-
-
-
-
-
+            if "1r2a_2r2a_rk10" in rateKey and "1r2a_2r2a_rk11" in rateKey:
+                file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_bookingresponse.json", "r",
+                            encoding='utf8')
+                data = file.read()
+                file.close()
+                info.wfile.write(bytes(data, 'UTF-8'))
+                return info
