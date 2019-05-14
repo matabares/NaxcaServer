@@ -23,7 +23,7 @@
                         "code": "SGL.PR",
                         "rates": [
                             {
-                                "rateKey": "rk90",
+                                "rateKey": "1r1a_rk90",
                                 "rateType": "BOOKABLE",
                                 "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NRF",

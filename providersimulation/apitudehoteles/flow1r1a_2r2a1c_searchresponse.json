@@ -1,28 +1,28 @@
 {
     "auditData": {
-        "processTime": "436",
-        "timestamp": "2019-03-26 16:36:21.261",
-        "requestHost": "191.88.163.86, 54.247.111.197",
-        "serverId": "ip-10-185-88-115.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
-        "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_115]",
-        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
-        "token": "4dfda194-31a5-44a0-81b0-7df4d2bc5e6b",
-        "internal": "0|649079251BBD4C5155361458082700|CO|10|90|1201||||||||||||1337||2~2~4~1|0|13||2|shpk4b9p6qbxshauaar6b3gv|||"
+        "processTime": "1013",
+        "timestamp": "2019-05-13 17:53:34.790",
+        "requestHost": "181.128.84.131, 176.34.239.207",
+        "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+        "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+        "token": "b87882e1-e374-4dbc-87c0-9225a60cbd7e",
+        "internal": "0|CCF4973A584F40D155776281377800|CO|10|95|1206||||||||||||1764||2~2~3~1|0|15||2|shpk4b9p6qbxshauaar6b3gv|||"
     },
     "hotels": {
         "hotels": [
             {
                 "code": 10,
-                "name": "Innside Palma Bosque Hotel",
+                "name": "Calviá Beach the Plaza, Managed by Melia",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
-                "zoneCode": 10,
-                "zoneName": "Palma",
-                "latitude": "39.566667",
-                "longitude": "2.625937",
+                "zoneCode": 30,
+                "zoneName": "Magaluf",
+                "latitude": "39.506774",
+                "longitude": "2.532808",
                 "rooms": [
                     {
-                        "code": "ROO.GR",
+                        "code": "DBL.ST",
                         "rates": [
                             {
                                 "rateKey": "1r1a_2r2a1c_rk10",
@@ -35,7 +35,12 @@
                                 "rooms": 1,
                                 "adults": 1,
                                 "children": 0
-                            },
+                            }
+                        ]
+                    },
+                    {
+                        "code": "JSU.ST",
+                        "rates": [
                             {
                                 "rateKey": "1r1a_2r2a1c_rk11",
                                 "rateClass": "NRF",
@@ -52,22 +57,22 @@
                         ]
                     }
                 ],
-                "minRate": "335.18",
-                "maxRate": "650.52",
+                "minRate": "128.92",
+                "maxRate": "426.40",
                 "currency": "USD"
             },
             {
                 "code": 20,
-                "name": "Hotel Palma Bellver, managed by Meliá",
+                "name": "Sol Wave House All Suites",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
-                "zoneCode": 10,
-                "zoneName": "Palma",
-                "latitude": "39.56836",
-                "longitude": "2.631187",
+                "zoneCode": 30,
+                "zoneName": "Magaluf",
+                "latitude": "39.5083265867978",
+                "longitude": "2.53468617796898",
                 "rooms": [
                     {
-                        "code": "ROO.CV",
+                        "code": "JSU.ST",
                         "rates": [
                             {
                                 "rateKey": "1r1a_2r2a1c_rk20",
@@ -79,12 +84,12 @@
                                 "boardCode": "RO",
                                 "cancellationPolicies": [
                                     {
-                                        "amount": "358.97",
+                                        "amount": "59.83",
                                         "from": "2019-09-05T23:59:00+02:00"
                                     },
                                     {
-                                        "amount": "717.94",
-                                        "from": "2019-09-05T23:59:00+02:00"
+                                        "amount": "119.65",
+                                        "from": "2019-09-10T23:59:00+02:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -94,7 +99,7 @@
                         ]
                     },
                     {
-                        "code": "DBL.WV",
+                        "code": "JSU.VM",
                         "rates": [
                             {
                                 "rateKey": "1r1a_2r2a1c_rk21",
@@ -106,12 +111,12 @@
                                 "boardCode": "RO",
                                 "cancellationPolicies": [
                                     {
-                                        "amount": "358.97",
+                                        "amount": "59.83",
                                         "from": "2019-09-05T23:59:00+02:00"
                                     },
                                     {
-                                        "amount": "717.94",
-                                        "from": "2019-09-05T23:59:00+02:00"
+                                        "amount": "119.65",
+                                        "from": "2019-09-10T23:59:00+02:00"
                                     }
                                 ],
                                 "rooms": 1,
@@ -122,12 +127,367 @@
                         ]
                     }
                 ],
-                "minRate": "347.06",
-                "maxRate": "1693.68",
+                "minRate": "168.58",
+                "maxRate": "578.10",
                 "currency": "EUR"
             },
             {
                 "code": 30,
+                "name": "Sol Katmandu Park & Resort",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 30,
+                "zoneName": "Magaluf",
+                "latitude": "39.510187",
+                "longitude": "2.533967",
+                "rooms": [
+                    {
+                        "code": "DBL.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk30",
+                                "rateClass": "NRF",
+                                "net": "30",
+                                "rateComments": "No hen/stag or any other parties allowed -.Charges for late arrival.Identification card at arrival.Deposit on arrival.Car park YES (without additional debit notes).Check-in hour 15:00-15:00.The outdoor pool is being refurbished. (07/01/2019-30/06/2019) The Solarium is being refurbished. (07/01/2019-30/06/2019) ",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBL.VM",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk31",
+                                "rateClass": "NRF",
+                                "net": "31",
+                                "rateComments": "No hen/stag or any other parties allowed -.Charges for late arrival.Identification card at arrival.Deposit on arrival.Car park YES (without additional debit notes).Check-in hour 15:00-15:00.The outdoor pool is being refurbished. (07/01/2019-30/06/2019) The Solarium is being refurbished. (07/01/2019-30/06/2019) ",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10",
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "204.28",
+                "maxRate": "9044.57",
+                "currency": "USD"
+            },
+            {
+                "code": 40,
+                "name": "Innside Palma Bosque Hotel",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 10,
+                "zoneName": "Palma",
+                "latitude": "39.566667",
+                "longitude": "2.625937",
+                "rooms": [
+                    {
+                        "code": "SGL.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk40",
+                                "rateClass": "NRF",
+                                "net": "40",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "278.65",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBL.DX",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk41",
+                                "rateClass": "NRF",
+                                "net": "41",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "296.50",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10",
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "ROO.GR",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk42",
+                                "rateClass": "NRF",
+                                "net": "42",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "278.65",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "ROO.DX",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk43",
+                                "rateClass": "NRF",
+                                "net": "43",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "296.50",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10",
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "SUI.C1",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk44",
+                                "rateClass": "NRF",
+                                "net": "44",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "278.65",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "278.65",
+                "maxRate": "3175.17",
+                "currency": "USD"
+            },
+            {
+                "code": 50,
+                "name": "Hotel Palma Bellver, managed by Meliá",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 10,
+                "zoneName": "Palma",
+                "latitude": "39.56836",
+                "longitude": "2.631187",
+                "rooms": [
+                    {
+                        "code": "DBL.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk50",
+                                "rateClass": "NOR",
+                                "net": "50",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "ROO.CV",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk51",
+                                "rateClass": "NOR",
+                                "net": "51",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "305.43",
+                "maxRate": "2368.98",
+                "currency": "USD"
+            },
+            {
+                "code": 60,
+                "name": "Gran Melia Victoria",
+                "categoryCode": "5EST",
+                "destinationCode": "PMI",
+                "zoneCode": 10,
+                "zoneName": "Palma",
+                "latitude": "39.5638235820643",
+                "longitude": "2.6260381937027",
+                "rooms": [
+                    {
+                        "code": "SGL.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk60",
+                                "rateClass": "NOR",
+                                "net": "60",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBL.PI-VM",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk61",
+                                "rateClass": "NOR",
+                                "net": "61",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "317.32",
+                "maxRate": "6491.14",
+                "currency": "USD"
+            },
+            {
+                "code": 70,
+                "name": "Melia Palma Bay",
+                "categoryCode": "H4_5",
+                "destinationCode": "PMI",
+                "zoneCode": 10,
+                "zoneName": "Palma",
+                "latitude": "39.5633727",
+                "longitude": "2.66566940000007",
+                "rooms": [
+                    {
+                        "code": "SGL.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk70",
+                                "rateClass": "NOR",
+                                "net": "70",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "DBL.PI-VM",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk71",
+                                "rateClass": "NOR",
+                                "net": "71",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "321.29",
+                "maxRate": "2178.59",
+                "currency": "USD"
+            },
+            {
+                "code": 80,
                 "name": "Innside Palma Center",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -137,64 +497,115 @@
                 "longitude": "2.650161",
                 "rooms": [
                     {
+                        "code": "ROO.GR",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk80",
+                                "rateClass": "NOR",
+                                "net": "80",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
                         "code": "ROO.DX",
                         "rates": [
                             {
-                                "rateKey": "1r1a_2r2a1c_rk30",
-                                "promotions": [
-                                    {"code": "073"}
-                                ],
-                                "rateCommentsId": "1|92088|3",
+                                "rateKey": "1r1a_2r2a1c_rk81",
                                 "rateClass": "NOR",
-                                "net": "30",
+                                "net": "81",
+                                "allotment": 8,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 1,
+                                "childrenAges": "10"
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "321.29",
+                "maxRate": "517.63",
+                "currency": "USD"
+            },
+            {
+                "code": 90,
+                "name": "Meliá Calviá Beach",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 30,
+                "zoneName": "Magaluf",
+                "latitude": "39.503191",
+                "longitude": "2.53299",
+                "rooms": [
+                    {
+                        "code": "DBL.VM",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk90",
+                                "rateClass": "NRF",
+                                "net": "90",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "329.22",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
                                 "rooms": 1,
                                 "adults": 1,
                                 "children": 0,
-                                "offers": [
-                                    {
-                                        "code": "9005",
-                                        "name": "Exclusive discount Room1",
-                                        "amount": "-10.28"
-                                    }
-                                ]
-                            },
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk31",
                                 "promotions": [
                                     {"code": "073"}
-                                ],
-                                "rateCommentsId": "1|92088|3",
-                                "rateClass": "NOR",
-                                "net": "31",
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "code": "JSU.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_2r2a1c_rk91",
+                                "rateClass": "NRF",
+                                "net": "91",
                                 "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "BB",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "517.64",
+                                        "from": "2019-05-12T23:59:00+02:00"
+                                    }
+                                ],
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
                                 "childrenAges": "10",
-                                "offers": [
-                                    {
-                                        "code": "9005",
-                                        "name": "Exclusive discount Room2",
-                                        "amount": "-10.28"
-                                    }
+                                "promotions": [
+                                    {"code": "073"}
                                 ]
                             }
                         ]
                     }
                 ],
-                "minRate": "347.06",
-                "maxRate": "543.40",
+                "minRate": "329.22",
+                "maxRate": "1338.70",
                 "currency": "USD"
             },
             {
-                "code": 40,
+                "code": 100,
                 "name": "Melia Palma Marina ( Former Melia Palas Atenea )",
                 "categoryCode": "4EST",
                 "destinationCode": "PMI",
@@ -204,376 +615,16 @@
                 "longitude": "2.62798",
                 "rooms": [
                     {
-                        "code": "DBL.CV",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk40",
-                                "rateClass": "NOR",
-                                "net": "40",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    },
-                    {
                         "code": "DBL.PI",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk41",
-                                "rateClass": "NOR",
-                                "net": "41",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0
-                            }
-                        ]
-                    }
-                ],
-                "minRate": "366.90",
-                "maxRate": "723.88",
-                "currency": "USD"
-            },
-            {
-                "code": 50,
-                "name": "Melia South Beach",
-                "categoryCode": "4EST",
-                "destinationCode": "PMI",
-                "zoneCode": 30,
-                "zoneName": "Magaluf",
-                "latitude": "39.504561",
-                "longitude": "2.532025",
-                "rooms": [
-                    {
-                        "code": "SUI.VM",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk50",
-                                "rateClass": "NOR",
-                                "net": "50",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk51",
-                                "rateClass": "NOR",
-                                "net": "51",
-                                "allotment": 8,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            },
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk52",
-                                "rateClass": "NOR",
-                                "net": "52",
-                                "allotment": 8,
-                                "paymentType": "AT_HOTEL",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    }
-                ],
-                "minRate": "694.12",
-                "maxRate": "1437.88",
-                "currency": "USD"
-            },
-            {
-                "code": 60,
-                "name": "Marriott's Club Son Antem",
-                "categoryCode": "5EST",
-                "destinationCode": "PMI",
-                "zoneCode": 58,
-                "zoneName": "Llucmajor",
-                "latitude": "39.473844",
-                "longitude": "2.829889",
-                "rooms": [
-                    {
-                        "code": "TWH.B2",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk60",
-                                "rateClass": "NRF",
-                                "net": "60",
-                                "allotment": 9,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "777.28",
-                                        "from": "2019-04-19T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0,
-                                "promotions": [
-                                    {"code": "073"}
-                                ]
-                            },
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk61",
-                                "rateClass": "NRF",
-                                "net": "61",
-                                "allotment": 9,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "787.82",
-                                        "from": "2019-04-19T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10",
-                                "promotions": [
-                                    {"code": "073"}
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "minRate": "777.28",
-                "maxRate": "900.00",
-                "currency": "USD"
-            },
-            {
-                "code": 70,
-                "name": "The St. Regis Mardavall Resort",
-                "categoryCode": "5EST",
-                "destinationCode": "PMI",
-                "zoneCode": 51,
-                "zoneName": "Portals Nous",
-                "latitude": "39.528740867972374",
-                "longitude": "2.5511163845658302",
-                "rooms": [
-                    {
-                        "code": "JSU.VM",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk70",
-                                "rateClass": "NOR",
-                                "net": "70",
-                                "allotment": 9,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0
-                            },
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk71",
-                                "rateClass": "NOR",
-                                "net": "71",
-                                "allotment": 9,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    }
-                ],
-                "minRate": "1464.76",
-                "maxRate": "1752.54",
-                "currency": "USD"
-            },
-            {
-                "code": 80,
-                "name": "TRH Jardin del Mar",
-                "categoryCode": "3EST",
-                "destinationCode": "PMI",
-                "zoneCode": 31,
-                "zoneName": "Santa Ponsa",
-                "latitude": "39.519998",
-                "longitude": "2.4721",
-                "rooms": [
-                    {
-                        "code": "APT.ST",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk80",
-                                "rateClass": "NOR",
-                                "net": "80",
-                                "allotment": 1,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "SC",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "97.68",
-                                        "from": "2019-09-15T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0,
-                                "offers": [
-                                    {
-                                        "code": "9005",
-                                        "name": "Exclusive discount",
-                                        "amount": "-10.28"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "code": "APT.VM",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk81",
-                                "rateClass": "NOR",
-                                "net": "81",
-                                "allotment": 5,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "SC",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "106.62",
-                                        "from": "2019-09-15T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10",
-                                "offers": [
-                                    {
-                                        "code": "9005",
-                                        "name": "Exclusive discount",
-                                        "amount": "-11.24"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "minRate": "195.36",
-                "maxRate": "314.12",
-                "currency": "USD"
-            },
-            {
-                "code": 90,
-                "name": "Palmanova Suites by TRH",
-                "categoryCode": "4EST",
-                "destinationCode": "PMI",
-                "zoneCode": 29,
-                "zoneName": "Palmanova",
-                "latitude": "39.510063",
-                "longitude": "2.54139",
-                "rooms": [
-                    {
-                        "code": "SUI.C2",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk90",
-                                "rateClass": "NOR",
-                                "net": "90",
-                                "allotment": 3,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "148.74",
-                                        "from": "2019-09-15T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "SUI.C2-1",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_2r2a1c_rk91",
-                                "rateClass": "NOR",
-                                "net": "91",
-                                "allotment": 6,
-                                "paymentType": "AT_WEB",
-                                "packaging": false,
-                                "boardCode": "BB",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "165.44",
-                                        "from": "2019-09-15T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 2,
-                                "children": 1,
-                                "childrenAges": "10"
-                            }
-                        ]
-                    }
-                ],
-                "minRate": "148.74",
-                "maxRate": "463.12",
-                "currency": "USD"
-            },
-            {
-                "code": 100,
-                "name": "HM Ayron Park",
-                "categoryCode": "4EST",
-                "destinationCode": "PMI",
-                "zoneCode": 20,
-                "zoneName": "Playa de Palma",
-                "latitude": "39.51017",
-                "longitude": "2.751191",
-                "rooms": [
-                    {
-                        "code": "DBT.ST",
                         "rates": [
                             {
                                 "rateKey": "1r1a_2r2a1c_rk100",
                                 "rateClass": "NOR",
                                 "net": "100",
-                                "allotment": 100,
+                                "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
-                                "boardCode": "HB",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "424.50",
-                                        "from": "2019-09-14T23:59:00+02:00"
-                                    }
-                                ],
+                                "boardCode": "RO",
                                 "rooms": 1,
                                 "adults": 1,
                                 "children": 0
@@ -581,22 +632,16 @@
                         ]
                     },
                     {
-                        "code": "DBT.C2",
+                        "code": "DBL.CV",
                         "rates": [
                             {
                                 "rateKey": "1r1a_2r2a1c_rk101",
                                 "rateClass": "NOR",
                                 "net": "101",
-                                "allotment": 100,
+                                "allotment": 8,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
-                                "boardCode": "HB",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "530.62",
-                                        "from": "2019-09-14T23:59:00+02:00"
-                                    }
-                                ],
+                                "boardCode": "BB",
                                 "rooms": 1,
                                 "adults": 2,
                                 "children": 1,
@@ -605,10 +650,13 @@
                         ]
                     }
                 ],
-                "minRate": "358.34",
-                "maxRate": "530.62",
+                "minRate": "351.03",
+                "maxRate": "668.35",
                 "currency": "USD"
             }
-        ]
+        ],
+        "checkIn": "2019-10-10",
+        "total": 95,
+        "checkOut": "2019-10-12"
     }
 }

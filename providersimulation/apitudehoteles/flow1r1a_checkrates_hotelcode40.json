@@ -23,7 +23,7 @@
                         "code": "DBT.VM",
                         "rates": [
                             {
-                                "rateKey": "rk40",
+                                "rateKey": "1r1a_rk40",
                               "rateType": "BOOKABLE",
             "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NOR",

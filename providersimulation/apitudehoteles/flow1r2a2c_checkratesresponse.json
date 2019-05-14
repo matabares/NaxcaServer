@@ -1,13 +1,13 @@
 {
   "auditData": {
     "processTime": "192",
-    "timestamp": "2019-05-10 23:26:40.017",
-    "requestHost": "181.128.84.131, 176.34.239.200",
+    "timestamp": "2019-05-11 00:07:59.810",
+    "requestHost": "181.128.84.131, 54.247.111.196",
     "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
     "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
     "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
-    "token": "c2776e1a-3656-4995-8616-f62bdfe6022e",
-    "internal": "0|02~~763D0DF79286400155752359765900AACO0000140003500041023c78|CO|10|140|1|||||||||||R|1|2|~1~2~1|0|35||4|shpk4b9p6qbxshauaar6b3gv|||"
+    "token": "57a273b9-a01f-49ca-bd12-523919878e42",
+    "internal": "0|02~~37F004AA90B348D155752607737900AACO0000076003100041023c78|CO|10|76|1|||||||||||R|1|2|~1~2~2|0|31||4|shpk4b9p6qbxshauaar6b3gv|||"
   },
   "hotel": {
     "checkOut": "2019-10-09",
@@ -28,8 +28,8 @@
         "name": "DOUBLE WITH BALCONY",
         "rates": [
           {
-            "rateKey": "1r2a1c_rk10",
-            "rateClass": "NOR",
+            "rateKey": "1r2a2c_rk10",
+            "rateClass": "NRF",
             "rateType": "BOOKABLE",
             "net": "10",
             "rateComments": "Check-in hour 14:00-.Car park NO.The air-conditioning is out of order. (09/05/2019-31/05/2019) The air-conditioning is out of order. (01/10/2019-31/10/2019) ",
@@ -37,16 +37,10 @@
             "packaging": false,
             "boardCode": "RO",
             "boardName": "ROOM ONLY",
-            "cancellationPolicies": [
-              {
-                "amount": "120.60",
-                "from": "2019-09-29T23:59:00+02:00"
-              }
-            ],
             "rooms": 1,
             "adults": 2,
-            "children": 1,
-            "childrenAges": "10"
+            "children": 2,
+            "childrenAges": "10,3"
           }
         ]
       }

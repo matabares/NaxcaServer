@@ -1,48 +1,71 @@
 {
     "auditData": {
-        "processTime": "514",
-        "timestamp": "2019-03-26 16:27:16.793",
-        "requestHost": "34.242.17.225",
-        "serverId": "ip-10-185-90-161.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
-        "environment": "[awseuwest1, awseuwest1b, ip_10_185_90_161]",
-        "release": "22ba6f592face4e12265d6aca85b61adfb90d0a9",
-        "token": "b6dcb82c-2ca8-479b-a130-3b691e270cad",
-        "internal": "0|DF3D42AF34DA4C5155361403628100|CO|10|120|1922||||||||||||1210||2~2~4~0|0|15||2|shpk4b9p6qbxshauaar6b3gv|||"
+        "processTime": "1221",
+        "timestamp": "2019-05-13 00:39:49.564",
+        "requestHost": "45.251.106.248, 54.247.111.220",
+        "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+        "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+        "token": "7444eac1-5e11-4ae5-9afa-ce5628182d7f",
+        "internal": "0|F720CF7BA1714DD155770078834500|CO|10|164|2674||||||||||||1520||2~2~4~0|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
     },
     "hotels": {
         "hotels": [
             {
-                "code": 10,
-                "name": "Innside Palma Center",
-                "categoryCode": "4EST",
+                "code": 4489,
+                "name": "Amazonas",
+                "categoryCode": "3EST",
                 "destinationCode": "PMI",
-                "zoneCode": 10,
-                "zoneName": "Palma",
-                "latitude": "39.57737",
-                "longitude": "2.650161",
+                "zoneCode": 75,
+                "zoneName": "S'Arenal",
+                "latitude": "39.4994",
+                "longitude": "2.75195",
                 "rooms": [
                     {
-                        "code": "ROO.GR",
+                        "code": "DBT.ST",
                         "rates": [
                             {
                                 "rateKey": "1r2a_2r2a_rk10",
-                                "rateClass": "NOR",
-                                "net": "347.06",
-                                "allotment": 8,
+                                "rateClass": "NRF",
+                                "net": "10",
+                                "allotment": 21,
+                                "rateCommentsId": "1|107838|0",
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
-                                "boardCode": "RO",
+                                "boardCode": "BB",
                                 "rooms": 1,
                                 "adults": 2,
-                                "children": 0
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
+                            },
+                            {
+                                "rateKey": "1r2a_2r2a_rk11",
+                                "rateClass": "NRF",
+                                "net": "11",
+                                "allotment": 21,
+                                "rateCommentsId": "1|107838|0",
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "BB",
+                                "rooms": 1,
+                                "adults": 2,
+                                "children": 0,
+                                "promotions": [
+                                    {"code": "073"}
+                                ]
                             }
                         ]
                     }
                 ],
-                "minRate": "347.06",
-                "maxRate": "432.34",
+                "minRate": "114.64",
+                "maxRate": "160.98",
                 "currency": "USD"
             }
-        ]
+        ],
+        "checkIn": "2019-10-09",
+        "total": 164,
+        "checkOut": "2019-10-11"
     }
 }

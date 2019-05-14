@@ -23,7 +23,7 @@
                         "code": "SUI.ST",
                         "rates": [
                             {
-                                "rateKey": "rk10",
+                                "rateKey": "1r1a_rk10",
                               "rateType": "BOOKABLE",
             "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NOR",
