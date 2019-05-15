@@ -1,0 +1,95 @@
+{
+  "auditData": {
+    "processTime": "51",
+    "timestamp": "2019-05-15 17:37:58.294",
+    "requestHost": "181.128.84.131, 54.247.111.219",
+    "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "86a910cb-3a42-40b4-9091-11b6fa5dc091",
+    "internal": "0|02~~8B084E0D4FC8438155793467637800AACO00000180000000010244173,02~~8B084E0D4FC8438155793467637800AACO000001800000000102561ba|CO|10|18|2|||||||||||R|4|4|~2~7~0|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "hotel": {
+    "checkOut": "2019-10-14",
+    "checkIn": "2019-10-12",
+    "code": 1070,
+    "name": "Armadams",
+    "categoryCode": "4EST",
+    "categoryName": "4 STARS",
+    "destinationCode": "PMI",
+    "destinationName": "Majorca",
+    "zoneCode": 10,
+    "zoneName": "Palma",
+    "latitude": "39.568861",
+    "longitude": "2.630294",
+    "rooms": [
+      {
+        "code": "TPL.ST",
+        "name": "TRIPLE STANDARD",
+        "rates": [
+          {
+            "rateKey": "1r3a_2r4a_rk10",
+            "rateClass": "NRF",
+            "rateType": "BOOKABLE",
+            "net": "10",
+            "rateComments": "NON REFUNDABLE RATEInformation for those bookings with half board: The dinner will be served in a restaurant close to the hotel.  Estimated total amount of taxes & fees for this booking:29.93 US Dollar payable on arrival.  Minimum check-in age 18.Car park YES (with additional debit notes) 8.00 EUR Per unit/night.Check-in hour 14:00-00:00.",
+            "paymentType": "AT_WEB",
+            "packaging": false,
+            "boardCode": "RO",
+            "boardName": "ROOM ONLY",
+            "taxes": {
+              "taxes": [
+                {
+                  "included": false,
+                  "amount": "22.45",
+                  "currency": "USD",
+                  "clientAmount": "22.45",
+                  "clientCurrency": "USD"
+                }
+              ],
+              "allIncluded": false
+            },
+            "rooms": 1,
+            "adults": 3,
+            "children": 0
+          }
+        ]
+      },
+      {
+        "code": "QUA.ST",
+        "name": "QUADRUPLE STANDARD",
+        "rates": [
+          {
+            "rateKey": "1r3a_2r4a_rk11",
+            "rateClass": "NRF",
+            "rateType": "BOOKABLE",
+            "net": "11",
+            "rateComments": "NON REFUNDABLE RATEInformation for those bookings with half board: The dinner will be served in a restaurant close to the hotel.  Estimated total amount of taxes & fees for this booking:29.93 US Dollar payable on arrival.  Minimum check-in age 18.Car park YES (with additional debit notes) 8.00 EUR Per unit/night.Check-in hour 14:00-00:00.",
+            "paymentType": "AT_WEB",
+            "packaging": false,
+            "boardCode": "RO",
+            "boardName": "ROOM ONLY",
+            "taxes": {
+              "taxes": [
+                {
+                  "included": false,
+                  "amount": "29.93",
+                  "currency": "USD",
+                  "clientAmount": "29.93",
+                  "clientCurrency": "USD"
+                }
+              ],
+              "allIncluded": false
+            },
+            "rooms": 1,
+            "adults": 4,
+            "children": 0
+          }
+        ]
+      }
+    ],
+    "totalNet": "814.54",
+    "currency": "USD",
+    "paymentDataRequired": false
+  }
+}

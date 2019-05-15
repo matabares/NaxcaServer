@@ -1,0 +1,82 @@
+{
+    "auditData": {
+        "processTime": "1050",
+        "timestamp": "2019-05-15 17:37:57.426",
+        "requestHost": "52.49.114.253, 54.247.111.203",
+        "serverId": "ip-10-185-88-117.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+        "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_117]",
+        "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+        "token": "e2f44481-15c3-48cd-bd2d-f3d5c6166d5c",
+        "internal": "0|8B084E0D4FC8438155793467637800|CO|10|18|293||||||||||||260||2~2~7~0|0|0||0|shpk4b9p6qbxshauaar6b3gv|||"
+    },
+    "hotels": {
+        "hotels": [
+            {
+                "code": 10,
+                "name": "Armadams",
+                "categoryCode": "4EST",
+                "destinationCode": "PMI",
+                "zoneCode": 10,
+                "zoneName": "Palma",
+                "latitude": "39.568861",
+                "longitude": "2.630294",
+                "rooms": [
+                    {
+                        "code": "TPL.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r3a_2r4a_rk10",
+                                "rateClass": "NRF",
+                                "net": "10",
+                                "allotment": 7,
+                                "rateCommentsId": "1|106061|0",
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "371.68",
+                                        "from": "2019-05-14T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 3,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "QUA.ST",
+                        "rates": [
+                            {
+                                "rateKey": "1r3a_2r4a_rk11",
+                                "rateClass": "NRF",
+                                "net": "11",
+                                "allotment": 6,
+                                "rateCommentsId": "1|106061|0",
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "442.86",
+                                        "from": "2019-05-14T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 4,
+                                "children": 0
+                            }
+                        ]
+                    }
+                ],
+                "minRate": "371.68",
+                "maxRate": "920.52",
+                "currency": "USD"
+            }
+        ],
+        "checkIn": "2019-10-12",
+        "total": 18,
+        "checkOut": "2019-10-14"
+    }
+}
