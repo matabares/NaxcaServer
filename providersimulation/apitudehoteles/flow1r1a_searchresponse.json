@@ -240,7 +240,7 @@
                             {
                                 "rateKey": "1r1a_rk50",
                                 "rateClass": "NOR",
-                                "net": "120.29",
+                                "net": "50",
                                 "allotment": 3,
                                 "paymentType": "AT_HOTEL",
                                 "packaging": false,
@@ -267,7 +267,7 @@
                             {
                                 "rateKey": "1r1a_rk51",
                                 "rateClass": "NOR",
-                                "net": "240.58",
+                                "net": "51",
                                 "allotment": 3,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,

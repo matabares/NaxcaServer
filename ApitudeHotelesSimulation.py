@@ -28,6 +28,36 @@ class ApitudeHotelesSimulation:
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+        if "1-4226257" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r2a1c_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        if "1-4226258" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r2a2c_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        if "1-4226330" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        if "1-4226404" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        if "1-4226551" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
 
 
     def ApitudeGetResponse(self, info):
@@ -116,6 +146,16 @@ class ApitudeHotelesSimulation:
                 #1r2a_2r2a
                 if adultCountRoom1 == 2 and childCountRoom1 == 0 and adultCountRoom2 == 2 and childCountRoom2 == 0:
                     file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_searchresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    data = self.ReplaceCancelationPoliciesDates(data, checkIn)
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+
+                # 1r3a_2r4a
+                if adultCountRoom1 == 2 and childCountRoom1 == 0 and adultCountRoom2 == 2 and childCountRoom2 == 0:
+                    file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
@@ -282,6 +322,13 @@ class ApitudeHotelesSimulation:
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
+                if "1r3a_2r4a_rk10" in rateKeyRoom1 and "1r3a_2r4a_rk11" in rateKeyRoom2:
+                    file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_checkratesresponse.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
 
         if 'booking' in info.path:
             roomsCount = len(jsonBody['rooms'])
@@ -410,6 +457,13 @@ class ApitudeHotelesSimulation:
                     return info
                 if "1r1a_2r2a1c_rk100" in rateKeyRoom1 and "1r1a_2r2a1c_rk101" in rateKeyRoom2:
                     file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
+                                encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+                if "1r3a_2r4a_rk10" in rateKeyRoom1 and "1r3a_2r4a_rk11" in rateKeyRoom2:
+                    file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_bookingresponse.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
