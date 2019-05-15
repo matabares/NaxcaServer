@@ -23,6 +23,13 @@ from TouricoHotelsSimulation import TouricoHotelsSimulation
 
 class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
 
+    def do_DELETE(self):
+        if "apitudehotelessimulation" in self.path:
+            apitude = ApitudeHotelesSimulation()
+            response = apitude.ApitudeDeleteResponse(self)
+            return response
+
+
     def do_GET(self):
         if "providersimulationraw" in self.path:
             if (str(self.path).endswith(".json") or str(self.path).endswith(".xml")):

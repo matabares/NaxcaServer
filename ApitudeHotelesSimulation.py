@@ -18,6 +18,18 @@ class ApitudeHotelesSimulation:
 
 
 
+    def ApitudeDeleteResponse(self, info):
+        info.send_response(200)
+        info.send_header('Content-Type', 'application/json;charset=UTF-8')
+        info.end_headers()
+        if "1-4200606" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+
     def ApitudeGetResponse(self, info):
         info.send_response(200)
         info.send_header('Content-Type', 'application/json;charset=UTF-8')
