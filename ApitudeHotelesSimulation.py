@@ -110,7 +110,7 @@ class ApitudeHotelesSimulation:
                     return info
 
                 #1r2a1c
-                if adultCount == 2 and childCount ==1:
+                if adultCount == 2 and childCount == 1:
                     file = open("providersimulation/apitudehoteles/flow1r2a1c_searchresponse.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
@@ -154,7 +154,7 @@ class ApitudeHotelesSimulation:
                     return info
 
                 # 1r3a_2r4a
-                if adultCountRoom1 == 2 and childCountRoom1 == 0 and adultCountRoom2 == 2 and childCountRoom2 == 0:
+                if adultCountRoom1 == 3 and childCountRoom1 == 0 and adultCountRoom2 == 4 and childCountRoom2 == 0:
                     file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_searchresponse.json", "r",
                                 encoding='utf8')
                     data = file.read()
