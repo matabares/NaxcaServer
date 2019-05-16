@@ -22,36 +22,116 @@ class ApitudeHotelesSimulation:
         info.send_response(200)
         info.send_header('Content-Type', 'application/json;charset=UTF-8')
         info.end_headers()
-        if "1-4200606" in info.path:
+        #1r1a_hotelcode10
+        if "10-4200606" in info.path:
             file = open("providersimulation/apitudehoteles/flow1r1a_cancel_ok.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+        # 1r1a_hotelcode20
+        if "20-4200606" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_hotelcode30
+        if "30-4200606" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_hotelcode40
+        if "40-4200606" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_hotelcode90
+        if "90-4200606" in info.path:
+            file = open("providersimulation/apitudehoteles/cancel_error.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_hotelcode100
+        if "100-4200606" in info.path:
+            file = open("providersimulation/apitudehoteles/cancel_error.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r2a1c
         if "1-4226257" in info.path:
             file = open("providersimulation/apitudehoteles/flow1r2a1c_cancel_ok.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+        # 1r2a2c
         if "1-4226258" in info.path:
             file = open("providersimulation/apitudehoteles/flow1r2a2c_cancel_ok.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+        # 1r2a_2r2a
         if "1-4226330" in info.path:
             file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_cancel_ok.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
-        if "1-4226404" in info.path:
+        # 1r1a_2r2a1c_hotelcode10
+        if "10-4226404" in info.path:
             file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_cancel_ok.json", "r", encoding='utf8')
             data = file.read()
             file.close()
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
+            # 1r1a_2r2a1c_hotelcode20
+        if "20-4226404" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_cancel_ok.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_2r2a1c_hotelcode30
+        if "30-4226404" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_cancel_ok.json", "r",
+                        encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_2r2a1c_hotelcode40
+        if "40-4226404" in info.path:
+            file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_cancel_ok.json", "r",
+                        encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_2r2a1c_hotelcode90
+        if "90-4226404" in info.path:
+            file = open("providersimulation/apitudehoteles/cancel_error.json", "r",
+                        encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r1a_2r2a1c_hotelcode100
+        if "100-4226404" in info.path:
+            file = open("providersimulation/apitudehoteles/cancel_error.json", "r",
+                        encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+        # 1r3a_2r4a
         if "1-4226551" in info.path:
             file = open("providersimulation/apitudehoteles/flow1r3a_2r4a_cancel_ok.json", "r", encoding='utf8')
             data = file.read()
@@ -281,14 +361,14 @@ class ApitudeHotelesSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk50" in rateKeyRoom1 and "1r1a_2r2a1c_rk51" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_checkrates_hotelcode50.json", "r",
+                    file = open("providersimulation/apitudehoteles/checkrates_error.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk60" in rateKeyRoom1 and "1r1a_2r2a1c_rk61" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_checkrates_hotelcode60.json", "r",
+                    file = open("providersimulation/apitudehoteles/checkrates_error.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
@@ -335,25 +415,25 @@ class ApitudeHotelesSimulation:
             if roomsCount == 1:
                 rateKey = jsonBody['rooms'][0]['rateKey']
                 if "1r1a_rk10" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode10.json.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_rk20" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode20.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_rk30" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode30.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_rk40" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode40.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
@@ -371,13 +451,13 @@ class ApitudeHotelesSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_rk90" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode90.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_rk100" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_ok.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode100.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
@@ -407,56 +487,56 @@ class ApitudeHotelesSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk10" in rateKeyRoom1 and "1r1a_2r2a1c_rk11" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a1c_booking_hotelcode10.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk20" in rateKeyRoom1 and "1r1a_2r2a1c_rk21" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a1c_booking_hotelcode20.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk30" in rateKeyRoom1 and "1r1a_2r2a1c_rk31" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a1c_booking_hotelcode30.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk40" in rateKeyRoom1 and "1r1a_2r2a1c_rk41" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a1c_booking_hotelcode40.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk70" in rateKeyRoom1 and "1r1a_2r2a1c_rk71" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_error.json", "r",
+                    file = open("providersimulation/apitudehoteles/booking_error.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk80" in rateKeyRoom1 and "1r1a_2r2a1c_rk81" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_error.json", "r",
+                    file = open("providersimulation/apitudehoteles/booking_error.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk90" in rateKeyRoom1 and "1r1a_2r2a1c_rk91" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a1c_booking_hotelcode90.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
                 if "1r1a_2r2a1c_rk100" in rateKeyRoom1 and "1r1a_2r2a1c_rk101" in rateKeyRoom2:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_2r2a1c_booking_ok.json", "r",
+                    file = open("providersimulation/apitudehoteles/flow1r2a_2r2a1c_booking_hotelcode100.json", "r",
                                 encoding='utf8')
                     data = file.read()
                     file.close()

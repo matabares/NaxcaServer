@@ -1,0 +1,138 @@
+{
+  "auditData": {
+    "processTime": "4414",
+    "timestamp": "2019-05-13 17:53:42.322",
+    "requestHost": "181.128.84.131, 176.34.239.203",
+    "serverId": "ip-10-185-93-145.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery#A+",
+    "environment": "[awseuwest1, awseuwest1c, ip_10_185_93_145]",
+    "release": "0ff13fe544e3826de008640b9ae92bfd2e3d6d85",
+    "token": "4ad79901-806a-4ca4-8ff6-3d14304f404d",
+    "internal": "0|02~~CCF4973A584F40D155776281377800AACO00000950015000210208e4,02~~CCF4973A584F40D155776281377800AACO0000095001500021025c80|CO|10|95|2|||||||||||R|4|4|~2~3~1|0|15|MELVAC|2|shpk4b9p6qbxshauaar6b3gv|||"
+  },
+  "booking": {
+    "reference": "20-4226404",
+    "clientReference": "187624049",
+    "creationDate": "2019-05-13",
+    "status": "CONFIRMED",
+    "modificationPolicies": {
+      "cancellation": true,
+      "modification": false
+    },
+    "creationUser": "shpk4b9p6qbxshauaar6b3gv",
+    "holder": {
+      "name": "INTEGRATIONTESTFIRSTNAME",
+      "surname": "INTEGRATIONTESTSURNAME"
+    },
+    "hotel": {
+      "checkOut": "2019-10-12",
+      "checkIn": "2019-10-10",
+      "code": 1062,
+      "name": "Calviá Beach the Plaza, Managed by Melia",
+      "categoryCode": "4EST",
+      "categoryName": "4 STARS",
+      "destinationCode": "PMI",
+      "destinationName": "Majorca",
+      "zoneCode": 30,
+      "zoneName": "Magaluf",
+      "latitude": "39.506774",
+      "longitude": "2.532808",
+      "rooms": [
+        {
+          "status": "CONFIRMED",
+          "id": 1,
+          "code": "DBL.ST",
+          "name": "DOUBLE STANDARD",
+          "paxes": [
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Pedro",
+              "surname": "Picapiedra"
+            }
+          ],
+          "rates": [
+            {
+              "rateClass": "NOR",
+              "net": "129.10",
+              "rateComments": "Car park YES (without additional debit notes). Check-in hour 15:00 - 15:00. Deposit on arrival. Charges for late arrival. Identification card at arrival. No hen/stag or any other parties allowed  - . The outdoor pool is being refurbished. (07/01/2019-30/06/2019) The Solarium is being refurbished. (07/01/2019-30/06/2019).",
+              "paymentType": "AT_WEB",
+              "packaging": false,
+              "boardCode": "RO",
+              "boardName": "ROOM ONLY",
+              "cancellationPolicies": [
+                {
+                  "amount": "129.10",
+                  "from": "2019-10-02T23:59:00+02:00"
+                }
+              ],
+              "rooms": 1,
+              "adults": 1,
+              "children": 0
+            }
+          ]
+        },
+        {
+          "status": "CONFIRMED",
+          "id": 2,
+          "code": "JSU.ST",
+          "name": "JUNIOR SUITE STANDARD",
+          "paxes": [
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Pablo",
+              "surname": "Marmol"
+            },
+            {
+              "roomId": 1,
+              "type": "CH",
+              "age": 10,
+              "name": "Bam Bam",
+              "surname": "Marmol"
+            },
+            {
+              "roomId": 1,
+              "type": "AD",
+              "name": "Betty",
+              "surname": "Marmol"
+            }
+          ],
+          "rates": [
+            {
+              "rateClass": "NOR",
+              "net": "228.44",
+              "rateComments": "Car park YES (without additional debit notes). Check-in hour 15:00 - 15:00. Deposit on arrival. Charges for late arrival. Identification card at arrival. No hen/stag or any other parties allowed  - . The outdoor pool is being refurbished. (07/01/2019-30/06/2019) The Solarium is being refurbished. (07/01/2019-30/06/2019).",
+              "paymentType": "AT_WEB",
+              "packaging": false,
+              "boardCode": "RO",
+              "boardName": "ROOM ONLY",
+              "cancellationPolicies": [
+                {
+                  "amount": "228.44",
+                  "from": "2019-10-02T23:59:00+02:00"
+                }
+              ],
+              "rooms": 1,
+              "adults": 2,
+              "children": 1
+            }
+          ]
+        }
+      ],
+      "totalNet": "357.54",
+      "currency": "USD",
+      "supplier": {
+        "name": "HOTELBEDS PRODUCT,S.L.U.",
+        "vatNumber": "ESB38877676"
+      }
+    },
+    "invoiceCompany": {
+      "code": "U10",
+      "company": "HOTELBEDS USA, INC",
+      "registrationNumber": "592952685"
+    },
+    "totalNet": 357.54,
+    "pendingAmount": 357.54,
+    "currency": "USD"
+  }
+}

@@ -149,7 +149,7 @@
                 "longitude": "2.605765",
                 "rooms": [
                     {
-                        "code": "DBT.VM",
+                        "code": "SGL.ST",
                         "rates": [
                             {
                                 "rateKey": "1r1a_rk40",
@@ -176,7 +176,7 @@
                         ]
                     },
                     {
-                        "code": "DUS.ST",
+                        "code": "DBL.DX",
                         "rates": [
                             {
                                 "rateKey": "1r1a_rk41",
@@ -193,12 +193,66 @@
                         ]
                     },
                     {
-                        "code": "DUS.SU",
+                        "code": "ROO.GR",
                         "rates": [
                             {
                                 "rateKey": "1r1a_rk42",
                                 "rateClass": "NRF",
                                 "net": "42",
+                                "allotment": 3,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "119.97",
+                                        "from": "2019-09-05T23:59:00+02:00"
+                                    },
+                                    {
+                                        "amount": "239.94",
+                                        "from": "2019-09-10T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "ROO.DX",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_rk43",
+                                "rateClass": "NRF",
+                                "net": "43",
+                                "allotment": 3,
+                                "paymentType": "AT_WEB",
+                                "packaging": false,
+                                "boardCode": "RO",
+                                "cancellationPolicies": [
+                                    {
+                                        "amount": "119.97",
+                                        "from": "2019-09-05T23:59:00+02:00"
+                                    },
+                                    {
+                                        "amount": "239.94",
+                                        "from": "2019-09-10T23:59:00+02:00"
+                                    }
+                                ],
+                                "rooms": 1,
+                                "adults": 1,
+                                "children": 0
+                            }
+                        ]
+                    },
+                    {
+                        "code": "SUI.C1",
+                        "rates": [
+                            {
+                                "rateKey": "1r1a_rk44",
+                                "rateClass": "NRF",
+                                "net": "44",
                                 "allotment": 3,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
@@ -235,39 +289,12 @@
                 "longitude": "2.736283",
                 "rooms": [
                     {
-                        "code": "STU.ST",
+                        "code": "DBT.ST",
                         "rates": [
                             {
                                 "rateKey": "1r1a_rk50",
                                 "rateClass": "NOR",
                                 "net": "50",
-                                "allotment": 3,
-                                "paymentType": "AT_HOTEL",
-                                "packaging": false,
-                                "boardCode": "RO",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "60.15",
-                                        "from": "2019-09-05T23:59:00+02:00"
-                                    },
-                                    {
-                                        "amount": "120.29",
-                                        "from": "2019-09-10T23:59:00+02:00"
-                                    }
-                                ],
-                                "rooms": 1,
-                                "adults": 1,
-                                "children": 0
-                            }
-                        ]
-                    },
-                    {
-                        "code": "DBT.ST",
-                        "rates": [
-                            {
-                                "rateKey": "1r1a_rk51",
-                                "rateClass": "NOR",
-                                "net": "51",
                                 "allotment": 3,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
