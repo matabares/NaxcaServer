@@ -20,12 +20,12 @@
                 "longitude": "2.605765",
                 "rooms": [
                     {
-                        "code": "DBT.VM",
+                        "code": "SGL.ST",
                         "rates": [
                             {
                                 "rateKey": "1r1a_rk40",
-                              "rateType": "BOOKABLE",
-            "rateComments": "Car park YES (without additional debit notes).",
+                                "rateType": "BOOKABLE",
+                                "rateComments": "Car park YES (without additional debit notes).",
                                 "rateClass": "NOR",
                                 "net": "40",
                                 "allotment": 3,
