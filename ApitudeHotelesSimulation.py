@@ -159,6 +159,14 @@ class ApitudeHotelesSimulation:
             info.wfile.write(bytes(data, 'UTF-8'))
             return info
 
+        if 'types/ratecommentdetails' in info.path:
+            file = open("providersimulation/apitudehoteles/ratecommentsdetails.json", "r", encoding='utf8')
+            data = file.read()
+            file.close()
+            info.wfile.write(bytes(data, 'UTF-8'))
+            return info
+
+
     def ApitudePostResponse(self, info):
         info.send_response(200)
         info.send_header('Content-Type', 'application/json;charset=UTF-8')

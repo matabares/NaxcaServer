@@ -1,0 +1,21 @@
+{
+  "auditData": {
+    "processTime": "7",
+    "timestamp": "2019-05-20 00:23:30.950",
+    "requestHost": "10.185.83.8",
+    "serverId": "ip-10-185-88-208.eu-west-1.compute.internal.node.int-hbg-aws-eu-west-1.discovery",
+    "environment": "[awseuwest1, awseuwest1a, ip_10_185_88_208]",
+    "release": "371f67f890abd06c354e9e632d438368bcab9cf9"
+  },
+  "date": "2019-05-20",
+  "incoming": 1,
+  "hotel": 4489,
+  "rateComments": [
+    {
+      "dateEnd": "2019-10-30",
+      "dateStart": "2019-02-08",
+      "description": "Dummy rate comment"
+    }
+  ],
+  "code": "107838"
+}
