@@ -101,22 +101,12 @@
                             {
                                 "rateKey": "1r1a_rk30",
                                 "rateCommentsId": "1|92088|3",
-                                "rateClass": "NRF",
+                                "rateClass": "NOR",
                                 "net": "30",
                                 "allotment": 3,
                                 "paymentType": "AT_WEB",
                                 "packaging": false,
                                 "boardCode": "RO",
-                                "cancellationPolicies": [
-                                    {
-                                        "amount": "59.83",
-                                        "from": "2019-09-05T23:59:00+02:00"
-                                    },
-                                    {
-                                        "amount": "119.65",
-                                        "from": "2019-09-10T23:59:00+02:00"
-                                    }
-                                ],
                                 "rooms": 1,
                                 "adults": 1,
                                 "children": 0,
