@@ -423,7 +423,7 @@ class ApitudeHotelesSimulation:
             if roomsCount == 1:
                 rateKey = jsonBody['rooms'][0]['rateKey']
                 if "1r1a_rk10" in rateKey:
-                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode10.json.json", "r", encoding='utf8')
+                    file = open("providersimulation/apitudehoteles/flow1r1a_booking_hotelcode10.json", "r", encoding='utf8')
                     data = file.read()
                     file.close()
                     info.wfile.write(bytes(data, 'UTF-8'))
