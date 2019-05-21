@@ -418,7 +418,7 @@ class ApitudeHotelesSimulation:
                     info.wfile.write(bytes(data, 'UTF-8'))
                     return info
 
-        if 'booking' in info.path:
+        if 'bookings' in info.path:
             roomsCount = len(jsonBody['rooms'])
             if roomsCount == 1:
                 rateKey = jsonBody['rooms'][0]['rateKey']
