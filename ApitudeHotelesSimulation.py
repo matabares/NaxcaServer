@@ -13,7 +13,7 @@ class ApitudeHotelesSimulation:
                         for clx in rate['cancellationPolicies']:
                             offset = offset + 2
                             clxDate = checkIn - datetime.timedelta(days=offset)
-                            clx['from'] = clxDate.strftime('%Y-%m-%d')+"T00:00:00-05:00"
+                            clx['from'] = clxDate.strftime('%Y-%m-%d')+"T23:00:00-04:00"
         return json.dumps(jsonBody)
 
 
