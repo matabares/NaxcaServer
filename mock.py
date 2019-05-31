@@ -6,6 +6,7 @@ from json2html import json2html
 import os
 
 from HotelBedsSimulation import HotelBedsSimulation
+from JuniperSimulation import juniperProviderSimulation
 from TouricoExtrasSimulation import TouricoExtrasSimulation
 from dingusProvider import dingusProviderSimulation
 from jumboProvider import jumboProviderSimulation
@@ -154,6 +155,10 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
         if "dingussimulation" in self.path:
             dingus = dingusProviderSimulation()
             response = dingus.dingusResponse(self)
+            return response
+        if "junipersimulation" in self.path:
+            juniper = juniperProviderSimulation()
+            response = juniper.juniperResponse(self)
             return response
         if "rentingsimulation" in self.path:
             renting = RentingSimulation()
