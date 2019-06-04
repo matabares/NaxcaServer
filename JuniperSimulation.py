@@ -10,7 +10,7 @@ class juniperProviderSimulation:
 
         if "OTA_HotelAvail" in body:
                 file = open(
-                    "providersimulation/juniper/1adtSearchMIA.xml",
+                    "providersimulation/Juniper/1adtSearchMIA.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -19,7 +19,7 @@ class juniperProviderSimulation:
 
         if "OTA_HotelBookingRule" in body:
             file = open(
-              "providersimulation/juniper/BookingRuleService.xml",
+              "providersimulation/Juniper/BookingRuleService.xml",
                 "r", encoding='utf8')
             data = file.read()
             file.close()
@@ -29,7 +29,7 @@ class juniperProviderSimulation:
         if "OTA_HotelRes" in body:
             if "500" in body:
                 file = open(
-                    "providersimulation/juniper/HotelRes.xml",
+                    "providersimulation/Juniper/HotelRes.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
