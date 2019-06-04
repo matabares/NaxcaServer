@@ -143,7 +143,7 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-Type', 'text/xml')
             self.end_headers()
-            self.wfile.write(bytes("<version>2.4</version>", 'UTF-8'))
+            self.wfile.write(bytes("<version>2.4.1</version>", 'UTF-8'))
 
 
 
@@ -156,10 +156,12 @@ class NetSuiteProviderBaseHTTPRequestHandler(BaseHTTPRequestHandler):
             dingus = dingusProviderSimulation()
             response = dingus.dingusResponse(self)
             return response
+
         if "junipersimulation" in self.path:
             juniper = juniperProviderSimulation()
             response = juniper.juniperResponse(self)
             return response
+
         if "rentingsimulation" in self.path:
             renting = RentingSimulation()
             response = renting.RentingResponse(self)
