@@ -1,0 +1,2302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<soap:Body>
+		<OTA_HotelAvailServiceResponse xmlns="http://www.opentravel.org/OTA/2003/05">
+			<OTA_HotelAvailRS IntCode="dmTeZDOeLNLreUK1fKtadKViQFYFyH3PW7gPhUxRmsK/UDtRC6h1SNRo11Ogl1sv5kyVff88VzmOe9gxGNhdTw==" SequenceNmbr="JlaOfaDudhOJ7CyYAfeWyI69sIqHb7ILJr5fCXs3ddo=" TimeStamp="2019-05-31T16:30:37.434326+02:00" URL="http://xml2.bookingengine.es/webservice/OTA_HotelAvail.asmx">
+				<Success/>
+				<RoomStays>
+					<RoomStay>
+						<RoomRates>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY5QT+IstmBhuOj9NP2St5RDi4EdmHBOoXznPT20vhqr5g3HuMRlQigZL4Yerv/4MQD35ShNyao2slGmi3xXAJVVqmFjbXBQm85xSLdAszkELqcxPAmJljVMqIwkn3rCP+18h3RvbPcsGMdQm1LP3CCQ2ZirJLvECv+1zVweOYzIU/ks4hG0721JwbDi+qjF3Ncwofw/+hn82d0qpPObbdJPO/u3R8EDyPWV3Zvop/i7CmGSlnfqHbpRi63Mu0j9ZaCmAPXziH2stl74vi6OzoJQmDL3hOgfWt+vyEQh2SsOk1UbJoJ7kaSYbFIvrqvngWY8l9Vvaz/5vN3Qvt7WHtSqBUjI4OQnUkau2FE+va1RSun1T1mqMKul/hoSYbNEVNtcbvD0wu3CQvpR0Z5tZXbNyjK6BtsVKgKhvJukZ6Apsrq21F3Y/ODBOqOgCVld1B8tCgfPsES1BEY5dYln1HcIg0YEyJhIxOS+W8CCQIIuAIqNfMo0zVpDjfJQkuihPVCd2ZA+3MOkqa56LFbIGLeI">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="500" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="500" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY5QT+IstmBhuOj9NP2St5RDi4EdmHBOoXznPT20vhqr5g3HuMRlQigZL4Yerv/4MQD35ShNyao2slGmi3xXAJVVqmFjbXBQm85xSLdAszkELqcxPAmJljVMqIwkn3rCP+18h3RvbPcsGMdQm1LP3CCQ2ZirJLvECv+1zVweOYzIU/ks4hG0721JwbDi+qjF3Ncwofw/+hn82d0qpPObbdJPO/u3R8EDyPWV3Zvop/i7CmGSlnfqHbpRi63Mu0j9ZaB/wjFZo8FHUbiDOmCnraMSgZfIaZUVja02keL7T92NlP8mkmcjmuGGuEnRHNMx9TVBPK0DRNwE9iSsryasg+1fFpMMDxs2di86a56VA1HjIoNzwo2trFWGhDj+ZAT1H95dw+TQK876F4tIxd330un8+TdFe0Vvu1eWr0oKjQIZTUk+0yLNrsa7ViJcAErHQOU9M2NKfYNnnM+GkafiIFpyFZFLvnJscVARU53z+O7EVahPaaDdR4mLCYuwJB2/5FvH3EFyDZNMxY3I4Q6ztZi2">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="600" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="600" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">1</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY5V4LX1oYDOehxGOe3iXzhfu4SoK8RunfZNayK1M1xmpQKv7URa/rIWvp2Xl9Rv/eMeCfk7xekAFWI0AOhM9rdwcx3KggYi6uPp1Yj+LMMUSlYwg/1aAFGQdMjGvvZVl7wjjQngLpOHI/SGTf/NRMQcYb1zupfIaPnNCBQciOXRl3Wh+HQlhjKtoWFOGLNCu9QDYLxASJWcAagaYyBvs9urompo/gXsZpdQx7RWNdkfL0Ujv9Bcdv6qElXNNgS9E7pkVzp89xoMRz63DGCzN1zwVb59Ae0U96wNNMtpPEH2EfdTMtRLjWBo27HsaqWhJ01vZyobvhQqAQoGT1y5RskMwAJZ04hAnQoatDJFV1QWS2EnANCZcfBXRL/KTMW22FlvZC9aRlA1ZWcA8dCyuSLMOKB7yEWLe5XOtOCuqq4EvJX1zqKxVAjCkTlrXYItkmBDqtEO3npmi2E+lOQTz0fSnf5ufDhGk0jHx4279ZBrL5qGFHztmHROKU/TAcHk7Tz+LcmpN8yfTR2+ihq5vLqy">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="400" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="400" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY5V4LX1oYDOehxGOe3iXzhfu4SoK8RunfZNayK1M1xmpQKv7URa/rIWvp2Xl9Rv/eMeCfk7xekAFWI0AOhM9rdwcx3KggYi6uPp1Yj+LMMUSlYwg/1aAFGQdMjGvvZVl7wjjQngLpOHI/SGTf/NRMQcYb1zupfIaPnNCBQciOXRl3Wh+HQlhjKtoWFOGLNCu9QDYLxASJWcAagaYyBvs9urompo/gXsZpdQx7RWNdkfL0Ujv9Bcdv6qElXNNgS9E7obnrA7Db00AzNeprS3qGm28rPmS0bz4r3y4QNBPmUTZd2P165TlACvx93UIHjheAS9oHzdUZsvstiWo+fXfmKvP+Uw8/ISDPFUg4EGqVbN+FltwTmEjiVFk9gAUy12G1uSi3oIAQRZ0azKPwZX1U2oUOOO7/haeIgnH6YZCrn+OQWw5XQ2WauJkSN5YL4NAyBtX1sOQ2aCMM3K8EnIyHPwvln/QTc1ujgliIzj9F5onqdnDAbZbH+AVBNeKh4ODwoeXkew+/aRIRzh7dFnJ4an">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="501" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="501" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">1</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY5V4LX1oYDOehxGOe3iXzhfu4SoK8RunfZNayK1M1xmpQKv7URa/rIWvp2Xl9Rv/eMeCfk7xekAFWI0AOhM9rdwcx3KggYi6uPp1Yj+LMMUSlYwg/1aAFGQdMjGvvZVl7wjjQngLpOHI/SGTf/NRMQcYb1zupfIaPnNCBQciOXRl3Wh+HQlhjKtoWFOGLNCu9QDYLxASJWcAagaYyBvs9ur/efH4S0h7sWC7HJu00rIr0zxX+c7N7a1iXho9a+yiA5CeIzsRUPt4LoSU4UBJ6r2AztntSFhNPQp0J41S5SLj7ts3b6xdY4vdUA3Nw+By2lW/ZTnajEJus5PY+wOmkn0bSXoJn5WYeSzmeqa75Kf1DP/1dvWuCWM7lsYGUPO3hlnmm0p/op4m473ccCBmpd7I66xd2025rH8yQTts6+7qat0AGv1w4Jv5BxDYBkwTyF0f1DP+aG8jO57l/yhFNX/vdbSskrSI6yEUtng0H25DVpJctYmqEz98ThYi6tNCZt2VPupXY2/nKaLlvBMaZyl">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="499" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación DELUXE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.DX</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="499" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY5V4LX1oYDOehxGOe3iXzhfu4SoK8RunfZNayK1M1xmpQKv7URa/rIWvp2Xl9Rv/eMeCfk7xekAFWI0AOhM9rdwcx3KggYi6uPp1Yj+LMMUSlYwg/1aAFGQdMjGvvZVl7wjjQngLpOHI/SGTf/NRMQcYb1zupfIaPnNCBQciOXRl3Wh+HQlhjKtoWFOGLNCu9QDYLxASJWcAagaYyBvs9ur/efH4S0h7sWC7HJu00rIr0zxX+c7N7a1iXho9a+yiA6jdlRdTCTxzcxoeKEHnMOzR41GT6DuAHAGld1XHmM6uQnCWJcTrcR5PPvhOhUnxmRyHPEstfAA4Gj5CcGeDGhyvn7cV0StZCRk9po8hXDhKK5FvZgoEYdB2EooxkGBRzyfvTwyccr1dnyC5gN/zKz2JgPgow1XyHdIPpoPQP0pTrIQTwAa0zhkig8QJ1CqXOhaa3/vS0DZZOMx0/kdqwYFwnsNICB0Cr721wPkIFrLUaMoVmVuiBJvFl+u96TbLd0rJh7iF/d9gKx96Cfc7yL9">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="123" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación DELUXE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.DX</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="123" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">1</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY6oQY0pe0vH19rhNwXyaamBGXgu4FEQiCEOUkROwvyx+lqL2GBspYcuXKWqxamLLQGRftRMJhDYYfw6RPxuq93ygiQ1lWKTK5wX6Cp8Wc6kWx+3wn8n4tT10u8d6HGqegU2LsmRJWYKAay+/ni3kbCR0kXzIE7x/owS5VScEzgP3vScKSKAC1mCwvne5WQWGk8aokedwtw9r8SLq5WuQNpFYWprwooDfgPIDFexvKw8aTdzfpz1ZFgYvFle+Uq+FDZi2yLutxotmPwIlz3t/fGUSBum2ej9LdoqjTlo/VwenAv//4ggHsSlBRabe+hBGfA+iCtlcaZaQY1O/n2/aiHBMPZtRsVw0/bUWyG4KxQi26M0RyYzHHSpOayqjNkIN7+/De+q9MCkKd4IQl1K1N+575N3m39wbW8aTVj4m+sqYkggjEWOIdwsjU07GGwAgB4QDDWn/qsPsgNfYhc61Wl2bFGC8aWTWUdCgT+cMQxD2W/mUGg2lUGqGlqhwx/rA2yj0u6T0TNz1fH+VBAMVGoU">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="215.52" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="215.52" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY6oQY0pe0vH19rhNwXyaamBGXgu4FEQiCEOUkROwvyx+lqL2GBspYcuXKWqxamLLQGRftRMJhDYYfw6RPxuq93ygiQ1lWKTK5wX6Cp8Wc6kWx+3wn8n4tT10u8d6HGqegU2LsmRJWYKAay+/ni3kbCR0kXzIE7x/owS5VScEzgP3vScKSKAC1mCwvne5WQWGk8aokedwtw9r8SLq5WuQNpFYWprwooDfgPIDFexvKw8aTdzfpz1ZFgYvFle+Uq+FDbSsywGTg7abq49wg9IvkiwvgX81pbHKanPBU1Yqct3SJrjaYtNDZQVokSmUyZ/nHJfhiuHmAU76wP+IyhGUj+Yx+YU19RCG5NdmSXaMIVjCSzsG+2bLgBsdha0lpa8q0kKYeyu7tj0i2F8m4pKtGewgi4X6jqDNekVyKiZFPvvdlzdLS/8IDCrB76LlmJ2ZdJQz8WWAQa9cxUfY8Q3AcaT1ryWUA73XA/03xKbwtUEDcR3NSPZ+zmpMXiMOVe/2tw8br9jdLSgrx4KZyvGW1Y3">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="215.52" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="215.52" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">1</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY4ced119cu1s9irNAHDtU2livLD0aotfSN+b3qdQCZJVzhqvRE2xfNFhqY8dHgwMk5vbNbDnK99+VC4Qrfnube9WlU/9U+oGSpRJPN5wY7kUUFSTWBpLwQ2UH/bXfDAfEJu9Y6IM77/EKfib+6B+BYIVBYK1m81072XbzMqMAF70YNAlQi5+Ut5okCdi5xJNrUyc++ILVPrXvUqbp5K8FyZqnmPneFgvE/Cr+47wjkZkU0DqC8gDkIqi6cP2FcsfSD5VuKg9y+1Au6rhLfE2Ev8lGlBNdANmaBkf//ht/Y3QRCIsE6hsb/PBVqKsqDmK26VVOQEVZTwf+SBvZd8goVXTLr+yWuV7CsLImPcI+N5zrLjt0igbSPgRy9IFXpbZfo91O23swzGBst6qlJ6UIhIWtn5c3d7EDsuusC5AEoiZ8vb4pu1au5E5n13p8SG3tXwzLmnvdJsovQirUjF0qWNv4Vfafifl4oxf+UTp7O/Vkpo6y56Q/jUL6PB16mGWGaAlezdfixHfYDqRKVoygWp">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="246.3" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="246.3" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY4ced119cu1s9irNAHDtU2livLD0aotfSN+b3qdQCZJVzhqvRE2xfNFhqY8dHgwMk5vbNbDnK99+VC4Qrfnube9WlU/9U+oGSpRJPN5wY7kUUFSTWBpLwQ2UH/bXfDAfEJu9Y6IM77/EKfib+6B+BYIVBYK1m81072XbzMqMAF70YNAlQi5+Ut5okCdi5xJNrUyc++ILVPrXvUqbp5K8FyZqnmPneFgvE/Cr+47wjkZkU0DqC8gDkIqi6cP2FcsfSAiwn3S9aQUbYX8Mob2psgsXUoIc2SvY3WZnmS2/70nGip2KPDts58VJK+xJz0xxExtrddUBOe3ziSXFN+GRcOsuXKrq7yxqEYeuGqvO6TecS4oXXhqk/3yoLO1sNz0FSDGFyZvdp6kNjE0gtenmsykoOeyMh869bJOiEC+4BoycFMS3W/e0rkTjOk9chRnZyyR4Blj0znamIGJa1mSgUDbsfcZCR+h3H4Q4gbRhqysvaeFQpSfzGG7V8Q65cM+wPYGs2Lb4aIO0R6DnAxmaYEe">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="246.3" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="246.3" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">1</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY4ced119cu1s9irNAHDtU2livLD0aotfSN+b3qdQCZJVzhqvRE2xfNFhqY8dHgwMk5vbNbDnK99+VC4Qrfnube9WlU/9U+oGSpRJPN5wY7kUUFSTWBpLwQ2UH/bXfDAfEJu9Y6IM77/EKfib+6B+BYIVBYK1m81072XbzMqMAF70YNAlQi5+Ut5okCdi5xJNrUyc++ILVPrXvUqbp5K8FyZnnyXQ6sSeDMI+uomse7kMikTwcZPuGwwbXIIvJAuqk/XJv5+Wft18lCvlvHyBgEsYc8NGjXW7/VSJVsBgsTIzZ6pNKM7QLNtERULhWp+az3k6PBd7IoeigCflAVUx7GpgzVGFUxJcJU/2JdjNtBXtkyXWEK/JEWS7KbQkLarawKF7DSKYqW6AtWI3O6e/vA9boAVDZZZZAt+7Xr6QVMY0ajmsdtxZYLTWZc0JJrrQrrfImv+Y9tlyPvgbAJC5SWpFDNQ0KTyk62ifJEnsOSlIlCGYsxXmUc/TDC/QKBscUIbY1BkA2Rh7X4xhb4c4gH2">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="246.3" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación DELUXE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.DX</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="246.3" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="d937LcVHhvAuBDSrfyF4t6/buu45BGMeiwhIdpZtnY4ced119cu1s9irNAHDtU2livLD0aotfSN+b3qdQCZJVzhqvRE2xfNFhqY8dHgwMk5vbNbDnK99+VC4Qrfnube9WlU/9U+oGSpRJPN5wY7kUUFSTWBpLwQ2UH/bXfDAfEJu9Y6IM77/EKfib+6B+BYIVBYK1m81072XbzMqMAF70YNAlQi5+Ut5okCdi5xJNrUyc++ILVPrXvUqbp5K8FyZnnyXQ6sSeDMI+uomse7kMikTwcZPuGwwbXIIvJAuqk/uKRmkwm6tvALV8YO5IbQn2VWBhWQnai4Q7JEJjy6ChxfkKNHM6H5bxac3hk1Lkiro5AvynT2hB7TLmXenKwgpvGw2LEjUPTNtcDcM7eQZMFdN6NWt7UCSaWU01hF0fXom/xor8Ww4YakjYufMkK4oAdhP54wMWO07nTVgqsvRqXo6G0HUCNsuuVWwF3WPedHJIHdLYV8qVxuf709DLRvlPCYp0Iw+A/TkzL4DUvKSsMnHslmiYjbhDqmi5fDAwlv3t2EkxVw+j/BpsuMNdlL4">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="246.3" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación DELUXE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.DX</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="246.3" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">1</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+						</RoomRates>
+						<TimeSpan End="2019-07-03" Start="2019-07-01"/>
+						<Total CurrencyCode="EUR"/>
+						<BasicPropertyInfo HotelCode="JP037143" JPCode="JP037143"/>
+						<TPA_Extensions>
+							<HotelInfo xmlns="">
+								<BestDeal>0</BestDeal>
+								<IsOffer>0</IsOffer>
+							</HotelInfo>
+						</TPA_Extensions>
+					</RoomStay>
+					<RoomStay>
+						<RoomRates>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trgy3ijf4I6eJgkH+Cins3twYSY4WUE963MOtcz4bXkVCSrJCtmnbItMRcNMT5Y8nb3DlI2Ry3rHf7Hr3iQSZPLysgPY2+cjy49AOOt2tqllTpDBLtU6RypPFP6Tuf2tqClMTsgV6M17Nyp6WSFkiu6Rmxq3BHBwxLM6rQM+MZrsDiKhijy3pd/3PxjUyxkzzjUzao3cfbd+PgoP3J4BoKXBRfZGnuDVJt/AenLxxW7lDFrTH4AXVEctuEnBPwMnXBVnJ57LEgiVvyy38uCv2uddJLKkf8n/5LtE7DCEnkK0nDzi7HuDrI6JPOcgwspHZaJak2NblWysERaLS8FR7NHAxX3cep1S9+PfHG3tvadEWGBzrgR2WGjxFAeYkZHEyWaE7UZIN5KJUrb8s0FObcq4eTRy5eiPXKrEDUZMuDMW2EfFhk0NwTkhUkvNB7ckJZjW+8PTJQJk28D8ft0F/JKGwhlTajRyXh6UD9YjuzraW5pYVBqAY0v8/Ql5sotvO+mXz7ZxzlZGowebSZc+rWA">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="127.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="127.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trgy3ijf4I6eJgkH+Cins3twYSY4WUE963MOtcz4bXkVCSrJCtmnbItMRcNMT5Y8nb3DlI2Ry3rHf7Hr3iQSZPLysgPY2+cjy49AOOt2tqllTpDBLtU6RypPFP6Tuf2tqClMTsgV6M17Nyp6WSFkiu6Rmxq3BHBwxLM6rQM+MZrsDiKhijy3pd/3PxjUyxkzzjUzao3cfbd+PgoP3J4BoKXBRfZGnuDVJt/AenLxxW7lDFrTH4AXVEctuEnBPwMnXCW8Hq90Ha5A/hOR7/LiKBi7zY003bPzgNCmgQyK1M/+qt4n/b2B6PQiux8QemeS2HH1zzRVe7BvKamfwZUf89SLfq03WbfuiugvR1osCt85BpR60I60QWVMWyWJoCC2bVcJU+GanjtR1QyS6dWpbQ7FKSm5tX7qVx7qSH+l/zJtxoNSgTaGgYN/YnEh9YJILq74mGlck5c99mGSSU2u011/iivNZ3G5/4tn34e3fblFtjJuaaeJcg2VHZxB3L7+LeWGyJ5Y/XR1jNxx/EfCM0I">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="127.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="127.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trV0MK7BOBpn2DAXZm5+HcKYEfM9/hbiXKLXff07kLAyQ+3aMmYQmRRZq8K1I+E+FVbjDU3YuQPcGRteeP+gE06lw4USul/eSpP8MGaE3qU0hvPx/2JJk+CdnMo+/JniU4Fwq/MxAZF60mCiUfNlWf+6UYAJ0JoROOkCv0j+a5gPwrJCEvYvxxNDMgH3ehkv6NMDGwCDJyb8GNKjFRBDF1zL/aboPsD7fCXCgg7RCuJPbfUxGK5CiTWcOd7Z3mbtaSzCe+p7zgM48FC2H8L+NXQILwLc3fCO/1zzDHJqOWU4tTUg6WnPDIIHZ4Mep7Ai1SdyDVg7jdoTloktFavJHw8an2LFBis7oUmS2pdGyDU7mq1IzMXc6BkL/UnCpeUiYJE4pDizGNovVGfetG2FKNEL1cqGLm50jve2cjPOOrmhphfuo060FAE1maB4e2xJOtRzsnhfXqFVZl/r7RbojPydtRxfjJwq7M+syaOekS8QLk7/wpu/a5uYv9kO17mkEhS2mVNkNESYsnrqYE4/PNj">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="190.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="190.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trV0MK7BOBpn2DAXZm5+HcKYEfM9/hbiXKLXff07kLAyQ+3aMmYQmRRZq8K1I+E+FVbjDU3YuQPcGRteeP+gE06lw4USul/eSpP8MGaE3qU0hvPx/2JJk+CdnMo+/JniU4Fwq/MxAZF60mCiUfNlWf+6UYAJ0JoROOkCv0j+a5gPwrJCEvYvxxNDMgH3ehkv6NMDGwCDJyb8GNKjFRBDF1zL/aboPsD7fCXCgg7RCuJPbfUxGK5CiTWcOd7Z3mbtaSAt3K4xusZ79j+BNWvZYntCfvP5BeLB3ZQ8YCy6Ad1FMOW0wEDzXHWunR+9Mt/do+4++ZT4Y8c8I7oge3Ok+T7VRSYx6/xtoREr8K1z6BPPj6rJwpplG6OWMkuYbDNpqqDSR8/Ec4tarooLoQHSXBP/F7k44SlFQimJkeGkSSNoHTpKyVMy7R7hyJfxNPH7mmZ/oWTavLsmGLelFn46cMYIqUmcK8srw12F0HAFTi2A8JFisqVln7Fhucuk3NMuCo/eZDjUUw3a46unkmmhi80">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="190.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="190.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trV0MK7BOBpn2DAXZm5+HcKYEfM9/hbiXKLXff07kLAyQ+3aMmYQmRRZq8K1I+E+FVbjDU3YuQPcGRteeP+gE06lw4USul/eSpP8MGaE3qU0hvPx/2JJk+CdnMo+/JniU4Fwq/MxAZF60mCiUfNlWf+6UYAJ0JoROOkCv0j+a5gPwrJCEvYvxxNDMgH3ehkv6NMDGwCDJyb8GNKjFRBDF1zTexYBTbE0fixaymXi+W320YABe/F8FR56AyJnESDsHo90x8REwEPglGwHrnkh7vWpwkotuVM3xvzUlHPEfNedzXNZxzIca7mbJGbBPFsJ/z0gviHpiJ/FEQxlyEy73oJ8a9FxnzOBjmVPSOcUwlU7TQxtUqsmDCBPnOvxzBmPSh+1qAEcleFS0KypfhaRq89J64WFsl/m7pt6rnbHhA4ssMFaDdbQU0PU/Bag5I4uhDV4iw39G8fM4Xs+GVQsRtSNRQXqYNn30knmtYVDN1VcvBqPjfxptM/B4M1LcKa3IyfqZwC/3bv6Ms201wYsxkq">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="190.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="190.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trV0MK7BOBpn2DAXZm5+HcKYEfM9/hbiXKLXff07kLAyQ+3aMmYQmRRZq8K1I+E+FVbjDU3YuQPcGRteeP+gE06lw4USul/eSpP8MGaE3qU0hvPx/2JJk+CdnMo+/JniU4Fwq/MxAZF60mCiUfNlWf+6UYAJ0JoROOkCv0j+a5gPwrJCEvYvxxNDMgH3ehkv6NMDGwCDJyb8GNKjFRBDF1zTexYBTbE0fixaymXi+W320YABe/F8FR56AyJnESDsHqZp2Wv07wpWVJGLCNVMCZvWSCm3fKk8ZyhGWwmVzJNfMMMTZF1FWUMoPRyWATO3FlabXF/4ySDk0h5uXYrMc8+t/of+e8Gq2/OrN58QIRpKTbU9Yo+1kvMJAPR10eGhYI8tcVGroSnhrnF4UKhSjAZ3aWtj6JTPLjkx87mvOLtvaIK0gHutUYZYzc1SWnpV4XXc6SObnz4P0Uw22aIuwQRDj6uanbb2BBL2LuoL61oorjx0cDj2NAG8Q5eVxK57UMCwSbxXqA8CViQXmMGMZgN">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="190.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="190.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toR1WEq5NhuJqExUHWoHD3zYUWey9q6O/pLmTRPOHqvDTJHhMCZsgk+VW1FhRmYPJs9/RD7scmvQTVNZ4CMrFKMXySgXCIVOPaqmS3CPLhP5voepCa5dtLd615hGyKk9xay8uF/fniqUD2gNWm36zfQpvwTDWDIiZ2Af3CFsOEB7nwXFCFLyXIS8/utht1dcf7pgQlCk25abVHLeBLYONmYyEdqw8dltUA5n/shxTDgha61NeoWthsq030VdpE/siifto3ttytRJmdgYWNDZF3HVUp2DHYNAfO8ZX5NZ+Q+vu5dgX8rtxN1atTQy5xZi7T3ONPVt6uEDoZESZWsn8ahIzKRGuHj7XaG18NWUuJAW0LnfUi37x3FOdQQfeu32kPN6Gn7t72eJlPot6d082mOpJK2CjUgsfHPy1B1QrfVu6wDnbmfgdJwjRuN8sN/iYMIfSluK+BIQZDowOCYqKjtm7665Q6UB8qeYsTcfAKkfhPsg9jKwaBkHFhJm4NJWYblmYjiCoCRXS9UNMNyX5Xz">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="222.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="222.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toR1WEq5NhuJqExUHWoHD3zYUWey9q6O/pLmTRPOHqvDTJHhMCZsgk+VW1FhRmYPJs9/RD7scmvQTVNZ4CMrFKMXySgXCIVOPaqmS3CPLhP5voepCa5dtLd615hGyKk9xay8uF/fniqUD2gNWm36zfQpvwTDWDIiZ2Af3CFsOEB7nwXFCFLyXIS8/utht1dcf7pgQlCk25abVHLeBLYONmYyEdqw8dltUA5n/shxTDgha61NeoWthsq030VdpE/sihLrFRiWTEpPosefzZl15U9wGEDCHA9fSIhQjpBdAioVDZau+qy5bC3KBJQqqSfDqARmxITpdRGAYCr2bK6gqMk/yLIZT/wNH3yXIrlUQ/xiO1nFplsYLEFrPOH2y/xkWAue1B7JGan6ZNZStgt8b/xKXEfyhguQ1ZiWt532Zyv8xUBGOVWYgfuuZHckc/A2Wzf0/8OD/KBDDVV2WaHkUBtABOc2u8J7eNU1M+LqwEPcwKPV0Mte6YPGiixHVorttSglkXp76JYEMOaMvYFQS6H">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="222.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="222.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqzJLo0R56O/Z2MQVrTlnBixpV8uHgBBRI+uJZNDyK3C/qpK4JtJJJnfQT9IzLocvc/A7DTODesqYHr7AEzFrSg3G7Q+OLnQ0YNUD+Dwm2qymzZ1A472KDp0NS9SoauuA4xAv3m6/tlGl92BWuaLRRbs9i+Hc/5oUtxY+4xvOWDsP2ib0dgPdveQn87pPd43A88TuVXRc9+FEqWtAXhEbph1RyLE2OSMYSZl84784PQ0kPTDznYhup0b+cKNA0sZUK6oVAhsGBZ+hfnzjrC51G+Wf5hvoOvk2ZDr0dROfcZjj2ghH+I9wEJQ/cF1XHex3oj+HJogJj0DKhqX0OasrVWpghaeXAIa46dhAQo1v/IKkYZQFX972a1IFU5a42BfVMhihtMLxQG+MbmTMDcHeRa6oxzeDyUVIu6uZ/nkCbF4pojiJyEzkg2Xd++WD5NawaTlxSrzKtpMu6B/2FKsNdwD4pWIh2OaWJDQMGqFC6EqpSQd1BF9hIGbEHIBv3X66KbMKWUR8jmZ046Ca+oxmKW">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="254.4" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="254.4" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqzJLo0R56O/Z2MQVrTlnBixpV8uHgBBRI+uJZNDyK3C/qpK4JtJJJnfQT9IzLocvc/A7DTODesqYHr7AEzFrSg3G7Q+OLnQ0YNUD+Dwm2qymzZ1A472KDp0NS9SoauuA4xAv3m6/tlGl92BWuaLRRbs9i+Hc/5oUtxY+4xvOWDsP2ib0dgPdveQn87pPd43A88TuVXRc9+FEqWtAXhEbph1RyLE2OSMYSZl84784PQ0kPTDznYhup0b+cKNA0sZUL23iXCDdaY7d0dsSoJq87eZQovPyx3fd1v/okhLrDmz8xyviSRE06CMnER3n+FvXGN+liyBkCfjl+e9Eqw6QlmaQDE5K7+jthbGohQQwzkDkVRod5a/ZKoz28y3IWAGBtRKafw1GuSl/6oZRcJvaJWAFh6MqCNYaEsmShCTgLEJ17rxWjaNb2IvV4Zo+DbkMm3zaAnZdv+GRsQgyO9GMrDV51+amRcJTlp27S41BroBMoGKqnMFKXKL6BZmSJnGLJKCm4PPlIqKRLRW7zLnpwb">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="254.4" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="254.4" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqzJLo0R56O/Z2MQVrTlnBixpV8uHgBBRI+uJZNDyK3C/qpK4JtJJJnfQT9IzLocvc/A7DTODesqYHr7AEzFrSg3G7Q+OLnQ0YNUD+Dwm2qymzZ1A472KDp0NS9SoauuA4xAv3m6/tlGl92BWuaLRRbs9i+Hc/5oUtxY+4xvOWDsP2ib0dgPdveQn87pPd43A88TuVXRc9+FEqWtAXhEbphqRqz5AEs3O8LovgZPGaOamQmMXTv5vizqDy3pevdK3X72tnQd7hIlvor+VExvWBwuKRoKvMg/l1qXuHUJj+lIfP/MGH9r2Gb2Wfu/ccE3qtcpBGp6gvL+KkIU21A2NCgbPFOrVljzF6G9t/QYViVqQ/LRMKl5smHnXRn6bdrp+wq9Q+mnqUisQoJ91vBEnPkkwZ4xuICdLUUcwFMphdAPV9cl3sUygwdPVmr7sceX7otq0JlYDVxdnEg87s2zzdopqzozLvXO4J7WDvR/uhSUQpvATSJWXR0FLz7yUKNof0AkHGrstZFSIL7OCmst7kx5l0Q6Xk4siMOGoNRBeFXfg==">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="254.4" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="254.4" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqzJLo0R56O/Z2MQVrTlnBixpV8uHgBBRI+uJZNDyK3C/qpK4JtJJJnfQT9IzLocvc/A7DTODesqYHr7AEzFrSg3G7Q+OLnQ0YNUD+Dwm2qymzZ1A472KDp0NS9SoauuA4xAv3m6/tlGl92BWuaLRRbs9i+Hc/5oUtxY+4xvOWDsP2ib0dgPdveQn87pPd43A88TuVXRc9+FEqWtAXhEbphqRqz5AEs3O8LovgZPGaOamQmMXTv5vizqDy3pevdK3VS2bExzdDuJyfL408T5i42RdmQqGS21fJZx5/DoCOPWiEz7JeImPo0NDwpSssOxJI9cLKlXOJJkhj62WLaJRfKEvr091yY5FDbmf8scx+Bgygi0gIR1oBInL5loHbSiQycmWG5jzsnRF9mj2Dp2a+aDvJTCthbFpWaf3+Z/vM+TNFrvUv+NaPOV7WQvYTHBkgFT8UajdIfgN+Dmf8/1GMZoxC0oMV8tbtwwNAbpJODJsuVPVqAWG2B2Wi6fENBg36+yw22YuRnrNj/Xt67rh6/kv4Kms3RVbrwTLnaz8FFPQ==">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="254.4" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="254.4" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqzJLo0R56O/Z2MQVrTlnBixpV8uHgBBRI+uJZNDyK3C/qpK4JtJJJnfQT9IzLocvc/A7DTODesqYHr7AEzFrSg3G7Q+OLnQ0YNUD+Dwm2qymzZ1A472KDp0NS9SoauuA4xAv3m6/tlGl92BWuaLRRbs9i+Hc/5oUtxY+4xvOWDsP2ib0dgPdveQn87pPd43A88TuVXRc9+FEqWtAXhEbph1WkmaDi4eEAJHex622+wtBaiMPLYs/FnNuyciMQ5oDZR1yvfvuX/B01J/URh2bUHrYDfyL79XCdtXLW+HVOMh9xavEaW4/L1K484m0sK9H6mDNXvHdx0UpoBeAEYTTOl8bKW35xmk9AXbwiopGmRD5xdQ+NP3kii7T7H/V/9sM9yc11Nv3mlnj1cqF3Kv8S0qSnsANHJkBvmrAOB0CtYmQncJSE6gQucnQ0YBx9POqIMBvGEwkjOVuz9UH8FSxVluE3KNYe185Ryz8krD7plsbLCby/dCR1r105t/d+zWQc=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="254.4" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="254.4" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqzJLo0R56O/Z2MQVrTlnBixpV8uHgBBRI+uJZNDyK3C/qpK4JtJJJnfQT9IzLocvc/A7DTODesqYHr7AEzFrSg3G7Q+OLnQ0YNUD+Dwm2qymzZ1A472KDp0NS9SoauuA4xAv3m6/tlGl92BWuaLRRbs9i+Hc/5oUtxY+4xvOWDsP2ib0dgPdveQn87pPd43A88TuVXRc9+FEqWtAXhEbph1WkmaDi4eEAJHex622+wtHkg8eg1S/f+Or/5n0TzNeSFEEqS8eubT3cEH80HiJddS+qpd/ekpQjjgFfT0ZXzBgtzQSmde58voKgyvNkmyzQnFCFyfjfynv1RJGC/3oyw8T+R7vVOJTVehIDw9oLniBKPcYPaaa3GnZgeS7N+RBe04fbFks+VajAfJMZjEIDvHWqxuB67VCExMNBDiG0CeIN9oLYTIy//NC/FsuY3Y7YR3YVNofYDX6MhtzswIkVWQkZGGhFoakB4Cla8dMAmLoMpIQ4k+KCCUEyNwcLEaGY=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="254.4" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="254.4" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toRdsEavHhpuxuSO5wBg1HSbJ519rtzuFtuXKfwN2J5nEyds1rWAMb7M2OhNyz69pM1WKh99uWFSH2T0nSim/H34tUU6SQI1pseu8BtafJb7+uZn5uJpYZHlxDK2joXep134KRtNBfpk+H6Ky8UVHoMet6LPdjeUI44JVo3OpCWGE+2+vtu2OP5Xn2M7mlalGq0Z1BdRUA7CjeZVGNBabbMGoCYohn1Lbkn7S+F3+J/95U7ghwKWrP4h53MLZrrrkQASFhKgBRbUsEtoFQWO/xxAtAs8GIVib1Hzmp4+u+ZQcS6QXPquTtigqMdQAnxwW3I5+bueZqK2j6eK9P15J+j72Lx8g6rTSu5xuKGpgqiaIPMeiZYaP9ZAQYS6Eqi3jj3X2O9AEF/5jqeGkCDeinb08tuYwFY+GFpicGgOBPSsGFDk3N4sXDODOI5QWFl7tGtzW+UMODLRxhgT3iQszxfzxMRwSiobzNRpisF1aYE/1Kht8+E2yJ3M0yyzFxtG1g=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="267.39" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="267.39" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toRdsEavHhpuxuSO5wBg1HSbJ519rtzuFtuXKfwN2J5nEyds1rWAMb7M2OhNyz69pM1WKh99uWFSH2T0nSim/H34tUU6SQI1pseu8BtafJb7+uZn5uJpYZHlxDK2joXep134KRtNBfpk+H6Ky8UVHoMet6LPdjeUI44JVo3OpCWGE+2+vtu2OP5Xn2M7mlalGq0Z1BdRUA7CjeZVGNBabbMf3OSPkeYWh3WZtLqz6zVvYG13Rk47p3ipB6ofJYEVP8ygigXtI3sarIXyGxLNO+tJgrlCDUyBxJ+UPnIW7WFZm/38OU5YQJa0uym+To6BiseaD0u3GgEi6aqk8Qg+6QXnb1SLXCwi7X2mbLLwnBA/939wHc+GVnhHs2FHb6KUygTnl08xHzxRXsnMhLgiGKpb/0CqidluhCZ4Tpy673K9e6y47+VKuxOWoLa7ng4npfUjDt0XORH2u14oCX8/3RX+FXF3koZq36z8Wd7mgY/Ne+nvtvnO770+I51ri79N1zjFDSNzBYJvWob8jmLL/z2">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="267.39" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE 2 CAMAS STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TWN.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="267.39" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toRdsEavHhpuxuSO5wBg1HSbJ519rtzuFtuXKfwN2J5nEyds1rWAMb7M2OhNyz69pM1WKh99uWFSH2T0nSim/H34tUU6SQI1pseu8BtafJb7+uZn5uJpYZHlxDK2joXep134KRtNBfpk+H6Ky8UVHoMet6LPdjeUI44JVo3OpCWGE+2+vtu2OP5Xn2M7mlalGq0Z1BdRUA7CjeZVGNBabbMOg5UVUAS6iSpQwxiDJ5bLGHNaMSCeboJuDlLjM3ax5Q0hWBX+vE84wpti0vbmqsYljlgKLqKisOhtmCANjV9Sy1znvpqZMAgIrSc0oS0eR2TSBU9x+gRJYEvYDHtZzj/1GvOAZ8O4EIHVeK2dLywkRwCXGBew8aFuALySykBoX+mY8FWLVoqxHNjOcAouMOwfFvaUzKH7pQKKdPRJVfAtOynJOq3VR1QOCItuuTPb/NkoTW3Ed+GmWmsR8+JrbTLfL/RQcRujlGtMpHtBdiWJlXNMKJVefAl0wbsbqTqYSa90j5+JrVQy5fxNYjHhFuS">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="267.39" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="267.39" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toTJ0SFbyY+oVt1S6Mefk3hoYxN6v4Ii2BK1/MTImSGvnXDuMXi2FYSwwdccvUvJI9XFZE6iFbHacxfHgl7+ARJsh7ieZqu18qMIeh8NYNeCULQl+2yujjGyT0u6vVU4rcJFqJokD1gpoE5N5M848LKKJWiEH5f3hrBMFxGN5cH5DsTy4klq2OL350d5wt3UE/aNu4Px/eGxoEuqxrVuUXsDbxTDJoB8RSI2If/oXHyurHoj62JykYqttItq4BZWwepdzCjw6cxtF7hkAZhIRADe9VT5hEBfAbqBpXDzxvR0D/ZtPEWJyc69TYHyPH3N8J842BKhl4N3eS3berouany/4AqD0e9+b8VcU/Ghet1MhISSoJKYIbiPPwGmT8UWEySp1fgCKW0WkcM0PwehXcCS6v3gQmdJTbEVW5LMo7QFbGMX++0HUNPenXko/1X7c2zIPfQM8x82WTHaQPWeA5h33KmLZHVQctEUJ/gw+stkufJXU8OXhZVp6WHPGHyd+LBULsuB+gvaeK+f9cvuovK">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="286.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="286.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toTJ0SFbyY+oVt1S6Mefk3hoYxN6v4Ii2BK1/MTImSGvnXDuMXi2FYSwwdccvUvJI9XFZE6iFbHacxfHgl7+ARJsh7ieZqu18qMIeh8NYNeCULQl+2yujjGyT0u6vVU4rcJFqJokD1gpoE5N5M848LKKJWiEH5f3hrBMFxGN5cH5DsTy4klq2OL350d5wt3UE/aNu4Px/eGxoEuqxrVuUXsDbxTDJoB8RSI2If/oXHyurHoj62JykYqttItq4BZWwcgdSL/RarjEyQLqnizAgC8SHyT2wf82x+2iikMBJL3HUhUETsj6PB1tqx37eyliJ+TLHzumFnXsd4Aw6mH6p5SN5CWBClpNlrhjfyEeoInVl+DhUVZMdzyMWxkSuC9kZz2zJEymMO96vDFY5tt3XkYgAUVOYXHdU+HXAFhQYiKO/2FXni5ln+y0PNY4DboeCulesTICoHVEPvHDXWZkqGLtFiC/IxyGBTdzmNX/D2xmDo0kvts557Cz6w0rRRAALlTiDGddccfbgKBvo1UKpWa">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="286.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="286.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqXxK2aZLIA8eRgyHnWM4kxBlL/w2nja0WJ+or0vCvsQEgBih5ydUlDFtqb2fvIzsiNuxeDDjwtrlqJI/d5RaqeacDrOr7hXzTMJJmaIpYJmLCGY/CIvJHcrwp6oMh5AfLJwMIt3yU/kEUG2UFXe1s8FaYSyF5NL4VCgnOdmsGXB4W8sDyxZI/cB4L0heRnaMoDldYoVm8UQ3OR4KcPqAoIXG3eHAzaXInJT8NEBf0Qux9QZRErXfi7opCPNMvs17qobz9eiNa7/b3b5KwRCmClOVr1U3y9AJ1b2l6tz6tGKePItd2RW/G5cJ9CLVYSReGKHSFFjaBleNnts44cgSPyqB4Xnir9z/5Wvoyt2faVOTTPQY1cSPepXsjg1vLH7ppIzqYy4tPA8VOjtcSNLNcs2rD9aHZVp8lEoEKMndEBrWASGx0ZfZ58Nljgnvi0hKpYZkyOLjrdxRiQvXpRAZaReadL41rSSwe81qzjv0MNjPTbSUMe0lDNU/LwU7YwI6k=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="288.03" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="288.03" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqXxK2aZLIA8eRgyHnWM4kxBlL/w2nja0WJ+or0vCvsQEgBih5ydUlDFtqb2fvIzsiNuxeDDjwtrlqJI/d5RaqeacDrOr7hXzTMJJmaIpYJmLCGY/CIvJHcrwp6oMh5AfLJwMIt3yU/kEUG2UFXe1s8FaYSyF5NL4VCgnOdmsGXB4W8sDyxZI/cB4L0heRnaMoDldYoVm8UQ3OR4KcPqAoITD2mZvzlfKGxXHDu7yjOtGuII6TuNYAC228n5FclegDbItornkpwjrQRX6TlFFUIjhcSu7exts7g9uisYwI2FvxMcloTmsq4gB8XIiXKgyQL8KWkYx8ZTxjA3jYqcPtQXSs1t73ktWpvbcSVJ4D4rmm0TDqljzAnnk+MaeDrW24vwxhHciPikvF3n3MEjLE09ynA2oENktRdn4XzaW/q9TohkrD5NHl45NefFm8P4cLis3o9+C7EqfGl3haT96visf7pMXC5J7/7T8pqfM4sAJGj/fGP9OjhQZz6oG2IyZqqZ4HyPeGaVOChPKjXb/pD">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="288.03" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE 2 CAMAS STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TWN.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="288.03" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqXxK2aZLIA8eRgyHnWM4kxBlL/w2nja0WJ+or0vCvsQEgBih5ydUlDFtqb2fvIzsiNuxeDDjwtrlqJI/d5RaqeacDrOr7hXzTMJJmaIpYJmLCGY/CIvJHcrwp6oMh5AfLJwMIt3yU/kEUG2UFXe1s8FaYSyF5NL4VCgnOdmsGXB4W8sDyxZI/cB4L0heRnaMoDldYoVm8UQ3OR4KcPqAoIB6iNgu+vkdXe+8HQDtCWmYbu5fmNfQxzOGGdfVlefN0Brow8LcVPp+KW1JxDNeqs7wTdS6GM1Zx2MjTMDO7d4pqbmLbZix1tqJ6g7o9V9aNRV6bjfWRVtWGGUJqvUsTlRlYAFtRFvwXimBeQCHA5z0N6IWCU/UhqcQct+wt4IhpVJh9xDHVyFEtqGly0oX4eveBkjHESJvkq9O6eyFmKoMdJLfttZHUj/ql3fpLpVMUZCiW3iNOc1qiChUfZXXfrgJ7Vj9LwWBaCacg+M4dgnLp3bNzyl/VW+Xoq5KHLjjPw6WvNahCaoXQVlPxovP/B">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="288.03" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="288.03" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trs6wL2Mmz1pWVA1WddLvJH5xVSk3n2qHDyJAbdiJDYEcbauKIJGrFCd40tgZbvLN4WQpzUw1ODAWtzb7k1SvrAOPiPti4Gp3td0ZUTr0btY50/gdCRLR9bUIs4dHE70vtsLcmSsteN+QG6CKPQ3yYMQYmq0AIlZTaN9XAFR54wF4D1Lf1UNk/C/JrQKdGCqV1382r0FodKU3Ud1NnjCP7magzNOPDCTmPgGX8XVEFWUiXvSyVxyAMv34VnX8aHew7Rdxr+Edygj+CZODWDqu3l+tUFuif8HqYxhH93Wdwo1ZHfUhkpNOLrgl3zqoMr2zwFPeMJ8ZuQNQzEo8Pr6zb1SyWPlj/kLYblPIrEvTwm6ODhyx/UjQFAI4WBpE67lCscmZP/lTOdNCJS4HmDI2sNcWxi+8Ba61j9CRZhGVfPg80UUSaDNOdFqdAVMe6s9/yRZGzFMACXaEZzAIzMXTIGWOdm+Gwzy7XcS2ofxbPlAuhrYYdIcktpvbeucuaBD70=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="297.09" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="297.09" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trs6wL2Mmz1pWVA1WddLvJH5xVSk3n2qHDyJAbdiJDYEcbauKIJGrFCd40tgZbvLN4WQpzUw1ODAWtzb7k1SvrAOPiPti4Gp3td0ZUTr0btY50/gdCRLR9bUIs4dHE70vtsLcmSsteN+QG6CKPQ3yYMQYmq0AIlZTaN9XAFR54wF4D1Lf1UNk/C/JrQKdGCqV1382r0FodKU3Ud1NnjCP7mE7fUGN9FlXG5jmK0x/dRZLO0QYycFOkoHD8UVOnhs7rhZMVY/iULw8PUZ3dhLfzMHhdaCCg2ohQsjrG8/IuwGtDnkGTR3DBGk0I4m2THgx2UTRKUjew9dF6qZrKxRePq6YJc8Wa6cxl1jh+fzsG+biVc/jNd1AqsrnjO0LXnhm3QuYHX+/6tdrpE5kBuG5/KhwmIK7NxzmUNJaF8tkRf0bHsB7QsRqnq+LAMIyEExAoSOZc8wMvnBYoZ76gU9oPRR7Xr3uPwCsdVgJzhnGrEAvqefx5Tkr0wVqQj3hQlvodPSVVQcrdfFvOUitYh/u5X">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="297.09" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE 2 CAMAS STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TWN.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="297.09" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trs6wL2Mmz1pWVA1WddLvJH5xVSk3n2qHDyJAbdiJDYEcbauKIJGrFCd40tgZbvLN4WQpzUw1ODAWtzb7k1SvrAOPiPti4Gp3td0ZUTr0btY50/gdCRLR9bUIs4dHE70vtsLcmSsteN+QG6CKPQ3yYMQYmq0AIlZTaN9XAFR54wF4D1Lf1UNk/C/JrQKdGCqV1382r0FodKU3Ud1NnjCP7mE7tz6UFnzcmuGxJkq8N6JrDY5toC8DpYYGtZrzj2X2nUMHFM0Onowr9FNoUUKn3q0AlJYfPJHcTMz9TESJtbRi0x8xlm4ImfAE5EYoP3wNq5TUxWxKg+6umhnR/feufY+BW1Qzjo3alW2LItFEGVmcaOwswI5wvQSTfZIhdVbJM8riSpI8JoQImZw3VNmvUfls0Q+g79CKcdPKePddjb3wXsT1D9tj054feDaO32omdw0PhwSHUlhmVxEvjWOMNsWEC4plNAy8stCWGhQ5fdVSoiu0mIyL9rEGfJW5CjwLwCfgYBm+FvSE4w4InrtE54">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="297.09" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="297.09" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqpM1DAeNBnDZi102WyMWy3o6o3QBcDnPtYur91UfE7ORq9/lC2ZyxF68tJBPIcDRaWfs6XH4yoHsfSYjR5TyIvnwq7FCrujyRiHJYGYfErEMxXEVzYnZfIQc1RZf2tnR7gwLZvS332CY88ePKOXoz5wGwXa0iRvpbH7K5cwCnWV9m2FoFqN6BV2Ip3cvRIHvw9nlL10A3zPEisEabfTmgttUmhmAvDgyN1j3SJHbLeszGCCAaNk1ihKrdzHZrwCDl6Rw4+ZxrLFn3vfGBj5Cc7GvL7JRrDXdVi4j8Swri+803U57PkWDqIKVlduFFu+02ei1uVPdMSDpTpIuKDCHt1jKXZsqJ22kbCXuXpXeRsi0bVznevJPQt/QKiqZeMLolmeSrDOYPbyu8OJyxcREEKhinrtDpiTrCHEU3Mk5XWFQkJEIbj6SSu1L6Y0Hez1cU3AVVBg/YFAyTDbsDkY2SEivtEQkqJGv8QIwA4ZOXjc0POqI0ZK6PtlTkD76vu5Yxkz49A6hhtHJf9BCGiMNQO">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="309.16" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.SU-1</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="309.16" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toUw/gATN7Ld+Us/Flc37DY+pBIqMZHD9HKBLoQ428w31hYepq8SWoL8+6JJxdOYorVg73b05MkA2uCctLDXRoDzWYtcTQZmXYXLOo6ZVK1wGlj1jPOdswa5J22+j+CSrgrG9UxzN8N+X3Ztzw/60wYAVKFepTFfhu5g/fMxb764zW/ocwAtTlWtA7Kq+ryp2UOy9TlU1b/dCin1QhNmuQ8RRbemg6yBuicbQX6cBUus3/QqbSIe4Sxa3nG2TZxJ/aUE2hI0AT3dBagVs6Vj5vy2meiCPUMY+FsOygtxlMlwNgmdTzz9hoTM7QGTL4HGReDLLz/HaSILJ0Mdm99HK991d1G8BvD0LOjcVXHElsceU9A4qyccym/eDcC/ZwBgpunrj7FGOVOaq78UZQSHKYT0JW8TrnOHNGn8vVDRo2/MdBPLZXF98ymXV5YeKT3KhLjtM8DLHBY508+2eka1Zau+GW6BcDF2FSYe0fzE8QhL9m/9byDfap6EzZFx5hgBJI=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="313.81" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>TRIPLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TPL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="313.81" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqWDS/wmitEuNr/R2zZD+uLAHZA1eYuvAhJZa0fy32hXyVJxng7v9u7osq84ItaUJkCMsm9IMVlJp/7pEczsUS5wJl0rnnU/jSRYniwt4svsvW6EAUHHqMJff8R+aKlbxzbz9zXWJEyKDHtDJ6kZxezNiog9Csph5pXC6dNVP3cLzWlffUB9dn7ly6Dvl0IROEu3or4eJNfVwkcYTX7s6d31WmZPnYl2Es6OsoQ73q1V7mSngytETxku82de6HqxV04gqGZgA2XvgsP7IcZ/ob181N6VnwuYjWS7/cVmyXsAGolBuL27pfsbj+RsRYiUvv6dJMjduQkXl+Ov82FzSlt3sYyB0+CYHWwmCj0P7x5Jy1YHM2aj2Rtf4ww/LX20zLeXfKyKp2yaO12ice3VC0/36f84GfwFKR1Sp3S8QFX19PS96aYIuOLbF6pZKLCQ8m6j9YcLaGh3DsL4N36O/rXleQSN+mCofQzanjFgLRNWQY5xxIt7LhAnMJkqw8f4Zg=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="317.73" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="317.73" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqWDS/wmitEuNr/R2zZD+uLAHZA1eYuvAhJZa0fy32hXyVJxng7v9u7osq84ItaUJkCMsm9IMVlJp/7pEczsUS5wJl0rnnU/jSRYniwt4svsvW6EAUHHqMJff8R+aKlbxzbz9zXWJEyKDHtDJ6kZxezNiog9Csph5pXC6dNVP3cLzWlffUB9dn7ly6Dvl0IROEu3or4eJNfVwkcYTX7s6d34YPC7Dh+sIprFyhW94lbvtGpMItUgbDfcttYcnQL6/gzZ643HISouPTUU3UtAfvJhTPvG3Jz6J/sdSutlX/TwR7HQWbtG+mK/V8dAObrIgC2Zi6f3hv78AaUJ/VBpMHQeWJuKnEfW8WZgKC7kF6eB/AVXIytMm82qiBhIY4DYuVia9SfvKjfgNVKf9iI5IzbFtfhkLmFCBLAKmE3dsCMaRNphvVBzf+GPev209F4MIjumgnVRf0BwjtkC4JN75YCd8um62CSFykAlu4QRPU7TJERdjJiUFxRCKHee01QLFMpKukK6ESRtn5Nfv3TcIiC">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="317.73" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE 2 CAMAS STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TWN.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="317.73" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqWDS/wmitEuNr/R2zZD+uLAHZA1eYuvAhJZa0fy32hXyVJxng7v9u7osq84ItaUJkCMsm9IMVlJp/7pEczsUS5wJl0rnnU/jSRYniwt4svsvW6EAUHHqMJff8R+aKlbxzbz9zXWJEyKDHtDJ6kZxezNiog9Csph5pXC6dNVP3cLzWlffUB9dn7ly6Dvl0IROEu3or4eJNfVwkcYTX7s6d3fMwjf9lF5mzqnP2IdFlsx+jYsi6bdv0x1mRqzGh12WKhxa6Og6fe2fqjBAiE9ap5C5bPDtm9OA8NiJ0IxknfGXEhg3Bv8idL6PEopIwZkPjVElUPQYQMT3fC0xs9Hp2S0w7mu7AIRMTL0pr/BW0JCU6nfJt283ApSTl4qj6AUyxCeQvr+aPv/80sdbSR+Nq/tKurdxRu6WsXq4d1C/Ee0lgAygDYB1JXMhdHzlGJw/1TWt6KQSAfaugYhmWEi2uyXXxZk1TY9m4jTjrBCvvW++rqJHyXLHbabLW2/Dd0TFI=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="317.73" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="317.73" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq9pofZ6JnfgXjBWpMuSIarfxPAXSD3DZWFZOCIDDw5Sj1qe+qOaX9Zz2rt0DGAHejqKeTGM87IHiPtmqrgyP4FgDkB5WWWwRIYO0fm3RYlyaOUXsh+wUBSd267hM2woSQRBNIFuvHqmC1C7tC2yVXIBWUHBaxEBO5yOwfbFUAg71bWkFTzxTvoO6wlx69kutWILorI6719vE8zX8hzv+0FFreK62CWXKTV1JCwdr/NhoaEygLrZYg1DJOayFB04K5xw/ROYKcOtcUXEK9W1hLHfSo0sbXgEKhsTuDUbQ3Cmp8uSywaZ/aIfxtnEbcDLzzscsqCeql/GCS7ZzJQN2SLMe1aylERpOf0ZAJ1/LF/2HYWjuoQSP2BqLElfCxlrEG3pJMqxVWsh2OYMc3Lw1AjWvVdp51pzjvRw8slDeWP4pdK6/2NjAANt7fY4qCQANRkDlGCOZIwWiyLP4LQ2qoBGQVUWcJYi7mnLbkdtgqVptlt9GzBjjoxPDuPUCs/dmQXricd3QsPVLSZNHOW3UbD">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="318" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="318" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq9pofZ6JnfgXjBWpMuSIarfxPAXSD3DZWFZOCIDDw5Sj1qe+qOaX9Zz2rt0DGAHejqKeTGM87IHiPtmqrgyP4FgDkB5WWWwRIYO0fm3RYlyaOUXsh+wUBSd267hM2woSQRBNIFuvHqmC1C7tC2yVXIBWUHBaxEBO5yOwfbFUAg71bWkFTzxTvoO6wlx69kutWILorI6719vE8zX8hzv+0FFreK62CWXKTV1JCwdr/NhoaEygLrZYg1DJOayFB04K7neXnf8hRP1jYZg8i0i+Ao9vZNYrn87ota6TKd97hm6SigV01j68KpiGysWrmabHqwQOarQGT9pr+cwNLFtycygiNNcMjcxeSR+tZUXuu2JBZmUCwYnA4bPk2IhwEqcZ2ldZhVDKEIVSuHdkGgGz9Bd1XKHhIgvs8Cmq3QfYo9EyGQmi/TmIL/UFB3Hi9vzZ4sO1vmfbhPABET39ggp+BAVR6BeFH326Sr8arIXYSwVDWpMkz2D8KEBNNns9NFecUWltSiBvUZBzx1KttJrjXl">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="318" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>HABITACION FAMILIAR STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">FAM.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="318" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq9pofZ6JnfgXjBWpMuSIarfxPAXSD3DZWFZOCIDDw5Sj1qe+qOaX9Zz2rt0DGAHejqKeTGM87IHiPtmqrgyP4FgDkB5WWWwRIYO0fm3RYlyaOUXsh+wUBSd267hM2woSQRBNIFuvHqmC1C7tC2yVXIBWUHBaxEBO5yOwfbFUAg71bWkFTzxTvoO6wlx69kutWILorI6719vE8zX8hzv+0FXGKbYtIqiyt1zKwcI+HgUUDLWd7CC7C690zw0TlRuRYf74zPqbjqdOkNSWb9qR+WGzgO1m8h6CBI8mtcK5nONolJ9iXrqSI6JdWrRsKwY7XjHm7lKEgTSyCve07ga6mjdg75s042xyO+VMNbqObKG625OJyOibXYaFGzClZ3JPm1X5R3ijZUYYe1JxQD6j2HudbPfHpzO35OhuCBiP5QdI3s3T/4iXaUqg4VLdDaA9pebUY9OBqm0OZofZNzSITu7U5hL2Z8ZtZ4QTvx4pC+Aig3ezQJT860FGTPs2n+BHk=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="318" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="318" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq9pofZ6JnfgXjBWpMuSIarfxPAXSD3DZWFZOCIDDw5Sj1qe+qOaX9Zz2rt0DGAHejqKeTGM87IHiPtmqrgyP4FgDkB5WWWwRIYO0fm3RYlyaOUXsh+wUBSd267hM2woSQRBNIFuvHqmC1C7tC2yVXIBWUHBaxEBO5yOwfbFUAg71bWkFTzxTvoO6wlx69kutWILorI6719vE8zX8hzv+0FXGKbYtIqiyt1zKwcI+HgUUKsG1Vb3MjCJsl58WvPQrFMXva7kX07hrImk0nJIdUczzWY+yABC2Xfk/ufmoyWeopY8B+b4EaDxooSCfNgeu+lXoFouCaO2J48jI8Rc3bsFhkNugPBG7gxZD0kbRMwlLpynfrMtkTF/o7pzQbEszqwfegUVfwmMP5FFABSZddHYp72vPidVLmtBwgeEE5VGiIaIFB6EmFSOCsmCVjGsyKQ9wn84lsRjOavaul/6zbCy8z6OGTdIeoeCcf+kHrOyWHjLWeaAFXvVSL1rGcN7qo=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="318" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="318" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq9pofZ6JnfgXjBWpMuSIarfxPAXSD3DZWFZOCIDDw5Sj1qe+qOaX9Zz2rt0DGAHejqKeTGM87IHiPtmqrgyP4FgDkB5WWWwRIYO0fm3RYlyaOUXsh+wUBSd267hM2woSQRBNIFuvHqmC1C7tC2yVXIBWUHBaxEBO5yOwfbFUAg71bWkFTzxTvoO6wlx69kutWILorI6719vE8zX8hzv+0Fpvl+mBNMFJ4oPICutraTjR9ejMxjrjkKWjPcrV7YK71WgdZpEKQiyFmFRLixjX7KoO/pFQXWV101mm++F5iqnnm9tIvikxqcB9viA+tovRY5s5np1IL1WZ4Wfz3o9guQlbbdxK/VGDyqpDB5rvjYw7bD81kaD+Oj1tYpnlWl5/grz+LJqkyONCjFbHUMNZ3AiN8jJkRSQdlcSTyaj6KrLP3qBL3cJKbjCqO7Zf/bmUaR63a6gD12GmCsiHFrCMk2o/2EHBu+OUK/cmJW3p077l6P1H3098YlHUyg0bk1p0U=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="318" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="318" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq9pofZ6JnfgXjBWpMuSIarfxPAXSD3DZWFZOCIDDw5Sj1qe+qOaX9Zz2rt0DGAHejqKeTGM87IHiPtmqrgyP4FgDkB5WWWwRIYO0fm3RYlyaOUXsh+wUBSd267hM2woSQRBNIFuvHqmC1C7tC2yVXIBWUHBaxEBO5yOwfbFUAg71bWkFTzxTvoO6wlx69kutWILorI6719vE8zX8hzv+0Fpvl+mBNMFJ4oPICutraTjYUNZ/hWoBgVk8rrHexi9PvJ0Egcet8KERMw0euTkKTU92fRoJYZL4VMck/dG+GKknXQRpciGm1iqTlW6z+B2o6S3FTBOUvBEgQPtjG4Kr5KHs7VB7CdPdz6WE8XdRZjwRQP62tU5+ANFz2poH3tOa+plhX8Yj5wYFHK3ZhLvwnEh8rR+dlU5Hg7sORizijqhQ10jp7DMcQG5IJBxVIk3dBU7l8Qd2+VAKAzZPqvhtjRa8vPymjc2Cc5Y0W86y5Q0fZ9Ed8fUyM637XDZyDVtaU=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="318" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="318" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trgX8r3bGXdLTt6TINlQLfIYnneTq+oj3M/twJBla5Frm2qt2Jx59awJ0yVygW7AjkrpQ5p4Yfj9Nf5BuilLDrG7nwx6QMimj6rD4Fn0Yqy0upvwrBU6IgVL6JIh2HsC3R06+15C9FyJLfekNA/3heDM5Bl2LTsKy1p91l3vFMEZ6rfluap7PZRHEZlcTPZ4QxJ5vaG1eUV2ojNMuxPsK96oq05jNdrstQPJgcny6xoQo7RiyrZkzV/jh79QOdKlznIaHvNCM+TI4z+fMaTfa6toX2TJ80i+xTTyPHgfyLd1XRwF3f/pSS368cLJEWRh27fd53J2G+Da16sgqXuLqtsufXC7ekXY1J62frz36FdB1ETrmsOXqPqjepm0a/oR9OcwZf2I++IZTbXTP67liQMj5yshYTPxYcJrs5UEsYmzUBailn+4EVyBwfjq58l6dEA0TTjNCfAONIVsds8U5ZLzhUumw6Q8I7hereo5Bg3R8JDfSsJJ4hz7fYhLnqa4lgIcdNiABf3KSHUTBZi91e0K2dofnk+k6l4DhlTVNcfxw==">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="327.72" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE EXECUTIVE CAMA KING</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.EJ-KG</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="327.72" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trcwQGIj8UQX2M5yjAVu+o0X7Dh/rJeTdmr1sHEKFZo4eaUGg6Wuf/Tv+1+ZDdfv8rZnGRqhLwRvTOXXKwOGQvrTZBlpDAw65aGERLrmEzT3Bdk8aoz1S8zijBkXusES6Y6WCC7H9ZfGvMGBIjdtDLS8FtB6N4G338WgKl5OcCN1Zkso9BCj1WufGmRuMEt7ctuNfocngYqgB/VEPlBsyrLVkEhmb3/PYp70DCGwmiAs5QEiemjS7GrsEXnXwoeTCKOc2qzQnNtULgkkLAeaWV1uiT+BeuxEJw32cYAz3gsgEdZvouD0wgAkTVKjV/JMrQVa0VGGOr7H7Mv6Rjb3Prv++37Vsdoj3lkG9NRGbnRrmIa1NljfQSFxFGqPDpptNtla74DUwi/GaTK0Bk2R9gRmKpt7uh9KjruRkoU9J2kNt4tGFxnhNX6OEF1pttN4JCRmFw52TcxzXLvWIbHyiHnoZyrRP7HFCPbFh73+LV1Cz+uG6PHNHhnKQRyNFLHqvjKrlUsTCWpo4hKrtP2Y6Mv">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="329.79" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.SU-1</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="329.79" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqyy2sX0AmWHhCE4lFjwOHntm91dXP4LnCROTz8L97LKlMXRbo9bC7YA36Edj1xOQBzf3A2pgN27yz75ATivh9YYb7Nr4kyYubZYZ1ZkXm6RrAkT7N6NTsirfn8da6twlnFXX2Oqo1G9LUCNDJzbk7wruCAuAU/pHRHgv7zaPQZ/SI8clFUeAxjsOpVVHHTZqVQS2HGRcF7ksyDvXPO6A/nJHV1TmN4alF2ZHM4TX0bsi+t7EK+oWTJgOu6knuQNy+odFhIn+70TaJYVp0UChYf1XBlsYnEyYQQz8tWT9tuTTjksVqeGcg2iWzhLNR3BLJbYOyBDDZbw9cQtVAX11IQPzjKwyLXAj9SGtUz7JUrOHrGbxmo6FqrWn1JGprekXtXZeuiL8Q8ndcv36pZ+T4yWj9Z/1CSVORC76w7RflvACnryLqjWUhZ8fr0Rw/mBezrEE+R35DPs8DRFCNPiHtoma8SpWPfRZIHgyy/E12XD1yxTW8Aq9l9UzbeaqkAwlY=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="331.25" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="331.25" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqyy2sX0AmWHhCE4lFjwOHntm91dXP4LnCROTz8L97LKlMXRbo9bC7YA36Edj1xOQBzf3A2pgN27yz75ATivh9YYb7Nr4kyYubZYZ1ZkXm6RrAkT7N6NTsirfn8da6twlnFXX2Oqo1G9LUCNDJzbk7wruCAuAU/pHRHgv7zaPQZ/SI8clFUeAxjsOpVVHHTZqVQS2HGRcF7ksyDvXPO6A/nukoY1CI10fzo08w+DAs/jDG5A1fLX8bUwu0kNXSaa3d3M9vWV16YsooaaZnx7t1bwoRMCJtguop3CBLDCcNk3bMJvIX8FKagTMTO2ePx0b1kEffsgmIPnsmdzt/35SCu7xzGXL1rQqfPSc0dx45qH1gSX2v8A6wdFAeLOSxC4XtFsSM4+EAJTzv2ZibIR1LqYcQg/caMc/jFsSAPhO4lWTE+E0nVYeK7V7k7DEGphMTHqk5DNZflBTCYEG6LPqIs61OK4Angco6UIp2VbUqYQNoO6UjiwcQ4YCX6d9iImPpudqISDYLEojFCVK0JOqya">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="331.25" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE 2 CAMAS STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TWN.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="331.25" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqyy2sX0AmWHhCE4lFjwOHntm91dXP4LnCROTz8L97LKlMXRbo9bC7YA36Edj1xOQBzf3A2pgN27yz75ATivh9YYb7Nr4kyYubZYZ1ZkXm6RrAkT7N6NTsirfn8da6twlnFXX2Oqo1G9LUCNDJzbk7wruCAuAU/pHRHgv7zaPQZ/SI8clFUeAxjsOpVVHHTZqVQS2HGRcF7ksyDvXPO6A/n0s6iyKDCRqoh3nP0M6/so6/Snu+vltd7yMF2bWJu7HEEMp+K0i4DeVR1eUXxtTWDy6XxxI9S35o4nixc33GOnMNcvKoONSqJRkktlN/Fj59kYqwWLG3CXBTd0flT+TaXlHw1301eXgiEPuXgUwbm0VM5hAcFyyw+UZB+77gGhtZa7McsZAGQwUZ/F0v1bCdcVq9tOUaPfrYx+kGXzYQQ+o+jc92Nn9zFldfFJGqXh7YaJcriTjj5MGc8iXB/Df6XGFniU3OZM+c3jdr4tNdaHPO6VpQxPgYbVIovM5R6Puk=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="331.25" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="331.25" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toYd866L+Diyt1iONdt58dM/11eae1cGACkKcDvbk9k7RlnI47bCxIRWD9v8DZFa4Kpv0uWPTG6eKRbdtuMy7extEcUBuMRWP/ZnyjLd46qS3wdFgMTWe6lf/I66VYtiYY2rZyZkz6tzJ220KikVAPyazKGXpSDcH+3pjozdlOqm8PEmo/Ew6kUHlro6kh3zfuXOQW43OATe0PqTz8/SUzziCNx1ZFrOILQPDisJ67alw84NIeTHNP/0HHOH38F6jBn9PAWZRHSlJKUesDGyTw6VS1MtEeUVj0TyNhsA+W8yuILbRw3IKTRZhqPQ5LU0kauCYRnRK38MKmjREef0gX4g4K9Ybe93r+FpS6RYDzOHRLZQGPyOl1Fdzav3/C/NnP6BnmkiywPKnAv2AIai7vuLqltoTfnf7QQo+5IFxWiiaIPowN9ZovElHXrK7q0aDV9umaXxP7XSsMSxQvFzHFmx9smdMLNkEHDt6tvMr8/oFMNScx05XdJJppE1Pt8x/U=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="334.45" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>TRIPLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TPL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="334.45" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tp9rdVB4wd0HRYUGnRBoBf1pd3mPdj3PhfungOEee8vdTZlywwbnPOUUeRZmY57FyAlheAsTH+WouIzlLebDHvCQHm+iZcAppoSUET7UUt297hnP71ALvNxAYR0uNjxjPyR1GWYITYa5hHI8XhJk25fld2obQWtcMeHMWQ+tRTjFzUTK2QC8qNJZtuLeVrdy9v+mXR8sLDh5ugCGaB/ukTwDmWTnlCpRFhBqTqjaEGAR+DjKi+F6UqsPJsswlnnzuXFkphcdQ06HGajs7NHRKrOJ8fGmL79i7rnNOIsbwiAxSY3XhQrcJW3Zi8p0GenKEE4gd2nAOpckxF1M2Maz2SFzVHZGpzvpLfYY3MOBz3tQY6ijfiTtIBOKVp2CGSxq12TYRz2zjEULiLMlU9q+Jzts6vhWWwkB/dFC1rAAQ2zCpvDc6Inrj5KaOk8UivK7eC1ATVa2mVtlpJdeXWGsng1ju9wV6JTZIKbpesq0+jHLfbQZEjQxAQgx0rHzF0GczQ=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="343.5" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.SU-1</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="343.5" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tr1gcayjwDFQIV0ZEYPvYALPsOIQS5JJ3R4nZG/fnFaNBKy1FwkLYSO/fn5S64k3Ro6TB6VZARyWwfWtj7qISZwG61ALSUkMFNbcGD97O8u96AkDB/8CYXNquPVulK8NcPY4g7IgGZ1vRnyAX5W2MBYrxBpljvcDOMDxmfGa1FxEls2rnqnWP2gE1/0KKrsWWYRCAOJ/yXgMyqKghlCTOFXD5FyE5wVNKE0mZaNPwnVD80BlMU3VCm85yfEBo/sKOGwWEnotN9Dc0Y7fVFnZhkT3VHA4DQ7gBPt7fCRveXT0l5sjVgVpFQ686hPyID22QSuJnLAP0QJjNwF3g/YUC7j/Id9NKMA79tgwUacguRgMVhQ6ssoG6t4Ooq0e429Wu5r6dkq3aL5taC1KA+8gpjp6qzCuB+JYuVCC6GgLWWGma/5CLOCMvXmVhuUfc1t9nloKOtQnzLo+0lCEE4mISOlz4sem/0unlZroIKWiegX9i7+3ltlTQcRTCzEdZ9lSYJ5DhQaxZ/1tLOPknrO4rA6">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="348.36" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE EXECUTIVE CAMA KING</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.EJ-KG</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="348.36" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4to22tpo9/Dxr3nh09c2G+fyZLIei55j5T8PvddSVtWWKzVRbVXUJwfDppJUY+vSr5FzPYM6NIvLTZShl8vUkNj2imRv2c+9TjjIMhvb73DKc+bHvCf+KKrq2xrZJLTt4ORx7Nd6A5OAnvYlD99jwP7UyxVT3GHH/Lhg618Dkihn1TRcZjYWXyB/IHG7RfAsICwR5p1EIE9eDXus52ke6Qdo1EiYVI5IwI9bWq8k72M63kHP4TAMUJ8P0tNN3e+Zkc8v/T0Flp96q+cT7RaKW17TaTiqb3wvOPUKBowR7A2uj0I4LQCAyFVVtVHg/GJz4CG5ghWJcZHJjIAXq/JhSva6RA/AxykyTI5U31sOXAIMiYzAARfbxsUHTm5b5caz7JHzuirkG99LUnIkDmKFFH6D3PGd/5jLKS6hiRBk0AtJrY7duRgSjRM1+oqgd866SvjwnpYly7WKlcUmPBwROKzSX5pZ3GMVO4zEx2nMXcSn+DNytbo2reFxGJJ9K8Vz/kM=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="348.66" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>TRIPLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TPL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="348.66" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqeevVHQptsUmCa1XlwsD3XtK644EUy7D6RS1oCBq01OclHc5lefoPPhzraAjDjyDgMlW+wU4RtdY5UR2wKPf9Axgh/FLtKSIomV2mj0qIHO9/1ZKYWwOSdlv/VqikIRQgPKqrbKk7BPEvw3jlvGvWbYUPixu1raXCn+iXWCE4X0vbpk5GBqKWGmLS8R5pZEqlzYtCwj4QUiWsiBfEI4W8Uyl2L6Ma6ZpWAux1Eal+ZwHhmqo/N1B0hRttCXmM6Njvx6mlXV85+m1dNGmYyo6Jrm7QOOLqQ4P21LEM8MRe8JipQJTLGZAFD9pupB/gy9fRO6Yn0USFGKlZw8uCOdRYMXY5PvjzFscSUDvFDQXSqeIYM7aHy6xahG9PONq1ttJNJBFklW28s0kr+e0SUW92h8K6MVgGhdGAi1X44y2x5okBQq6zGdXAwKvgCFxvjSwK8auvt1jseQ77fe+4kcFp7fmH9IEBsRmyNrRZSQHYjIzi6gThnXUBmBPvjxaIddXg=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="349.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="349.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqeevVHQptsUmCa1XlwsD3XtK644EUy7D6RS1oCBq01OclHc5lefoPPhzraAjDjyDgMlW+wU4RtdY5UR2wKPf9Axgh/FLtKSIomV2mj0qIHO9/1ZKYWwOSdlv/VqikIRQgPKqrbKk7BPEvw3jlvGvWbYUPixu1raXCn+iXWCE4X0vbpk5GBqKWGmLS8R5pZEqlzYtCwj4QUiWsiBfEI4W8Uyl2L6Ma6ZpWAux1Eal+ZwHhmqo/N1B0hRttCXmM6NjsAaJdATIdhu1mw17EG6/rOqqRFs0iSc6jRtf4c9N/stRq8tsbtDA15gCyY6Ddf+H4FsetD1RBb6dXElUGldYUOsjiJrV8g0ePwF/tadJyvx55srZqHtmJFzo5oUHButqX5XQnzEyiHi+6xXKbtKVYv0AhGlJ69DUj86cv1NnuRJ7S0VvyEPr7d+sgSbq1rbXf5sfmjTG+Wdw+QsgFR1ZB5CHmuvskShW9289cJTwYSdkuAKcmG0fNgIYBqdd6g0eE=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="349.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="349.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tp7DMtv6hZjwoYtomR9Ooae2OdffJz0/NZOHoW9wUmq0z0MjVwBC7Y0j5ntJwDBbbjaEassZuSCyyymC8FNaqbBTFsuVT/Epxq4cpLH0xzPOi47SYmToweZ7nsKLpMuX7p2q4nDiCSICi1n09eT+V2z+WZ4nXrKewUpihc6l0PaNrY1e+f8q4MKxtWdzUAvLb1t86+430Zcr8UhBRp3nyFUxhNq/cqO/Rf8UTYFURWgaXYTvE1ENY7RbvA+rzINn5Z1U2PnP1LdqYasWh/LxiYuzYm7659LPYG6gTEIkkeO+h/kjuVlVlCpynt/ylxMdtT+hRnwmfwMKrTqqn/DMuUwgybwwAxiyIWW5jRBi+2wF7GsWHRzxnZ812kGTiveOlhQ5/J/2rLiYjHZl1Q83SCYIqR8B6DQZizevWmJC36AyadW1vwEMW97y0J0HRC3l9isfsRs9TcOfJMFa2T+V9Z2cbrEV5J7TunCinB+A/dUfmamZUl2//dnWxTCJV3SRMc=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="360.95" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="360.95" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tp7DMtv6hZjwoYtomR9Ooae2OdffJz0/NZOHoW9wUmq0z0MjVwBC7Y0j5ntJwDBbbjaEassZuSCyyymC8FNaqbBTFsuVT/Epxq4cpLH0xzPOi47SYmToweZ7nsKLpMuX7p2q4nDiCSICi1n09eT+V2z+WZ4nXrKewUpihc6l0PaNrY1e+f8q4MKxtWdzUAvLb1t86+430Zcr8UhBRp3nyFUyQi7KUPcxjlxrmHTvKeSKJNQccjM19ywrfJpyqTBm1WU3CE5KPJFCSo2Dz8rSNSkisEiK0NWxS/Y0kbh4jw2LXyjX0AAOcyZKU0Fa6KBZH7WcARaNRe8pK26kY0YYJ2XwI85chFiPcsGwPrW/F3iGzMqXLoh6Wql8ejDY6PpNPD2TqIEsihhTPYNsKlDJoJHzhCjnrnOGHuECZhSWYvmKLKTK5TTtS0fdlTALMMaQft02YvEnyrK9wVx2mER3hOIXHzrwpDmsXAJ+jHpXMe/IDcYrF9k7GHawwSrS6kRaeU=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="360.95" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE 2 CAMAS STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TWN.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="360.95" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tp7DMtv6hZjwoYtomR9Ooae2OdffJz0/NZOHoW9wUmq0z0MjVwBC7Y0j5ntJwDBbbjaEassZuSCyyymC8FNaqbBTFsuVT/Epxq4cpLH0xzPOi47SYmToweZ7nsKLpMuX7p2q4nDiCSICi1n09eT+V2z+WZ4nXrKewUpihc6l0PaNrY1e+f8q4MKxtWdzUAvLb1t86+430Zcr8UhBRp3nyFUlW0/0QFURlJf1tSJXvUSbzK61JaCtdTXcdA7tRklQ+4BIVtOqQWz+Umu2n4cLgcLtqtE0DlPsLiNYaHUpmzzWlzF+ZhzFVH+KlOo4vYwsE2ggVHUIZW8M/XQM79q8Ohl/kOwQONC029rBmn7UraF8wHLG7am1XtpaLPWEmFJBCwgyW6YtmXGOWaEiBWc3WfgN7aHqKU/Y2AtDq3SS276zWazryQmRcJblZyPqCCsrzUnzgcpO3748Uw45bFUOnxHpx44/BKRwIOe/uz5WN0Ds2zhtNq6UkY5KpK7bnmm+g4=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="360.95" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="360.95" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tpZjGTfjb300tQKyELZugcT/VOu0KdPzC6YWmq7JuWWFrth4c6Te7Vgk7MgD3lHRiEyLn/ld87nDMUzx0TRZDrS2Wcxe+0Z2TBDA/IXiWSVnku+DchPnUsdUYD4zGrmOnd45fzTrHRqLPpAAOOsjbn9arrqZaSsHZsZQGo/NTixiI5YiV4OgcDTtFOIfpwbJ4QvYngjfCxE+CPKd0AGMGwWWmoxGuLSgLlP5YytV4MWkEwkTHWVXZheGvrBJpjY9Vo1docuhTHhPXfXCYkpWaDRW6ouhojz+pSchbRNyYGybEm7MxPuSZClRvx1CuCX2BBU2GjiaG5EJCfW+JpYTbn7GyR9zc8mC/iJM1eT+ouNuQX1RzF0P3gk9498Idg5TIQaWEbBBe7S4B+5hMV65ICvxeN4p1LWQPlbZGDo3jhcdO5fNZz0I4IdXiXkUJC1wA8IxCc3qjPk/VhlE8YdkGuUMMLJCF4odv/PnBt0ahAF/1kPkWcp8bnaASoGxdLIB3JD4F5fQiLyeh4gobkXY8KC">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="364.14" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.SU-1</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="364.14" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tptOmsjvdbkEhQyEHAtNoEiEGSjCDOndUY/2FoM+oi9I6tQ4d5kpyiL2/clanRbEt3KEt7fUe6qNRmO9fsIwuEbzBUepSXQDdTw4azCSrLFZTVSs6x3XmjvT5G3jxaIjpDIKiGRsTafml6FYRBshSJBxj8Pqp6wqn1OHvz8bFvdtIQ+01J09evl1HGByF18UBg1ZMreQj5Os1c2PZSbjOVyufen0P8In5HGHW1o0y3dPPM8Zl1lhsLyZ68SEqvXNAkeYEFRMhfesWAfm2cM0+YEFEFeJ00bcKUWs4WW6icQX/qgZi4tRn24bFhk71ZWIYHdRehgOUlOQ4Bn5U+OSjSHxdSW/75O3Qvb/0hqW0CO7ABu3UrodSm0AOiLllXrw6IvheLGaKoRJ3dh1B+hOfklEdP4eIsBjjMN2wP7o/R/1NL3zGtriTCWzJgrtN+ypyY4+ETtVtE0kJiv16+HUPsGIj0PL7hagfs67K+vVTVMJovHvaS1CKoPaHtoDJsVbaqnGj80wqGS+OPe8/nBGV3R">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="364.15" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE EXECUTIVE CAMA KING</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.EJ-KG</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="364.15" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tr1+aV1Hkt7zvf2OQenCD11xxKVFvDKITjlEwZzrW9vxdVdpVbO3StOp8uh/ymXq8o7WCcNRKSnupVUPa/V/ILUhJkljUHrSVYYvRjL4uw3IcTbDQHjmsZ/5nYOSqwtNVHFR6SSe/ko0Oe8t6vhtOTZ64peKSJbYnddewRiHZRYWFBC7QoZdhD7F9qbphvH/Oo1YIlD4JsqfPfb3IrUjy9047lNKyRbbBXLW1RifT3QUMhQgNbla9OK12b/eqesuTfSk72viLL5RBinTms69Jq4Bg6c0RHz+UXmWD1N8socVotvrtMFP2Yrb2Xw494bFeAAbogArwrmc1fxoSIOdxgGjy9sX0LHpIbO+af2W6/P3JyxCdn2COqJAx6AFiQwrF8lumSZHrcS/SX8y13Y0q1HGIZM6n8gzL0tb2rHuwJOTq2KcjsUkFSmtlaE6k0pSZ3WApYM5x3cyg/lRap4Zo0VCEE1UM3QL/KORB36O701CP9YNg4m9Few4/O9RDfR17k=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="369.3" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>TRIPLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TPL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="369.3" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqmoU1N/ICWAzQ1jMZV4mWxRfYLy1d2Sj9iTEI0ZNNE+9B86ZPzSZEfObQx3OaiCm2innoCQlFldqvZa7S3pgBfHQC/ggvMbF5i6X4aGeGDSA7jlxZnvx5Nxhr/7mK+Fl49I9HWgWdY5ZAEU+oc1KNZpfDFKvmPAHR0pby/MHAINvwz3Exnw7jIBgSi8VsjdiRQuiT/tyCknBRG9rhK8Fztjf4zf5iO8IRLKqPHFFDG3nUaG6PwX688QMHE47s5ewZ0Z40N9u0X3XW1ltv/LS4Pxd+BjOAHge9wIgU6oPBRkBeT0I6NENaBGXRcesp/7QobdDDQwQcHvHT9r88EUsoUAOKKhUyv0v2Up0UnlWqiawZzSCbueGpt28OmhJUYUDF74kzRKUUSmRs/5DO/kBwUHx7KvMLFVxMdqg9/8wED1iUNXie60IhZ4Vfpz7DRbQcHbGCUMvrmsYBYLn4jVl9eQ42v1C0NUoDbBU6g2rgVEiD2JKWpR9LQw4+t03sEQko=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="373.01" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.SU-1</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="373.01" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqow/5x8tk2ycj96RRx/tNwhbedut7UbQph42cHLny4hhfSe2+K6IfMfIjtOh0RSUyzzo6rWJiHChxfdQE0lj/PUa4hOtMXj7rNtUwtuKtEaNvN5W0C3P+m4bRaLbJx1tSRXUuS42ppei/rnekJhV0wDPfoqQpjoVujT8Ej/7DO9KrM/mEq/TDBI0CrhFtDO6K4oXBJ8QcVyi8Ee3iS0oBIAG5O4GQ2uG8dU7aj3LTreFOzusv1sHOnKQZRkNnB/nDk51F+A6EynE16TTInTIxWvYbIEhA+0Zdlz4Np5O6OUXUAqhoRjkG975pGp/ktVhlARDqhUaG20ejCKVIlG5tM4SD2RlI6OQoBvJYe2Cl3cBgqewBVFw7rwgQAZ8SNFbPk3TQXQYhLw1urPASvVXVgBDiFSckYdOIc0j6Mg2n+wgNBRcgudmTNx1UFjQjKpBCw8vPH7RcoFvh/T3GgQmVAsb7z5aZo9DGYpoLyVYhFNFOiiflwOBT8dkgm1aOhggY=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="377.67" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>TRIPLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TPL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="377.67" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trHjdZO8Ze6u6MnLo9iXUVRCCj+39s4SkLDMvGr0FmfgpWP3I2nAC5kUJKCht5uyIL+lRDppu2DzHxEiBeOEJfvTTyCYgdf18wk5fQWvJAY1/qyZ8cGMbd+FnMbQ4RU7VAJ2g8CrcvRTIBhkDjhHr0pKzqdHWEFCisGrgZIkMAYn4l7HT+dwwim0h90YqdWEcB0VaSnLVZHAp6dCa5FpsUkZaXAMSU/gjg2EnAMsVU/VcwLahscBzf9vu7365WyrQsNDlR1h6+dENySIf37oQdt8SeNwbjFGtLy4wcHvrNReIv1JxFoeMsgmp4qRLbA+EsyYVCy/74qn2KAjbJ4FJ114oUJ8GR9p3/Krfw8B4+DqUiv0qAhEQDdL/1VFinDZW4Amu0WrY02nTCGSDorsBg7/oWFATqDeEkgrZeMnrrOGCE7oO5jEOG4tEDwLvJgkcHMoFXYAPhOhxvrUpUYiWljtkLiIBPAD158fdzkSRuMfPlkEVkFz918KchwuBRMjds=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="381.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="381.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trHjdZO8Ze6u6MnLo9iXUVRCCj+39s4SkLDMvGr0FmfgpWP3I2nAC5kUJKCht5uyIL+lRDppu2DzHxEiBeOEJfvTTyCYgdf18wk5fQWvJAY1/qyZ8cGMbd+FnMbQ4RU7VAJ2g8CrcvRTIBhkDjhHr0pKzqdHWEFCisGrgZIkMAYn4l7HT+dwwim0h90YqdWEcB0VaSnLVZHAp6dCa5FpsUkZaXAMSU/gjg2EnAMsVU/VcwLahscBzf9vu7365WyrQtkIsl+BaDKKHO6y+sqGkCoPI9DVASYcVFGc89WHgB/ZOBTNy794py+x/+8xpVt660/yVdlowxTSxMqjw7b/UvOptLOyMdhDlumrBYOIcEwo/EMfid6KJAOSrHTjGUhUoPujVcV/44OL6cPQgTNxPY7VYBv//H8lcO8ZfgPlKKqbj+eIdn4LbbPpIR05dB+fMhpphjKJGIz5H0QuQDqPyIfKH+BbQSbYwfDPqbXT5vlJSKRZH1Rh5f20yQ3QtqZ+To=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="381.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="381.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trHjdZO8Ze6u6MnLo9iXUVRCCj+39s4SkLDMvGr0FmfgpWP3I2nAC5kUJKCht5uyIL+lRDppu2DzHxEiBeOEJfvTTyCYgdf18wk5fQWvJAY1/qyZ8cGMbd+FnMbQ4RU7VAJ2g8CrcvRTIBhkDjhHr0pKzqdHWEFCisGrgZIkMAYn4l7HT+dwwim0h90YqdWEcB0VaSnLVZHAp6dCa5FpsUkTX8VelxI+Ee2+jYOYaqc0TdylPmbXWdt7ZJ1WRwU+33uqhXsowyoslI8y3lA06SnTJZoGQ4mSTVhIsq+RB4JivmJK0XFZkLuw7lh3gG47ntveqFBvGQSQGNZtFX65QDZOwnDGacpf0aXFPgZ4xH63qOMdh9TaYl+t2D2HFjTfAqygs1LC9upMHygH0er7YU7LeIqrvh6QB2AhzzY5akQlgzNWFWwv2E0amVGXXjE1mp9y83MDvBkVF5lbJi/KgFBZed6YE0L7nyB6gnG5GKsUwwccwmWohKi8ih9B2EZqZDAbw22mjZ3hU0NhV5YDOx+">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="381.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="381.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trHjdZO8Ze6u6MnLo9iXUVRCCj+39s4SkLDMvGr0FmfgpWP3I2nAC5kUJKCht5uyIL+lRDppu2DzHxEiBeOEJfvTTyCYgdf18wk5fQWvJAY1/qyZ8cGMbd+FnMbQ4RU7VAJ2g8CrcvRTIBhkDjhHr0pKzqdHWEFCisGrgZIkMAYn4l7HT+dwwim0h90YqdWEcB0VaSnLVZHAp6dCa5FpsUkTX8VelxI+Ee2+jYOYaqc0TdylPmbXWdt7ZJ1WRwU+30+bkqRvQF7Z4gfLdSOAutRN2gNc8t9s6yOdTPFcRh01uoHixf9kKRIcwFODPGIl9K+8TMCWVTXEheZgsMnEeNUwUVQ3oPo93+bLxcXlZzhld8jzsz+y4+ZD+EoNW4Me50frTmBwhHgyEkj7R5qCod5KRBVg2iXiR0HuHrVy+71OUyA1sYL4RkSG3Fanjl6qtEeKfLYp0loAFtNTKFeRq1/QkDKOamVIs2xI2UzBtd35zCm85kmkZ0x2rB2KtW0mLfvMSAylO3Co01XY1rKxPf2">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="381.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="381.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trHjdZO8Ze6u6MnLo9iXUVRCCj+39s4SkLDMvGr0FmfgpWP3I2nAC5kUJKCht5uyIL+lRDppu2DzHxEiBeOEJfvTTyCYgdf18wk5fQWvJAY1/qyZ8cGMbd+FnMbQ4RU7VAJ2g8CrcvRTIBhkDjhHr0pKzqdHWEFCisGrgZIkMAYn4l7HT+dwwim0h90YqdWEcB0VaSnLVZHAp6dCa5FpsUkwVQbPU1ZirUA3bOhoDSY0t3aIuyoONnBUl8pPZrDwCjDc/LKc1RuPqiz946VQ3qUeg5waliPlGILab8x9nNmYlmaTYNIjdZP25uh6ljGxWNHtOW8ZC5K/bThmNdhCNGQyJBj+y2qjaO4GUetywJNKMpLmEzozhGCg2fhkjhWnoEEOtk5UodES11bnS+hLx4IAGsTeYJUMKPUw+KIoNV0pOstrQ4ve/4NeQO7NgTmikPa30iZW9LiNG+lJNaoAfiudMUiuGtbes9PNFLHFzllzyynqY1RHqhkOR3IMGQbJ+iOmRjP/CckiXFNu8sjhQVF">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="381.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="381.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trHjdZO8Ze6u6MnLo9iXUVRCCj+39s4SkLDMvGr0FmfgpWP3I2nAC5kUJKCht5uyIL+lRDppu2DzHxEiBeOEJfvTTyCYgdf18wk5fQWvJAY1/qyZ8cGMbd+FnMbQ4RU7VAJ2g8CrcvRTIBhkDjhHr0pKzqdHWEFCisGrgZIkMAYn4l7HT+dwwim0h90YqdWEcB0VaSnLVZHAp6dCa5FpsUkwVQbPU1ZirUA3bOhoDSY0t3aIuyoONnBUl8pPZrDwCh5XPkSDMxDtedCg2KNVrMXUDljXAo/7UW1H7BkSrNhRNQJb9QrJKq2ANSStGY9EFOrnJ1JwvgunsssiNXRcuN5qwsqUKVWac16SJRNmqZ2jPRyQN0eNM4kdKGu6b8WKPr8jZt0iTRZXF0HS7XZ1RNR7grzsbqmUo4sY/wBsBY7AvmImUkuvrAuMFrYeeYfLvYQfmlhkHq2Wn3BZ8P4gmFg6iPza+3JxqFP9PiUvyMlthLD8RRTg/LVn9sxQMuIfN92O9jd7Unfb3fO6a2R35M8">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="381.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="381.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="DESAYUNO INGLES" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tq8mivuOP8awtJki3+zIfQ9IvJv1LqX5YT/DDnpELh1Lfqhb2pab895bokOTbr+a1bkXNV42EO5GW9+/qjGOYxJhf4ftS9LIlu/LGVtxO/WA78nmwHSO6X676VD8myI3/Ii9dDgTjoDypWwGe7zm3wnMARq7VFTwwu2+d2y3BvVtQ0nU6PjCKbNmNqghKZrpHKnpT9cMgn8n2jAElhRf0MfMxr/P5XN1b7ZUflTpSs2E9DRyaCzdhaHR6wTF6RlrCPn+hhdu8tBqMLZ85vkPi8J0IxnIJwITdpX16fIDUXb8VfQRA/mopXkHhWu+gN8oatf+by/L2GJZVKGy4O/HhjTMG/b9yvVCT614qk6QUa94q09QI/VVnFQXRAoxrJDSEv2i9Czuw3kf07VOgnpIJjdnQU/fNrG+Bu4FBVI38EO1q9JVaOEUD2ME0i321TvX5+QLZQronQQ6j15UoDr65jAaJEhAzsHjHR4dVoY8i2VkVYGOLo9FyiQtsTnhPWgbWAXsIzz5IhrLFfNIozsJ4nj">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="384.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE EXECUTIVE CAMA KING</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.EJ-KG</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="384.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trQc8w1smTNQb3QAzcMDneGzE1KkFO8iehcQ4aN9Drx9Xuidy3GaOkpHXhby6L6DMc7jshHXLP/Rnw2ZstuVMrfZJ44DkJT2u5MbaHRwaRU3niuKGmIM3qR/+aMliwuaWArQLj3a81y+ayFIJ/KrjtUdUxLgMuXoCVms5ZVtUFpEJI9+oMV/eUygKxV0NrDxruBcu7NRzdn1bVswEyot1K4TIAGZ6GlrNw7FatFpENCwitiQHq0EPrdsoKCmOVR1zm/aApdoOUMNUhJs0k/OnS0fC/INxRT71kOpsnF3H2vaY4myY56YTmLyzzFa3RHYpA6EI3f5mpJ4rIblB2GQ2bjd1KpMlkPdV/jssZYEC9AlOZBDmvdqwENuO65bmWrwhsBZL09yvyU2HHxkhK1zW4ZBRsN30+kv0K/o7zvCvqn1ePxV70ZIHqWzpwafzzcttKy1aHjRta+VgbkJqulLYQrnaqidrNmveiEN6ziCSRg+z7Ob6kfVwLLTxbTkir7I4gWyA3JDsVUUS4RJwVzk4GH">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="391.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE EXECUTIVE CAMA KING</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.EJ-KG</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Features>
+									<Feature RoomViewCode="PROMO">
+										<Description Name="VALUE">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="DESC">
+											<Text>Tarifa no reembolsable. No acepta modificaciones</Text>
+										</Description>
+										<Description Name="MINDATE">
+											<Text>2019-07-01</Text>
+										</Description>
+										<Description Name="MAXDATE">
+											<Text>2019-07-03</Text>
+										</Description>
+									</Feature>
+								</Features>
+								<Total AmountAfterTax="391.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqiKxCO7lOI7cM4QXmC6V7zcmCfZpvt918ybX+G9c2Zp9k/LDD15WvZth8/U7sHb1p8ffx5U0rWWp8O9G0MJNJ8cZFj8RPzf9/LzLH24C/CtSLK2OcFBK5Fdtf270orHsdzOa+wxlGVBYSDWae6DSIqcOXI3fr810Jt5rPTVcYK78/vXcVvx4Nd8sOg/eWup88zl0YzAqbneRDci8kBtpkbOEMko6Vysp7WA+7CFoFZsP9zIf3GgsM9g7A9E9+WM1s7VF3tTTemYdOV7V9wwi3R9V64oiHoa1Jz6dpZWCdrGJI0blhYY6WuLsumCYSQ1JoiGEZyHKNWHYUrmH6dnIiLkhZ4SpvFN5Ywqrf8Y5AE6YQ/iCDURt+/XoDHIJB3DNb4VLavnGvTbONLekWwxqJxAYmFnw09Q7qA+NukQLiyQ5cmGGmmV46hTyQUzt1BQVgYTUdq9MP/SiN5K1RhjIlHG2gpzEkzdlUlE6JL2kEvLucj7ZVCIsl8H6YZPd34nbw=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="407.36" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.SU-1</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="407.36" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tobBt48UxQJSHiXu4z1rycRq+a7YZRk+ont/HKe9PjRu5f2b79ek620f/Ydq6MXlpfdt+YYdEUTMnYLWIAU7gZMxs63rheldXtz3+LDMwW6Uzbo9fEc56zAcRK+RDbVR7pdDaXai4cdzWsVgHtGqVUAEfGDQPxkDQpkBTweGi6lznuIPw3xziw4+QA98cqk623ZwV70FS5+AydLbDDXOadkE99M1HxrGeabBGh6+QxZGV1aE30AYnAaT4LkRBtpEeV67S2RrYOUtkPnJ6/klR/1f7y97eIK0iv++iqu6y9Ng0yqVD+GjfsfOyFl1yKLPmQOtknokNhHElY9CKHtTHm+4STV7s3nrSHMkf+7fCebmpc+SLQz6c7K01cQ8nF5sAefb2QC+oC0UK4cpO6YMKBxG1Dd1oRzeJ/XKM/oXKlnxTTqS6MXc6FzhYzoaPL8LYzVH7B5x06SAZSeelRil5kFsn1NfqB38qHXzXEAH4bCnbEsiMNba5x152c4IgAD8Zs=">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="412.52" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>TRIPLE STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">TPL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="412.52" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tpRNDp5oMJFK1AKhi9OWzfj4JEvgWQOmorEnAr96yF6XWhSqC1XikxYmRIu3hxP3E05hFDuxdidi2ej2r28tPCZpDkx7Nj/xOmfnJA/yrYhUofrDhGDbFmb7GzRP2F0ptDExpHu7z6CSLphhUoEoX5S1fjtgGC27m+YHleq1x962rqciNp4a0w6azAwUya3cNX9aHQ22PAcjGz5pr92pu5MEYDAh9Xi8GOhfE6ulnvwb93thy4zUDK/10QWw902bKOLGvzYgyN5BRc9+1tJhFlWj/J1FhPnRTotsew0qQ/CKL5Kmz49g01//BjdFE0Ps7v5jJ7O0UxITEIgcXsqbqW4jqfl39vblIZOsZ+lkVs9gdNUCwZtvdEc0fv6mJBnaRluN+tNGPxHX6Gln1Y+M6u4cY2StqVUC1NXhlwxIRCsygCBzmGk4flLitIYoE3vV6PrsCjmUybM2i0cN/3ylual5FTQ/04JbdTF/WtFR6sGOWVImS4K00pp4ZwXwyUnH/bQul5aPQfzkFo0G9xvHo7q">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="413.38" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="413.38" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tpRNDp5oMJFK1AKhi9OWzfj4JEvgWQOmorEnAr96yF6XWhSqC1XikxYmRIu3hxP3E05hFDuxdidi2ej2r28tPCZpDkx7Nj/xOmfnJA/yrYhUofrDhGDbFmb7GzRP2F0ptDExpHu7z6CSLphhUoEoX5S1fjtgGC27m+YHleq1x962rqciNp4a0w6azAwUya3cNX9aHQ22PAcjGz5pr92pu5MEYDAh9Xi8GOhfE6ulnvwb93thy4zUDK/10QWw902bKOjX9ZNkwKRxlVlw010QXDHQA/qOrHDYeR0j/JWFgimgCD9eKprKt+SGafqVwquuOyK9LzGb/wjV36uFIaOqUGhEZWKoQwdessyl9hxd9xuIpyuy8L5HX6e4/MArq92QcC/HsAiU5mxeQXPe/v818i70jlELYxdahcP+gToEkMgauqD8insG+FrtRAyLUJgpFem6OEZet/lU/En9QsyNoFbOrxv0mnB1RXrDw7tVlKndOZP3Si3yqc7hYZyd6wwSZ64ZBgrgaqvft9sthKqyUsY">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="413.38" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="413.38" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trKxq7MaX29b3Pddk6PecyYrREDVbc+qyScNmCTligwEU5jDeNmn/7+u4unvDbefvIjhC9yEVheCYfAOOYLtYGsMAb/WouvZBVHlp4z2Vd0bGqKNNQrJPINUUEThjXCcUQB3WimrunGrH4VDQ6P32kGjmTDKW7036bfWMxPejt+JB9hgMkoFSxRYIm4lE3MfZHa/m28jj1nQKsY4fiJHmAq3C7eGcgmYRkt3EGe6iOiSQ+tGNS326XkqrA+I9sysEARPVcRsvIb16CArZxc0xMWOGS7n7MXKM+XwgFGssxVQeJD15VuEXuRP8+6ibNumsrvdo8WVAoMm2kRXEFJzE/edBLWLcmekWhVi60zzWEL/NFmnMcUjmRAJNZn3t8l+8P+8rNb+pnKObjnuTfZXZClzrM/l/ZHntJqT20wTMvTGDgtQAAppg4BYFd13WFmuI/4UkUkjuMMzPclAT+ITQKIa1PtAEiVemG8ALRTMX0D+bjKTJE3ZJe4uGw8Fw314AZsgEUuFQoVbss6HxQiBZOh">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="428" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>DOBLE EXECUTIVE CAMA KING</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">DBL.EJ-KG</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="428" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqLxO9W7mxWnbfueU04XzWUlgGbu1YVuSaVrKIZHOP3DMNu5iyI1SyldEgkr73XMnl/d0/EjGWQ3GLQwQuuMBJXwyOfXCrZ4yZocAZWU2QOLbIlsshAEYDg2fha3aEvYJDkoZw8IMqDd0u+xgKiEBu0aA8s/J8/CCkm2BzkxEEgoL0jMgMTGZCnFkjgyyeftD31TiUrfuUQ7w8DQCtKAKWl3jv5qBHX1hDysNkBpG93ee7OZZTMXaog5BZLjZB6WbO11OK8zvYTa5HEeC+GnRcRUttxkXIXgZak0WElMxSIbKRSAk6SrHGysMYULMhaV5UZCOmC1jwSv3YtORmFVAWvi+sfoKDuPNi4CCSUEiZwSFMRvL36myL8ltM6emMNqhO/8hh34S+7RubBDyp28WHNAJ9an2pO6P2bgrtcud5o25ulIvn2j4ib+ZKhWbqnMht5ntB4ZZm60ke+aIcNC/OVKqZtnWYgtTrvXL5QNxJ21N41KqYDVg9/u7NL0ygW/TiMGQdNz3pEAta9Zz4Z0NEo">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="445.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="445.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqLxO9W7mxWnbfueU04XzWUlgGbu1YVuSaVrKIZHOP3DMNu5iyI1SyldEgkr73XMnl/d0/EjGWQ3GLQwQuuMBJXwyOfXCrZ4yZocAZWU2QOLbIlsshAEYDg2fha3aEvYJDkoZw8IMqDd0u+xgKiEBu0aA8s/J8/CCkm2BzkxEEgoL0jMgMTGZCnFkjgyyeftD31TiUrfuUQ7w8DQCtKAKWl3jv5qBHX1hDysNkBpG93ee7OZZTMXaog5BZLjZB6WbPZ4aOuVWPku9Wv6b+udnUTlnN78mCIKaLdMM7T+0Vp4rSSO2FrztdKmgOrBbHzv7L56rsSV8Nh1u9ERLE5FgiSHJ3IE+ZcBustPY+lJxIl3yrRa2dFLgnvVPkl3bntaRepUDa/dmNLBPMPv1db2h/5ucgZ9JVyClWkCRtFQaAh+WhzVK6xw7ITlAXnEB2bTgpAkmsV1WoOikkkiFwE6AikmiZwohdPrF5Rl8Sbd4CQl1VoDtrrjgT/3jRpaiTikdRqjvzLGUGK/9DLDxXnofMt">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="445.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación EXECUTIVE</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EJ</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="445.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqLxO9W7mxWnbfueU04XzWUlgGbu1YVuSaVrKIZHOP3DMNu5iyI1SyldEgkr73XMnl/d0/EjGWQ3GLQwQuuMBJXwyOfXCrZ4yZocAZWU2QOLbIlsshAEYDg2fha3aEvYJDkoZw8IMqDd0u+xgKiEBu0aA8s/J8/CCkm2BzkxEEgoL0jMgMTGZCnFkjgyyeftD31TiUrfuUQ7w8DQCtKAKWlVShRJ8jnMQEOHozH4czu7MkHLtVS/DuKZ8zMXng9TB9EBva9KVWS9B/5c4b1VvtboGDuykEcXhG5kr0Q8p61kNYGdnqw8Nl4nq/EpKEYLwZhYIOWg+2Honrj6M6yRxBZMvNNve0ZeFYmsZawbrC6cW7ngLujgisphU/4f5aM+OpONCck45EG20IkpqduGRai3VXWQCTM5v6cw9B1XtVCiSpatQN+keHbKOMfKR6IQ7XIrA8S3kXdUP1Py67GR1BA/1QfqEst6i+N6bveZrtNHb2rXx2A29WhMaCVRb9Qcvehu4UZ8xc3fCMVhS/sg+hL">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="445.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="445.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqLxO9W7mxWnbfueU04XzWUlgGbu1YVuSaVrKIZHOP3DMNu5iyI1SyldEgkr73XMnl/d0/EjGWQ3GLQwQuuMBJXwyOfXCrZ4yZocAZWU2QOLbIlsshAEYDg2fha3aEvYJDkoZw8IMqDd0u+xgKiEBu0aA8s/J8/CCkm2BzkxEEgoL0jMgMTGZCnFkjgyyeftD31TiUrfuUQ7w8DQCtKAKWlVShRJ8jnMQEOHozH4czu7MkHLtVS/DuKZ8zMXng9TB+6WrlwpPO/MC7jPX9glROhZ6kUgWqd4eWZxlHFFsNwljmQ157BZ5jbaBzhH6S6sMo9KaXJ6lzGF+UsYR1RipOyKa5dx7N+6dHW2mx2kzdRKhjFOHCHHI5XQLtTwaSwm4w2GDQ0PH52eLF99UynbsYtAEMR0MM+d3Tc1kokdZliqfcC1IYtXDN9qXgyI6lXb3JD31ciBO7CBTUsfDruckExogRdrEwdHd1z+ahzZBIeZfWwnY78GcaSvG3TfL6oxR571idte0lEHZ/1S7M7rc7i">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="445.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="445.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqLxO9W7mxWnbfueU04XzWUlgGbu1YVuSaVrKIZHOP3DMNu5iyI1SyldEgkr73XMnl/d0/EjGWQ3GLQwQuuMBJXwyOfXCrZ4yZocAZWU2QOLbIlsshAEYDg2fha3aEvYJDkoZw8IMqDd0u+xgKiEBu0aA8s/J8/CCkm2BzkxEEgoL0jMgMTGZCnFkjgyyeftD31TiUrfuUQ7w8DQCtKAKWlcgaza+UwGYlLUEkEirDY6OeQDqra+ERtWpNmKo3hyz7KDP0QYRENOc/xLc92Crz7C8yhLF6OtDQG2oNZvCiJIwSvDTuTMn7v7hBdcvKG92Ln/akk5uGwxtjpSBQTpHfCHOEnxki4RaoH86v/qCqN6rxzWo/cQAPeZTgN4g6qGZRDOCF97XJiYXSt3Q+qTOCj6oXPBWwbKEO4tYgsWWKUaYZp203NdhpXSPztTXIQhlnrIsooZyuvZ54UzzYoVq5G0wq9SHEO3uzVp0QSvK3+pNGQuGlnFbzmS4PtvGh3KFVQvNECAhgYGGPuvYYTO1EH">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="445.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="445.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqLxO9W7mxWnbfueU04XzWUlgGbu1YVuSaVrKIZHOP3DMNu5iyI1SyldEgkr73XMnl/d0/EjGWQ3GLQwQuuMBJXwyOfXCrZ4yZocAZWU2QOLbIlsshAEYDg2fha3aEvYJDkoZw8IMqDd0u+xgKiEBu0aA8s/J8/CCkm2BzkxEEgoL0jMgMTGZCnFkjgyyeftD31TiUrfuUQ7w8DQCtKAKWlcgaza+UwGYlLUEkEirDY6OeQDqra+ERtWpNmKo3hyz6ns5Zm8XW87VGvqIPL7yWHAN33sGbS8j98/yxxiW3g9/gZJL+ffKqG0Z+eJbMiMBRjOlRjbY0mEjf5WBoL2gPndL4b2PpOqdX/vygOGv5xv6uI1gBZcXTUbFq0VmKh4D/8YKy2RWc0gfjAJInYfqw3v/k8ykCysypQBRW8DqNRt/4JaJX04CNuiRSOCw4ANCGTAzDL9JvHByOsLlYVJUH510w9UYLslOBm6rnNvZRNEfChQbGHdWmsONcMBlWIHlGAjfVMKpPCAv//FUNTwxRp">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="445.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="445.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toxU3zLW+nCTDG2ENbkwZQM4lu7V19W7YrgQAVhXJnQJ3SIB6xrOB6UsOA0S0NrYYCQaaXYvHmuVilL2VJhz0h2Omf+Ed15ML1fEZZfxem9VP6+ArqRUuJncxi1NJ1BZUXLtMRXAPNlU9Qi0JwKUicLKTcUtptWmwMV/hVwxGQsmGzT4Hs5JPfTViMkFXnE54dRu/Y5V48nebBlahCAfmTNQhLA0zIavCpXzrf7ZiZ6yl0Hs/8iplZ6/ZFZ6/hgM3UHtAkveH5IjwddR5pE4GXqLA5xbZeqgLY/5WLxeIAEswdH9lSayCHxejvwJvsrNyo6D4ybvzfXCFOMseze9ZKBHt6Vu+lxhaXjORgR68UmVcVczZIsJg3Yw3zpQqvU3WPlZRLcqnjg+6u0q/DDfQNFbHiCl4uk/42Z2eVavrjmq29sylmAMnEmfrf0hJ9CoNW52835odMhLjueDXxXDwNj+b6ovBQG5Afgr6KvEqcRugVg/Gs1c350zt4BofbgTWs5heYKve0cyYeyGSC3wCXP">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="476.98" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="476.98" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toxU3zLW+nCTDG2ENbkwZQM4lu7V19W7YrgQAVhXJnQJ3SIB6xrOB6UsOA0S0NrYYCQaaXYvHmuVilL2VJhz0h2Omf+Ed15ML1fEZZfxem9VP6+ArqRUuJncxi1NJ1BZUXLtMRXAPNlU9Qi0JwKUicLKTcUtptWmwMV/hVwxGQsmGzT4Hs5JPfTViMkFXnE54dRu/Y5V48nebBlahCAfmTNQhLA0zIavCpXzrf7ZiZ6yl0Hs/8iplZ6/ZFZ6/hgM3XbwRLRyFAZ1NmzajPSKYxt/ne7zoXJC95hBx0Z2ZFwINxr6I5ZoBR4r9P8OSrCi0gI9/lpF6zZLWErXP9hc0bTe+1iESuepDrQBJT7u3BM3k5d4VKI7i2FfgFxc8zE5shgiBrn4dyCIRU00X5LtL84n92M+0H/ISiv0AFPG7tQXAQ6PxDhAUgX4X2/Q0UNVtc9kIjBax0xXYv47AMDOSICVv0i9G2Ptp4LMNQGAYoR3YTmBW/LNRmN2xrL6eJs80xTYD4+D62Iuxi8oHgBrucw">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="476.98" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="476.98" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toaIjHjwPjAc2P9eG28lK9lObuzm0YID30rdP2Pc94M+TEcu/rm5vpu9pXApnIPm1JZ+fNzwHqGgl0PN+WVnD7tQhqX7eLDYzhd7qUTQOEiTPB/8nE/s8+8Pj6E6Xaw5IbXq4ODFyUtrWNVoEXayDKmrhb0jceyAzOnm/OHylR7TvloaPPwKL/dV+PK7DzLejqr2wrTlOF571UT0V+xRoc3okSE++N3XN7CBUkUDqpzWarl8pnm5duTkhKK6yUfG0AoSI+jUpTD1c2O51TuygDohCdjdTVjUQOn0B64Qzy7H0GU4IuCZBFKHEoc84MbbZ+2zlstyzDWxXiHoGWSyvxe48A01dmKYVC3BRbaqKcnBkZwUmVicvPoBfKJ0tfPHMspgjvcNV/XgZwAYtze3z+S9oG/wocVH55/xlVYWR44o+KuzKOWZdHIPHfWDMPNtB1sd4oMCwgXi8otuwGHZgBbRys+F/UN3KSQ3mqG3d6Y19ksrdJQHDX/uA2CjmDpqIxKdOwdEj9nJM4O/8MTIa4Q">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="508.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="508.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toaIjHjwPjAc2P9eG28lK9lObuzm0YID30rdP2Pc94M+TEcu/rm5vpu9pXApnIPm1JZ+fNzwHqGgl0PN+WVnD7tQhqX7eLDYzhd7qUTQOEiTPB/8nE/s8+8Pj6E6Xaw5IbXq4ODFyUtrWNVoEXayDKmrhb0jceyAzOnm/OHylR7TvloaPPwKL/dV+PK7DzLejqr2wrTlOF571UT0V+xRoc3okSE++N3XN7CBUkUDqpzWarl8pnm5duTkhKK6yUfG0DgV0YtojD7+ZYTYu1Z53KP7j+QtbWbCKWoyty52xcbIKFnw+AoJJXkrU9IB/GdjCt8BJwJzXvpY1m5v0J9V6VPx4zDlvFDNED5qLmkrLRzP2zgKueR2R6IqLwfCoipBrvvSiyi8co+efs6UJPf5JyTFQbOWO/WuTMoJ3hhCfxlQ4/o7K4W4oK038f+tF35Y3oSglXHlu+TVGF8wleE7+Bn8XXLwkHefNz7+GZxsu+95Qg3dFCH7WmPZbuQOu1XRIfANa5mMANwQ9ay17m+cp/i">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="508.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación SUPERIOR</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.SU</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="508.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toaIjHjwPjAc2P9eG28lK9lObuzm0YID30rdP2Pc94M+TEcu/rm5vpu9pXApnIPm1JZ+fNzwHqGgl0PN+WVnD7tQhqX7eLDYzhd7qUTQOEiTPB/8nE/s8+8Pj6E6Xaw5IbXq4ODFyUtrWNVoEXayDKmrhb0jceyAzOnm/OHylR7TvloaPPwKL/dV+PK7DzLejqr2wrTlOF571UT0V+xRoc3ADd6bwEH7Qc+1Qe2GaqoWlk1S/jQ03WalstFCJCsAFJHB2vKM+eF25cnaXKJFD0kjzQwI0OCHKFyWG34jW93cEbXuUP3vXd52y7TceC66uWNGk8pr9oZL8jjylmiduLPJp4ezO5vsw0dPCnAuls1Kak1wgzIiRtrMllAZAdqAQ5mHnJUKPyqpoyUIfYBr46jyuLfqTkk1QkCZdFcPiGUB5JDJz6O8zq/XmvtQ0R0Yz7Zx6hph9gessYkZTSN7guV4+Y/sex59AvKwONMDAVFKdcX9hRzyImXDiRhrXc3M76PAizHpYqP0ZkwZLesJAgi">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="508.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="508.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4toaIjHjwPjAc2P9eG28lK9lObuzm0YID30rdP2Pc94M+TEcu/rm5vpu9pXApnIPm1JZ+fNzwHqGgl0PN+WVnD7tQhqX7eLDYzhd7qUTQOEiTPB/8nE/s8+8Pj6E6Xaw5IbXq4ODFyUtrWNVoEXayDKmrhb0jceyAzOnm/OHylR7TvloaPPwKL/dV+PK7DzLejqr2wrTlOF571UT0V+xRoc3ADd6bwEH7Qc+1Qe2GaqoWlk1S/jQ03WalstFCJCsAFI9Z3me7tGKSC2G+A6yUXYz2ZsK3EK8JZcezUVkNMJbdFQoNQlM0F5guuZXwbQzn5tGRQQoWcFnOezzl2eIUgPXaaeIlMTmubVP09k2Jp+pTRnhc87xK3QIRa17/4K/SKYt9I74iep56BbpX3nRok82R8Sm38BQZkL/bqaPa20CwEYZYVklxLFOCIZSTSqdFNf7hSSkxih4jtzkPyjU4/8LGv6fUiz5JtsupWRUu5JIfHqJHbnn6A8kZpUHE2xQgVJIQYJAc7HMVLGVy053AQ7X">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="508.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="508.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tpTXSk6snfmQl5LH+hqSXNFUB0lbmWaoMRQygwIbK0rAsC0w9qbnG+CvBkW+0BgLX48GYyZxYaovmiskzRleE2N+rtyXiqDXsQfMfsuh8Dyp7ZsRqzcMQr9rIX2NYHd7anH2VEykAwa0JTs70Bzk1Z8yPG768dNanyLpcOTbC+N443O8DJl1i81/SqzWMEDPHS8aZeE960sxD/0XgXLIi1Xte8RJv88cvCqakytBqyT6+3urlKZDBzFKo5euzM9WoJS6mZwE6S+npvR86F1n52brx2gMLh20TEbxgSRHxiS8eFHupcty9u/Cb/I9zk/uxzCsVW5g2qv8BpX1yeZ9p2nM41PuQOjqQWW+rd+9VpyouXbDk33pKMqss22A7wzkycStZ8k/3uwBcv3Jr0j5LvRhkXS4Cx5ZIC25VEKDN6bGm2yv/io8XF8tLkXCs9fa1BPhDCZVFjkSnN7jvtWjY91TC40lyXe5aSrV4BKWoYSTkgu8rrJuAZ0vEdisT/KXINn+mwj+eA4J98xNr17J8bR">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="540.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="540.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tpTXSk6snfmQl5LH+hqSXNFUB0lbmWaoMRQygwIbK0rAsC0w9qbnG+CvBkW+0BgLX48GYyZxYaovmiskzRleE2N+rtyXiqDXsQfMfsuh8Dyp7ZsRqzcMQr9rIX2NYHd7anH2VEykAwa0JTs70Bzk1Z8yPG768dNanyLpcOTbC+N443O8DJl1i81/SqzWMEDPHS8aZeE960sxD/0XgXLIi1Xte8RJv88cvCqakytBqyT6+3urlKZDBzFKo5euzM9WoLiB8FSH4Vwy8aSNo64+PlrePvb5GgHoeaR3hgAkJiZmyhsDlPFHzD9V9eZUDKdpItDlBK0T34yEmabY90iVrxvJbmqQLvQeKkzQHEo7bD3TEN5moWe3MH844lbtLAc+Wq85/bq++pMghLcHRgdS+oounBetdYb+Lr5KazRIn0M1cr4WioEtZJq5zJ1P6us6WOXwEkGS0AgJCssPIJFLarUF0GokpV/+I1N8NhND2K+cjVy//d9gf+y8EmSdwtTC0WRBygIY1cGH8dtRvzbQVzE">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="540.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="540.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tp3drqf2O/71E9WsbPu1VbArSp0kr67yGjhexJm81Vf4Vqe0zolX2qjd6igX153uTB7k8cvyHmZTvkf35sjOMjQwCUixK80O9sDzD8jf2TBFBkps8IYcSJHPvf3awPkZi/IEPV/E/sVqcn1I5aaijsqCZeP2MK7E4Zf6Q4886wJ4J6Sdv20IJWm0gCvSnNYBeN2nK/8R6fqh/DkCFATOWlmxcCq1hBPnr8hwpFfe2rYdX+6LIEkZbNeI/7vIIH//1YLo/wpNJ4B66joDHXbdUHquRvxXlpxeDZkpG4sLD/RXA4bIcVGvArYHzJ+YOpuaSoJpK1oZ9qqmfmBGQKlKeQp8VJxvgUNb7tR7pfXh8cwln43ULsJUeSnHd+z4QcEw9CHg7we4ZB/nwLypGOKNmq1AIbF3lIR3/FDyL67L24uhHEA/kN0HpvDo/GSHxfCv5yjVs4c4SBO/XB4fFrskYZlR1KkcCFQwAl6W2iKt03Cf8I2JmTmqETqkthRRW7vZjbdr6OxEbmbbBwaqBVy/0ID">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="572.38" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="572.38" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tp3drqf2O/71E9WsbPu1VbArSp0kr67yGjhexJm81Vf4Vqe0zolX2qjd6igX153uTB7k8cvyHmZTvkf35sjOMjQwCUixK80O9sDzD8jf2TBFBkps8IYcSJHPvf3awPkZi/IEPV/E/sVqcn1I5aaijsqCZeP2MK7E4Zf6Q4886wJ4J6Sdv20IJWm0gCvSnNYBeN2nK/8R6fqh/DkCFATOWlmxcCq1hBPnr8hwpFfe2rYdX+6LIEkZbNeI/7vIIH//1aV7ThQcE6K8GGk3FWz06G9FtvMScyMt4I4Ug8Gh1vERLfaLL0omnYYEuxPmrCequYH1Q38+ijU2DF35sz2uANNPk8Tq1cVnTxsENLcfkW3LOiVLMkVoORky0MRtNu+ImeHnqqFbxKsJhKosAmYMHAWCGB31Y9Hc9c6BHYDGq09g1nfE5+6SKf6Qdyb3mw2rbYI1QuNy7fkYbo6ZDwPV/9pye0CQJJIeemlVQbvFiBB6tI3k/rPrzqeLEJmBDnlrW+7HkzTvYJT/OOmWrNAz06A">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="572.38" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>Habitación ECONOMY</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">ROO.EY</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="572.38" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqajYnMROaEILkpIHnPHXYmcd9/UD6SMqS/7n69CiDsV93ZRHqluJ9KN2kcpYXPUd6WEb1T+2+yVDbgI3UsWuaMmUi4Tr8n73mXgLygObu7Oy6M7eWb8Q/LjU5YhT8Bt6McO7gt3INnW+3m6/a2gNiFvu9zxHMHr9hcgtEI2wYFbSDKR7+F4uz9AF6WZMDSXJpN/eznpIzf7KqfjaL/ib6VGNzY5OcS5j8jjWiNjpvs7u/buX21729B4YcF0fpxob48YdEsE898t2BHE0nSbsol1Grourw7oj5Ha9zQ830ra5wK9/yQ+ap1xSeCPFxKBFWSnfyNDNMugQ4fjEpbUdlOjdTkl0Gvn3BpsvSm+v346YgTGF1Yar1NQDnKuT7Iox52wclgYElxNvFISfJaGnpHQDTZqfdF+EsOUUD71R0XVTZyrzjCju6Su3YtTZ6UlRwoWWctuQ0ZDDCtQxv+hph7JG4pvovKnlS+265P2RaR2oBMCy1kYxUkwAe8rwvwT1f63Hg+onGk1eszfxGtPZkx">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="699.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="699.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="SOLO HABITACIÓN" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqajYnMROaEILkpIHnPHXYmcd9/UD6SMqS/7n69CiDsV93ZRHqluJ9KN2kcpYXPUd6WEb1T+2+yVDbgI3UsWuaMmUi4Tr8n73mXgLygObu7Oy6M7eWb8Q/LjU5YhT8Bt6McO7gt3INnW+3m6/a2gNiFvu9zxHMHr9hcgtEI2wYFbSDKR7+F4uz9AF6WZMDSXJpN/eznpIzf7KqfjaL/ib6VGNzY5OcS5j8jjWiNjpvs7u/buX21729B4YcF0fpxob66mf5Dfwj50Cne2/HKQwyQdA+OZdcgAAhAbAhc/+yumZheOCT96PK5ytNS6eGqfTLnBxJEBRNYcbHXLvOVap5QR/LVHYfN2YismkXTGrxdAnlm++xu4GZ/W0yLVikb3RbqO/oHafid4IzcjLzT83SSzSPf0VEae57EUZjSu75dsXCChXkPq7HzLF+pK6p42dvnb9D/lA6zW7xq2U1zbyLTuONdkRCk/WLPDox1mFqk0boS64USi4XaMyP41ZeP/dReHHD2Rzvi2Xt/5kfjCrzi">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="699.58" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">3</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="699.58" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tr5Sm9YYvhbQ//6b0vYCMinKFlJ+l7zQOIo1U4cJ2RolWy6e5GxR9SGZ25hCardXpBF4PfeFUIVSLouqC4Seulv1sJhGjFHBvzdylyq4EmiZNGz6HzByzuIgrO6rMBUcAUGaSFWmSROrFLUP8p6Qd+Uak9wn5ZOk8RcLppGT6PXG2B9RbPIf/tuPnUl7kvRHVXMHAsDQFY5YCrgviJlGahOAZmraVWpj+gLJUq5b72olW3snI/MWkh115RqGQj1sdSZyWRpdaDrqvNb4DJ/dft4/G+Gy4Wj0FvcwiHIikqC6roOnpmzkUTfuH7BfxiAZTou1lFnXXUnf7+MwUPJp41T3281jksu2IwHPfN9z4QNDtkFZ7K/kgPoEUPOa2kJ8Uvu7mF+t3J+N6HywSSoQN3U2CSihb93aGggIz7GTjTFJEzwrDNB+D+T3NVyUND1EbItZ4aWVB1tQZMS1ZiqobYmJqxQsP+9vGgDEbB2MEGyG3wpdUA2pv0JaM00tKZ/oLLBWwTDGJP1QjhvYQZkChj+">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="763.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="763.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="ALOJAMIENTO Y DESAYUNO" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tr5Sm9YYvhbQ//6b0vYCMinKFlJ+l7zQOIo1U4cJ2RolWy6e5GxR9SGZ25hCardXpBF4PfeFUIVSLouqC4Seulv1sJhGjFHBvzdylyq4EmiZNGz6HzByzuIgrO6rMBUcAUGaSFWmSROrFLUP8p6Qd+Uak9wn5ZOk8RcLppGT6PXG2B9RbPIf/tuPnUl7kvRHVXMHAsDQFY5YCrgviJlGahOAZmraVWpj+gLJUq5b72olW3snI/MWkh115RqGQj1sdTVtP8UDhEOhojXPj9o2EYCeh8D2JxVaebuSpNdfhTMCKR7CPhCfWmtmHk0UtLvCEB4pFE7UUT8tZJvehTWA+n5+X6P7UZXbxuiBRBNxAmo/L8SwkiKDfrhGpy5524R1Lcmr2eQmetULBUnyjHhzCecK3Vb5ea+vqGRilOupIDh91j9DyLRvLJz6XGsKFLP/tc3OdVA1zpdlfAw8ep0ivuRUqBbewg2L6RSedGmrfCabR1Dti23Sxlg5corMnk1NDc6SkKl77tkcU4tLy4QR3ky">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="763.18" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">2</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="763.18" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqlKhrYEPkNxPpf8cOPGOyCZivEooqprAaljnklST8R1+lDxD6yw5X0pUv73FAFyZiWQFK9zKwdzTnBZkgFK8VShiP2zNqTubY5fqrycNMiaSCyCFsnJm789pPzmDFaWi7gl0vW7eIJjrLa2k2vKC9W46w6Qqvu6ogsh947etRJJRbnk6NUxqZIlzIrAPofqxrA3UNQz/EWVJvtlmQ4cPdErt/4CPTm6qBzJiy0N5PkL+UYDSZrIrQtSVGkVrGXZwI+ZxDLjS0D4l13MVL9Esb7f9Raz9aD5zDRts93zXQf1zQOYZslQd/df0H45MyMIYhanPQPt3tWN/U1BV/07jhkljGrbnyIN6WozG1daOSsrBOk0iGZLPsQ8wjVI4j/6jjSSZAR7W2qZtQswHXhLpH1ht2ycVJpl+9+xwX1bLE///cBFZ22p2hUtt1IPh6nB6hhqRgJPCjRMXU9NUjWs8/2UzC8lh302eRS3ib59tDU4smWThZZ+qZoRcUDCa0EIzhoRJlSSOQfkaKgtcXabHkV">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="794.96" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="794.96" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="MEDIA PENSION" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4tqlKhrYEPkNxPpf8cOPGOyCZivEooqprAaljnklST8R1+lDxD6yw5X0pUv73FAFyZiWQFK9zKwdzTnBZkgFK8VShiP2zNqTubY5fqrycNMiaSCyCFsnJm789pPzmDFaWi7gl0vW7eIJjrLa2k2vKC9W46w6Qqvu6ogsh947etRJJRbnk6NUxqZIlzIrAPofqxrA3UNQz/EWVJvtlmQ4cPdErt/4CPTm6qBzJiy0N5PkL+UYDSZrIrQtSVGkVrGXZwITswCXB7hfY3AXV2g7ii3xYF4r6wrX+kUn1FT38keMvVL5qIaRpq8Lsovw8S0YrKUbloIrKgC3lvRg2OL7xx2fPdhfy/aTnoE9JuFmadQAurFnVKA/wP+0wZ3Ml/w3g4vqHyQqOlR3iAQSSWjV7QrIjmMABV74EmRO11TjtWtwpGvZSRscGhwc89aBuxSIaij3bHnKOdsEwVDE7Zcq3H9lEPLs782pooIE/G9bcCgsnFLJmYsY/AbSLTyfhPOi13oB57CnA/ZxM+n0N0ubAJ9n">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="794.96" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">1</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="794.96" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trVU/SNE4A6kWYj4eMPd4jxRDYcke89ueXSwYbNd/N3XzTA1gq7pAt9wPDFqJAi+jvHyzeV1mj/c4F9BHu+gZdZkG+/6hIgH63lY36lGIwnNk6db76wdWhD9EjRuGotLZUsDRJ2quz/wPp1iUu5vEMn/il6K6Yn8wZijkOt7x+dcUgXYQrXMNQ8I1V+i0Fw0iADbfVFHuT//rvc6ECjSCl2icJtOJfuMhzZ9LpkozTa1adp+attsIz7FkLKVsaeeVed7zp14Hng6L2tajhMbQh6mz9zUdAYT2ATkkAPauZmgMQH440a877I0ZtpS1FQc1zo564rhpyL5+zrz91bLZIaVi7a4WsbkSusFH/VHNHbNqnKoQt+cqELqTp4EpVTzXepAcNFH5aBoezHpPZHoblXc4FZVJHJ4gtenyPPA9eRYa2stENCVUZI3/WhA3tVNdKs+Ifh5KJA1IKZ5VXKh8eAQbUFQ+DTiJUp/y1jL+OLBp31qcLCJ8crpDBpc83jWFdQ7Zm+wrh3G97Jr0JR8Ezt">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="826.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="826.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">1</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+							<RoomRate AvailabilityStatus="AvailableForSale" RatePlanCategory="PENSION COMPLETA" RatePlanCode="JeRxYikn2tRHPD0qJK2cFSCZQhwY2nTPShYDXjLy4trVU/SNE4A6kWYj4eMPd4jxRDYcke89ueXSwYbNd/N3XzTA1gq7pAt9wPDFqJAi+jvHyzeV1mj/c4F9BHu+gZdZkG+/6hIgH63lY36lGIwnNk6db76wdWhD9EjRuGotLZUsDRJ2quz/wPp1iUu5vEMn/il6K6Yn8wZijkOt7x+dcUgXYQrXMNQ8I1V+i0Fw0iADbfVFHuT//rvc6ECjSCl2icJtOJfuMhzZ9LpkozTa1adp+attsIz7FkLKVsaeeVeKHWqp3WBd3AJjMSt/FIKnzalpLRCeNluqwhLH1yDhMug4e8IWyl6qIHhjpV6ahxTqrZR3bMa7ca92AnGfN2kHWC5hZPex8lrNDwY25M7oz7QUADuOGWiPtpwD3hDafzgaZ6LDWFpDnnL7ImyV8+nhaJZA50qyJHdDWtsD7GQHyKmaK61BdIFkrF3hCX7qURScCZ5FHrOCzvLRIDZIgDxw7czPquxF7BhpQAMAi/Q1FxL/uMGbNSWxsywwrBe2hnELmU/GieccYp70wS898GuC">
+								<Rates>
+									<Rate NumberOfUnits="1" RateMode="Room" RateSource="1">
+										<Total AmountAfterTax="826.78" DecimalPlaces="2"/>
+										<RateDescription>
+											<Text>INDIVIDUAL STANDARD</Text>
+										</RateDescription>
+										<TPA_Extensions>
+											<RoomType xmlns="">SGL.ST</RoomType>
+											<Mealplan xmlns="">4</Mealplan>
+										</TPA_Extensions>
+									</Rate>
+								</Rates>
+								<Total AmountAfterTax="826.78" CurrencyCode="EUR" DecimalPlaces="2"/>
+								<TPA_Extensions>
+									<NonRefundable xmlns="">0</NonRefundable>
+									<PackageContract xmlns="">0</PackageContract>
+								</TPA_Extensions>
+							</RoomRate>
+						</RoomRates>
+						<TimeSpan End="2019-07-03" Start="2019-07-01"/>
+						<Total CurrencyCode="EUR"/>
+						<BasicPropertyInfo HotelCode="JP318427" JPCode="JP318427"/>
+						<TPA_Extensions>
+							<HotelInfo xmlns="">
+								<BestDeal>0</BestDeal>
+								<IsOffer>0</IsOffer>
+							</HotelInfo>
+						</TPA_Extensions>
+					</RoomStay>
+				</RoomStays>
+			</OTA_HotelAvailRS>
+		</OTA_HotelAvailServiceResponse>
+	</soap:Body>
+</soap:Envelope>
