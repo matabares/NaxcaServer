@@ -62,7 +62,7 @@ class juniperProviderSimulation:
 
 
         if "OTA_HotelRes" in body:
-            if "500" in body:
+            if "3MOkqa56LFbIGLeI" in body:
                 file = open(
                     "providersimulation/junipersimulation/HotelRes.xml",
                     "r", encoding='utf8')
@@ -71,7 +71,7 @@ class juniperProviderSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if "501" in body:
+            if "ihq5vLqy" in body:
                 file = open(
                     "providersimulation/junipersimulation/HotelResErrorDown.xml",
                     "r", encoding='utf8')
@@ -80,7 +80,7 @@ class juniperProviderSimulation:
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
 
-            if "600" in body:
+            if "5FvH3EFyDZNMxY3I4Q6ztZi2" in body:
                 file = open(
                     "providersimulation/junipersimulation/HotelResErrorUp.xml",
                     "r", encoding='utf8')
@@ -88,7 +88,7 @@ class juniperProviderSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "400" in body:
+            if "nKaLlvBMaZyl" in body:
                 file = open(
                     "providersimulation/junipersimulation/HotelResGoodDown.xml",
                     "r", encoding='utf8')
@@ -96,7 +96,7 @@ class juniperProviderSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            if "499" in body:
+            if "aRIRzh7dFnJ4an" in body:
                 file = open(
                     "providersimulation/junipersimulation/HotelResGoodUp.xml",
                     "r", encoding='utf8')
