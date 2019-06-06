@@ -26,6 +26,7 @@ class juniperProviderSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+            
             if ("ihq5vLqy" in body):
                 file = open(
                     "providersimulation/Juniper/BookingRuleServiceBadDown.xml",
