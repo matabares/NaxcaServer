@@ -10,7 +10,7 @@ class juniperProviderSimulation:
 
         if "OTA_HotelAvail" in body:
                 file = open(
-                    "providersimulation/Juniper/1adtSearchMIA.xml",
+                    "providersimulation/juniper/1adtSearchMIA.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -20,16 +20,16 @@ class juniperProviderSimulation:
         if "OTA_HotelBookingRule" in body:
             if ("3MOkqa56LFbIGLeI" in body):
                 file = open(
-                  "providersimulation/Juniper/BookingRuleService.xml",
+                  "providersimulation/juniper/BookingRuleService.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
-            
+
             if ("ihq5vLqy" in body):
                 file = open(
-                    "providersimulation/Juniper/BookingRuleServiceBadDown.xml",
+                    "providersimulation/juniper/BookingRuleServiceBadDown.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -37,7 +37,7 @@ class juniperProviderSimulation:
                 return info
             if ("5FvH3EFyDZNMxY3I4Q6ztZi2" in body):
                 file = open(
-                    "providersimulation/Juniper/BookingRuleServiceBadUp.xml",
+                    "providersimulation/juniper/BookingRuleServiceBadUp.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -45,7 +45,7 @@ class juniperProviderSimulation:
                 return info
             if ("nKaLlvBMaZyl" in body):
                 file = open(
-                    "providersimulation/Juniper/BookingRuleServiceGoodDown.xml",
+                    "providersimulation/juniper/BookingRuleServiceGoodDown.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -53,7 +53,7 @@ class juniperProviderSimulation:
                 return info
             if ("aRIRzh7dFnJ4an" in body):
                 file = open(
-                    "providersimulation/Juniper/BookingRuleServiceGoodUp.xml",
+                    "providersimulation/juniper/BookingRuleServiceGoodUp.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -64,7 +64,7 @@ class juniperProviderSimulation:
         if "OTA_HotelRes" in body:
             if "500" in body:
                 file = open(
-                    "providersimulation/Juniper/HotelRes.xml",
+                    "providersimulation/juniper/HotelRes.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -73,7 +73,7 @@ class juniperProviderSimulation:
 
             if "501" in body:
                 file = open(
-                    "providersimulation/Juniper/HotelResErrorDown.xml",
+                    "providersimulation/juniper/HotelResErrorDown.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -82,7 +82,7 @@ class juniperProviderSimulation:
 
             if "600" in body:
                 file = open(
-                    "providersimulation/Juniper/HotelResErrorUp.xml",
+                    "providersimulation/juniper/HotelResErrorUp.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -90,7 +90,7 @@ class juniperProviderSimulation:
                 return info
             if "400" in body:
                 file = open(
-                    "providersimulation/Juniper/HotelResGoodDown.xml",
+                    "providersimulation/juniper/HotelResGoodDown.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
@@ -98,7 +98,7 @@ class juniperProviderSimulation:
                 return info
             if "499" in body:
                 file = open(
-                    "providersimulation/Juniper/HotelResGoodUp.xml",
+                    "providersimulation/juniper/HotelResGoodUp.xml",
                     "r", encoding='utf8')
                 data = file.read()
                 file.close()
