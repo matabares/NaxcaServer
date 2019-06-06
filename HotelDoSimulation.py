@@ -50,3 +50,28 @@ class HotelDoSimulation:
                 file.close()
                 info.wfile.write(bytes(data, 'UTF-8'))
                 return info
+        if 'GetHotelInformation' in info.path:
+            if ("90000078" in info.path and "ING" in info.path):
+                    file = open(
+                        "providersimulation/hoteldo/infoING.xml",
+                        "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+            if ("90000078" in info.path and "ESP" in info.path):
+                    file = open(
+                        "providersimulation/hoteldo/infoESP.xml",
+                        "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
+            if ("90000078" in info.path and "POR" in info.path):
+                    file = open(
+                        "providersimulation/hoteldo/infoPOR.xml",
+                        "r", encoding='utf8')
+                    data = file.read()
+                    file.close()
+                    info.wfile.write(bytes(data, 'UTF-8'))
+                    return info
