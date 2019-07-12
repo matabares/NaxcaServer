@@ -179,11 +179,6 @@ class ApitudeHotelesSimulation:
 
         if "hotels" in info.path:
             checkIn = datetime.datetime.strptime(jsonBody['stay']['checkIn'], "%Y-%m-%d")
-            checkOut = datetime.datetime.strptime(jsonBody['stay']['checkOut'], "%Y-%m-%d")
-            occupanciesCount = len(jsonBody['occupancies'])
-            latitude = jsonBody['geolocation']['latitude']
-            longitude = jsonBody['geolocation']['longitude']
-            radius = jsonBody['geolocation']['radius']
             occupanciesCount = len(jsonBody['occupancies'])
             if occupanciesCount == 1:
                 adultCount = jsonBody['occupancies'][0]['adults']
